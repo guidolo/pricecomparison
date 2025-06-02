@@ -40,6 +40,15 @@ function setupProductOptionEvents() {
             } else if (optionType === 'variant') {
                 // Si se selecciona directamente una variante
                 currentVariantId = option.getAttribute('data-variant-id');
+                
+                // Desactivar todas las opciones de variante
+                document.querySelectorAll('.option[data-type="variant"]').forEach(el => {
+                    el.classList.remove('active');
+                });
+                
+                // Activar la opción seleccionada
+                option.classList.add('active');
+                
                 fetchOffers(currentVariantId);
             }
             
