@@ -1,12 +1,69 @@
 /**
- * Módulo para cargar y gestionar ofertas
+ * Módulo para cargar y gestionar todas las ofertas en la página de ofertas completa
  */
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Obtener parámetros de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const variantId = urlParams.get('variant');
+    
+    if (variantId) {
+        // Actualizar la información de la variante en la UI
+        updateVariantInfo(variantId);
+        
+        // Cargar las ofertas para la variante
+        fetchAllOffers(variantId);
+        
+        // Configurar el botón de volver
+        setupBackButton(variantId);
+    } else {
+        // Si no hay variante, mostrar error
+        document.getElementById('all-offers-list').innerHTML = 
+            '<div class="error">Error: No se especificó ninguna variante</div>';
+    }
+});
+
 /**
- * Obtiene las ofertas desde la API para una variante específica
+ * Actualiza la información de la variante en la interfaz
  * @param {string} variantId - ID de la variante
  */
-async function fetchOffers(variantId) {
+function updateVariantInfo(variantId) {
+    // Extraer información de la variante del ID
+    const parts = variantId.split('-');
+    if (parts.length >= 3) {
+        const model = parts[0];
+        let color = parts[1];
+        let storage = parts[2];
+        
+        // Convertir primera letra a mayúscula
+        color = color.charAt(0).toUpperCase() + color.slice(1);
+        
+        // Formatear el almacenamiento
+        if (storage.includes('gb')) {
+            storage = storage.replace('gb', ' GB');
+        }
+        
+        // Actualizar el texto de la variante
+        document.getElementById('variant-info').textContent = `${storage} ${color}`;
+    }
+}
+
+/**
+ * Configura el botón de volver al producto
+ * @param {string} variantId - ID de la variante
+ */
+function setupBackButton(variantId) {
+    const backButton = document.getElementById('back-to-product');
+    backButton.addEventListener('click', () => {
+        window.location.href = `index.html?variant=${variantId}`;
+    });
+}
+
+/**
+ * Obtiene todas las ofertas desde la API para una variante específica
+ * @param {string} variantId - ID de la variante
+ */
+async function fetchAllOffers(variantId) {
     try {
         // Mapeo de IDs de variante a nombres de archivos JSON disponibles
         const variantToFileMap = {
@@ -21,7 +78,7 @@ async function fetchOffers(variantId) {
         const apiUrl = `api/${fileName}`;
         
         // Mostrar indicador de carga
-        const offersSection = document.querySelector('.offers-list');
+        const offersSection = document.getElementById('all-offers-list');
         offersSection.innerHTML = '<div class="loading">Cargando ofertas...</div>';
         
         // Hacer la petición a la API
@@ -34,42 +91,24 @@ async function fetchOffers(variantId) {
         const data = await response.json();
         
         // Actualizar el número de ofertas en la interfaz
-        updateOfferCount(data.total_offers);
+        document.getElementById('offers-count').textContent = `${data.total_offers} ofertas`;
         
-        // Configurar el enlace "Ver todo"
-        setupViewAllLink(variantId, data.total_offers);
-        
-        // Renderizar solo las primeras 3 ofertas
-        renderOffers(data.offers.slice(0, 3));
+        // Renderizar todas las ofertas
+        renderAllOffers(data.offers);
         
     } catch (error) {
         console.error('Error al obtener las ofertas:', error);
-        const offersSection = document.querySelector('.offers-list');
+        const offersSection = document.getElementById('all-offers-list');
         offersSection.innerHTML = `<div class="error">Error al cargar las ofertas: ${error.message}</div>`;
     }
 }
 
 /**
- * Actualiza el número de ofertas en la interfaz
- * @param {number} count - Número total de ofertas
- */
-function updateOfferCount(count) {
-    // Actualizar el encabezado de la sección de ofertas
-    document.querySelector('.offers-header h2').textContent = `${count} ofertas`;
-    
-    // Actualizar el botón de comparar ofertas
-    document.querySelector('.compare-btn').innerHTML = `
-        Comparar ${count} ofertas
-        <i class="fas fa-chevron-right"></i>
-    `;
-}
-
-/**
- * Renderiza las ofertas en la interfaz
+ * Renderiza todas las ofertas en la interfaz
  * @param {Array} offers - Array de objetos con la información de las ofertas
  */
-function renderOffers(offers) {
-    const offersSection = document.querySelector('.offers-list');
+function renderAllOffers(offers) {
+    const offersSection = document.getElementById('all-offers-list');
     offersSection.innerHTML = '';
     
     offers.forEach(offer => {
@@ -200,24 +239,4 @@ function generateStarRating(rating) {
     }
     
     return starsHTML;
-}
-
-/**
- * Configura el enlace "Ver todo" para dirigir a la página de todas las ofertas
- * @param {string} variantId - ID de la variante
- * @param {number} totalOffers - Número total de ofertas
- */
-function setupViewAllLink(variantId, totalOffers) {
-    const viewAllLink = document.querySelector('.view-all');
-    if (viewAllLink) {
-        // Actualizar el texto del enlace si hay más de 3 ofertas
-        if (totalOffers > 3) {
-            viewAllLink.textContent = `Ver todo (${totalOffers})`;
-        } else {
-            viewAllLink.textContent = 'Ver todo';
-        }
-        
-        // Configurar el enlace para ir a la página de todas las ofertas
-        viewAllLink.href = `all-offers.html?variant=${variantId}`;
-    }
 }

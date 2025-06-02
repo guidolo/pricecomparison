@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todas las ofertas - Comparador de Precios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product-details-styles.css">
+    <link rel="stylesheet" href="all-offers-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Barra de estado superior -->
+        <div class="status-bar">
+            <span class="time">9:58</span>
+            <div class="status-icons">
+                <span class="signal"><i class="fas fa-signal"></i></span>
+                <span class="wifi"><i class="fas fa-wifi"></i></span>
+                <span class="battery"><i class="fas fa-battery-three-quarters"></i></span>
+            </div>
+        </div>
+
+        <!-- Contenedor principal de ofertas -->
+        <div class="all-offers-view">
+            <!-- Botones de navegación superior -->
+            <div class="top-nav">
+                <button class="back-btn" id="back-to-product"><i class="fas fa-arrow-left"></i></button>
+                <h1 class="page-title">Todas las ofertas</h1>
+                <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+            </div>
+
+            <!-- Información del producto -->
+            <div class="product-summary">
+                <div class="product-image-small">
+                    <img src="images/iphone14.svg" alt="Apple iPhone 14" id="product-img-small">
+                </div>
+                <div class="product-info-summary">
+                    <h2 class="product-title-small">Apple iPhone 14</h2>
+                    <div class="variant-info" id="variant-info">128GB Azul</div>
+                </div>
+            </div>
+
+            <!-- Sección de ofertas -->
+            <div class="offers-section">
+                <div class="offers-header">
+                    <h2 id="offers-count">Cargando ofertas...</h2>
+                </div>
+                <div class="offers-subtext">
+                    Más sobre estos resultados <i class="fas fa-info-circle"></i>
+                </div>
+                
+                <!-- Lista de ofertas -->
+                <div class="offers-list" id="all-offers-list">
+                    <div class="loading">Cargando ofertas...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra de navegación inferior -->
+        <div class="bottom-nav">
+            <div class="nav-item active">
+                <i class="fas fa-home"></i>
+                <span>Inicio</span>
+            </div>
+            <div class="nav-item">
+                <i class="far fa-heart"></i>
+                <span>Favoritos</span>
+            </div>
+            <div class="nav-item">
+                <i class="fas fa-th-list"></i>
+                <span>Productos</span>
+            </div>
+            <div class="nav-item">
+                <i class="far fa-bell"></i>
+                <span>Alertas precio</span>
+            </div>
+            <div class="nav-item">
+                <i class="far fa-user"></i>
+                <span>Mi idealo</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="all-offers-loader.js"></script>
+</body>
+</html>

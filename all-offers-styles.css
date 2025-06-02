@@ -1,0 +1,81 @@
+/* Estilos para la página de todas las ofertas */
+
+.all-offers-view {
+    padding: 10px 15px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.back-btn, .share-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #007aff;
+    cursor: pointer;
+}
+
+.page-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.product-summary {
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.product-image-small {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.product-image-small img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-info-summary {
+    flex: 1;
+}
+
+.product-title-small {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.variant-info {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Ajustes específicos para la lista de ofertas en la página completa */
+.all-offers-view .offers-section {
+    padding: 0;
+}
+
+.all-offers-view .offers-list {
+    margin-bottom: 70px; /* Espacio para la barra de navegación inferior */
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
