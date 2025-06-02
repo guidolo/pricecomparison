@@ -5,6 +5,22 @@
 // Variable global para almacenar la variante actual
 let currentVariantId = 'iphone14-blue-128';
 
+// Obtener parámetros de la URL al cargar la página
+document.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('product');
+    const variantId = urlParams.get('variant');
+    
+    if (variantId) {
+        currentVariantId = variantId;
+    }
+    
+    // Agregar botón para volver a la búsqueda si venimos de la página de búsqueda
+    if (document.referrer.includes('search.html') || urlParams.has('product')) {
+        addBackToSearchButton();
+    }
+});
+
 /**
  * Inicializa el cargador de productos
  */
@@ -198,6 +214,46 @@ function updateVariantOptions(variants) {
 }
 
 /**
+ * Agrega un botón para volver a la página de búsqueda
+ */
+function addBackToSearchButton() {
+    // Verificar si ya existe el botón
+    if (document.querySelector('.back-to-search-btn')) {
+        return;
+    }
+    
+    // Crear el botón
+    const backButton = document.createElement('button');
+    backButton.className = 'back-to-search-btn';
+    backButton.innerHTML = '<i class="fas fa-arrow-left"></i> Volver a la búsqueda';
+    
+    // Agregar evento para volver a la página de búsqueda
+    backButton.addEventListener('click', () => {
+        window.location.href = 'search.html';
+    });
+    
+    // Insertar el botón al principio de la sección de producto
+    const productView = document.querySelector('.product-view');
+    productView.insertBefore(backButton, productView.firstChild);
+}
+
+/**
+ * Actualiza la URL con la variante seleccionada sin recargar la página
+ * @param {string} variantId - ID de la variante
+ */
+function updateUrlWithVariant(variantId) {
+    // Obtener los parámetros actuales de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // Actualizar o agregar el parámetro de variante
+    urlParams.set('variant', variantId);
+    
+    // Actualizar la URL sin recargar la página
+    const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+    window.history.pushState({ path: newUrl }, '', newUrl);
+}
+
+/**
  * Actualiza las imágenes del producto en la interfaz
  * @param {Array} images - Array de imágenes del producto
  */
@@ -273,6 +329,9 @@ function updateSelectedVariant() {
             option.classList.remove('active');
         }
     });
+    
+    // Actualizar la URL con la nueva variante
+    updateUrlWithVariant(currentVariantId);
     
     // Cargar las ofertas para la nueva variante
     fetchOffers(currentVariantId);

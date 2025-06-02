@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="search-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Barra de estado superior -->
+        <div class="status-bar">
+            <span class="time">9:58</span>
+            <div class="status-icons">
+                <span class="signal"><i class="fas fa-signal"></i></span>
+                <span class="wifi"><i class="fas fa-wifi"></i></span>
+                <span class="battery"><i class="fas fa-battery-three-quarters"></i></span>
+            </div>
+        </div>
+
+        <!-- Contenedor principal de búsqueda -->
+        <div class="search-container">
+            <h1 class="search-title">Buscador de Productos</h1>
+            
+            <!-- Barra de búsqueda -->
+            <div class="search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="search-input" placeholder="Buscar productos...">
+            </div>
+            
+            <!-- Filtros de categoría -->
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="smartphones">Smartphones</button>
+                <button class="category-btn" data-category="tablets">Tablets</button>
+                <button class="category-btn" data-category="laptops">Laptops</button>
+            </div>
+            
+            <!-- Resultados de búsqueda -->
+            <div class="search-results">
+                <!-- Los productos se cargarán dinámicamente aquí -->
+            </div>
+        </div>
+    </div>
+
+    <script src="search.js"></script>
+</body>
+</html>

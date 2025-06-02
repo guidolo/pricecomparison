@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "iphone14",
+      "name": "Apple iPhone 14",
+      "category": "Smartphones",
+      "image": "images/iphone14.svg",
+      "description": "El iPhone 14 cuenta con una pantalla Super Retina XDR de 6,1 pulgadas, chip A15 Bionic y sistema de cámara dual avanzado.",
+      "price_from": 579.80,
+      "variants": ["iphone14-blue-128", "iphone14-black-128"]
+    },
+    {
+      "id": "iphone13",
+      "name": "Apple iPhone 13",
+      "category": "Smartphones",
+      "image": "https://via.placeholder.com/150?text=iPhone13",
+      "description": "El iPhone 13 con pantalla Super Retina XDR, chip A14 Bionic y sistema de cámara dual.",
+      "price_from": 499.90,
+      "variants": ["iphone14-blue-128"]
+    },
+    {
+      "id": "samsungs23",
+      "name": "Samsung Galaxy S23",
+      "category": "Smartphones",
+      "image": "https://via.placeholder.com/150?text=S23",
+      "description": "El Samsung Galaxy S23 con pantalla Dynamic AMOLED 2X, procesador Snapdragon 8 Gen 2 y cámara de 50MP.",
+      "price_from": 649.90,
+      "variants": []
+    },
+    {
+      "id": "ipadpro",
+      "name": "iPad Pro 12.9",
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/150?text=iPadPro",
+      "description": "El iPad Pro con pantalla Liquid Retina XDR, chip M2 y compatibilidad con Apple Pencil.",
+      "price_from": 1099.00,
+      "variants": []
+    },
+    {
+      "id": "macbookair",
+      "name": "MacBook Air M2",
+      "category": "Laptops",
+      "image": "https://via.placeholder.com/150?text=MacbookAir",
+      "description": "El MacBook Air con chip M2, pantalla Liquid Retina y hasta 18 horas de duración de batería.",
+      "price_from": 1199.00,
+      "variants": []
+    }
+  ]
+}
