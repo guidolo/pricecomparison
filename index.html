@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 14 - Comparador de Precios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Barra de estado superior -->
+        <div class="status-bar">
+            <span class="time">9:58</span>
+            <div class="status-icons">
+                <span class="signal"><i class="fas fa-signal"></i></span>
+                <span class="wifi"><i class="fas fa-wifi"></i></span>
+                <span class="battery"><i class="fas fa-battery-three-quarters"></i></span>
+            </div>
+        </div>
+
+        <!-- Contenedor principal del producto -->
+        <div class="product-view">
+            <!-- Botones de navegación superior -->
+            <div class="top-nav">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+            </div>
+
+            <!-- Carrusel de imágenes -->
+            <div class="product-carousel">
+                <div class="product-image">
+                    <img src="images/iphone14.svg" alt="Apple iPhone 14 Azul" id="product-img">
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <!-- Información del producto -->
+            <div class="product-info">
+                <div class="category">Handys & Smartphones</div>
+                <h1 class="product-title">Apple iPhone 14</h1>
+                <div class="rating">
+                    <span class="rating-value">4,7</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="reviews-count">38</span>
+                </div>
+
+                <!-- Opciones de producto -->
+                <div class="product-options">
+                    <div class="option-row">
+                        <div class="option active" data-type="color">
+                            <div class="option-value">blau</div>
+                            <div class="option-label">Farbe</div>
+                        </div>
+                        <div class="option" data-type="storage">
+                            <div class="option-value">128 GB</div>
+                            <div class="option-label">interner Speicher</div>
+                        </div>
+                        <div class="option" data-type="variant">
+                            <div class="option-value">128GB Blau</div>
+                            <div class="option-label">Variante</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Precio -->
+                <div class="price-container">
+                    <span class="price-label">desde</span>
+                    <span class="price-value">579,80 €</span>
+                </div>
+
+                <!-- Botón de comparar ofertas -->
+                <button class="compare-btn">
+                    Comparar 57 ofertas
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <!-- Barra de navegación de pestañas -->
+                <div class="tab-navigation">
+                    <div class="tab active">
+                        <i class="fas fa-tag"></i>
+                        <span>Ofertas</span>
+                    </div>
+                    <div class="tab">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Gráfico de precios</span>
+                    </div>
+                    <div class="tab">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Información del producto</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección de ofertas -->
+            <div class="offers-section">
+                <div class="offers-header">
+                    <h2>57 ofertas</h2>
+                    <a href="#" class="view-all">Ver todo</a>
+                </div>
+                <div class="offers-subtext">
+                    Más sobre estos resultados <i class="fas fa-info-circle"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra de navegación inferior -->
+        <div class="bottom-nav">
+            <div class="nav-item active">
+                <i class="fas fa-home"></i>
+                <span>Inicio</span>
+            </div>
+            <div class="nav-item">
+                <i class="far fa-heart"></i>
+                <span>Favoritos</span>
+            </div>
+            <div class="nav-item">
+                <i class="fas fa-th-list"></i>
+                <span>Productos</span>
+            </div>
+            <div class="nav-item">
+                <i class="far fa-bell"></i>
+                <span>Alertas precio</span>
+            </div>
+            <div class="nav-item">
+                <i class="far fa-user"></i>
+                <span>Mi idealo</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
