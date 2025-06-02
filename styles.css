@@ -261,6 +261,166 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-bottom: 15px;
+}
+
+/* Lista de ofertas */
+.offers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.offer-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.offer-tag {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.offer-main {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-price-info {
+    flex: 1;
+}
+
+.offer-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.offer-tax {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.offer-shipping {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.shipping-icon {
+    color: #4caf50;
+}
+
+.shipping-date {
+    color: #777;
+    font-size: 14px;
+}
+
+.offer-shipping-cost {
+    color: #777;
+    font-size: 14px;
+}
+
+.offer-seller {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.seller-logo {
+    font-weight: 500;
+    color: #555;
+}
+
+.seller-rating {
+    color: #f5a623;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.expand-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    cursor: pointer;
+}
+
+.offer-action {
+    padding: 0 15px 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-offer-btn {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #4a90e2;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+/* Oferta reacondicionada */
+.offer-card.refurbished {
+    background-color: #f9f9f9;
+}
+
+.refurbished-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.refurbished-price {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.price-highlight {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.refurbished-new-price {
+    color: #777;
+    font-size: 14px;
+}
+
+.refurbished-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4caf50;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 /* Barra de navegación inferior */
