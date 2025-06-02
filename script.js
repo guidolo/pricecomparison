@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Manejar clic en el botón de cerrar
     const closeBtn = document.querySelector('.close-btn');
     closeBtn.addEventListener('click', function() {
-        alert('Cerrando vista de producto');
+        window.location.href = 'search.html';
     });
     
     // Manejar clic en el botón de compartir
