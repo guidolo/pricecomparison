@@ -187,7 +187,7 @@ function displayProducts(products) {
                 <div class="product-details">
                     <h3 class="product-name">${product.name}</h3>
                     <p class="product-category">${product.category}</p>
-                    <p class="product-price">Desde ${product.price_from.toFixed(2).replace('.', ',')} €</p>
+                    <p class="product-price">Desde ${product.price_from.toFixed(2).replace('.', ',')} $</p>
                 </div>
                 <div class="product-action">
                     <button class="view-product-btn" ${!hasVariants ? 'disabled' : ''}>

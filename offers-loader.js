@@ -94,9 +94,9 @@ function createOfferElement(offer) {
                 <div class="offer-price-info">
                     <div class="refurbished-label">${offer.refurbishedLabel}</div>
                     <div class="refurbished-price">
-                        <span>desde</span> <span class="price-highlight">${offer.price.toFixed(2).replace('.', ',')} €</span>
+                        <span>desde</span> <span class="price-highlight">${offer.price.toFixed(2).replace('.', ',')} $</span>
                     </div>
-                    <div class="refurbished-new-price">${offer.newPriceLabel} ${offer.newPrice.toFixed(2).replace('.', ',')} €</div>
+                    <div class="refurbished-new-price">${offer.newPriceLabel} ${offer.newPrice.toFixed(2).replace('.', ',')} $</div>
                 </div>
                 <div class="offer-seller">
                     <button class="refurbished-btn"><i class="fas fa-check-circle"></i></button>
@@ -115,7 +115,7 @@ function createOfferElement(offer) {
         offerHTML += `
             <div class="offer-main">
                 <div class="offer-price-info">
-                    <div class="offer-price">${offer.price.toFixed(2).replace('.', ',')} €</div>
+                    <div class="offer-price">${offer.price.toFixed(2).replace('.', ',')} $</div>
                     <div class="offer-tax">${offer.taxInfo}</div>
         `;
         

@@ -120,7 +120,7 @@ function updateProductUI(product) {
     // Actualizar precio desde
     const defaultVariant = product.variants.find(v => v.variant_id === currentVariantId);
     if (defaultVariant) {
-        document.querySelector('.price-value').textContent = `${defaultVariant.price_from.toFixed(2).replace('.', ',')} €`;
+        document.querySelector('.price-value').textContent = `${defaultVariant.price_from.toFixed(2).replace('.', ',')} $`;
     }
     
     // Actualizar imágenes si están disponibles
