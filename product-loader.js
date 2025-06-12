@@ -133,62 +133,111 @@ function updateProductOptions(pickers) {
     const storagePicker = pickers.find(picker => picker.id === 'internal_memory');
     const ramPicker = pickers.find(picker => picker.id === 'ram');
     
-    // Crear opciones para la interfaz
-    const optionRow = document.querySelector('.option-row');
-    if (optionRow) {
-        optionRow.innerHTML = '';
+    // Obtener el contenedor de opciones
+    const productOptions = document.querySelector('.product-options');
+    if (productOptions) {
+        // Limpiar el contenedor de opciones
+        productOptions.innerHTML = '';
         
-        // Agregar opciones de color
+        // Crear fila para opciones de color
         if (colorPicker && colorPicker.values.length > 0) {
-            const colorOption = document.createElement('div');
-            colorOption.className = 'option active';
-            colorOption.dataset.type = 'color';
-            colorOption.setAttribute('data-value', colorPicker.values[0].name);
+            const colorRow = document.createElement('div');
+            colorRow.className = 'option-row';
             
-            colorOption.innerHTML = `
-                <div class="option-value">${colorPicker.values[0].name}</div>
-                <div class="option-label">${colorPicker.name}</div>
-            `;
+            // Agregar título para la fila de colores
+            const colorTitle = document.createElement('div');
+            colorTitle.className = 'option-row-title';
+            colorTitle.textContent = colorPicker.name;
+            productOptions.appendChild(colorTitle);
             
-            optionRow.appendChild(colorOption);
-            currentColor = colorPicker.values[0].name;
+            // Agregar todas las opciones de color disponibles
+            colorPicker.values.forEach((colorValue, index) => {
+                const colorOption = document.createElement('div');
+                colorOption.className = `option${index === 0 ? ' active' : ''}`;
+                colorOption.dataset.type = 'color';
+                colorOption.setAttribute('data-value', colorValue.name);
+                
+                colorOption.innerHTML = `
+                    <div class="option-value">${colorValue.name}</div>
+                `;
+                
+                colorRow.appendChild(colorOption);
+                
+                // Establecer el color inicial
+                if (index === 0) {
+                    currentColor = colorValue.name;
+                }
+            });
+            
+            productOptions.appendChild(colorRow);
         }
         
-        // Agregar opciones de almacenamiento
+        // Crear fila para opciones de almacenamiento
         if (storagePicker && storagePicker.values.length > 0) {
-            const storageOption = document.createElement('div');
-            storageOption.className = 'option';
-            storageOption.dataset.type = 'storage';
-            storageOption.setAttribute('data-value', storagePicker.values[0].name);
+            const storageRow = document.createElement('div');
+            storageRow.className = 'option-row';
             
-            storageOption.innerHTML = `
-                <div class="option-value">${storagePicker.values[0].name}</div>
-                <div class="option-label">${storagePicker.name}</div>
-            `;
+            // Agregar título para la fila de almacenamiento
+            const storageTitle = document.createElement('div');
+            storageTitle.className = 'option-row-title';
+            storageTitle.textContent = storagePicker.name;
+            productOptions.appendChild(storageTitle);
             
-            optionRow.appendChild(storageOption);
-            currentStorage = storagePicker.values[0].name;
+            // Agregar todas las opciones de almacenamiento disponibles
+            storagePicker.values.forEach((storageValue, index) => {
+                const storageOption = document.createElement('div');
+                storageOption.className = `option${index === 0 ? ' active' : ''}`;
+                storageOption.dataset.type = 'storage';
+                storageOption.setAttribute('data-value', storageValue.name);
+                
+                storageOption.innerHTML = `
+                    <div class="option-value">${storageValue.name}</div>
+                `;
+                
+                storageRow.appendChild(storageOption);
+                
+                // Establecer el almacenamiento inicial
+                if (index === 0) {
+                    currentStorage = storageValue.name;
+                }
+            });
+            
+            productOptions.appendChild(storageRow);
         }
         
-        // Agregar opciones de RAM
+        // Crear fila para opciones de RAM
         if (ramPicker && ramPicker.values.length > 0) {
-            const ramOption = document.createElement('div');
-            ramOption.className = 'option';
-            ramOption.dataset.type = 'ram';
-            ramOption.setAttribute('data-value', ramPicker.values[0].name);
+            const ramRow = document.createElement('div');
+            ramRow.className = 'option-row';
             
-            ramOption.innerHTML = `
-                <div class="option-value">${ramPicker.values[0].name}</div>
-                <div class="option-label">${ramPicker.name}</div>
-            `;
+            // Agregar título para la fila de RAM
+            const ramTitle = document.createElement('div');
+            ramTitle.className = 'option-row-title';
+            ramTitle.textContent = ramPicker.name;
+            productOptions.appendChild(ramTitle);
             
-            optionRow.appendChild(ramOption);
-            currentRam = ramPicker.values[0].name;
+            // Agregar todas las opciones de RAM disponibles
+            ramPicker.values.forEach((ramValue, index) => {
+                const ramOption = document.createElement('div');
+                ramOption.className = `option${index === 0 ? ' active' : ''}`;
+                ramOption.dataset.type = 'ram';
+                ramOption.setAttribute('data-value', ramValue.name);
+                
+                ramOption.innerHTML = `
+                    <div class="option-value">${ramValue.name}</div>
+                `;
+                
+                ramRow.appendChild(ramOption);
+                
+                // Establecer la RAM inicial
+                if (index === 0) {
+                    currentRam = ramValue.name;
+                }
+            });
+            
+            productOptions.appendChild(ramRow);
         }
     }
-    
-    // No necesitamos actualizar opciones de variante con el nuevo formato
-    // updateVariantOptions(variants);
 }
 
 /**

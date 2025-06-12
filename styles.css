@@ -144,6 +144,17 @@ body {
 /* Opciones de producto */
 .product-options {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option-row-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+    padding-left: 5px;
 }
 
 .option-row {
@@ -151,31 +162,33 @@ body {
     gap: 10px;
     overflow-x: auto;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .option {
-    flex: 1;
-    min-width: 100px;
+    flex: 0 0 auto;
+    min-width: 80px;
     background-color: #f8f8f8;
     border-radius: 8px;
     padding: 10px;
     text-align: center;
     cursor: pointer;
     border: 1px solid #e0e0e0;
+    transition: all 0.2s ease;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
 }
 
 .option.active {
     border: 2px solid #4a90e2;
+    background-color: #f0f7ff;
 }
 
 .option-value {
     font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.option-label {
-    font-size: 12px;
-    color: #777;
+    font-size: 14px;
 }
 
 /* Precio */
