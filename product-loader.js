@@ -3,7 +3,10 @@
  */
 
 // Variable global para almacenar la variante actual
-let currentVariantId = 'iphone14-blue-128';
+let currentVariantId = 'iphone14-pro-max';
+let currentColor = 'Morado oscuro';
+let currentStorage = '128 GB';
+let currentRam = '6 GB';
 
 // Obtener parámetros de la URL al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
@@ -50,22 +53,21 @@ function setupProductOptionEvents() {
             // Activar la opción seleccionada
             option.classList.add('active');
             
-            // Si cambia el color o el almacenamiento, actualizar la variante
-            if (optionType === 'color' || optionType === 'storage') {
-                updateSelectedVariant();
-            } else if (optionType === 'variant') {
-                // Si se selecciona directamente una variante
-                currentVariantId = option.getAttribute('data-variant-id');
-                
-                // Desactivar todas las opciones de variante
-                document.querySelectorAll('.option[data-type="variant"]').forEach(el => {
-                    el.classList.remove('active');
-                });
-                
-                // Activar la opción seleccionada
-                option.classList.add('active');
-                
-                fetchOffers(currentVariantId);
+            // Actualizar la variable correspondiente según el tipo de opción
+            const selectedValue = option.getAttribute('data-value');
+            
+            if (optionType === 'color') {
+                currentColor = selectedValue;
+                // Actualizar imágenes según el color seleccionado
+                fetchProductData();
+                // Filtrar ofertas por color
+                fetchOffers(currentVariantId, currentColor);
+            } else if (optionType === 'storage') {
+                currentStorage = selectedValue;
+                fetchOffers(currentVariantId, currentColor);
+            } else if (optionType === 'ram') {
+                currentRam = selectedValue;
+                fetchOffers(currentVariantId, currentColor);
             }
             
             console.log(`Opción seleccionada: ${optionType} - ${option.querySelector('.option-value').textContent}`);
@@ -79,7 +81,7 @@ function setupProductOptionEvents() {
 async function fetchProductData() {
     try {
         // URL de la API de productos
-        const apiUrl = 'api/products.json';
+        const apiUrl = 'api/iphone_14_pro_max_consolidated.json';
         
         // Hacer la petición a la API
         const response = await fetch(apiUrl);
@@ -94,7 +96,7 @@ async function fetchProductData() {
         updateProductUI(data.product);
         
         // Cargar las ofertas para la variante seleccionada por defecto
-        fetchOffers(currentVariantId);
+        fetchOffers(currentVariantId, currentColor);
         
     } catch (error) {
         console.error('Error al obtener los datos del producto:', error);
@@ -108,82 +110,85 @@ async function fetchProductData() {
 function updateProductUI(product) {
     // Actualizar título y categoría
     document.querySelector('.product-title').textContent = product.name;
-    document.querySelector('.category').textContent = product.category;
+    document.querySelector('.category').textContent = product.category || 'Handys & Smartphones';
     
     // Actualizar calificación
     document.querySelector('.rating-value').textContent = product.rating.toString().replace('.', ',');
     document.querySelector('.reviews-count').textContent = product.reviews_count;
     
-    // Actualizar opciones de producto (colores, almacenamiento, variantes)
-    updateProductOptions(product.variants);
+    // Actualizar opciones de producto (colores, almacenamiento, RAM)
+    updateProductOptions(product.pickers);
     
-    // Actualizar precio desde
-    const defaultVariant = product.variants.find(v => v.variant_id === currentVariantId);
-    if (defaultVariant) {
-        document.querySelector('.price-value').textContent = `${defaultVariant.price_from.toFixed(2).replace('.', ',')} $`;
-    }
-    
-    // Actualizar imágenes si están disponibles
+    // Actualizar imágenes
     updateProductImages(product.images);
 }
 
 /**
  * Actualiza las opciones de producto en la interfaz
- * @param {Array} variants - Array de variantes del producto
+ * @param {Array} pickers - Array de selectores del producto
  */
-function updateProductOptions(variants) {
-    // Obtener opciones únicas de color y almacenamiento
-    const colors = [...new Set(variants.map(v => v.color))];
-    const storages = [...new Set(variants.map(v => v.storage))];
+function updateProductOptions(pickers) {
+    // Obtener los pickers de color, almacenamiento y RAM
+    const colorPicker = pickers.find(picker => picker.id === 'color');
+    const storagePicker = pickers.find(picker => picker.id === 'internal_memory');
+    const ramPicker = pickers.find(picker => picker.id === 'ram');
     
-    // Actualizar opciones de color
-    const colorOptions = document.querySelectorAll('.option[data-type="color"]');
-    if (colorOptions.length > 0) {
-        const colorContainer = colorOptions[0].parentElement;
-        colorContainer.innerHTML = '';
+    // Crear opciones para la interfaz
+    const optionRow = document.querySelector('.option-row');
+    if (optionRow) {
+        optionRow.innerHTML = '';
         
-        colors.forEach((color, index) => {
-            const variant = variants.find(v => v.color === color);
-            const isActive = color === getSelectedColor();
+        // Agregar opciones de color
+        if (colorPicker && colorPicker.values.length > 0) {
+            const colorOption = document.createElement('div');
+            colorOption.className = 'option active';
+            colorOption.dataset.type = 'color';
+            colorOption.setAttribute('data-value', colorPicker.values[0].name);
             
-            const optionElement = document.createElement('div');
-            optionElement.className = `option${isActive ? ' active' : ''}`;
-            optionElement.setAttribute('data-type', 'color');
-            optionElement.setAttribute('data-value', color);
-            optionElement.innerHTML = `
-                <div class="option-value">${color}</div>
-                <div class="option-label">${variant.color_label}</div>
+            colorOption.innerHTML = `
+                <div class="option-value">${colorPicker.values[0].name}</div>
+                <div class="option-label">${colorPicker.name}</div>
             `;
             
-            colorContainer.appendChild(optionElement);
-        });
-    }
-    
-    // Actualizar opciones de almacenamiento
-    const storageOptions = document.querySelectorAll('.option[data-type="storage"]');
-    if (storageOptions.length > 0) {
-        const storageContainer = storageOptions[0].parentElement;
-        storageContainer.innerHTML = '';
+            optionRow.appendChild(colorOption);
+            currentColor = colorPicker.values[0].name;
+        }
         
-        storages.forEach((storage, index) => {
-            const variant = variants.find(v => v.storage === storage);
-            const isActive = storage === getSelectedStorage();
+        // Agregar opciones de almacenamiento
+        if (storagePicker && storagePicker.values.length > 0) {
+            const storageOption = document.createElement('div');
+            storageOption.className = 'option';
+            storageOption.dataset.type = 'storage';
+            storageOption.setAttribute('data-value', storagePicker.values[0].name);
             
-            const optionElement = document.createElement('div');
-            optionElement.className = `option${isActive ? ' active' : ''}`;
-            optionElement.setAttribute('data-type', 'storage');
-            optionElement.setAttribute('data-value', storage);
-            optionElement.innerHTML = `
-                <div class="option-value">${storage}</div>
-                <div class="option-label">${variant.storage_label}</div>
+            storageOption.innerHTML = `
+                <div class="option-value">${storagePicker.values[0].name}</div>
+                <div class="option-label">${storagePicker.name}</div>
             `;
             
-            storageContainer.appendChild(optionElement);
-        });
+            optionRow.appendChild(storageOption);
+            currentStorage = storagePicker.values[0].name;
+        }
+        
+        // Agregar opciones de RAM
+        if (ramPicker && ramPicker.values.length > 0) {
+            const ramOption = document.createElement('div');
+            ramOption.className = 'option';
+            ramOption.dataset.type = 'ram';
+            ramOption.setAttribute('data-value', ramPicker.values[0].name);
+            
+            ramOption.innerHTML = `
+                <div class="option-value">${ramPicker.values[0].name}</div>
+                <div class="option-label">${ramPicker.name}</div>
+            `;
+            
+            optionRow.appendChild(ramOption);
+            currentRam = ramPicker.values[0].name;
+        }
     }
     
-    // Actualizar opciones de variante
-    updateVariantOptions(variants);
+    // No necesitamos actualizar opciones de variante con el nuevo formato
+    // updateVariantOptions(variants);
 }
 
 /**
@@ -260,7 +265,7 @@ function updateUrlWithVariant(variantId) {
 function updateProductImages(images) {
     const productImg = document.getElementById('product-img');
     if (productImg) {
-        const currentColor = getSelectedColor();
+        // Filtrar imágenes por el color seleccionado actualmente
         const colorImages = images.filter(img => img.color === currentColor);
         
         if (colorImages.length > 0) {
@@ -294,8 +299,7 @@ function updateProductImages(images) {
  * @returns {string} - Color seleccionado
  */
 function getSelectedColor() {
-    const activeColorOption = document.querySelector('.option[data-type="color"].active');
-    return activeColorOption ? activeColorOption.getAttribute('data-value') : 'Azul';
+    return currentColor;
 }
 
 /**
@@ -303,38 +307,29 @@ function getSelectedColor() {
  * @returns {string} - Almacenamiento seleccionado
  */
 function getSelectedStorage() {
-    const activeStorageOption = document.querySelector('.option[data-type="storage"].active');
-    return activeStorageOption ? activeStorageOption.getAttribute('data-value') : '128 GB';
+    return currentStorage;
+}
+
+/**
+ * Obtiene la RAM seleccionada actualmente
+ * @returns {string} - RAM seleccionada
+ */
+function getSelectedRam() {
+    return currentRam;
 }
 
 /**
  * Actualiza la variante seleccionada basada en el color y almacenamiento actuales
  */
 function updateSelectedVariant() {
-    const color = getSelectedColor();
-    const storage = getSelectedStorage();
-    
-    // Construir el ID de la variante basado en el color y almacenamiento
-    const newVariantId = `iphone14-${color.toLowerCase()}-${storage.replace(' ', '').toLowerCase()}`;
-    
-    // Actualizar la variante actual
-    currentVariantId = newVariantId;
-    
-    // Actualizar la opción de variante seleccionada en la UI
-    const variantOptions = document.querySelectorAll('.option[data-type="variant"]');
-    variantOptions.forEach(option => {
-        if (option.getAttribute('data-variant-id') === currentVariantId) {
-            option.classList.add('active');
-        } else {
-            option.classList.remove('active');
-        }
-    });
+    // Ya no necesitamos construir un ID de variante basado en color y almacenamiento
+    // porque ahora usamos el ID del producto y filtramos por color
     
     // Actualizar la URL con la nueva variante
     updateUrlWithVariant(currentVariantId);
     
-    // Cargar las ofertas para la nueva variante
-    fetchOffers(currentVariantId);
+    // Cargar las ofertas para la nueva variante, filtrando por color
+    fetchOffers(currentVariantId, currentColor);
     
     // Actualizar las imágenes
     fetchProductData();

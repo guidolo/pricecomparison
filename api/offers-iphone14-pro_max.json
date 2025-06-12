@@ -1,0 +1,176 @@
+{
+  "product_id": "iphone14-pro-max",
+  "total_offers": 14,
+  "offers": [
+    {
+      "id": 1,
+      "variant_id": "iphone14-pro-max-blue-128",
+      "variant_attributes": {
+        "color": {
+          "id": "blue",
+          "name": "Azul",
+          "hex_code": "#0000FF"
+        },
+        "storage": {
+          "id": "128",
+          "name": "128 GB"
+        }
+      },
+      "tag": "Mejor precio con envío",
+      "price": 699.90,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "amazon-1",
+        "name": "Amazon",
+        "logo": "https://via.placeholder.com/80x30?text=Amazon",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    },
+    {
+      "id": 2,
+      "variant_id": "iphone14-pro-max-blue-256",
+      "variant_attributes": {
+        "color": {
+          "id": "blue",
+          "name": "Azul",
+          "hex_code": "#0000FF"
+        },
+        "storage": {
+          "id": "128",
+          "name": "128 GB"
+        }
+      },
+      "price": 709.00,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "04.06. - 05.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "mediamarkt-1",
+        "name": "MediaMarkt",
+        "logo": "https://via.placeholder.com/80x30?text=MediaMarkt",
+        "rating": 4.5
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    },
+    {
+      "id": 3,
+      "variant_id": "iphone14-pro-max-black-128",
+      "variant_attributes": {
+        "color": {
+          "id": "black",
+          "name": "Negro",
+          "hex_code": "#000000"
+        },
+        "storage": {
+          "id": "128",
+          "name": "128 GB"
+        }
+      },
+      "tag": "Mejor precio con envío",
+      "price": 699.90,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "amazon-1",
+        "name": "Amazon",
+        "logo": "https://via.placeholder.com/80x30?text=Amazon",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    },
+    {
+      "id": 4,
+      "variant_id": "iphone14-pro-max-red-128",
+      "variant_attributes": {
+        "color": {
+          "id": "red",
+          "name": "Rojo",
+          "hex_code": "#FF0000"
+        },
+        "storage": {
+          "id": "128",
+          "name": "128 GB"
+        }
+      },
+      "refurbished": true,
+      "refurbishedLabel": "Reacondicionado",
+      "price": 649.00,
+      "newPriceLabel": "Precio normal",
+      "newPrice": 709.90,
+      "merchant": {
+        "id": "backmarket-1",
+        "name": "Back Market",
+        "logo": "https://via.placeholder.com/80x30?text=BackMarket",
+        "rating": 4.3
+      },
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "05.06. - 07.06.",
+        "cost": "Envío gratuito"
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    },
+    {
+      "id": 5,
+      "variant_id": "iphone14-pro-max-blue-256",
+      "variant_attributes": {
+        "color": {
+          "id": "blue",
+          "name": "Azul",
+          "hex_code": "#0000FF"
+        },
+        "storage": {
+          "id": "256",
+          "name": "256 GB"
+        }
+      },
+      "price": 799.90,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "amazon-1",
+        "name": "Amazon",
+        "logo": "https://via.placeholder.com/80x30?text=Amazon",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    }
+  ]
+}

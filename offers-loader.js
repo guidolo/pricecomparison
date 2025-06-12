@@ -3,21 +3,16 @@
  */
 
 /**
- * Obtiene las ofertas desde la API para una variante específica
+ * Obtiene las ofertas desde la API para una variante específica y filtra por color
  * @param {string} variantId - ID de la variante
+ * @param {string} color - Color seleccionado para filtrar las ofertas
  */
-async function fetchOffers(variantId) {
+async function fetchOffers(variantId, color) {
     try {
-        // Mapeo de IDs de variante a nombres de archivos JSON disponibles
-        const variantToFileMap = {
-            'iphone14-blue-128': 'offers-iphone14-blue-128.json',
-            'iphone14-black-128': 'offers-iphone14-black-128.json'
-        };
+        // Usar el nuevo archivo de ofertas para iPhone 14 Pro Max
+        const fileName = 'offers-iphone14-pro_max.json';
         
-        // Determinar el archivo correcto a cargar
-        const fileName = variantToFileMap[variantId] || `offers-${variantId}.json`;
-        
-        // URL de la API de ofertas para la variante seleccionada
+        // URL de la API de ofertas
         const apiUrl = `api/${fileName}`;
         
         // Mostrar indicador de carga
@@ -33,14 +28,40 @@ async function fetchOffers(variantId) {
         
         const data = await response.json();
         
+        // Filtrar ofertas por color si se proporciona un color
+        let filteredOffers = data.offers;
+        if (color) {
+            // Convertir el color a un formato comparable (minúsculas)
+            const normalizedColor = color.toLowerCase();
+            
+            // Mapeo de nombres de colores en español a inglés para la comparación
+            const colorMapping = {
+                'morado oscuro': 'blue', // Asumiendo que 'blue' es el ID para 'Morado oscuro'
+                'negro espacial': 'black',
+                'oro': 'gold',
+                'plata': 'silver'
+            };
+            
+            // Obtener el ID del color en inglés si existe en el mapeo
+            const colorId = colorMapping[normalizedColor] || normalizedColor;
+            
+            // Filtrar ofertas por el color seleccionado
+            filteredOffers = data.offers.filter(offer => {
+                if (offer.variant_attributes && offer.variant_attributes.color) {
+                    return offer.variant_attributes.color.id === colorId;
+                }
+                return false;
+            });
+        }
+        
         // Actualizar el número de ofertas en la interfaz
-        updateOfferCount(data.total_offers);
+        updateOfferCount(filteredOffers.length);
         
         // Configurar el enlace "Ver todo"
-        setupViewAllLink(variantId, data.total_offers);
+        setupViewAllLink(variantId, filteredOffers.length);
         
-        // Renderizar solo las primeras 3 ofertas
-        renderOffers(data.offers.slice(0, 3));
+        // Renderizar solo las primeras 3 ofertas filtradas
+        renderOffers(filteredOffers.slice(0, 3));
         
     } catch (error) {
         console.error('Error al obtener las ofertas:', error);
