@@ -308,12 +308,15 @@ body {
 
 .offer-price-info {
     flex: 1;
+    min-width: 120px; /* Asegura que el precio tenga suficiente espacio */
 }
 
 .offer-price {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
+    white-space: nowrap; /* Evita que el precio se divida en varias líneas */
+    min-width: 120px; /* Asegura que el precio tenga suficiente espacio */
 }
 
 .offer-tax {
@@ -346,18 +349,36 @@ body {
 .offer-seller {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
+    width: 100%;
 }
 
 .seller-logo {
-    font-weight: 500;
-    color: #555;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
 }
 
-.seller-rating {
-    color: #f5a623;
-    font-size: 14px;
-    margin-right: 10px;
+.seller-logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    min-height: 70px; /* Aumenta la altura del contenedor del logo */
+}
+
+.seller-logo img {
+    max-width: 120px; /* Aumenta el ancho máximo del logo */
+    max-height: 85px; /* Aumenta la altura máxima del logo */
+    object-fit: contain;
+}
+
+.seller-name {
+    font-weight: 500;
+    color: #555;
+    font-size: 16px;
 }
 
 .expand-btn {

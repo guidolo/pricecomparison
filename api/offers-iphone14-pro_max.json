@@ -27,7 +27,7 @@
       "merchant": {
         "id": "amazon-1",
         "name": "Amazon",
-        "logo": "https://via.placeholder.com/80x30?text=Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
@@ -59,12 +59,12 @@
       "merchant": {
         "id": "mediamarkt-1",
         "name": "MediaMarkt",
-        "logo": "https://via.placeholder.com/80x30?text=MediaMarkt",
+        "logo": "https://cdn.kueskipay.com/v1/industries/fash.png",
         "rating": 4.5
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "#"
+        "url": "https://itrendstore.mx/"
       }
     },
     {

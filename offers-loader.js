@@ -166,22 +166,15 @@ function createOfferElement(offer) {
                 <div class="offer-seller">
         `;
         
-        // Agregar logo del vendedor
+        // Agregar logo del vendedor como imagen (ahora ocupando más espacio)
         if (offer.merchant && offer.merchant.logo) {
-            offerHTML += `<div class="seller-logo">${offer.merchant.logo}</div>`;
-        }
-        
-        // Agregar calificación si existe
-        if (offer.merchant && offer.merchant.rating) {
-            offerHTML += `
-                    <div class="seller-rating">
-                        ${generateStarRating(offer.merchant.rating)}
-                    </div>
-            `;
+            offerHTML += `<div class="seller-logo"><img src="${offer.merchant.logo}" alt="${offer.merchant.name}" /></div>`;
+        } else if (offer.merchant && offer.merchant.name) {
+            // Si no hay logo, mostrar el nombre del merchant
+            offerHTML += `<div class="seller-name">${offer.merchant.name}</div>`;
         }
         
         offerHTML += `
-                    <button class="expand-btn"><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
         `;
@@ -203,34 +196,7 @@ function createOfferElement(offer) {
     return offerCard;
 }
 
-/**
- * Genera el HTML para mostrar una calificación con estrellas
- * @param {number} rating - Calificación (de 0 a 5)
- * @returns {string} - HTML con las estrellas
- */
-function generateStarRating(rating) {
-    let starsHTML = '';
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 >= 0.5;
-    
-    // Estrellas completas
-    for (let i = 0; i < fullStars; i++) {
-        starsHTML += '<i class="fas fa-star"></i>';
-    }
-    
-    // Media estrella si es necesario
-    if (hasHalfStar) {
-        starsHTML += '<i class="fas fa-star-half-alt"></i>';
-    }
-    
-    // Estrellas vacías
-    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
-    for (let i = 0; i < emptyStars; i++) {
-        starsHTML += '<i class="far fa-star"></i>';
-    }
-    
-    return starsHTML;
-}
+// La función generateStarRating ha sido eliminada ya que no se utiliza más
 
 /**
  * Configura el enlace "Ver todo" para dirigir a la página de todas las ofertas
