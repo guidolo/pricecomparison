@@ -166,7 +166,10 @@ function createOfferElement(offer) {
                 <div class="offer-seller">
         `;
         
-        // Agregar logo del vendedor como imagen (ahora ocupando más espacio)
+        // Agregar logo del vendedor como imagen y botón de acción en el mismo contenedor
+        offerHTML += `<div class="seller-container">`;
+        
+        // Agregar logo del vendedor
         if (offer.merchant && offer.merchant.logo) {
             offerHTML += `<div class="seller-logo"><img src="${offer.merchant.logo}" alt="${offer.merchant.name}" /></div>`;
         } else if (offer.merchant && offer.merchant.name) {
@@ -174,21 +177,19 @@ function createOfferElement(offer) {
             offerHTML += `<div class="seller-name">${offer.merchant.name}</div>`;
         }
         
-        offerHTML += `
-                </div>
-            </div>
-        `;
-        
         // Agregar botón de acción si existe
         if (offer.actionButton) {
             offerHTML += `
-                <div class="offer-action">
-                    <a href="${offer.actionButton.url}" class="view-offer-btn">
-                        ${offer.actionButton.text} <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
+                <a href="${offer.actionButton.url}" class="view-offer-btn">
+                    ${offer.actionButton.text} <i class="fas fa-arrow-right"></i>
+                </a>
             `;
         }
+        
+        offerHTML += `</div>
+                </div>
+            </div>
+        `;
         
         offerCard.innerHTML = offerHTML;
     }

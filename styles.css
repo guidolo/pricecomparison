@@ -364,14 +364,14 @@ body {
 .seller-logo {
     display: flex;
     align-items: center;
-    flex-grow: 1;
     justify-content: center;
-    min-height: 70px; /* Aumenta la altura del contenedor del logo */
+    min-height: 50px; /* Altura para el logo */
+    margin-bottom: 5px;
 }
 
 .seller-logo img {
-    max-width: 120px; /* Aumenta el ancho máximo del logo */
-    max-height: 85px; /* Aumenta la altura máxima del logo */
+    max-width: 120px; /* Ancho máximo del logo */
+    max-height: 50px; /* Altura máxima del logo */
     object-fit: contain;
 }
 
@@ -394,23 +394,29 @@ body {
     cursor: pointer;
 }
 
-.offer-action {
-    padding: 0 15px 15px;
+/* Contenedor del vendedor y botón de acción */
+.seller-container {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-width: 140px;
 }
 
 .view-offer-btn {
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 8px 12px;
     color: #4a90e2;
     text-decoration: none;
     display: flex;
     align-items: center;
     gap: 8px;
     font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
 /* Oferta reacondicionada */
