@@ -16,7 +16,7 @@
         }
       },
       "tag": "Mejor precio con envío",
-      "price": 699.90,
+      "price": 100.90,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -44,11 +44,11 @@
           "name": "Morado oscuro"
         },
         "storage": {
-          "id": "mla19615329",
+          "id": "256_gb",
           "name": "256 GB"
         }
       },
-      "price": 709.00,
+      "price": 200.00,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -81,7 +81,7 @@
         }
       },
       "tag": "Mejor precio con envío",
-      "price": 699.90,
+      "price": 300.90,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -115,7 +115,7 @@
       },
       "refurbished": true,
       "refurbishedLabel": "Reacondicionado",
-      "price": 649.00,
+      "price": 400.00,
       "newPriceLabel": "Precio normal",
       "newPrice": 709.90,
       "merchant": {
@@ -148,7 +148,7 @@
           "name": "256 GB"
         }
       },
-      "price": 799.90,
+      "price": 500.90,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,

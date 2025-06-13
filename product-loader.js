@@ -5,8 +5,11 @@
 // Variable global para almacenar la variante actual
 let currentVariantId = 'iphone14-pro-max';
 let currentColor = 'Morado oscuro';
+let currentColorId = 'morado_oscuro';
 let currentStorage = '128 GB';
+let currentStorageId = '128_gb';
 let currentRam = '6 GB';
+let currentRamId = '6_gb';
 
 // Obtener parámetros de la URL al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
@@ -55,21 +58,45 @@ function setupProductOptionEvents() {
             
             // Actualizar la variable correspondiente según el tipo de opción
             const selectedValue = option.getAttribute('data-value');
+            const selectedId = option.getAttribute('data-id');
             
             if (optionType === 'color') {
                 currentColor = selectedValue;
-                // Actualizar imágenes según el color seleccionado
-                fetchProductData();
-                // Filtrar ofertas por color y almacenamiento
-                fetchOffers(currentVariantId, currentColor, currentStorage);
+                currentColorId = selectedId;
+                console.log('Color seleccionado:', currentColor);
+                console.log('Color ID seleccionado:', currentColorId);
+                console.log('Elemento seleccionado:', option);
+                console.log('Atributos del elemento:', {
+                    'data-value': option.getAttribute('data-value'),
+                    'data-id': option.getAttribute('data-id'),
+                    'data-type': option.getAttribute('data-type'),
+                    'class': option.className
+                });
+                
+                // Obtener los datos del producto pero sin actualizar la UI completa
+                fetchProductData(true).then(data => {
+                    if (data) {
+                        // Solo actualizar las imágenes para el color seleccionado
+                        updateProductImages(data.product.images);
+                    }
+                });
+                
+                // Filtrar ofertas por color y almacenamiento usando el ID
+                fetchOffers(currentVariantId, currentColorId, currentStorageId);
             } else if (optionType === 'storage') {
                 currentStorage = selectedValue;
-                // Filtrar ofertas por color y almacenamiento
-                fetchOffers(currentVariantId, currentColor, currentStorage);
+                currentStorageId = selectedId;
+                console.log('Storage seleccionado:', currentStorage);
+                console.log('Storage ID seleccionado:', currentStorageId);
+                // Filtrar ofertas por color y almacenamiento usando el ID
+                fetchOffers(currentVariantId, currentColorId, currentStorageId);
             } else if (optionType === 'ram') {
                 currentRam = selectedValue;
+                currentRamId = selectedId;
+                console.log('RAM seleccionada:', currentRam);
+                console.log('RAM ID seleccionada:', currentRamId);
                 // La RAM no afecta a las ofertas en este caso
-                fetchOffers(currentVariantId, currentColor, currentStorage);
+                fetchOffers(currentVariantId, currentColorId, currentStorageId);
             }
             
             console.log(`Opción seleccionada: ${optionType} - ${option.querySelector('.option-value').textContent}`);
@@ -80,7 +107,7 @@ function setupProductOptionEvents() {
 /**
  * Obtiene los datos del producto desde la API
  */
-async function fetchProductData() {
+async function fetchProductData(skipUpdateUI = false) {
     try {
         // URL de la API de productos
         const apiUrl = 'api/iphone_14_pro_max_consolidated.json';
@@ -94,14 +121,61 @@ async function fetchProductData() {
         
         const data = await response.json();
         
-        // Actualizar la interfaz con los datos del producto
-        updateProductUI(data.product);
+        // Guardar los valores actuales antes de actualizar la UI
+        const savedColorId = currentColorId;
+        const savedStorageId = currentStorageId;
+        const savedColor = currentColor;
+        const savedStorage = currentStorage;
         
-        // Cargar las ofertas para la variante seleccionada por defecto
-        fetchOffers(currentVariantId, currentColor, currentStorage);
+        // Actualizar la interfaz con los datos del producto solo si no se indica lo contrario
+        if (!skipUpdateUI) {
+            updateProductUI(data.product);
+            
+            // Restaurar las selecciones previas
+            if (savedColorId && savedColor) {
+                // Buscar y activar la opción de color correspondiente
+                const colorOptions = document.querySelectorAll('.option[data-type="color"]');
+                colorOptions.forEach(option => {
+                    if (option.getAttribute('data-id') === savedColorId) {
+                        // Desactivar todas las opciones de color
+                        colorOptions.forEach(opt => opt.classList.remove('active'));
+                        // Activar esta opción
+                        option.classList.add('active');
+                        currentColorId = savedColorId;
+                        currentColor = savedColor;
+                    }
+                });
+            }
+            
+            if (savedStorageId && savedStorage) {
+                // Buscar y activar la opción de almacenamiento correspondiente
+                const storageOptions = document.querySelectorAll('.option[data-type="storage"]');
+                storageOptions.forEach(option => {
+                    if (option.getAttribute('data-id') === savedStorageId) {
+                        // Desactivar todas las opciones de almacenamiento
+                        storageOptions.forEach(opt => opt.classList.remove('active'));
+                        // Activar esta opción
+                        option.classList.add('active');
+                        currentStorageId = savedStorageId;
+                        currentStorage = savedStorage;
+                    }
+                });
+            }
+        }
         
+        // Actualizar las imágenes según el color seleccionado
+        updateProductImages(data.product.images);
+        
+        // Esperar a que se actualice la interfaz y los pickers estén disponibles
+        setTimeout(() => {
+            // Cargar las ofertas para la variante seleccionada usando IDs
+            fetchOffers(currentVariantId, currentColorId, currentStorageId);
+        }, 100);
+        
+        return data;
     } catch (error) {
         console.error('Error al obtener los datos del producto:', error);
+        return null;
     }
 }
 
@@ -158,6 +232,7 @@ function updateProductOptions(pickers) {
                 colorOption.className = `option${index === 0 ? ' active' : ''}`;
                 colorOption.dataset.type = 'color';
                 colorOption.setAttribute('data-value', colorValue.name);
+                colorOption.setAttribute('data-id', colorValue.id);
                 
                 colorOption.innerHTML = `
                     <div class="option-value">${colorValue.name}</div>
@@ -168,6 +243,7 @@ function updateProductOptions(pickers) {
                 // Establecer el color inicial
                 if (index === 0) {
                     currentColor = colorValue.name;
+                    currentColorId = colorValue.id;
                 }
             });
             
@@ -191,6 +267,7 @@ function updateProductOptions(pickers) {
                 storageOption.className = `option${index === 0 ? ' active' : ''}`;
                 storageOption.dataset.type = 'storage';
                 storageOption.setAttribute('data-value', storageValue.name);
+                storageOption.setAttribute('data-id', storageValue.id);
                 
                 storageOption.innerHTML = `
                     <div class="option-value">${storageValue.name}</div>
@@ -201,6 +278,7 @@ function updateProductOptions(pickers) {
                 // Establecer el almacenamiento inicial
                 if (index === 0) {
                     currentStorage = storageValue.name;
+                    currentStorageId = storageValue.id;
                 }
             });
             
@@ -224,6 +302,7 @@ function updateProductOptions(pickers) {
                 ramOption.className = `option${index === 0 ? ' active' : ''}`;
                 ramOption.dataset.type = 'ram';
                 ramOption.setAttribute('data-value', ramValue.name);
+                ramOption.setAttribute('data-id', ramValue.id);
                 
                 ramOption.innerHTML = `
                     <div class="option-value">${ramValue.name}</div>
@@ -234,6 +313,7 @@ function updateProductOptions(pickers) {
                 // Establecer la RAM inicial
                 if (index === 0) {
                     currentRam = ramValue.name;
+                    currentRamId = ramValue.id;
                 }
             });
             
@@ -315,9 +395,19 @@ function updateUrlWithVariant(variantId) {
  */
 function updateProductImages(images) {
     const productImg = document.getElementById('product-img');
-    if (productImg) {
-        // Filtrar imágenes por el color seleccionado actualmente
-        const colorImages = images.filter(img => img.color === currentColor);
+    if (productImg && images) {
+        console.log('Actualizando imágenes para color:', currentColor);
+        console.log('Actualizando imágenes para colorId:', currentColorId);
+        
+        // Primero intentar filtrar por ID de color (usando use_picker_id)
+        let colorImages = images.filter(img => img.use_picker_id === currentColorId);
+        
+        // Si no hay imágenes con ese ID, intentar filtrar por nombre de color
+        if (colorImages.length === 0) {
+            colorImages = images.filter(img => img.color === currentColor);
+        }
+        
+        console.log('Imágenes encontradas:', colorImages.length);
         
         if (colorImages.length > 0) {
             // Ordenar imágenes por posición
@@ -354,11 +444,36 @@ function getSelectedColor() {
 }
 
 /**
+ * Obtiene el ID del color seleccionado actualmente
+ * @returns {string} - ID del color seleccionado
+ */
+function getSelectedColorId() {
+    const activeColorOption = document.querySelector('.option[data-type="color"].active');
+    if (!activeColorOption) return null;
+    
+    // Obtener el ID directamente del atributo data-id
+    const colorId = activeColorOption.getAttribute('data-id');
+    console.log('getSelectedColorId - elemento:', activeColorOption);
+    console.log('getSelectedColorId - ID obtenido:', colorId);
+    
+    return colorId;
+}
+
+/**
  * Obtiene el almacenamiento seleccionado actualmente
  * @returns {string} - Almacenamiento seleccionado
  */
 function getSelectedStorage() {
     return currentStorage;
+}
+
+/**
+ * Obtiene el ID del almacenamiento seleccionado actualmente
+ * @returns {string} - ID del almacenamiento seleccionado
+ */
+function getSelectedStorageId() {
+    const activeStorageOption = document.querySelector('.option[data-type="storage"].active');
+    return activeStorageOption ? activeStorageOption.getAttribute('data-id') : null;
 }
 
 /**
@@ -379,9 +494,18 @@ function updateSelectedVariant() {
     // Actualizar la URL con la nueva variante
     updateUrlWithVariant(currentVariantId);
     
-    // Cargar las ofertas para la nueva variante, filtrando por color y almacenamiento
-    fetchOffers(currentVariantId, currentColor, currentStorage);
+    console.log('updateSelectedVariant - usando IDs directamente:');
+    console.log('currentColorId:', currentColorId);
+    console.log('currentStorageId:', currentStorageId);
     
-    // Actualizar las imágenes
-    fetchProductData();
+    // Cargar las ofertas para la nueva variante, filtrando por color y almacenamiento usando IDs
+    fetchOffers(currentVariantId, currentColorId, currentStorageId);
+    
+    // Obtener los datos del producto pero sin actualizar la UI completa
+    fetchProductData(true).then(data => {
+        if (data) {
+            // Solo actualizar las imágenes para el color seleccionado
+            updateProductImages(data.product.images);
+        }
+    });
 }
