@@ -3,11 +3,12 @@
  */
 
 /**
- * Obtiene las ofertas desde la API para una variante específica y filtra por color
+ * Obtiene las ofertas desde la API para una variante específica y filtra por color y almacenamiento
  * @param {string} variantId - ID de la variante
  * @param {string} color - Color seleccionado para filtrar las ofertas
+ * @param {string} storage - Almacenamiento seleccionado para filtrar las ofertas
  */
-async function fetchOffers(variantId, color) {
+async function fetchOffers(variantId, color, storage) {
     try {
         // Usar el nuevo archivo de ofertas para iPhone 14 Pro Max
         const fileName = 'offers-iphone14-pro_max.json';
@@ -28,27 +29,55 @@ async function fetchOffers(variantId, color) {
         
         const data = await response.json();
         
-        // Filtrar ofertas por color si se proporciona un color
+        // Filtrar ofertas por color y almacenamiento
         let filteredOffers = data.offers;
+        
+        // Mapeo de nombres de colores en español a IDs
+        const colorMapping = {
+            'morado oscuro': 'morado_oscuro',
+            'negro espacial': 'negro_espacial',
+            'oro': 'oro',
+            'plata': 'plata'
+        };
+        
+        // Filtrar por color si se proporciona
         if (color) {
             // Convertir el color a un formato comparable (minúsculas)
             const normalizedColor = color.toLowerCase();
             
-            // Mapeo de nombres de colores en español a inglés para la comparación
-            const colorMapping = {
-                'morado oscuro': 'blue', // Asumiendo que 'blue' es el ID para 'Morado oscuro'
-                'negro espacial': 'black',
-                'oro': 'gold',
-                'plata': 'silver'
-            };
-            
-            // Obtener el ID del color en inglés si existe en el mapeo
+            // Obtener el ID del color si existe en el mapeo
             const colorId = colorMapping[normalizedColor] || normalizedColor;
             
-            // Filtrar ofertas por el color seleccionado
-            filteredOffers = data.offers.filter(offer => {
+            console.log(`Filtrando por color: ${color}, ID: ${colorId}`);
+            
+            filteredOffers = filteredOffers.filter(offer => {
                 if (offer.variant_attributes && offer.variant_attributes.color) {
+                    console.log(`Oferta color ID: ${offer.variant_attributes.color.id}, Nombre: ${offer.variant_attributes.color.name}`);
                     return offer.variant_attributes.color.id === colorId;
+                }
+                return false;
+            });
+        }
+        
+        // Mapeo de capacidades de almacenamiento a IDs
+        const storageMapping = {
+            '128 GB': '128_gb',
+            '256 GB': '256_gb',
+            '512 GB': '512_gb',
+            '1 TB': '1_tb'
+        };
+        
+        // Filtrar por almacenamiento si se proporciona
+        if (storage) {
+            // Obtener el ID del almacenamiento si existe en el mapeo
+            const storageId = storageMapping[storage] || storage;
+            
+            console.log(`Filtrando por almacenamiento: ${storage}, ID: ${storageId}`);
+            
+            filteredOffers = filteredOffers.filter(offer => {
+                if (offer.variant_attributes && offer.variant_attributes.storage) {
+                    console.log(`Oferta storage ID: ${offer.variant_attributes.storage.id}, Nombre: ${offer.variant_attributes.storage.name}`);
+                    return offer.variant_attributes.storage.id === storageId;
                 }
                 return false;
             });
@@ -62,6 +91,11 @@ async function fetchOffers(variantId, color) {
         
         // Renderizar solo las primeras 3 ofertas filtradas
         renderOffers(filteredOffers.slice(0, 3));
+        
+        // Mostrar mensaje si no hay ofertas que coincidan con los filtros
+        if (filteredOffers.length === 0) {
+            offersSection.innerHTML = '<div class="no-offers">No hay ofertas disponibles para esta combinación de color y almacenamiento.</div>';
+        }
         
     } catch (error) {
         console.error('Error al obtener las ofertas:', error);

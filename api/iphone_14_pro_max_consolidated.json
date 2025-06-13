@@ -15,22 +15,22 @@
         "name": "Color",
         "values": [
           {
-            "id": "mla19615329",
+            "id": "morado_oscuro",
             "name": "Morado oscuro",
             "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_605126-MLM51559383638_092022-I.jpg"
           },
           {
-            "id": "mla19615362",
+            "id": "negro_espacial",
             "name": "Negro espacial",
             "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_651710-MLM51559386433_092022-I.jpg"
           },
           {
-            "id": "mla19615323",
+            "id": "oro",
             "name": "Oro",
             "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_794111-MLU78776221072_092024-I.jpg"
           },
           {
-            "id": "mla19615338",
+            "id": "plata",
             "name": "Plata",
             "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_770607-MLM51559385328_092022-I.jpg"
           }
@@ -41,19 +41,19 @@
         "name": "Memoria interna",
         "values": [
           {
-            "id": "mla19615329",
+            "id": "128_gb",
             "name": "128 GB"
           },
           {
-            "id": "mla19615354",
+            "id": "256_gb",
             "name": "256 GB"
           },
           {
-            "id": "mla19615364",
+            "id": "512_gb",
             "name": "512 GB"
           },
           {
-            "id": "mla19615322",
+            "id": "1_tb",
             "name": "1 TB"
           }
         ]
@@ -63,7 +63,7 @@
         "name": "Memoria RAM",
         "values": [
           {
-            "id": "mla19615329",
+            "id": "6_gb",
             "name": "6 GB"
           }
         ]
@@ -75,7 +75,7 @@
         "position": 1,
         "color": "Morado oscuro",
         "use_picker_id": [
-          "MLA19615329"
+          "morado_oscuro"
         ]
       },
       {
@@ -83,7 +83,7 @@
         "position": 2,
         "color": "Morado oscuro",
         "use_picker_id": [
-          "MLA19615329"
+          "morado_oscuro"
         ]
       },
       {
@@ -91,7 +91,7 @@
         "position": 3,
         "color": "Morado oscuro",
         "use_picker_id": [
-          "MLA19615329"
+          "morado_oscuro"
         ]
       },
       {
@@ -99,7 +99,7 @@
         "position": 4,
         "color": "Morado oscuro",
         "use_picker_id": [
-          "MLA19615329"
+          "morado_oscuro"
         ]
       },
       {
@@ -107,7 +107,7 @@
         "position": 5,
         "color": "Morado oscuro",
         "use_picker_id": [
-          "MLA19615329"
+          "morado_oscuro"
         ]
       },
       {
@@ -115,7 +115,7 @@
         "position": 1,
         "color": "Plata",
         "use_picker_id": [
-          "MLA19615375"
+          "plata"
         ]
       },
       {
@@ -123,7 +123,7 @@
         "position": 2,
         "color": "Plata",
         "use_picker_id": [
-          "MLA19615375"
+          "plata"
         ]
       },
       {
@@ -131,7 +131,7 @@
         "position": 3,
         "color": "Plata",
         "use_picker_id": [
-          "MLA19615375"
+          "plata"
         ]
       },
       {
@@ -139,7 +139,7 @@
         "position": 4,
         "color": "Plata",
         "use_picker_id": [
-          "MLA19615375"
+          "plata"
         ]
       },
       {
@@ -147,7 +147,7 @@
         "position": 5,
         "color": "Plata",
         "use_picker_id": [
-          "MLA19615375"
+          "plata"
         ]
       },
       {
@@ -155,7 +155,7 @@
         "position": 1,
         "color": "Oro",
         "use_picker_id": [
-          "MLA19615323"
+          "oro"
         ]
       },
       {
@@ -163,7 +163,7 @@
         "position": 2,
         "color": "Oro",
         "use_picker_id": [
-          "MLA19615323"
+          "oro"
         ]
       },
       {
@@ -171,7 +171,7 @@
         "position": 3,
         "color": "Oro",
         "use_picker_id": [
-          "MLA19615323"
+          "oro"
         ]
       },
       {
@@ -179,7 +179,7 @@
         "position": 4,
         "color": "Oro",
         "use_picker_id": [
-          "MLA19615323"
+          "oro"
         ]
       },
       {
@@ -187,7 +187,7 @@
         "position": 5,
         "color": "Oro",
         "use_picker_id": [
-          "MLA19615323"
+          "oro"
         ]
       },
       {
@@ -195,7 +195,7 @@
         "position": 1,
         "color": "Negro espacial",
         "use_picker_id": [
-          "MLA19615324"
+          "negro_espacial"
         ]
       },
       {
@@ -203,7 +203,7 @@
         "position": 2,
         "color": "Negro espacial",
         "use_picker_id": [
-          "MLA19615324"
+          "negro_espacial"
         ]
       },
       {
@@ -211,7 +211,7 @@
         "position": 3,
         "color": "Negro espacial",
         "use_picker_id": [
-          "MLA19615324"
+          "negro_espacial"
         ]
       },
       {
@@ -219,7 +219,7 @@
         "position": 4,
         "color": "Negro espacial",
         "use_picker_id": [
-          "MLA19615324"
+          "negro_espacial"
         ]
       },
       {
@@ -227,7 +227,7 @@
         "position": 5,
         "color": "Negro espacial",
         "use_picker_id": [
-          "MLA19615324"
+          "negro_espacial"
         ]
       }
     ]

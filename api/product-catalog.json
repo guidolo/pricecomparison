@@ -7,7 +7,7 @@
       "image": "images/iphone14.svg",
       "description": "El iPhone 14 cuenta con una pantalla Super Retina XDR de 6,1 pulgadas, chip A15 Bionic y sistema de cámara dual avanzado.",
       "price_from": 579.80,
-      "variants": ["iphone14-blue-128", "iphone14-black-128"]
+      "variants": ["iphone14-morado_oscuro-128_gb", "iphone14-negro_espacial-128_gb"]
     },
     {
       "id": "iphone13",
@@ -16,7 +16,7 @@
       "image": "https://via.placeholder.com/150?text=iPhone13",
       "description": "El iPhone 13 con pantalla Super Retina XDR, chip A14 Bionic y sistema de cámara dual.",
       "price_from": 499.90,
-      "variants": ["iphone14-blue-128"]
+      "variants": ["iphone14-morado_oscuro-128_gb"]
     },
     {
       "id": "samsungs23",

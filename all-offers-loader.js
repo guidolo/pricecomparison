@@ -35,12 +35,16 @@ function updateVariantInfo(variantId) {
         let color = parts[1];
         let storage = parts[2];
         
+        // Manejar formato con guiones bajos
+        color = color.replace(/_/g, ' ');
+        storage = storage.replace(/_/g, ' ');
+        
         // Convertir primera letra a mayúscula
         color = color.charAt(0).toUpperCase() + color.slice(1);
         
-        // Formatear el almacenamiento
-        if (storage.includes('gb')) {
-            storage = storage.replace('gb', ' GB');
+        // Formatear el almacenamiento si es necesario
+        if (storage.toLowerCase().includes('gb') && !storage.includes(' ')) {
+            storage = storage.replace(/gb/i, ' GB');
         }
         
         // Actualizar el texto de la variante
@@ -67,8 +71,9 @@ async function fetchAllOffers(variantId) {
     try {
         // Mapeo de IDs de variante a nombres de archivos JSON disponibles
         const variantToFileMap = {
-            'iphone14-blue-128': 'offers-iphone14-blue-128.json',
-            'iphone14-black-128': 'offers-iphone14-black-128.json'
+            'iphone14-morado_oscuro-128_gb': 'offers-iphone14-blue-128.json',
+            'iphone14-negro_espacial-128_gb': 'offers-iphone14-black-128.json',
+            'iphone14-pro-max': 'offers-iphone14-pro_max.json'
         };
         
         // Determinar el archivo correcto a cargar

@@ -60,14 +60,16 @@ function setupProductOptionEvents() {
                 currentColor = selectedValue;
                 // Actualizar imágenes según el color seleccionado
                 fetchProductData();
-                // Filtrar ofertas por color
-                fetchOffers(currentVariantId, currentColor);
+                // Filtrar ofertas por color y almacenamiento
+                fetchOffers(currentVariantId, currentColor, currentStorage);
             } else if (optionType === 'storage') {
                 currentStorage = selectedValue;
-                fetchOffers(currentVariantId, currentColor);
+                // Filtrar ofertas por color y almacenamiento
+                fetchOffers(currentVariantId, currentColor, currentStorage);
             } else if (optionType === 'ram') {
                 currentRam = selectedValue;
-                fetchOffers(currentVariantId, currentColor);
+                // La RAM no afecta a las ofertas en este caso
+                fetchOffers(currentVariantId, currentColor, currentStorage);
             }
             
             console.log(`Opción seleccionada: ${optionType} - ${option.querySelector('.option-value').textContent}`);
@@ -96,7 +98,7 @@ async function fetchProductData() {
         updateProductUI(data.product);
         
         // Cargar las ofertas para la variante seleccionada por defecto
-        fetchOffers(currentVariantId, currentColor);
+        fetchOffers(currentVariantId, currentColor, currentStorage);
         
     } catch (error) {
         console.error('Error al obtener los datos del producto:', error);
@@ -372,13 +374,13 @@ function getSelectedRam() {
  */
 function updateSelectedVariant() {
     // Ya no necesitamos construir un ID de variante basado en color y almacenamiento
-    // porque ahora usamos el ID del producto y filtramos por color
+    // porque ahora usamos el ID del producto y filtramos por color y almacenamiento
     
     // Actualizar la URL con la nueva variante
     updateUrlWithVariant(currentVariantId);
     
-    // Cargar las ofertas para la nueva variante, filtrando por color
-    fetchOffers(currentVariantId, currentColor);
+    // Cargar las ofertas para la nueva variante, filtrando por color y almacenamiento
+    fetchOffers(currentVariantId, currentColor, currentStorage);
     
     // Actualizar las imágenes
     fetchProductData();

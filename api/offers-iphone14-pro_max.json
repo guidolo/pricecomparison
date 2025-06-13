@@ -7,12 +7,11 @@
       "variant_id": "iphone14-pro-max-blue-128",
       "variant_attributes": {
         "color": {
-          "id": "blue",
-          "name": "Azul",
-          "hex_code": "#0000FF"
+          "id": "morado_oscuro",
+          "name": "Morado oscuro"
         },
         "storage": {
-          "id": "128",
+          "id": "128_gb",
           "name": "128 GB"
         }
       },
@@ -41,13 +40,12 @@
       "variant_id": "iphone14-pro-max-blue-256",
       "variant_attributes": {
         "color": {
-          "id": "blue",
-          "name": "Azul",
-          "hex_code": "#0000FF"
+          "id": "morado_oscuro",
+          "name": "Morado oscuro"
         },
         "storage": {
-          "id": "128",
-          "name": "128 GB"
+          "id": "mla19615329",
+          "name": "256 GB"
         }
       },
       "price": 709.00,
@@ -74,12 +72,11 @@
       "variant_id": "iphone14-pro-max-black-128",
       "variant_attributes": {
         "color": {
-          "id": "black",
-          "name": "Negro",
-          "hex_code": "#000000"
+          "id": "negro_espacial",
+          "name": "Negro espacial"
         },
         "storage": {
-          "id": "128",
+          "id": "128_gb",
           "name": "128 GB"
         }
       },
@@ -108,12 +105,11 @@
       "variant_id": "iphone14-pro-max-red-128",
       "variant_attributes": {
         "color": {
-          "id": "red",
-          "name": "Rojo",
-          "hex_code": "#FF0000"
+          "id": "oro",
+          "name": "Oro"
         },
         "storage": {
-          "id": "128",
+          "id": "128_gb",
           "name": "128 GB"
         }
       },
@@ -144,12 +140,11 @@
       "variant_id": "iphone14-pro-max-blue-256",
       "variant_attributes": {
         "color": {
-          "id": "blue",
-          "name": "Azul",
-          "hex_code": "#0000FF"
+          "id": "plata",
+          "name": "Plata"
         },
         "storage": {
-          "id": "256",
+          "id": "256_gb",
           "name": "256 GB"
         }
       },
