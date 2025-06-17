@@ -1,49 +1,12 @@
 {
   "products": [
     {
-      "id": "iphone14",
-      "name": "Apple iPhone 14",
-      "category": "Smartphones",
-      "image": "images/iphone14.svg",
-      "description": "El iPhone 14 cuenta con una pantalla Super Retina XDR de 6,1 pulgadas, chip A15 Bionic y sistema de cámara dual avanzado.",
-      "price_from": 579.80,
-      "variants": ["iphone14-morado_oscuro-128_gb", "iphone14-negro_espacial-128_gb"]
-    },
-    {
-      "id": "iphone13",
-      "name": "Apple iPhone 13",
-      "category": "Smartphones",
-      "image": "https://via.placeholder.com/150?text=iPhone13",
-      "description": "El iPhone 13 con pantalla Super Retina XDR, chip A14 Bionic y sistema de cámara dual.",
-      "price_from": 499.90,
-      "variants": ["iphone14-morado_oscuro-128_gb"]
-    },
-    {
-      "id": "samsungs23",
-      "name": "Samsung Galaxy S23",
-      "category": "Smartphones",
-      "image": "https://via.placeholder.com/150?text=S23",
-      "description": "El Samsung Galaxy S23 con pantalla Dynamic AMOLED 2X, procesador Snapdragon 8 Gen 2 y cámara de 50MP.",
-      "price_from": 649.90,
-      "variants": []
-    },
-    {
-      "id": "ipadpro",
-      "name": "iPad Pro 12.9",
-      "category": "Tablets",
-      "image": "https://via.placeholder.com/150?text=iPadPro",
-      "description": "El iPad Pro con pantalla Liquid Retina XDR, chip M2 y compatibilidad con Apple Pencil.",
-      "price_from": 1099.00,
-      "variants": []
-    },
-    {
-      "id": "macbookair",
-      "name": "MacBook Air M2",
-      "category": "Laptops",
-      "image": "https://via.placeholder.com/150?text=MacbookAir",
-      "description": "El MacBook Air con chip M2, pantalla Liquid Retina y hasta 18 horas de duración de batería.",
-      "price_from": 1199.00,
-      "variants": []
+      "id": "iphone_14_pro_max",
+      "name": "iPhone 14 Pro Max",
+      "category": "",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_605126-MLM51559383638_092022-F.jpg",
+      "description": "El iPhone 14 Pro Max te permite captar detalles increíbles gracias a su cámara gran angular de 48 MP. Además, trae la Dynamic Island y una pantalla siempre activa, para que puedas interactuar con tu iPhone de una forma completamente nueva. Y viene con Detección de Choques(1), una funcionalidad de seguridad que pide ayuda cuando no estás en condiciones de hacerlo.\n\nAviso legal\n\n(1) La funcionalidad Emergencia SOS usa conexión celular o llamadas por Wi-Fi.\n(2) La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la pantalla tiene 6.69 pulgadas en diagonal. El área real de visualización es menor.\n(3) La duración de la batería varía según el uso y la configuración. \n(4) Se requiere un plan de datos. 5G está disponible en algunos mercados y a través de operadores específicos. Las velocidades varían según las condiciones del lugar y el operador.\n(5) El iPhone 14 Pro Max es resistente a las salpicaduras, al agua y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529 (hasta 30 minutos a una profundidad máxima de 6 metros). La resistencia a las salpicaduras, al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado.La garantía no cubre daños producidos por líquidos. \n(6) Algunas funcionalidades podrían no estar disponibles en todos los países o áreas.",
+      "price_from": 100.9
     }
   ]
 }
