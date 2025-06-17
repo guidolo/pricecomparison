@@ -58,6 +58,16 @@ async function fetchOffers(productId, color, storage) {
             });
         }
         
+        // Calcular el precio mínimo de las ofertas
+        if (filteredOffers.length > 0) {
+            const minPrice = Math.min(...filteredOffers.map(offer => offer.price));
+            // Actualizar el precio en el contenedor de precio
+            updateMinimumPrice(minPrice);
+        } else {
+            // Si no hay ofertas, mostrar mensaje "Sin ofertas"
+            updateMinimumPrice("Sin ofertas", true);
+        }
+        
         // Actualizar el número de ofertas en la interfaz
         updateOfferCount(filteredOffers.length);
         
@@ -76,6 +86,22 @@ async function fetchOffers(productId, color, storage) {
         console.error('Error al obtener las ofertas:', error);
         const offersSection = document.querySelector('.offers-list');
         offersSection.innerHTML = `<div class="error">Error al cargar las ofertas: ${error.message}</div>`;
+    }
+}
+
+/**
+ * Actualiza el precio mínimo en el contenedor de precio
+ * @param {number|string} price - Precio mínimo de las ofertas o mensaje
+ * @param {boolean} isMessage - Indica si es un mensaje en lugar de un precio
+ */
+function updateMinimumPrice(price, isMessage = false) {
+    const priceContainer = document.querySelector('.price-container .price-value');
+    if (priceContainer) {
+        if (isMessage) {
+            priceContainer.textContent = price;
+        } else {
+            priceContainer.textContent = `${price.toFixed(2).replace('.', ',')} $`;
+        }
     }
 }
 
