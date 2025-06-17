@@ -180,6 +180,35 @@ async function fetchProductData(skipUpdateUI = false) {
 }
 
 /**
+ * Genera el HTML para mostrar una calificación con estrellas
+ * @param {number} rating - Calificación (de 0 a 5)
+ * @returns {string} - HTML con las estrellas
+ */
+function generateStarRating(rating) {
+    let starsHTML = '';
+    const fullStars = Math.floor(rating);
+    const hasHalfStar = rating % 1 >= 0.5;
+    
+    // Estrellas completas
+    for (let i = 0; i < fullStars; i++) {
+        starsHTML += '<i class="fas fa-star"></i>';
+    }
+    
+    // Media estrella si es necesario
+    if (hasHalfStar) {
+        starsHTML += '<i class="fas fa-star-half-alt"></i>';
+    }
+    
+    // Estrellas vacías
+    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+    for (let i = 0; i < emptyStars; i++) {
+        starsHTML += '<i class="far fa-star"></i>';
+    }
+    
+    return starsHTML;
+}
+
+/**
  * Actualiza la interfaz con los datos del producto
  * @param {Object} product - Datos del producto
  */
@@ -191,6 +220,12 @@ function updateProductUI(product) {
     // Actualizar calificación
     document.querySelector('.rating-value').textContent = product.rating.toString().replace('.', ',');
     document.querySelector('.reviews-count').textContent = product.reviews_count;
+    
+    // Actualizar estrellas
+    const starsContainer = document.querySelector('.stars');
+    if (starsContainer) {
+        starsContainer.innerHTML = generateStarRating(product.rating);
+    }
     
     // Actualizar opciones de producto (colores, almacenamiento, RAM)
     updateProductOptions(product.pickers);
