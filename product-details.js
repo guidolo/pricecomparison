@@ -1,8 +1,13 @@
 // Función para cargar los detalles del producto
 async function loadProductDetails() {
     try {
+        // Obtener el ID del producto de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('product') || 'iphone_14_pro_max';
+        // Construir el path del archivo JSON según el producto
+        const apiUrl = `api/${productId}_consolidated.json`;
         // Cargar el archivo JSON con los detalles del producto
-        const response = await fetch('api/iphone_14_pro_max_consolidated.json');
+        const response = await fetch(apiUrl);
         const data = await response.json();
         
         // Verificar si tenemos datos de detalles del producto

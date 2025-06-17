@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updateTime();
     setInterval(updateTime, 60000);
     
-    // Inicializar el cargador de productos
+    // Inicializar el cargador de productos con el producto de la URL
     initProductLoader();
     
     // Manejar clics en las pestañas

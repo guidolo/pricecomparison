@@ -8,13 +8,21 @@
  * @param {string} color - Color seleccionado para filtrar las ofertas
  * @param {string} storage - Almacenamiento seleccionado para filtrar las ofertas
  */
-async function fetchOffers(productId, color, storage) {
+async function fetchOffers(productIdParam, color, storage) {
     try {
-        // Usar el nuevo archivo de ofertas para iPhone 14 Pro Max
-        const fileName = 'offers-iphone14-pro_max.json';
+        // Obtener el ID del producto de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('product') || 'iphone_14_pro_max';
         
-        // URL de la API de ofertas
-        const apiUrl = `api/${fileName}`;
+        // Mapeo de IDs de producto a nombres de archivos JSON disponibles
+        const productToFileMap = {
+            'iphone_14_pro_max': 'offers-iphone14-pro_max.json',
+            'iphone_16e': 'offers-iphone16e.json'
+        };
+        
+        // Usar el archivo de ofertas correspondiente al producto o construir el nombre basado en el ID
+        const offersFileName = productToFileMap[productId] || `offers-${productId.replace('_', '')}.json`;
+        const apiUrl = `api/${offersFileName}`;
         
         // Mostrar indicador de carga
         const offersSection = document.querySelector('.offers-list');

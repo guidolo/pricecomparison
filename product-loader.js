@@ -14,7 +14,7 @@ let currentRamId = '6_gb';
 // Obtener parámetros de la URL al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const productId = urlParams.get('product');
+    const productId = urlParams.get('product') || 'iphone_14_pro_max';
     
     if (productId) {
         // Ahora usamos el product_id directamente
@@ -109,8 +109,8 @@ function setupProductOptionEvents() {
  */
 async function fetchProductData(skipUpdateUI = false) {
     try {
-        // URL de la API de productos
-        const apiUrl = 'api/iphone_14_pro_max_consolidated.json';
+        // Construir el path del archivo JSON según el producto
+        const apiUrl = `api/${currentVariantId}_consolidated.json`;
         
         // Hacer la petición a la API
         const response = await fetch(apiUrl);
