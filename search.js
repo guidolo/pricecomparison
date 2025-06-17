@@ -176,8 +176,8 @@ function displayProducts(products) {
         productCard.className = 'product-card';
         productCard.setAttribute('data-product-id', product.id);
         
-        // Determinar si el producto tiene variantes disponibles
-        const hasVariants = product.variants && product.variants.length > 0;
+        // Todos los productos son ahora accesibles por su product_id
+        const isProductAvailable = product.id ? true : false;
         
         productCard.innerHTML = `
             <div class="product-image">
@@ -190,17 +190,17 @@ function displayProducts(products) {
                     <p class="product-price">Desde ${product.price_from.toFixed(2).replace('.', ',')} $</p>
                 </div>
                 <div class="product-action">
-                    <button class="view-product-btn" ${!hasVariants ? 'disabled' : ''}>
-                        ${hasVariants ? 'Ver detalles' : 'No disponible'}
+                    <button class="view-product-btn" ${!isProductAvailable ? 'disabled' : ''}>
+                        ${isProductAvailable ? 'Ver detalles' : 'No disponible'}
                     </button>
                 </div>
             </div>
         `;
         
         // Agregar evento para ver detalles del producto
-        if (hasVariants) {
+        if (isProductAvailable) {
             productCard.querySelector('.view-product-btn').addEventListener('click', () => {
-                viewProductDetails(product.id, product.variants[0]);
+                viewProductDetails(product.id);
             });
         }
         
@@ -220,9 +220,8 @@ function displayError(message) {
 /**
  * Redirige a la página de detalles del producto
  * @param {string} productId - ID del producto
- * @param {string} variantId - ID de la variante por defecto
  */
-function viewProductDetails(productId, variantId) {
-    // Redirigir a la página de detalles con el ID del producto y la variante
-    window.location.href = `index.html?product=${productId}&variant=${variantId}`;
+function viewProductDetails(productId) {
+    // Redirigir a la página de detalles con el ID del producto
+    window.location.href = `index.html?product=${productId}`;
 }

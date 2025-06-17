@@ -15,10 +15,10 @@ let currentRamId = '6_gb';
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get('product');
-    const variantId = urlParams.get('variant');
     
-    if (variantId) {
-        currentVariantId = variantId;
+    if (productId) {
+        // Ahora usamos el product_id directamente
+        currentVariantId = productId;
     }
     
     // Agregar botón para volver a la búsqueda si venimos de la página de búsqueda
@@ -374,15 +374,15 @@ function addBackToSearchButton() {
 }
 
 /**
- * Actualiza la URL con la variante seleccionada sin recargar la página
- * @param {string} variantId - ID de la variante
+ * Actualiza la URL con el producto seleccionado sin recargar la página
+ * @param {string} productId - ID del producto
  */
-function updateUrlWithVariant(variantId) {
+function updateUrlWithVariant(productId) {
     // Obtener los parámetros actuales de la URL
     const urlParams = new URLSearchParams(window.location.search);
     
-    // Actualizar o agregar el parámetro de variante
-    urlParams.set('variant', variantId);
+    // Actualizar o agregar el parámetro de producto
+    urlParams.set('product', productId);
     
     // Actualizar la URL sin recargar la página
     const newUrl = `${window.location.pathname}?${urlParams.toString()}`;

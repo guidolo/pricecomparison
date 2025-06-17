@@ -5,31 +5,31 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Obtener parámetros de la URL
     const urlParams = new URLSearchParams(window.location.search);
-    const variantId = urlParams.get('variant');
+    const productId = urlParams.get('product');
     
-    if (variantId) {
-        // Actualizar la información de la variante en la UI
-        updateVariantInfo(variantId);
+    if (productId) {
+        // Actualizar la información del producto en la UI
+        updateVariantInfo(productId);
         
-        // Cargar las ofertas para la variante
-        fetchAllOffers(variantId);
+        // Cargar las ofertas para el producto
+        fetchAllOffers(productId);
         
         // Configurar el botón de volver
-        setupBackButton(variantId);
+        setupBackButton(productId);
     } else {
-        // Si no hay variante, mostrar error
+        // Si no hay producto, mostrar error
         document.getElementById('all-offers-list').innerHTML = 
-            '<div class="error">Error: No se especificó ninguna variante</div>';
+            '<div class="error">Error: No se especificó ningún producto</div>';
     }
 });
 
 /**
- * Actualiza la información de la variante en la interfaz
- * @param {string} variantId - ID de la variante
+ * Actualiza la información del producto en la interfaz
+ * @param {string} productId - ID del producto
  */
-function updateVariantInfo(variantId) {
-    // Extraer información de la variante del ID
-    const parts = variantId.split('-');
+function updateVariantInfo(productId) {
+    // Extraer información del producto del ID
+    const parts = productId.split('_');
     if (parts.length >= 3) {
         const model = parts[0];
         let color = parts[1];
@@ -53,31 +53,33 @@ function updateVariantInfo(variantId) {
 }
 
 /**
- * Configura el botón de volver al producto
- * @param {string} variantId - ID de la variante
+ * Configura el botón de volver a la página de detalles del producto
+ * @param {string} productId - ID del producto
  */
-function setupBackButton(variantId) {
-    const backButton = document.getElementById('back-to-product');
-    backButton.addEventListener('click', () => {
-        window.location.href = `index.html?variant=${variantId}`;
-    });
+function setupBackButton(productId) {
+    const backButton = document.querySelector('.back-button');
+    if (backButton) {
+        backButton.addEventListener('click', () => {
+            window.location.href = `index.html?product=${productId}`;
+        });
+    }
 }
 
 /**
- * Obtiene todas las ofertas desde la API para una variante específica
- * @param {string} variantId - ID de la variante
+ * Obtiene todas las ofertas desde la API para un producto específico
+ * @param {string} productId - ID del producto
  */
-async function fetchAllOffers(variantId) {
+async function fetchAllOffers(productId) {
     try {
-        // Mapeo de IDs de variante a nombres de archivos JSON disponibles
-        const variantToFileMap = {
+        // Mapeo de IDs de producto a nombres de archivos JSON disponibles
+        const productToFileMap = {
+            'iphone_14_pro_max': 'offers-iphone14-pro_max.json',
             'iphone14-morado_oscuro-128_gb': 'offers-iphone14-blue-128.json',
-            'iphone14-negro_espacial-128_gb': 'offers-iphone14-black-128.json',
-            'iphone14-pro-max': 'offers-iphone14-pro_max.json'
+            'iphone14-negro_espacial-128_gb': 'offers-iphone14-black-128.json'
         };
         
         // Determinar el archivo correcto a cargar
-        const fileName = variantToFileMap[variantId] || `offers-${variantId}.json`;
+        const fileName = productToFileMap[productId] || `offers-${productId}.json`;
         
         // URL de la API de ofertas para la variante seleccionada
         const apiUrl = `api/${fileName}`;

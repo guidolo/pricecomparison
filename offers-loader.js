@@ -3,12 +3,12 @@
  */
 
 /**
- * Obtiene las ofertas desde la API para una variante específica y filtra por color y almacenamiento
- * @param {string} variantId - ID de la variante
+ * Obtiene las ofertas desde la API para un producto específico y filtra por color y almacenamiento
+ * @param {string} productId - ID del producto
  * @param {string} color - Color seleccionado para filtrar las ofertas
  * @param {string} storage - Almacenamiento seleccionado para filtrar las ofertas
  */
-async function fetchOffers(variantId, color, storage) {
+async function fetchOffers(productId, color, storage) {
     try {
         // Usar el nuevo archivo de ofertas para iPhone 14 Pro Max
         const fileName = 'offers-iphone14-pro_max.json';
@@ -62,7 +62,7 @@ async function fetchOffers(variantId, color, storage) {
         updateOfferCount(filteredOffers.length);
         
         // Configurar el enlace "Ver todo"
-        setupViewAllLink(variantId, filteredOffers.length);
+        setupViewAllLink(productId, filteredOffers.length);
         
         // Renderizar solo las primeras 3 ofertas filtradas
         renderOffers(filteredOffers.slice(0, 3));
@@ -201,10 +201,10 @@ function createOfferElement(offer) {
 
 /**
  * Configura el enlace "Ver todo" para dirigir a la página de todas las ofertas
- * @param {string} variantId - ID de la variante
+ * @param {string} productId - ID del producto
  * @param {number} totalOffers - Número total de ofertas
  */
-function setupViewAllLink(variantId, totalOffers) {
+function setupViewAllLink(productId, totalOffers) {
     const viewAllLink = document.querySelector('.view-all');
     if (viewAllLink) {
         // Actualizar el texto del enlace si hay más de 3 ofertas
@@ -215,6 +215,6 @@ function setupViewAllLink(variantId, totalOffers) {
         }
         
         // Configurar el enlace para ir a la página de todas las ofertas
-        viewAllLink.href = `all-offers.html?variant=${variantId}`;
+        viewAllLink.href = `all-offers.html?product=${productId}`;
     }
 }
