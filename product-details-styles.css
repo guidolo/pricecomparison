@@ -22,3 +22,56 @@
 .back-to-search-btn:hover {
     color: #0058b0;
 }
+
+/* Estilos para la sección de información del producto */
+.product-details-section {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.product-details-header {
+    margin-bottom: 15px;
+}
+
+.product-details-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.product-details-content {
+    font-size: 14px;
+}
+
+.product-detail-category {
+    margin-bottom: 20px;
+}
+
+.product-detail-category-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.product-detail-item {
+    display: flex;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.product-detail-name {
+    font-weight: 500;
+    min-width: 120px;
+    color: #555;
+}
+
+.product-detail-value {
+    color: #333;
+    flex: 1;
+}
