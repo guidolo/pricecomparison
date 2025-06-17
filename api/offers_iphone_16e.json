@@ -1,0 +1,171 @@
+{
+  "product_id": "iphone16e",
+  "total_offers": 14,
+  "offers": [
+    {
+      "id": 1,
+      "variant_id": "iphone16e-blue-128",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "tag": "Mejor precio con envío",
+      "price": 100.90,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "amazon-1",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    },
+    {
+      "id": 2,
+      "variant_id": "iphone16e-blue-256",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "price": 200.00,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "04.06. - 05.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "mediamarkt-1",
+        "name": "MediaMarkt",
+        "logo": "https://cdn.kueskipay.com/v1/industries/fash.png",
+        "rating": 4.5
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://itrendstore.mx/"
+      }
+    },
+    {
+      "id": 3,
+      "variant_id": "iphone16e-black-128",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "tag": "Mejor precio con envío",
+      "price": 300.90,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "amazon-1",
+        "name": "Amazon",
+        "logo": "https://via.placeholder.com/80x30?text=Amazon",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    },
+    {
+      "id": 4,
+      "variant_id": "iphone16e-red-128",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "refurbished": true,
+      "refurbishedLabel": "Reacondicionado",
+      "price": 400.00,
+      "newPriceLabel": "Precio normal",
+      "newPrice": 709.90,
+      "merchant": {
+        "id": "backmarket-1",
+        "name": "Back Market",
+        "logo": "https://via.placeholder.com/80x30?text=BackMarket",
+        "rating": 4.3
+      },
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "05.06. - 07.06.",
+        "cost": "Envío gratuito"
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    },
+    {
+      "id": 5,
+      "variant_id": "iphone16e-blue-256",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "price": 500.90,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "amazon-1",
+        "name": "Amazon",
+        "logo": "https://via.placeholder.com/80x30?text=Amazon",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "#"
+      }
+    }
+  ]
+}

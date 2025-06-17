@@ -14,14 +14,9 @@ async function fetchOffers(productIdParam, color, storage) {
         const urlParams = new URLSearchParams(window.location.search);
         const productId = urlParams.get('product') || 'iphone_14_pro_max';
         
-        // Mapeo de IDs de producto a nombres de archivos JSON disponibles
-        const productToFileMap = {
-            'iphone_14_pro_max': 'offers-iphone14-pro_max.json',
-            'iphone_16e': 'offers-iphone16e.json'
-        };
-        
-        // Usar el archivo de ofertas correspondiente al producto o construir el nombre basado en el ID
-        const offersFileName = productToFileMap[productId] || `offers-${productId.replace('_', '')}.json`;
+        // Construir el nombre del archivo de ofertas basado en el ID del producto
+        // Ahora usamos una convención de nomenclatura consistente con underscores
+        const offersFileName = `offers_${productId}.json`;
         const apiUrl = `api/${offersFileName}`;
         
         // Mostrar indicador de carga

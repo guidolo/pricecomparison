@@ -71,15 +71,9 @@ function setupBackButton(productId) {
  */
 async function fetchAllOffers(productId) {
     try {
-        // Mapeo de IDs de producto a nombres de archivos JSON disponibles
-        const productToFileMap = {
-            'iphone_14_pro_max': 'offers-iphone14-pro_max.json',
-            'iphone14-morado_oscuro-128_gb': 'offers-iphone14-blue-128.json',
-            'iphone14-negro_espacial-128_gb': 'offers-iphone14-black-128.json'
-        };
-        
-        // Determinar el archivo correcto a cargar
-        const fileName = productToFileMap[productId] || `offers-${productId}.json`;
+        // Construir el nombre del archivo de ofertas basado en el ID del producto
+        // Ahora usamos una convención de nomenclatura consistente con underscores
+        const fileName = `offers_${productId}.json`;
         
         // URL de la API de ofertas para la variante seleccionada
         const apiUrl = `api/${fileName}`;
