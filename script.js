@@ -74,3 +74,33 @@ function updateTime() {
     const minutes = now.getMinutes().toString().padStart(2, '0');
     document.querySelector('.time').textContent = `${hours}:${minutes}`;
 }
+
+/**
+ * Agrega el producto a la wishlist
+ */
+function addToWishlist() {
+    const wishlistBtn = document.querySelector('.wishlist-btn');
+    const heartIcon = wishlistBtn.querySelector('i');
+    
+    // Cambiar el ícono de corazón vacío a lleno
+    heartIcon.classList.remove('far');
+    heartIcon.classList.add('fas');
+    
+    // Mostrar mensaje de confirmación
+    alert('Producto agregado a tu wishlist');
+}
+
+/**
+ * Configura una alerta de precio para el producto
+ */
+function setPriceAlert() {
+    const priceAlertBtn = document.querySelector('.price-alert-btn');
+    const bellIcon = priceAlertBtn.querySelector('i');
+    
+    // Cambiar el ícono de campana vacía a llena
+    bellIcon.classList.remove('far');
+    bellIcon.classList.add('fas');
+    
+    // Mostrar mensaje de confirmación
+    alert('Te avisaremos si el producto baja de precio');
+}

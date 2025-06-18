@@ -50,11 +50,22 @@ body {
     right: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 15px;
     z-index: 10;
 }
 
-.close-btn, .share-btn {
+.top-nav .left-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav .right-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.close-btn, .share-btn, .wishlist-btn, .price-alert-btn {
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -66,6 +77,30 @@ body {
     justify-content: center;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.close-btn:hover, .share-btn:hover, .wishlist-btn:hover, .price-alert-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.05);
+}
+
+/* Estilos específicos para el botón de wishlist */
+.wishlist-btn {
+    margin-left: 8px;
+}
+
+.wishlist-btn i.fas {
+    color: #e74c3c;
+}
+
+/* Estilos específicos para el botón de alerta de precio */
+.price-alert-btn {
+    margin-left: 8px;
+}
+
+.price-alert-btn i.fas {
+    color: #f39c12;
 }
 
 /* Carrusel de imágenes */

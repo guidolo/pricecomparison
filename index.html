@@ -24,8 +24,14 @@
         <div class="product-view">
             <!-- Botones de navegación superior -->
             <div class="top-nav">
-                <button class="close-btn"><i class="fas fa-times"></i></button>
-                <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                <div class="left-buttons">
+                    <button class="close-btn"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="right-buttons">
+                    <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                    <button class="wishlist-btn" onclick="addToWishlist()"><i class="far fa-heart"></i></button>
+                    <button class="price-alert-btn" onclick="setPriceAlert()"><i class="fas fa-bell"></i></button>
+                </div>
             </div>
 
             <!-- Carrusel de imágenes -->
