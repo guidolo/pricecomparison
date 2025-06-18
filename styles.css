@@ -490,3 +490,34 @@ body {
     font-size: 20px;
     margin-bottom: 5px;
 }
+
+/* Gráfico de precios */
+.price-chart-section {
+    padding: 0 15px 20px;
+    background: #f8fafd;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.price-chart-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-top: 18px;
+}
+.price-chart-header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a90e2;
+    margin: 0;
+}
+#priceChartCanvas {
+    width: 100% !important;
+    max-width: 100%;
+    background: #f8fafd;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    margin-bottom: 10px;
+    display: block;
+}
