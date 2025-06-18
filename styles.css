@@ -163,6 +163,12 @@ body {
     margin-bottom: 20px;
 }
 
+.rating-source {
+    color: #777;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
 .rating-value {
     font-weight: bold;
     margin-right: 5px;

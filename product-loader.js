@@ -215,11 +215,11 @@ function generateStarRating(rating) {
 function updateProductUI(product) {
     // Actualizar título y categoría
     document.querySelector('.product-title').textContent = product.name;
-    document.querySelector('.category').textContent = product.category || 'Handys & Smartphones';
+    document.querySelector('.category').textContent = product.category || 'Smartphones';
     
     // Actualizar calificación
     document.querySelector('.rating-value').textContent = product.rating.toString().replace('.', ',');
-    document.querySelector('.reviews-count').textContent = product.reviews_count;
+    document.querySelector('.reviews-count').textContent = `(${product.reviews_count})`;
     
     // Actualizar estrellas
     const starsContainer = document.querySelector('.stars');
