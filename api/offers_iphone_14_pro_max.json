@@ -15,6 +15,10 @@
           "name": "128 GB"
         }
       },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
       "tag": "Mejor precio con cashback",
       "price": 100.90,
       "taxInfo": "IVA incl.",
@@ -48,6 +52,10 @@
           "name": "256 GB"
         }
       },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
       "price": 200.00,
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -79,6 +87,10 @@
           "id": "128_gb",
           "name": "128 GB"
         }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
       },
       "tag": "Mejor precio con cashback",
       "price": 300.90,
@@ -112,6 +124,10 @@
           "id": "128_gb",
           "name": "128 GB"
         }
+      },
+      "condition": {
+        "id": "refurbished",
+        "name": "Reacondicionado"
       },
       "refurbished": true,
       "refurbishedLabel": "Reacondicionado",
@@ -147,6 +163,10 @@
           "id": "256_gb",
           "name": "256 GB"
         }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
       },
       "price": 500.90,
       "taxInfo": "IVA incl.",

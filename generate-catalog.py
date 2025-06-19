@@ -6,27 +6,32 @@ from pathlib import Path
 
 # Paths to the files
 API_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'api')
+PRODUCTS_DIR = os.path.join(API_DIR, 'products')
+OFFERS_DIR = os.path.join(API_DIR, 'offers')
 CONSOLIDATED_FILE_PATTERN = re.compile(r'_consolidated\.json$')
-OFFERS_FILE_PATTERN = re.compile(r'^offers-.*\.json$')
 PRODUCT_CATALOG_FILE = os.path.join(API_DIR, 'product-catalog.json')
 
 # Function to get all consolidated files
 def get_consolidated_files():
-    return [os.path.join(API_DIR, f) for f in os.listdir(API_DIR) 
+    if not os.path.exists(PRODUCTS_DIR):
+        print(f"Products directory not found: {PRODUCTS_DIR}")
+        return []
+    return [os.path.join(PRODUCTS_DIR, f) for f in os.listdir(PRODUCTS_DIR) 
             if CONSOLIDATED_FILE_PATTERN.search(f)]
 
 # Function to get all offers files
 def get_offers_files():
-    return [os.path.join(API_DIR, f) for f in os.listdir(API_DIR) 
-            if OFFERS_FILE_PATTERN.search(f)]
+    if not os.path.exists(OFFERS_DIR):
+        print(f"Offers directory not found: {OFFERS_DIR}")
+        return []
+    return [os.path.join(OFFERS_DIR, f) for f in os.listdir(OFFERS_DIR) 
+            if f.endswith('.json')]
 
 # Function to extract product ID from filename
 def extract_product_id_from_filename(filename):
     basename = os.path.basename(filename).replace('.json', '')
     if '_consolidated' in basename:
         return basename.replace('_consolidated', '')
-    elif basename.startswith('offers-'):
-        return basename.replace('offers-', '')
     return basename
 
 # Function to normalize product ID for comparison
@@ -50,11 +55,24 @@ def get_lowest_price(offers):
     print(f"Found {len(offers)} offers with prices: {[offer.get('price', 'N/A') for offer in offers]}")
     
     # Make sure we only consider offers with valid prices
-    valid_prices = [offer.get('price', float('inf')) for offer in offers if 'price' in offer]
+    valid_prices = []
+    for offer in offers:
+        if 'price' in offer and isinstance(offer['price'], (int, float)) and offer['price'] > 0:
+            valid_prices.append(offer['price'])
+    
     if not valid_prices:
+        print("  No valid prices found in offers")
         return 0
     
-    return min(valid_prices)
+    min_price = min(valid_prices)
+    print(f"  Minimum price found: {min_price}")
+    return min_price
+
+# Function to get offer count
+def get_offer_count(offers):
+    if not offers:
+        return 0
+    return len(offers)
 
 # Function to extract unique variants from offers
 def extract_variants(offers):
@@ -74,6 +92,9 @@ def generate_product_catalog():
     consolidated_files = get_consolidated_files()
     offers_files = get_offers_files()
     
+    print(f"Found {len(consolidated_files)} consolidated files in {PRODUCTS_DIR}")
+    print(f"Found {len(offers_files)} offers files in {OFFERS_DIR}")
+    
     products = []
     
     # Process each consolidated file
@@ -85,33 +106,21 @@ def generate_product_catalog():
         
         # Find corresponding offers file
         offers_file = None
-        normalized_product_id = normalize_product_id(product_id)
         
-        print(f"Looking for offers file for product ID: {product_id} (normalized: {normalized_product_id})")
+        print(f"Looking for offers file for product ID: {product_id}")
         
-        # Based on the memory about the project, we know there's a discrepancy between IDs
-        # Direct mapping for the known case
-        if product_id == 'iphone_14_pro_max':
-            for file in offers_files:
-                if 'iphone14-pro_max' in file or 'iphone14-pro-max' in file:
-                    offers_file = file
-                    print(f"  Found matching offers file using direct mapping: {os.path.basename(file)}")
-                    break
-        
-        # If direct mapping didn't work, try the normalized approach
-        if not offers_file:
-            for file in offers_files:
-                file_basename = os.path.basename(file)
-                offers_product_id = normalize_product_id(extract_product_id_from_filename(file))
-                print(f"  Checking file: {file_basename} (extracted ID: {offers_product_id})")
-                
-                # Check if the normalized product IDs match
-                if normalized_product_id == offers_product_id or \
-                   normalized_product_id in offers_product_id or \
-                   offers_product_id in normalized_product_id:
-                    offers_file = file
-                    print(f"  Found matching offers file: {file_basename}")
-                    break
+        # Look for the offers file with the same product ID
+        for file in offers_files:
+            file_basename = os.path.basename(file)
+            offers_product_id = extract_product_id_from_filename(file)
+            
+            print(f"  Checking file: {file_basename} (extracted ID: {offers_product_id})")
+            
+            # Check if the product IDs match
+            if product_id == offers_product_id:
+                offers_file = file
+                print(f"  Found matching offers file: {file_basename}")
+                break
         
         offers = []
         if offers_file:
@@ -133,6 +142,10 @@ def generate_product_catalog():
         if 'images' in product and len(product['images']) > 0:
             main_image = product['images'][0].get('url', '')
         
+        # Get price and offer count
+        min_price = get_lowest_price(offers)
+        offer_count = get_offer_count(offers)
+        
         # Create product entry for catalog
         product_entry = {
             'id': product_id,
@@ -140,7 +153,8 @@ def generate_product_catalog():
             'category': product.get('category', 'Smartphones'),
             'image': main_image,
             'description': product.get('description', ''),
-            'price_from': get_lowest_price(offers)
+            'price_from': min_price,
+            'offer_count': offer_count
             # Removed variants field as requested
         }
         

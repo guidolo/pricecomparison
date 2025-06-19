@@ -1,0 +1,276 @@
+{
+  "product": {
+    "id": "MLA47769395",
+    "name": "iPhone 15",
+    "category": "",
+    "description": "Doble cámara y más detalles\nSus 2 cámaras traseras de 48 Mpx/12 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.\n\nAdemás, el dispositivo cuenta con cámara frontal de 12 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas.\n\nMás para ver\nCon su pantalla OLED de 6.1\", disfruta de colores intensos y mayor nitidez en todos tus contenidos.\n\nCapacidad y eficiencia\nCon su potente procesador y memoria RAM de 6 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras.\n\nGran capacidad de almacenamiento\nCon su memoria interna de 128 GB podrás almacenar archivos y aplicaciones de gran tamaño sin necesidad de subirlos a la nube y aprovechar tus momentos sin conexión para darles el máximo uso. \n\n",
+    "rating": 0,
+    "reviews_count": 0,
+    "brand": "",
+    "model": "iPhone 15",
+    "release_year": "",
+    "pickers": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          {
+            "id": "negro",
+            "name": "Negro",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_679803-MLA83299498606_042025-I.jpg"
+          },
+          {
+            "id": "amarillo",
+            "name": "Amarillo",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_829804-MLA71783084924_092023-I.jpg"
+          },
+          {
+            "id": "azul",
+            "name": "Azul",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_759471-MLA71782897602_092023-I.jpg"
+          },
+          {
+            "id": "rosa",
+            "name": "Rosa",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_958009-MLA71782868134_092023-I.jpg"
+          },
+          {
+            "id": "verde",
+            "name": "Verde",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_767731-MLA71782898424_092023-I.jpg"
+          }
+        ]
+      },
+      {
+        "id": "internal_memory",
+        "name": "Memoria interna",
+        "values": [
+          {
+            "id": "128_gb",
+            "name": "128 GB"
+          },
+          {
+            "id": "256_gb",
+            "name": "256 GB"
+          },
+          {
+            "id": "512_gb",
+            "name": "512 GB"
+          }
+        ]
+      },
+      {
+        "id": "ram",
+        "name": "Memoria RAM",
+        "values": [
+          {
+            "id": "6_gb",
+            "name": "6 GB"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_679803-MLA83299498606_042025-F.jpg",
+        "position": 1,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA47769395"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_665689-MLA83299498610_042025-F.jpg",
+        "position": 2,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA47769395"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_728828-MLA83590854223_042025-F.jpg",
+        "position": 3,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA47769395"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_779617-MLA71782867320_092023-F.jpg",
+        "position": 4,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA27172669"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_697184-MLU75479568087_032024-F.jpg",
+        "position": 5,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA27172669"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_958009-MLA71782868134_092023-F.jpg",
+        "position": 1,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA27172675"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_949596-MLA71835514567_092023-F.jpg",
+        "position": 2,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA27172675"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_656414-MLA71783085090_092023-F.jpg",
+        "position": 3,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA27172675"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_791726-MLA71835622157_092023-F.jpg",
+        "position": 4,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA27172675"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_882756-MLA71835622161_092023-F.jpg",
+        "position": 5,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA27172675"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_759471-MLA71782897602_092023-F.jpg",
+        "position": 1,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA27172673"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_642502-MLU75174531476_032024-F.jpg",
+        "position": 2,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA27172673"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_631505-MLU75764102101_042024-F.jpg",
+        "position": 3,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA27172673"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_641585-MLA71782867614_092023-F.jpg",
+        "position": 4,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA27172673"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_966883-MLA71835504613_092023-F.jpg",
+        "position": 5,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA27172673"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_767731-MLA71782898424_092023-F.jpg",
+        "position": 1,
+        "color": "Verde",
+        "use_picker_id": [
+          "MLA27172676"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_686037-MLU75326684573_032024-F.jpg",
+        "position": 2,
+        "color": "Verde",
+        "use_picker_id": [
+          "MLA27172676"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_834938-MLU75326800579_032024-F.jpg",
+        "position": 3,
+        "color": "Verde",
+        "use_picker_id": [
+          "MLA27172676"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_815185-MLA71782898432_092023-F.jpg",
+        "position": 4,
+        "color": "Verde",
+        "use_picker_id": [
+          "MLA27172676"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_725426-MLA71782898434_092023-F.jpg",
+        "position": 5,
+        "color": "Verde",
+        "use_picker_id": [
+          "MLA27172676"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_829804-MLA71783084924_092023-F.jpg",
+        "position": 1,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA27172679"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_848396-MLA71782867958_092023-F.jpg",
+        "position": 2,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA27172679"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_961749-MLA71782897908_092023-F.jpg",
+        "position": 3,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA27172679"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_631536-MLA71782867962_092023-F.jpg",
+        "position": 4,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA27172679"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_970257-MLA71835514381_092023-F.jpg",
+        "position": 5,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA27172679"
+        ]
+      }
+    ]
+  }
+}

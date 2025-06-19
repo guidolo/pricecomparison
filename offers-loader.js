@@ -16,8 +16,8 @@ async function fetchOffers(productIdParam, color, storage) {
         
         // Construir el nombre del archivo de ofertas basado en el ID del producto
         // Ahora usamos una convención de nomenclatura consistente con underscores
-        const offersFileName = `offers_${productId}.json`;
-        const apiUrl = `api/${offersFileName}`;
+        const offersFileName = `${productId}.json`;
+        const apiUrl = `api/offers/${offersFileName}`;
         
         // Mostrar indicador de carga
         const offersSection = document.querySelector('.offers-list');

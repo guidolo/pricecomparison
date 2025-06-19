@@ -1,0 +1,117 @@
+{
+  "product_id": "iphone15promax",
+  "total_offers": 3,
+  "offers": [
+    {
+      "id": "195949046513_82925-751534892406662",
+      "variant_id": "iphone15promax-blanco-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 26999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-15-pro-max/p"
+      }
+    },
+    {
+      "id": "195949046995_82925-751534892406662",
+      "variant_id": "iphone15promax-azul-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-15-pro-max/p"
+      }
+    },
+    {
+      "id": "B0CMZDBVWT-526202704834412",
+      "variant_id": "iphone15promax-titanio-azul-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio azul",
+          "name": "Titanio Azul"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19027.03,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CMZDBVWT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    }
+  ]
+}

@@ -110,7 +110,7 @@ function setupProductOptionEvents() {
 async function fetchProductData(skipUpdateUI = false) {
     try {
         // Construir el path del archivo JSON según el producto
-        const apiUrl = `api/${currentVariantId}_consolidated.json`;
+        const apiUrl = `api/products/${currentVariantId}_consolidated.json`;
         
         // Hacer la petición a la API
         const response = await fetch(apiUrl);

@@ -45,12 +45,16 @@
         ]
       },
       {
-        "id": "ram",
-        "name": "Memoria RAM",
+        "id": "condition",
+        "name": "Estado",
         "values": [
           {
-            "id": "8_gb",
-            "name": "8 GB"
+            "id": "new",
+            "name": "Nuevo"
+          },
+          {
+            "id": "refurbished",
+            "name": "Reacondicionado"
           }
         ]
       }

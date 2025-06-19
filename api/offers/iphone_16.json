@@ -1,0 +1,857 @@
+{
+  "product_id": "iphone16",
+  "total_offers": 23,
+  "offers": [
+    {
+      "id": "195949821332_88187-751534892406662",
+      "variant_id": "iphone16-ultramarino-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "ultramarino",
+          "name": "Ultramarino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821530_88187-751534892406662",
+      "variant_id": "iphone16-ultramarino-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "ultramarino",
+          "name": "Ultramarino"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821615_88187-751534892406662",
+      "variant_id": "iphone16-negro-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821691_88187-751534892406662",
+      "variant_id": "iphone16-rosa-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821257_88187-751534892406662",
+      "variant_id": "iphone16-blanco-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821295_88187-751534892406662",
+      "variant_id": "iphone16-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821455_88187-751534892406662",
+      "variant_id": "iphone16-blanco-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821578_88187-751534892406662",
+      "variant_id": "iphone16-verde-azulado-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde azulado",
+          "name": "Verde Azulado"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821219_88187-751534892406662",
+      "variant_id": "iphone16-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821653_88187-751534892406662",
+      "variant_id": "iphone16-blanco-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821493_88187-751534892406662",
+      "variant_id": "iphone16-rosa-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821370_88187-751534892406662",
+      "variant_id": "iphone16-verde-azulado-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde azulado",
+          "name": "Verde Azulado"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821776_88187-751534892406662",
+      "variant_id": "iphone16-verde-azulado-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde azulado",
+          "name": "Verde Azulado"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821738_88187-751534892406662",
+      "variant_id": "iphone16-ultramarino-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "ultramarino",
+          "name": "Ultramarino"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821417_88187-751534892406662",
+      "variant_id": "iphone16-negro-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "B0DGJL7WQ9-526202704834412",
+      "variant_id": "iphone16-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 17999.1,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJL7WQ9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJ1DGFT-526202704834412",
+      "variant_id": "iphone16-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19602.3,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJ1DGFT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJ9JGSK-526202704834412",
+      "variant_id": "iphone16-negro-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJ9JGSK?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJ7N1KM-526202704834412",
+      "variant_id": "iphone16-rosa-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 24749.1,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJ7N1KM?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJ66HHK-526202704834412",
+      "variant_id": "iphone16-rosa-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 20249.1,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJ66HHK?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJCD9ZQ-526202704834412",
+      "variant_id": "iphone16-verde-azulado-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde azulado",
+          "name": "Verde Azulado"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJCD9ZQ?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJJ5BM1-526202704834412",
+      "variant_id": "iphone16-blanco-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 17999.1,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJJ5BM1?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJMC6HR-526202704834412",
+      "variant_id": "iphone16-ultramarino-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "ultramarino",
+          "name": "Ultramarino"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 24749.1,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJMC6HR?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    }
+  ]
+}

@@ -59,12 +59,16 @@
         ]
       },
       {
-        "id": "ram",
-        "name": "Memoria RAM",
+        "id": "condition",
+        "name": "Estado",
         "values": [
           {
-            "id": "mla19615354",
-            "name": "6 GB"
+            "id": "new",
+            "name": "Nuevo"
+          },
+          {
+            "id": "refurbished",
+            "name": "Reacondicionado"
           }
         ]
       }

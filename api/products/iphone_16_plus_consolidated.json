@@ -1,0 +1,236 @@
+{
+  "product": {
+    "id": "MLA40287827",
+    "name": "iPhone 16 Plus",
+    "category": "",
+    "description": "iPhone 16 Plus. \n\nCon Control de la Cámara. Cámara Fusion de 48 MP. Cinco colores espectaculares. Y el chip A18.\n\n• CONTROL DE LA CÁMARA — Con esta nueva funcionalidad podrás acceder fácilmente a las herramientas de la cámara, como el zoom o la profundidad de campo, para que no se te escape ni un momento. \n\n• CAPTURAS MÁS AMPLIAS Y DETALLADAS — La mejorada cámara ultra gran angular con autoenfoque te permite capturar videos y fotos macro con un asombroso nivel de detalle y nitidez. Usa la cámara Fusion de 48 MP para tomar fotos increíbles de alta resolución y haz zoom con la cámara teleobjetivo de calidad óptica de 2x. \n\n• ESTILOS FOTOGRÁFICOS — La nueva generación de Estilos Fotográficos te da más libertad creativa para que cada foto tenga tu sello personal. Y ahora puedes revertir cualquier estilo que hayas elegido, en cualquier momento. ¿Cambiaste de idea? No pasa nada. \n\n• CHIP A18 SUPERPODEROSO — El chip A18 es dos generaciones más avanzado que el chip A16 Bionic del iPhone 15. Es el motor detrás de Apple Intelligence y te permite disfrutar funcionalidades de foto y video avanzadas y juegos del más alto nivel con gran eficiencia. \n\n• MAYOR DURACIÓN DE LA BATERÍA — El iPhone 16 se complementa a la perfección con el chip A18, y juntos logran un gran salto en la duración de la batería: hasta 22 horas de reproducción de video.¹ Acopla un cargador MagSafe para obtener una carga inalámbrica más rápida o carga a través del puerto USB-C.² \n\n• DISEÑADO PARA DURAR — El iPhone 16 tiene un resistente diseño de aluminio de grado aeroespacial con una pantalla Super Retina XDR de 6,1 pulgadas.³ Es increíblemente duradero gracias al Ceramic Shield de última generación, que es dos veces más resistente que cualquier vidrio de smartphone. \n\n• BOTÓN DE ACCIÓN — Un atajo a tus funcionalidades favoritas. Mantenlo presionado para encender la linterna, grabar una nota de voz, activar el modo Silencio y mas.\n\n• PERSONALIZA TU IPHONE — Con iOS 18 puedes cambiar el color de los íconos de la pantalla de inicio a tu gusto. Encuentra tus tomas favoritas en un flash en la rediseñada app Fotos. Y agrega divertidos efectos animados a cualquier palabra, frase o emoji en iMessage. \n\n• FUNCIONALIDADES ESENCIALES DE SEGURIDAD — Con Detección de Choques, el iPhone puede detectar si sufres un accidente automovilístico grave y pedir ayuda cuando tú no puedes.\n\nAviso legal\n1 La duracion de la bateria varia segun el uso y la configuracion. Para obtener mas informacion, visita apple.com/la/batteries.\n2 Los accesorios se venden por separado.\t\t\t\t\n3 Las pantallas tienen las esquinas redondeadas. Si se mide en forma de rectangulo, la pantalla tiene 6.12 pulgadas (iPhone 16), 6.69 pulgadas (iPhone 16 Plus), 6.27 pulgadas (iPhone 16 Pro) o 6.86 pulgadas (iPhone 16 Pro Max) en diagonal. El area real de visualizacion es menor.\t\t\t\t\t\n4 Algunas funcionalidades podrian no estar disponibles en todos los paises o areas.\t\t\t\t\n5 El iPhone 16 y el iPhone 16 Pro pueden detectar si sufres un accidente de auto grave y pedir ayuda. Requiere conexion celular o llamadas por Wi-Fi.",
+    "rating": 0,
+    "reviews_count": 0,
+    "brand": "",
+    "model": "iPhone 16 Plus",
+    "release_year": "",
+    "pickers": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          {
+            "id": "blanco",
+            "name": "Blanco",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_676339-MLU78877718604_092024-I.jpg"
+          },
+          {
+            "id": "negro",
+            "name": "Negro",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_638107-MLU78878968738_092024-I.jpg"
+          },
+          {
+            "id": "rosa",
+            "name": "Rosa",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_620236-MLU79129486341_092024-I.jpg"
+          },
+          {
+            "id": "ultramarino",
+            "name": "Ultramarino",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_678730-MLU79130251073_092024-I.jpg"
+          },
+          {
+            "id": "verde_azulado",
+            "name": "Verde azulado",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_742821-MLU79116948745_092024-I.jpg"
+          }
+        ]
+      },
+      {
+        "id": "internal_memory",
+        "name": "Memoria interna",
+        "values": [
+          {
+            "id": "128_gb",
+            "name": "128 GB"
+          },
+          {
+            "id": "256_gb",
+            "name": "256 GB"
+          },
+          {
+            "id": "512_gb",
+            "name": "512 GB"
+          }
+        ]
+      },
+      {
+        "id": "ram",
+        "name": "Memoria RAM",
+        "values": [
+          {
+            "id": "8_gb",
+            "name": "8 GB"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_638107-MLU78878968738_092024-F.jpg",
+        "position": 1,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA40287827"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_612674-MLU78878919758_092024-F.jpg",
+        "position": 2,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA40287827"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_741819-MLU79116566723_092024-F.jpg",
+        "position": 3,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA40287827"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_761251-MLU79116566777_092024-F.jpg",
+        "position": 4,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA40287827"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_955028-MLU78878968754_092024-F.jpg",
+        "position": 5,
+        "color": "Negro",
+        "use_picker_id": [
+          "MLA40287827"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_678730-MLU79130251073_092024-F.jpg",
+        "position": 1,
+        "color": "Ultramarino",
+        "use_picker_id": [
+          "MLA40287819"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_820683-MLU79130714955_092024-F.jpg",
+        "position": 2,
+        "color": "Ultramarino",
+        "use_picker_id": [
+          "MLA40287819"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_611776-MLU79130300563_092024-F.jpg",
+        "position": 3,
+        "color": "Ultramarino",
+        "use_picker_id": [
+          "MLA40287819"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_916685-MLU79130251085_092024-F.jpg",
+        "position": 4,
+        "color": "Ultramarino",
+        "use_picker_id": [
+          "MLA40287819"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_773385-MLU79130251095_092024-F.jpg",
+        "position": 5,
+        "color": "Ultramarino",
+        "use_picker_id": [
+          "MLA40287819"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_676339-MLU78877718604_092024-F.jpg",
+        "position": 1,
+        "color": "Blanco",
+        "use_picker_id": [
+          "MLA40287820"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_743750-MLU78877718608_092024-F.jpg",
+        "position": 2,
+        "color": "Blanco",
+        "use_picker_id": [
+          "MLA40287820"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_728902-MLU78877718610_092024-F.jpg",
+        "position": 3,
+        "color": "Blanco",
+        "use_picker_id": [
+          "MLA40287820"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_893592-MLU79115058827_092024-F.jpg",
+        "position": 4,
+        "color": "Blanco",
+        "use_picker_id": [
+          "MLA40287820"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_807969-MLU78877600534_092024-F.jpg",
+        "position": 5,
+        "color": "Blanco",
+        "use_picker_id": [
+          "MLA40287820"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_620236-MLU79129486341_092024-F.jpg",
+        "position": 1,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA40287817"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_864812-MLU78891592322_092024-F.jpg",
+        "position": 2,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA40287817"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_873511-MLU78891592342_092024-F.jpg",
+        "position": 3,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA40287817"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_622687-MLU79129350415_092024-F.jpg",
+        "position": 4,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA40287817"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_776348-MLU79129350427_092024-F.jpg",
+        "position": 5,
+        "color": "Rosa",
+        "use_picker_id": [
+          "MLA40287817"
+        ]
+      }
+    ]
+  }
+}

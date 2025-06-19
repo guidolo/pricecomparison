@@ -1,0 +1,245 @@
+{
+  "product": {
+    "id": "MLA24156592",
+    "name": "iPhone 14",
+    "category": "",
+    "description": "Doble cámara y más detalles\nSus 2 cámaras traseras de 12 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.\n\nAdemás, con la cámara frontal con flash preparate para compartir selfies más iluminadas en tus redes sociales.\n\nMás para ver\nCon su pantalla OLED de 6.1\", disfrutá de colores intensos y mayor nitidez en todos tus contenidos.\n\nMayor rendimiento\nSu memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar.\n\nReconocimiento facial para mayor seguridad\nAcercá el dispositivo a tu rostro para desbloquearlo instantáneamente. Su precisa tecnología de reconocimiento facial te garantiza un acceso al equipo rápido y seguro. \n\nCapacidad de almacenamiento ilimitada\nOlvidate de borrar. Con su memoria interna de 512 GB podrás descargar todos los archivos y aplicaciones que necesites, guardar fotos y almacenar tus películas, series y videos favoritos para reproducirlos cuando quieras.",
+    "rating": 0,
+    "reviews_count": 0,
+    "brand": "",
+    "model": "iPhone 14",
+    "release_year": "",
+    "pickers": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          {
+            "id": "(product)red",
+            "name": "(Product)Red",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_761864-MLM51559384514_092022-I.jpg"
+          },
+          {
+            "id": "amarillo",
+            "name": "Amarillo",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_733258-MLA74807972917_022024-I.jpg"
+          },
+          {
+            "id": "azul",
+            "name": "Azul",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_864844-MLM51559388062_092022-I.jpg"
+          },
+          {
+            "id": "blanco_estelar",
+            "name": "Blanco estelar",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_918579-MLM51559384401_092022-I.jpg"
+          },
+          {
+            "id": "medianoche",
+            "name": "Medianoche",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_881016-MLM51559383738_092022-I.jpg"
+          },
+          {
+            "id": "morado",
+            "name": "Morado",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_786356-MLM51559385272_092022-I.jpg"
+          }
+        ]
+      },
+      {
+        "id": "internal_memory",
+        "name": "Memoria interna",
+        "values": [
+          {
+            "id": "128_gb",
+            "name": "128 GB"
+          },
+          {
+            "id": "256_gb",
+            "name": "256 GB"
+          },
+          {
+            "id": "512_gb",
+            "name": "512 GB"
+          }
+        ]
+      },
+      {
+        "id": "ram",
+        "name": "Memoria RAM",
+        "values": [
+          {
+            "id": "4_gb",
+            "name": "4 GB"
+          },
+          {
+            "id": "6_gb",
+            "name": "6 GB"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_733258-MLA74807972917_022024-F.jpg",
+        "position": 1,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24156592"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_668585-MLA74806231471_022024-F.jpg",
+        "position": 2,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24156592"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_977963-MLU77718982589_072024-F.jpg",
+        "position": 3,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24156592"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_811496-MLA70199331677_062023-F.jpg",
+        "position": 4,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24156592"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_620221-MLA70198924127_062023-F.jpg",
+        "position": 5,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24156592"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_864844-MLM51559388062_092022-F.jpg",
+        "position": 1,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615370"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_973080-MLM51559388065_092022-F.jpg",
+        "position": 2,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615370"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_767370-MLM74220097487_012024-F.jpg",
+        "position": 3,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615370"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_777926-MLA79644385935_092024-F.jpg",
+        "position": 4,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615370"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_685650-MLA79399673960_092024-F.jpg",
+        "position": 5,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615370"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_786356-MLM51559385272_092022-F.jpg",
+        "position": 1,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615346"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_719890-MLM51559385271_092022-F.jpg",
+        "position": 2,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615346"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_977458-MLM74111687892_012024-F.jpg",
+        "position": 3,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615346"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_786208-MLA79521264266_102024-F.jpg",
+        "position": 4,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615346"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_903595-MLA79768718199_102024-F.jpg",
+        "position": 5,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615346"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_881016-MLM51559383738_092022-F.jpg",
+        "position": 1,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615351"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_614419-MLM51559383743_092022-F.jpg",
+        "position": 2,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615351"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_800271-MLM74117531714_012024-F.jpg",
+        "position": 3,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615351"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_683496-MLU78494765398_082024-F.jpg",
+        "position": 4,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615351"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_964719-MLU78494430894_082024-F.jpg",
+        "position": 5,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615351"
+        ]
+      }
+    ]
+  }
+}

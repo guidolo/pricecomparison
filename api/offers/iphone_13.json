@@ -1,0 +1,524 @@
+{
+  "product_id": "iphone13",
+  "total_offers": 14,
+  "offers": [
+    {
+      "id": "194252838020_3909-751534892406662",
+      "variant_id": "iphone13-azul-medianoche-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul medianoche",
+          "name": "Azul Medianoche"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 12499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-13/p"
+      }
+    },
+    {
+      "id": "194252838037_3909-751534892406662",
+      "variant_id": "iphone13-blanco-estelar-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco estelar",
+          "name": "Blanco Estelar"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 12499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-13/p"
+      }
+    },
+    {
+      "id": "B09G9BPPHR-526202704834412",
+      "variant_id": "iphone13-azul-sierra-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 33999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9BPPHR?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G8Y37WT-526202704834412",
+      "variant_id": "iphone13-color-grafito-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "color grafito",
+          "name": "Color Grafito"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 26999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G8Y37WT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9BQDNL-526202704834412",
+      "variant_id": "iphone13-rojo-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rojo",
+          "name": "Rojo"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 23999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9BQDNL?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G95TGCS-526202704834412",
+      "variant_id": "iphone13-azul-sierra-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 33299.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G95TGCS?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9PZJ4S-526202704834412",
+      "variant_id": "iphone13-azul-medianoche-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul medianoche",
+          "name": "Azul Medianoche"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 23999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9PZJ4S?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09V3JKYX9-526202704834412",
+      "variant_id": "iphone13-verde-alpino-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde alpino",
+          "name": "Verde Alpino"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 33999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09V3JKYX9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9Q79Z9-526202704834412",
+      "variant_id": "iphone13-rosa-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "used",
+        "name": "Usado"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 17529.9,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9Q79Z9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G99WZJT-526202704834412",
+      "variant_id": "iphone13-color-plata-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "color plata",
+          "name": "Color Plata"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 38999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G99WZJT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9BMPM8-526202704834412",
+      "variant_id": "iphone13-azul-sierra-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 38999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9BMPM8?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09V3JCC1Y-526202704834412",
+      "variant_id": "iphone13-verde-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 23999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09V3JCC1Y?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09V3H4T7H-526202704834412",
+      "variant_id": "iphone13-verde-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 18999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09V3H4T7H?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9FN6X7-526202704834412",
+      "variant_id": "iphone13-color-grafito-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "color grafito",
+          "name": "Color Grafito"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 31998.99,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9FN6X7?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    }
+  ]
+}

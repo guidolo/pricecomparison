@@ -1,0 +1,235 @@
+{
+  "product": {
+    "id": "MLA27172698",
+    "name": "iPhone 15 Pro",
+    "category": "",
+    "description": "iPhone 15 Pro. Forjado en titanio y equipado con el revolucionario chip A17 Pro, un Botón de Acción personalizable y el sistema de cámaras Pro más versátil.\n\nFORJADO EN TITANIO — El iPhone 15 Pro tiene un diseño resistente y ligero, con titanio de calidad aeroespacial y parte posterior de vidrio mate texturizado. Frente de Ceramic Shield, más duro que el vidrio más duro de cualquier smartphone. Y resistencia a las salpicaduras, al agua y al polvo.\n\nPANTALLA AVANZADA — La pantalla Super Retina XDR de 6.1 pulgadas con ProMotion aumenta la frecuencia de actualización hasta 120 Hz cuando necesitas el máximo rendimiento gráfico. La Dynamic Island muestra alertas y Actividades en Vivo al instante. Y la pantalla siempre activa te permite tener información siempre a la vista sin mover un dedo.\n\nREVOLUCIONARIO CHIP A17 PRO — Con el GPU de nivel pro, los juegos móviles son más inmersivos, con escenarios llenos de detalles y personajes más realistas. Y el chip A17 Pro es tan eficiente que la batería es capaz de seguirte el ritmo todo el día.\n\nSISTEMA DE CÁMARAS PRO — Multiplica tus opciones de encuadre con 7 lentes pro. Toma fotos en superalta resolución con más colores y detalles que nunca con la cámara gran angular de 48 MP. Y captura primeros planos supernítidos desde más lejos con la cámara teleobjetivo de 5x del iPhone 15 Pro Max.\n\nBOTÓN DE ACCIÓN PERSONALIZABLE — El Botón de Acción te lleva volando a tu funcionalidad favorita, como el modo Silencio, Cámara, Nota de Voz o Atajos. Configúralo con la que quieras usar y mantenlo presionado para que haga su magia.\n\nCONEXION ES MUY PRO — El nuevo conector USB-C te permite cargar tu Mac o iPad con el mismo cable que usas para cargar el iPhone 15 Pro. Con USB 3, las velocidades de transferencia pisan el acelerador a fondo. Y con la conexión WiFi 6E, podrás descargar archivos hasta el doble de rápido.\n\nFUNCIONALIDAD ESENCIAL DE SEGURIDAD — Con Detección de Choques, el iPhone puede identificar si sufres un accidente de auto grave y pedir ayuda cuando tú no puedes.\n\nINNOVACIONES QUE MARCAN LA DIFERENCIA — El iPhone cuenta con tecnologías de privacidad que te ayudan a mantener el control de tus datos. Está fabricado con más materiales reciclados para reducir su impacto medioambiental. Y viene con funcionalidades integradas que lo hacen accesible para todo el mundo.\n\n",
+    "rating": 0,
+    "reviews_count": 0,
+    "brand": "",
+    "model": "iPhone 15 Pro",
+    "release_year": "",
+    "pickers": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          {
+            "id": "titanio_azul",
+            "name": "Titanio azul",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_918178-MLA71783088444_092023-I.jpg"
+          },
+          {
+            "id": "titanio_blanco",
+            "name": "Titanio blanco",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_812116-MLA71783168214_092023-I.jpg"
+          },
+          {
+            "id": "titanio_natural",
+            "name": "Titanio natural",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_878826-MLA71783168396_092023-I.jpg"
+          },
+          {
+            "id": "titanio_negro",
+            "name": "Titanio negro",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_891263-MLA71783089058_092023-I.jpg"
+          }
+        ]
+      },
+      {
+        "id": "internal_memory",
+        "name": "Memoria interna",
+        "values": [
+          {
+            "id": "128_gb",
+            "name": "128 GB"
+          },
+          {
+            "id": "256_gb",
+            "name": "256 GB"
+          },
+          {
+            "id": "512_gb",
+            "name": "512 GB"
+          },
+          {
+            "id": "1_tb",
+            "name": "1 TB"
+          }
+        ]
+      },
+      {
+        "id": "ram",
+        "name": "Memoria RAM",
+        "values": [
+          {
+            "id": "8_gb",
+            "name": "8 GB"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_918178-MLA71783088444_092023-F.jpg",
+        "position": 1,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172698"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_605781-MLU75330726421_032024-F.jpg",
+        "position": 2,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172698"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_604329-MLU75330431101_032024-F.jpg",
+        "position": 3,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172698"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_910605-MLU75330314615_032024-F.jpg",
+        "position": 4,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172698"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_710827-MLA71782871522_092023-F.jpg",
+        "position": 5,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172698"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_878826-MLA71783168396_092023-F.jpg",
+        "position": 1,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172713"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_786538-MLU75321472975_032024-F.jpg",
+        "position": 2,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172713"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_665483-MLU75321394319_032024-F.jpg",
+        "position": 3,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172713"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_795813-MLU75321472985_032024-F.jpg",
+        "position": 4,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172713"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_649336-MLA71782871946_092023-F.jpg",
+        "position": 5,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172713"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_812116-MLA71783168214_092023-F.jpg",
+        "position": 1,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172707"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_600404-MLU75482956289_032024-F.jpg",
+        "position": 2,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172707"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_944722-MLU75482917471_032024-F.jpg",
+        "position": 3,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172707"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_961241-MLU75330840472_032024-F.jpg",
+        "position": 4,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172707"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_702083-MLA71783088708_092023-F.jpg",
+        "position": 5,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172707"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_891263-MLA71783089058_092023-F.jpg",
+        "position": 1,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172705"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_912658-MLU75181234122_032024-F.jpg",
+        "position": 2,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172705"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_970899-MLU75329048461_032024-F.jpg",
+        "position": 3,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172705"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_805573-MLU75181234128_032024-F.jpg",
+        "position": 4,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172705"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_664325-MLA71783366348_092023-F.jpg",
+        "position": 5,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172705"
+        ]
+      }
+    ]
+  }
+}

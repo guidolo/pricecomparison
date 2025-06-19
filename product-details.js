@@ -5,7 +5,7 @@ async function loadProductDetails() {
         const urlParams = new URLSearchParams(window.location.search);
         const productId = urlParams.get('product') || 'iphone_14_pro_max';
         // Construir el path del archivo JSON según el producto
-        const apiUrl = `api/${productId}_consolidated.json`;
+        const apiUrl = `api/products/${productId}_consolidated.json`;
         // Cargar el archivo JSON con los detalles del producto
         const response = await fetch(apiUrl);
         const data = await response.json();
@@ -111,7 +111,7 @@ function setupTabNavigation() {
 async function renderPriceChart() {
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get('product') || 'iphone_14_pro_max';
-    const apiUrl = `api/${productId}_consolidated.json`;
+    const apiUrl = `api/products/${productId}_consolidated.json`;
     const response = await fetch(apiUrl);
     const data = await response.json();
     const priceHistory = (data && data.product && data.product.price_history) ? data.product.price_history : [];
