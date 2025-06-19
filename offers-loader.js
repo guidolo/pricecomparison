@@ -76,7 +76,7 @@ async function fetchOffers(productIdParam, color, storage) {
         }
         
         // Actualizar el número de ofertas en la interfaz
-        updateOfferCount(filteredOffers.length);
+        document.querySelector('.offers-header h2').textContent = `${filteredOffers.length} ofertas`;
         
         // Configurar el enlace "Ver todo"
         setupViewAllLink(productId, filteredOffers.length);
@@ -113,21 +113,6 @@ function updateMinimumPrice(price, isMessage = false) {
             priceContainer.textContent = `${price.toFixed(2).replace('.', ',')} $`;
         }
     }
-}
-
-/**
- * Actualiza el número de ofertas en la interfaz
- * @param {number} count - Número total de ofertas
- */
-function updateOfferCount(count) {
-    // Actualizar el encabezado de la sección de ofertas
-    document.querySelector('.offers-header h2').textContent = `${count} ofertas`;
-    
-    // Actualizar el botón de comparar ofertas
-    document.querySelector('.compare-btn').innerHTML = `
-        Comparar ${count} ofertas
-        <i class="fas fa-chevron-right"></i>
-    `;
 }
 
 /**
@@ -185,16 +170,23 @@ function createOfferElement(offer) {
                     <div class="offer-tax">${offer.taxInfo}</div>
         `;
         
-        // Agregar información de envío si existe
-        if (offer.shipping) {
-            offerHTML += `
-                    <div class="offer-shipping">
-                        ${offer.shipping.returnIcon ? '<span class="shipping-icon"><i class="fas fa-sync-alt"></i></span>' : ''}
-                        ${offer.shipping.truckIcon ? '<span class="shipping-icon"><i class="fas fa-truck"></i></span>' : ''}
-                        <span class="shipping-date">${offer.shipping.date}</span>
-                    </div>
-                    <div class="offer-shipping-cost">${offer.shipping.cost}</div>
-            `;
+        // Agregar información de color y almacenamiento si existe
+        if (offer.variant_attributes) {
+            let variantInfo = '';
+            
+            // Agregar color si existe
+            if (offer.variant_attributes.color && offer.variant_attributes.color.name) {
+                variantInfo += `<div class="variant-color">${offer.variant_attributes.color.name}</div>`;
+            }
+            
+            // Agregar almacenamiento si existe
+            if (offer.variant_attributes.storage && offer.variant_attributes.storage.name) {
+                variantInfo += `<div class="variant-storage">${offer.variant_attributes.storage.name}</div>`;
+            }
+            
+            if (variantInfo) {
+                offerHTML += variantInfo;
+            }
         }
         
         offerHTML += `
