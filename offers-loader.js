@@ -3,16 +3,16 @@
  */
 
 /**
- * Obtiene las ofertas desde la API para un producto específico y filtra por color y almacenamiento
- * @param {string} productId - ID del producto
- * @param {string} color - Color seleccionado para filtrar las ofertas
- * @param {string} storage - Almacenamiento seleccionado para filtrar las ofertas
+ * Obtiene las ofertas desde la API para un producto específico
+ * @param {string} productIdParam - ID del producto
+ * @param {string|null} color - ID del color seleccionado (null si no hay filtro)
+ * @param {string|null} storage - ID del almacenamiento seleccionado (null si no hay filtro)
  */
 async function fetchOffers(productIdParam, color, storage) {
     try {
-        // Obtener el ID del producto de la URL
+        // Obtener el ID del producto de la URL si no se proporciona
         const urlParams = new URLSearchParams(window.location.search);
-        const productId = urlParams.get('product') || 'iphone_14_pro_max';
+        const productId = productIdParam || urlParams.get('product') || 'iphone_14_pro_max';
         
         // Construir el nombre del archivo de ofertas basado en el ID del producto
         // Ahora usamos una convención de nomenclatura consistente con underscores
@@ -35,8 +35,8 @@ async function fetchOffers(productIdParam, color, storage) {
         // Filtrar ofertas por color y almacenamiento
         let filteredOffers = data.offers;
         
-        // Filtrar por color si se proporciona
-        if (color) {
+        // Filtrar por color si se proporciona y no es null
+        if (color && color !== 'null') {
             console.log(`Filtrando por color ID: ${color}`);
             
             filteredOffers = filteredOffers.filter(offer => {
@@ -46,10 +46,12 @@ async function fetchOffers(productIdParam, color, storage) {
                 }
                 return false;
             });
+        } else {
+            console.log('No se aplica filtro de color - mostrando todas las ofertas');
         }
         
-        // Filtrar por almacenamiento si se proporciona
-        if (storage) {
+        // Filtrar por almacenamiento si se proporciona y no es null
+        if (storage && storage !== 'null') {
             console.log(`Filtrando por almacenamiento ID: ${storage}`);
             
             filteredOffers = filteredOffers.filter(offer => {
@@ -59,6 +61,8 @@ async function fetchOffers(productIdParam, color, storage) {
                 }
                 return false;
             });
+        } else {
+            console.log('No se aplica filtro de almacenamiento - mostrando todas las ofertas');
         }
         
         // Calcular el precio mínimo de las ofertas
@@ -77,8 +81,11 @@ async function fetchOffers(productIdParam, color, storage) {
         // Configurar el enlace "Ver todo"
         setupViewAllLink(productId, filteredOffers.length);
         
-        // Renderizar solo las primeras 3 ofertas filtradas
-        renderOffers(filteredOffers.slice(0, 3));
+        // Ordenar ofertas por precio de menor a mayor
+        filteredOffers.sort((a, b) => a.price - b.price);
+        
+        // Renderizar todas las ofertas filtradas
+        renderOffers(filteredOffers);
         
         // Mostrar mensaje si no hay ofertas que coincidan con los filtros
         if (filteredOffers.length === 0) {
@@ -236,12 +243,8 @@ function createOfferElement(offer) {
 function setupViewAllLink(productId, totalOffers) {
     const viewAllLink = document.querySelector('.view-all');
     if (viewAllLink) {
-        // Actualizar el texto del enlace si hay más de 3 ofertas
-        if (totalOffers > 3) {
-            viewAllLink.textContent = `Ver todo (${totalOffers})`;
-        } else {
-            viewAllLink.textContent = 'Ver todo';
-        }
+        // Mostrar simplemente "Ver todo" ya que todas las ofertas se muestran en la página principal
+        viewAllLink.textContent = 'Ver todo';
         
         // Configurar el enlace para ir a la página de todas las ofertas
         viewAllLink.href = `all-offers.html?product=${productId}`;

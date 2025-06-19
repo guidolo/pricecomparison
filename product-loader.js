@@ -2,14 +2,14 @@
  * Módulo para cargar y gestionar datos de productos
  */
 
-// Variable global para almacenar la variante actual
-let currentVariantId = 'iphone14-pro-max';
-let currentColor = 'Morado oscuro';
-let currentColorId = 'morado_oscuro';
-let currentStorage = '128 GB';
-let currentStorageId = '128_gb';
-let currentRam = '6 GB';
-let currentRamId = '6_gb';
+// Variables globales para el estado del producto
+let currentVariantId = 'iphone_14_pro_max';
+let currentColor = null;
+let currentColorId = null;
+let currentStorage = null;
+let currentStorageId = null;
+let currentRam = null;
+let currentRamId = null;
 
 // Obtener parámetros de la URL al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
@@ -48,30 +48,34 @@ function setupProductOptionEvents() {
             const option = event.target.closest('.option');
             const optionType = option.dataset.type;
             
+            // Verificar si la opción ya está activa
+            const isCurrentlyActive = option.classList.contains('active');
+            
             // Desactivar todas las opciones del mismo tipo
             document.querySelectorAll(`.option[data-type="${optionType}"]`).forEach(el => {
                 el.classList.remove('active');
             });
             
-            // Activar la opción seleccionada
-            option.classList.add('active');
+            // Si la opción no estaba activa, activarla; si estaba activa, desactivarla
+            if (!isCurrentlyActive) {
+                option.classList.add('active');
+            }
             
             // Actualizar la variable correspondiente según el tipo de opción
-            const selectedValue = option.getAttribute('data-value');
-            const selectedId = option.getAttribute('data-id');
+            let selectedValue = null;
+            let selectedId = null;
+            
+            // Solo obtener valores si hay una opción activa
+            if (option.classList.contains('active')) {
+                selectedValue = option.getAttribute('data-value');
+                selectedId = option.getAttribute('data-id');
+            }
             
             if (optionType === 'color') {
                 currentColor = selectedValue;
                 currentColorId = selectedId;
                 console.log('Color seleccionado:', currentColor);
                 console.log('Color ID seleccionado:', currentColorId);
-                console.log('Elemento seleccionado:', option);
-                console.log('Atributos del elemento:', {
-                    'data-value': option.getAttribute('data-value'),
-                    'data-id': option.getAttribute('data-id'),
-                    'data-type': option.getAttribute('data-type'),
-                    'class': option.className
-                });
                 
                 // Obtener los datos del producto pero sin actualizar la UI completa
                 fetchProductData(true).then(data => {
@@ -99,7 +103,7 @@ function setupProductOptionEvents() {
                 fetchOffers(currentVariantId, currentColorId, currentStorageId);
             }
             
-            console.log(`Opción seleccionada: ${optionType} - ${option.querySelector('.option-value').textContent}`);
+            console.log(`Opción ${isCurrentlyActive ? 'deseleccionada' : 'seleccionada'}: ${optionType} - ${selectedValue || 'ninguna'}`);
         }
     });
 }
@@ -131,7 +135,7 @@ async function fetchProductData(skipUpdateUI = false) {
         if (!skipUpdateUI) {
             updateProductUI(data.product);
             
-            // Restaurar las selecciones previas
+            // Restaurar las selecciones previas solo si existían
             if (savedColorId && savedColor) {
                 // Buscar y activar la opción de color correspondiente
                 const colorOptions = document.querySelectorAll('.option[data-type="color"]');
@@ -168,7 +172,7 @@ async function fetchProductData(skipUpdateUI = false) {
         
         // Esperar a que se actualice la interfaz y los pickers estén disponibles
         setTimeout(() => {
-            // Cargar las ofertas para la variante seleccionada usando IDs
+            // Cargar las ofertas para la variante seleccionada usando IDs (pueden ser null si no hay filtros)
             fetchOffers(currentVariantId, currentColorId, currentStorageId);
         }, 100);
         
@@ -261,10 +265,10 @@ function updateProductOptions(pickers) {
             colorTitle.textContent = colorPicker.name;
             productOptions.appendChild(colorTitle);
             
-            // Agregar todas las opciones de color disponibles
+            // Agregar todas las opciones de color disponibles (sin activar ninguna por defecto)
             colorPicker.values.forEach((colorValue, index) => {
                 const colorOption = document.createElement('div');
-                colorOption.className = `option${index === 0 ? ' active' : ''}`;
+                colorOption.className = 'option'; // Sin 'active' por defecto
                 colorOption.dataset.type = 'color';
                 colorOption.setAttribute('data-value', colorValue.name);
                 colorOption.setAttribute('data-id', colorValue.id);
@@ -274,12 +278,6 @@ function updateProductOptions(pickers) {
                 `;
                 
                 colorRow.appendChild(colorOption);
-                
-                // Establecer el color inicial
-                if (index === 0) {
-                    currentColor = colorValue.name;
-                    currentColorId = colorValue.id;
-                }
             });
             
             productOptions.appendChild(colorRow);
@@ -296,10 +294,10 @@ function updateProductOptions(pickers) {
             storageTitle.textContent = storagePicker.name;
             productOptions.appendChild(storageTitle);
             
-            // Agregar todas las opciones de almacenamiento disponibles
+            // Agregar todas las opciones de almacenamiento disponibles (sin activar ninguna por defecto)
             storagePicker.values.forEach((storageValue, index) => {
                 const storageOption = document.createElement('div');
-                storageOption.className = `option${index === 0 ? ' active' : ''}`;
+                storageOption.className = 'option'; // Sin 'active' por defecto
                 storageOption.dataset.type = 'storage';
                 storageOption.setAttribute('data-value', storageValue.name);
                 storageOption.setAttribute('data-id', storageValue.id);
@@ -309,12 +307,6 @@ function updateProductOptions(pickers) {
                 `;
                 
                 storageRow.appendChild(storageOption);
-                
-                // Establecer el almacenamiento inicial
-                if (index === 0) {
-                    currentStorage = storageValue.name;
-                    currentStorageId = storageValue.id;
-                }
             });
             
             productOptions.appendChild(storageRow);
@@ -331,10 +323,10 @@ function updateProductOptions(pickers) {
             ramTitle.textContent = ramPicker.name;
             productOptions.appendChild(ramTitle);
             
-            // Agregar todas las opciones de RAM disponibles
+            // Agregar todas las opciones de RAM disponibles (sin activar ninguna por defecto)
             ramPicker.values.forEach((ramValue, index) => {
                 const ramOption = document.createElement('div');
-                ramOption.className = `option${index === 0 ? ' active' : ''}`;
+                ramOption.className = 'option'; // Sin 'active' por defecto
                 ramOption.dataset.type = 'ram';
                 ramOption.setAttribute('data-value', ramValue.name);
                 ramOption.setAttribute('data-id', ramValue.id);
@@ -344,12 +336,6 @@ function updateProductOptions(pickers) {
                 `;
                 
                 ramRow.appendChild(ramOption);
-                
-                // Establecer la RAM inicial
-                if (index === 0) {
-                    currentRam = ramValue.name;
-                    currentRamId = ramValue.id;
-                }
             });
             
             productOptions.appendChild(ramRow);
