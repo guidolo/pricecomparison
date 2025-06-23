@@ -11,22 +11,91 @@ async function loadProductDetails() {
         const data = await response.json();
         
         // Verificar si tenemos datos de detalles del producto
-        if (data && data.product && data.product.product_details) {
-            displayProductDetails(data.product.product_details);
-        } else {
-            console.error('No se encontraron detalles del producto en el JSON');
+        if (data && data.product) {
+            // Mostrar el resumen del producto si existe
+            if (data.product.product_summary) {
+                displayProductSummary(data.product.product_summary);
+            }
+            
+            // Mostrar los detalles completos del producto si existen
+            if (data.product.product_details) {
+                displayProductDetails(data.product.product_details);
+            } else {
+                console.error('No se encontraron detalles del producto en el JSON');
+            }
         }
     } catch (error) {
         console.error('Error al cargar los detalles del producto:', error);
     }
 }
 
+// Función para mostrar el resumen del producto
+function displayProductSummary(productSummary) {
+    const productDetailsContent = document.querySelector('.product-details-content');
+    
+    // Crear el contenedor del resumen
+    const summaryElement = document.createElement('div');
+    summaryElement.className = 'product-summary-section';
+    
+    // Crear el título del resumen
+    const summaryTitle = document.createElement('h3');
+    summaryTitle.className = 'product-summary-title';
+    summaryTitle.textContent = 'Resumen del Producto';
+    summaryElement.appendChild(summaryTitle);
+    
+    // Crear la grilla de especificaciones del resumen
+    const summaryGrid = document.createElement('div');
+    summaryGrid.className = 'product-summary-grid';
+    
+    // Mapear las claves del resumen a nombres más legibles
+    const summaryLabels = {
+        'screen_size': 'Tamaño de Pantalla',
+        'front_camera_mp': 'Cámara Frontal',
+        'ram_gb': 'Memoria RAM',
+        'battery': 'Batería',
+        'operating_system': 'Sistema Operativo'
+    };
+    
+    // Crear elementos para cada especificación del resumen
+    Object.entries(productSummary).forEach(([key, value]) => {
+        if (value !== 'N/A') {
+            const summaryItem = document.createElement('div');
+            summaryItem.className = 'product-summary-item';
+            
+            const summaryName = document.createElement('div');
+            summaryName.className = 'product-summary-name';
+            summaryName.textContent = summaryLabels[key] || key;
+            
+            const summaryValue = document.createElement('div');
+            summaryValue.className = 'product-summary-value';
+            summaryValue.textContent = value;
+            
+            summaryItem.appendChild(summaryName);
+            summaryItem.appendChild(summaryValue);
+            summaryGrid.appendChild(summaryItem);
+        }
+    });
+    
+    summaryElement.appendChild(summaryGrid);
+    
+    // Insertar el resumen al principio del contenido
+    productDetailsContent.insertBefore(summaryElement, productDetailsContent.firstChild);
+}
+
 // Función para mostrar los detalles del producto en la interfaz
 function displayProductDetails(productDetails) {
     const productDetailsContent = document.querySelector('.product-details-content');
     
+    // Guardar el resumen del producto si existe
+    const existingSummary = productDetailsContent.querySelector('.product-summary-section');
+    
     // Limpiar el contenido existente
     productDetailsContent.innerHTML = '';
+    
+    // Restaurar el resumen del producto si existía
+    if (existingSummary) {
+        productDetailsContent.appendChild(existingSummary);
+    }
     
     // Iterar por cada categoría de detalles
     productDetails.forEach(category => {
