@@ -176,8 +176,8 @@ function displayProducts(products) {
         productCard.className = 'product-card';
         productCard.setAttribute('data-product-id', product.id);
         
-        // Todos los productos son ahora accesibles por su product_id
-        const isProductAvailable = product.id ? true : false;
+        // Verificar si el producto tiene ofertas disponibles
+        const hasOffers = product.offer_count > 0;
         
         productCard.innerHTML = `
             <div class="product-image">
@@ -188,17 +188,18 @@ function displayProducts(products) {
                     <h3 class="product-name">${product.name}</h3>
                     <p class="product-category">${product.category}</p>
                     <p class="product-price">Desde ${product.price_from.toFixed(2).replace('.', ',')} $</p>
+                    <p class="product-offers">${product.offer_count} oferta${product.offer_count !== 1 ? 's' : ''} disponible${product.offer_count !== 1 ? 's' : ''}</p>
                 </div>
                 <div class="product-action">
-                    <button class="view-product-btn" ${!isProductAvailable ? 'disabled' : ''}>
-                        ${isProductAvailable ? 'Ver detalles' : 'No disponible'}
+                    <button class="view-product-btn" ${!hasOffers ? 'disabled' : ''}>
+                        ${hasOffers ? 'Ver detalles' : 'Sin ofertas'}
                     </button>
                 </div>
             </div>
         `;
         
-        // Agregar evento para ver detalles del producto
-        if (isProductAvailable) {
+        // Agregar evento para ver detalles del producto solo si tiene ofertas
+        if (hasOffers) {
             productCard.querySelector('.view-product-btn').addEventListener('click', () => {
                 viewProductDetails(product.id);
             });
