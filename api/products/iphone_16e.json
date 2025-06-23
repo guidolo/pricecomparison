@@ -442,6 +442,13 @@
           }
         ]
       }
-    ]
+    ],
+    "product_summary": {
+      "screen_size": "6.1\"",
+      "front_camera_mp": "12 MP",
+      "ram_gb": "8 GB",
+      "battery": "Li-Ion 4005 mAh",
+      "operating_system": "iOS 18"
+    }
   }
 }

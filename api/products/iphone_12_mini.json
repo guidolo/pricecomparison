@@ -586,6 +586,13 @@
           }
         ]
       }
-    ]
+    ],
+    "product_summary": {
+      "screen_size": "5.4\"",
+      "front_camera_mp": "12 MP",
+      "ram_gb": "4 GB",
+      "battery": "Li-Ion 2227 mAh",
+      "operating_system": "iOS 14"
+    }
   }
 }
