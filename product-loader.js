@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
  * Inicializa el cargador de productos
  */
 function initProductLoader() {
+    console.log('initProductLoader called, currentVariantId:', currentVariantId);
+    
     // Cargar datos del producto
     fetchProductData();
     
@@ -114,7 +116,8 @@ function setupProductOptionEvents() {
 async function fetchProductData(skipUpdateUI = false) {
     try {
         // Construir el path del archivo JSON según el producto
-        const apiUrl = `api/products/${currentVariantId}_consolidated.json`;
+        const apiUrl = `api/products/${currentVariantId}.json`;
+        console.log('Fetching product data from:', apiUrl);
         
         // Hacer la petición a la API
         const response = await fetch(apiUrl);
@@ -124,6 +127,7 @@ async function fetchProductData(skipUpdateUI = false) {
         }
         
         const data = await response.json();
+        console.log('Product data loaded successfully:', data);
         
         // Guardar los valores actuales antes de actualizar la UI
         const savedColorId = currentColorId;
@@ -133,6 +137,7 @@ async function fetchProductData(skipUpdateUI = false) {
         
         // Actualizar la interfaz con los datos del producto solo si no se indica lo contrario
         if (!skipUpdateUI) {
+            console.log('Updating product UI with data:', data.product);
             updateProductUI(data.product);
             
             // Restaurar las selecciones previas solo si existían
@@ -217,24 +222,52 @@ function generateStarRating(rating) {
  * @param {Object} product - Datos del producto
  */
 function updateProductUI(product) {
+    console.log('updateProductUI called with product:', product);
+    
     // Actualizar título y categoría
-    document.querySelector('.product-title').textContent = product.name;
-    document.querySelector('.category').textContent = product.category || 'Smartphones';
+    const titleElement = document.querySelector('.product-title');
+    const categoryElement = document.querySelector('.category');
+    
+    console.log('Title element:', titleElement);
+    console.log('Category element:', categoryElement);
+    
+    if (titleElement) {
+        titleElement.textContent = product.name;
+        console.log('Updated title to:', product.name);
+    }
+    
+    if (categoryElement) {
+        categoryElement.textContent = product.category || 'Smartphones';
+        console.log('Updated category to:', product.category || 'Smartphones');
+    }
     
     // Actualizar calificación
-    document.querySelector('.rating-value').textContent = product.rating.toString().replace('.', ',');
-    document.querySelector('.reviews-count').textContent = `(${product.reviews_count})`;
+    const ratingValueElement = document.querySelector('.rating-value');
+    const reviewsCountElement = document.querySelector('.reviews-count');
+    
+    if (ratingValueElement) {
+        ratingValueElement.textContent = product.rating.toString().replace('.', ',');
+        console.log('Updated rating to:', product.rating);
+    }
+    
+    if (reviewsCountElement) {
+        reviewsCountElement.textContent = `(${product.reviews_count})`;
+        console.log('Updated reviews count to:', product.reviews_count);
+    }
     
     // Actualizar estrellas
     const starsContainer = document.querySelector('.stars');
     if (starsContainer) {
         starsContainer.innerHTML = generateStarRating(product.rating);
+        console.log('Updated stars for rating:', product.rating);
     }
     
     // Actualizar opciones de producto (colores, almacenamiento, RAM)
+    console.log('Updating product options with pickers:', product.pickers);
     updateProductOptions(product.pickers);
     
     // Actualizar imágenes
+    console.log('Updating product images:', product.images);
     updateProductImages(product.images);
 }
 

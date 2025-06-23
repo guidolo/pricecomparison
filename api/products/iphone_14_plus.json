@@ -1,0 +1,553 @@
+{
+  "product": {
+    "id": "MLA19615341",
+    "name": "iPhone 14 Plus",
+    "category": "",
+    "description": "El iPhone 14 Plus tiene una pantalla de 6.7 pulgadas(1) y batería que te acompaña todo el día para que pienses en grande.(2) Su nuevo sistema de dos cámaras te permite tomar fotos espectaculares en condiciones de mucha o poca luz. Y viene con Detección de Choques(3), una nueva funcionalidad de seguridad que pide ayuda cuando no estás en condiciones de hacerlo.  \n\nAviso legal  \n(1) La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la pantalla tiene 6.68 pulgadas en diagonal. El área real de visualización es menor. \n(2) La duración de la batería varía según el uso y la configuración.  \n(3) La funcionalidad Emergencia SOS usa conexión celular o llamadas por Wi-Fi. \n(4) Se requiere un plan de datos. 5G está disponible en algunos mercados y a través de operadores específicos. Las velocidades varían según las condiciones del lugar y el operador. \n(5) El iPhone 14 Plus es resistente a las salpicaduras, al agua y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529 (hasta 30 minutos a una profundidad máxima de 6 metros). La resistencia a las salpicaduras, al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos. \n(6) Algunas funcionalidades podrían no estar disponibles en todos los países o áreas.",
+    "rating": 0,
+    "reviews_count": 0,
+    "brand": "",
+    "model": "iPhone 14 Plus",
+    "release_year": "",
+    "pickers": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          {
+            "id": "(product)red",
+            "name": "(Product)Red",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_762161-MLM51559383657_092022-I.jpg"
+          },
+          {
+            "id": "amarillo",
+            "name": "Amarillo",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_622325-MLU69244435508_052023-I.jpg"
+          },
+          {
+            "id": "azul",
+            "name": "Azul",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_619487-MLU77827010112_072024-I.jpg"
+          },
+          {
+            "id": "blanco_estelar",
+            "name": "Blanco estelar",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_922013-MLM51559385450_092022-I.jpg"
+          },
+          {
+            "id": "medianoche",
+            "name": "Medianoche",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_902062-MLM51559388098_092022-I.jpg"
+          },
+          {
+            "id": "morado",
+            "name": "Morado",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_782535-MLM51559386281_092022-I.jpg"
+          }
+        ]
+      },
+      {
+        "id": "internal_memory",
+        "name": "Memoria interna",
+        "values": [
+          {
+            "id": "128_gb",
+            "name": "128 GB"
+          },
+          {
+            "id": "256_gb",
+            "name": "256 GB"
+          },
+          {
+            "id": "512_gb",
+            "name": "512 GB"
+          }
+        ]
+      },
+      {
+        "id": "ram",
+        "name": "Memoria RAM",
+        "values": [
+          {
+            "id": "4_gb",
+            "name": "4 GB"
+          },
+          {
+            "id": "6_gb",
+            "name": "6 GB"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_619487-MLU77827010112_072024-F.jpg",
+        "position": 1,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_888109-MLM51559383705_092022-F.jpg",
+        "position": 2,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_845596-MLM74110433838_012024-F.jpg",
+        "position": 3,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_783686-MLU77827000582_072024-F.jpg",
+        "position": 4,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_927644-MLU77827059454_072024-F.jpg",
+        "position": 5,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_902062-MLM51559388098_092022-F.jpg",
+        "position": 1,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_817638-MLM51559388106_092022-F.jpg",
+        "position": 2,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_942467-MLM74228006875_012024-F.jpg",
+        "position": 3,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_815611-MLM51559388099_092022-F.jpg",
+        "position": 4,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_744631-MLM74227132853_012024-F.jpg",
+        "position": 5,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_782535-MLM51559386281_092022-F.jpg",
+        "position": 1,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_935329-MLM51559386278_092022-F.jpg",
+        "position": 2,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_922644-MLM74116086134_012024-F.jpg",
+        "position": 3,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_686013-MLM51559386280_092022-F.jpg",
+        "position": 4,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_716639-MLM74135903372_012024-F.jpg",
+        "position": 5,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_622325-MLU69244435508_052023-F.jpg",
+        "position": 1,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_923443-MLU73587669750_122023-F.jpg",
+        "position": 2,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_727017-MLU69244435514_052023-F.jpg",
+        "position": 3,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_882322-MLU69244435516_052023-F.jpg",
+        "position": 4,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_808714-MLU69244435518_052023-F.jpg",
+        "position": 5,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      }
+    ],
+    "product_details": [
+      {
+        "category": "Network",
+        "specifications": [
+          {
+            "name": "Technology",
+            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+          },
+          {
+            "name": "2G bands",
+            "value": "GSM 850 / 900 / 1800 / 1900"
+          },
+          {
+            "name": "",
+            "value": "CDMA 800 / 1900"
+          },
+          {
+            "name": "3G bands",
+            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
+          },
+          {
+            "name": "",
+            "value": "CDMA2000 1xEV-DO"
+          },
+          {
+            "name": "4G bands",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66, 71 - A2632, A2885"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2887"
+          },
+          {
+            "name": "5G bands",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A2886, A2888"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 77, 78, 79, 258, 260, 261 SA/NSA/Sub6/mmWave - A2632"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 77, 78, 79 SA/NSA/Sub6 - A2885"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A2887"
+          },
+          {
+            "name": "Speed",
+            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+          }
+        ]
+      },
+      {
+        "category": "Launch",
+        "specifications": [
+          {
+            "name": "Announced",
+            "value": "2022, September 07"
+          },
+          {
+            "name": "Status",
+            "value": "Available. Released 2022, October 07"
+          }
+        ]
+      },
+      {
+        "category": "Body",
+        "specifications": [
+          {
+            "name": "Dimensions",
+            "value": "160.8 x 78.1 x 7.8 mm (6.33 x 3.07 x 0.31 in)"
+          },
+          {
+            "name": "Weight",
+            "value": "203 g (7.16 oz)"
+          },
+          {
+            "name": "Build",
+            "value": "Glass front, glass back, aluminum frame"
+          },
+          {
+            "name": "SIM",
+            "value": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)"
+          },
+          {
+            "name": "",
+            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
+          }
+        ]
+      },
+      {
+        "category": "Display",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)"
+          },
+          {
+            "name": "Size",
+            "value": "6.7 inches, 109.8 cm2 (~87.4% screen-to-body ratio)"
+          },
+          {
+            "name": "Resolution",
+            "value": "1284 x 2778 pixels, 19.5:9 ratio (~458 ppi density)"
+          },
+          {
+            "name": "Protection",
+            "value": "Ceramic Shield glass"
+          }
+        ]
+      },
+      {
+        "category": "Platform",
+        "specifications": [
+          {
+            "name": "OS",
+            "value": "iOS 16, upgradable to iOS 18.5"
+          },
+          {
+            "name": "Chipset",
+            "value": "Apple A15 Bionic (5 nm)"
+          },
+          {
+            "name": "CPU",
+            "value": "Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)"
+          },
+          {
+            "name": "GPU",
+            "value": "Apple GPU (5-core graphics)"
+          }
+        ]
+      },
+      {
+        "category": "Memory",
+        "specifications": [
+          {
+            "name": "Card slot",
+            "value": "No"
+          },
+          {
+            "name": "Internal",
+            "value": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM"
+          },
+          {
+            "name": "",
+            "value": "NVMe"
+          }
+        ]
+      },
+      {
+        "category": "Main Camera",
+        "specifications": [
+          {
+            "name": "Dual",
+            "value": "12 MP, f/1.5, 26mm (wide), 1/1.7\", 1.9µm, dual pixel PDAF, sensor-shift OIS\r\n12 MP, f/2.4, 13mm, 120˚ (ultrawide)"
+          },
+          {
+            "name": "Features",
+            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
+          }
+        ]
+      },
+      {
+        "category": "Selfie camera",
+        "specifications": [
+          {
+            "name": "Single",
+            "value": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF\r\nSL 3D, (depth/biometrics sensor)"
+          },
+          {
+            "name": "Features",
+            "value": "HDR"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+          }
+        ]
+      },
+      {
+        "category": "Sound",
+        "specifications": [
+          {
+            "name": "Loudspeaker",
+            "value": "Yes, with stereo speakers"
+          },
+          {
+            "name": "3.5mm jack",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "category": "Comms",
+        "specifications": [
+          {
+            "name": "WLAN",
+            "value": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
+          },
+          {
+            "name": "Bluetooth",
+            "value": "5.3, A2DP, LE"
+          },
+          {
+            "name": "Positioning",
+            "value": "GPS, GLONASS, GALILEO, BDS, QZSS"
+          },
+          {
+            "name": "NFC",
+            "value": "Yes"
+          },
+          {
+            "name": "Radio",
+            "value": "No"
+          },
+          {
+            "name": "USB",
+            "value": "Lightning, USB 2.0"
+          }
+        ]
+      },
+      {
+        "category": "Features",
+        "specifications": [
+          {
+            "name": "Sensors",
+            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
+          },
+          {
+            "name": "",
+            "value": "Ultra Wideband (UWB) support\r\nEmergency SOS via satellite (SMS sending/receiving)"
+          }
+        ]
+      },
+      {
+        "category": "Battery",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Li-Ion 4323 mAh (16.68 Wh)"
+          },
+          {
+            "name": "Charging",
+            "value": "Wired, PD2.0, 50% in 30 min\r\n15W wireless (MagSafe)\r\n15W wireless (Qi2) - requires iOS 17.2 update"
+          }
+        ]
+      },
+      {
+        "category": "Misc",
+        "specifications": [
+          {
+            "name": "Colors",
+            "value": "Midnight, Purple, Starlight, Blue, Red, Yellow"
+          },
+          {
+            "name": "Models",
+            "value": "A2886, A2632, A2885, A2896, A2887, iphone14,8"
+          },
+          {
+            "name": "SAR",
+            "value": "1.14 W/kg (head)     1.15 W/kg (body)"
+          },
+          {
+            "name": "SAR EU",
+            "value": "0.99 W/kg (head)     0.98 W/kg (body)"
+          },
+          {
+            "name": "Price",
+            "value": "$ 360.99 / € 425.72 / £ 358.94"
+          }
+        ]
+      },
+      {
+        "category": "Tests",
+        "specifications": [
+          {
+            "name": "Performance",
+            "value": "AnTuTu: 797976 (v9)\r\nGeekBench: 4582 (v5.1)\r\nGFXBench: 60fps (ES 3.1 onscreen)"
+          },
+          {
+            "name": "Display",
+            "value": "797 nits max brightness (measured)"
+          },
+          {
+            "name": "Camera",
+            "value": "Photo / Video"
+          },
+          {
+            "name": "Loudspeaker",
+            "value": "-24.7 LUFS (Very good)"
+          },
+          {
+            "name": "Battery (old)",
+            "value": "Endurance rating 102h"
+          }
+        ]
+      }
+    ]
+  }
+}

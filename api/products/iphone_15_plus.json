@@ -271,6 +271,322 @@
           "MLA27172689"
         ]
       }
+    ],
+    "product_details": [
+      {
+        "category": "Network",
+        "specifications": [
+          {
+            "name": "Technology",
+            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+          },
+          {
+            "name": "2G bands",
+            "value": "GSM 850 / 900 / 1800 / 1900"
+          },
+          {
+            "name": "",
+            "value": "CDMA 800 / 1900"
+          },
+          {
+            "name": "3G bands",
+            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
+          },
+          {
+            "name": "",
+            "value": "CDMA2000 1xEV-DO"
+          },
+          {
+            "name": "4G bands",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66 - A3094"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66, 71 - A2847"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66, 71 - A3093"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A3096"
+          },
+          {
+            "name": "5G bands",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A3094"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 77, 78, 79, 258, 260, 261 SA/NSA/Sub6/mmWave - A2847"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 75, 76, 77, 78, 79 SA/NSA/Sub6 - A3093"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A3096"
+          },
+          {
+            "name": "Speed",
+            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+          }
+        ]
+      },
+      {
+        "category": "Launch",
+        "specifications": [
+          {
+            "name": "Announced",
+            "value": "2023, September 12"
+          },
+          {
+            "name": "Status",
+            "value": "Available. Released 2023, September 22"
+          }
+        ]
+      },
+      {
+        "category": "Body",
+        "specifications": [
+          {
+            "name": "Dimensions",
+            "value": "160.9 x 77.8 x 7.8 mm (6.33 x 3.06 x 0.31 in)"
+          },
+          {
+            "name": "Weight",
+            "value": "201 g (7.09 oz)"
+          },
+          {
+            "name": "Build",
+            "value": "Glass front, glass back, aluminum frame"
+          },
+          {
+            "name": "SIM",
+            "value": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)"
+          },
+          {
+            "name": "",
+            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
+          }
+        ]
+      },
+      {
+        "category": "Display",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Super Retina XDR OLED, HDR10, Dolby Vision, 1000 nits (HBM), 2000 nits (peak)"
+          },
+          {
+            "name": "Size",
+            "value": "6.7 inches, 110.2 cm2 (~88.0% screen-to-body ratio)"
+          },
+          {
+            "name": "Resolution",
+            "value": "1290 x 2796 pixels, 19.5:9 ratio (~460 ppi density)"
+          },
+          {
+            "name": "Protection",
+            "value": "Ceramic Shield glass"
+          }
+        ]
+      },
+      {
+        "category": "Platform",
+        "specifications": [
+          {
+            "name": "OS",
+            "value": "iOS 17, upgradable to iOS 18.5"
+          },
+          {
+            "name": "Chipset",
+            "value": "Apple A16 Bionic (4 nm)"
+          },
+          {
+            "name": "CPU",
+            "value": "Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth)"
+          },
+          {
+            "name": "GPU",
+            "value": "Apple GPU (5-core graphics)"
+          }
+        ]
+      },
+      {
+        "category": "Memory",
+        "specifications": [
+          {
+            "name": "Card slot",
+            "value": "No"
+          },
+          {
+            "name": "Internal",
+            "value": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM"
+          },
+          {
+            "name": "",
+            "value": "NVMe"
+          }
+        ]
+      },
+      {
+        "category": "Main Camera",
+        "specifications": [
+          {
+            "name": "Dual",
+            "value": "48 MP, f/1.6, 26mm (wide), 1/1.56\", 1.0µm, dual pixel PDAF, sensor-shift OIS\r\n12 MP, f/2.4, 13mm, 120˚ (ultrawide), 0.7µm"
+          },
+          {
+            "name": "Features",
+            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
+          }
+        ]
+      },
+      {
+        "category": "Selfie camera",
+        "specifications": [
+          {
+            "name": "Single",
+            "value": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF\r\nSL 3D, (depth/biometrics sensor)"
+          },
+          {
+            "name": "Features",
+            "value": "HDR, Dolby Vision HDR"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+          }
+        ]
+      },
+      {
+        "category": "Sound",
+        "specifications": [
+          {
+            "name": "Loudspeaker",
+            "value": "Yes, with stereo speakers"
+          },
+          {
+            "name": "3.5mm jack",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "category": "Comms",
+        "specifications": [
+          {
+            "name": "WLAN",
+            "value": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
+          },
+          {
+            "name": "Bluetooth",
+            "value": "5.3, A2DP, LE"
+          },
+          {
+            "name": "Positioning",
+            "value": "GPS, GLONASS, GALILEO, BDS, QZSS"
+          },
+          {
+            "name": "NFC",
+            "value": "Yes"
+          },
+          {
+            "name": "Radio",
+            "value": "No"
+          },
+          {
+            "name": "USB",
+            "value": "USB Type-C 2.0, DisplayPort"
+          }
+        ]
+      },
+      {
+        "category": "Features",
+        "specifications": [
+          {
+            "name": "Sensors",
+            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
+          },
+          {
+            "name": "",
+            "value": "Ultra Wideband (UWB) support (gen2 chip)\r\nEmergency SOS, Messages and Find My via satellite"
+          }
+        ]
+      },
+      {
+        "category": "Battery",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Li-Ion 4383 mAh"
+          },
+          {
+            "name": "Charging",
+            "value": "Wired, PD2.0, 50% in 30 min\r\n15W wireless (MagSafe)\r\n15W wireless (Qi2) - requires iOS 17.2 update\r\n4.5W reverse wired"
+          }
+        ]
+      },
+      {
+        "category": "Misc",
+        "specifications": [
+          {
+            "name": "Colors",
+            "value": "Black, Blue, Green, Yellow, Pink"
+          },
+          {
+            "name": "Models",
+            "value": "A3094, A2847, A3093, A3096, iPhone15,5"
+          },
+          {
+            "name": "SAR",
+            "value": "1.01 W/kg (head)     1.12 W/kg (body)"
+          },
+          {
+            "name": "SAR EU",
+            "value": "0.98 W/kg (head)     0.98 W/kg (body)"
+          },
+          {
+            "name": "Price",
+            "value": "$ 423.95 / € 659.00 / £ 521.96 / ₹ 72,900"
+          }
+        ]
+      },
+      {
+        "category": "Tests",
+        "specifications": [
+          {
+            "name": "Performance",
+            "value": "AnTuTu: 1385649 (v10)\r\nGeekBench: 6618 (v6)\r\nGFXBench: 60fps (ES 3.1 onscreen)"
+          },
+          {
+            "name": "Display",
+            "value": "1642 nits max brightness (measured)"
+          },
+          {
+            "name": "Camera",
+            "value": "Photo / Video"
+          },
+          {
+            "name": "Loudspeaker",
+            "value": "-27.7 LUFS (Good)"
+          },
+          {
+            "name": "Battery (new)",
+            "value": "Active use score 16:33h"
+          },
+          {
+            "name": "Battery (old)",
+            "value": "Endurance rating 111h"
+          }
+        ]
+      }
     ]
   }
 }

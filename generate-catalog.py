@@ -8,7 +8,7 @@ from pathlib import Path
 API_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'api')
 PRODUCTS_DIR = os.path.join(API_DIR, 'products')
 OFFERS_DIR = os.path.join(API_DIR, 'offers')
-CONSOLIDATED_FILE_PATTERN = re.compile(r'_consolidated\.json$')
+CONSOLIDATED_FILE_PATTERN = re.compile(r'\.json$')
 PRODUCT_CATALOG_FILE = os.path.join(API_DIR, 'product-catalog.json')
 
 # Function to get all consolidated files
@@ -30,8 +30,6 @@ def get_offers_files():
 # Function to extract product ID from filename
 def extract_product_id_from_filename(filename):
     basename = os.path.basename(filename).replace('.json', '')
-    if '_consolidated' in basename:
-        return basename.replace('_consolidated', '')
     return basename
 
 # Function to normalize product ID for comparison
