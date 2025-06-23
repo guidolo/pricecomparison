@@ -7,8 +7,9 @@
  * @param {string} productIdParam - ID del producto
  * @param {string|null} color - ID del color seleccionado (null si no hay filtro)
  * @param {string|null} storage - ID del almacenamiento seleccionado (null si no hay filtro)
+ * @param {string|null} condition - ID de la condición seleccionada (null si no hay filtro)
  */
-async function fetchOffers(productIdParam, color, storage) {
+async function fetchOffers(productIdParam, color, storage, condition) {
     try {
         // Obtener el ID del producto de la URL si no se proporciona
         const urlParams = new URLSearchParams(window.location.search);
@@ -32,7 +33,7 @@ async function fetchOffers(productIdParam, color, storage) {
         
         const data = await response.json();
         
-        // Filtrar ofertas por color y almacenamiento
+        // Filtrar ofertas por color, almacenamiento y condición
         let filteredOffers = data.offers;
         
         // Filtrar por color si se proporciona y no es null
@@ -65,6 +66,21 @@ async function fetchOffers(productIdParam, color, storage) {
             console.log('No se aplica filtro de almacenamiento - mostrando todas las ofertas');
         }
         
+        // Filtrar por condición si se proporciona y no es null
+        if (condition && condition !== 'null') {
+            console.log(`Filtrando por condición ID: ${condition}`);
+            
+            filteredOffers = filteredOffers.filter(offer => {
+                if (offer.condition && offer.condition.id) {
+                    console.log(`Oferta condición ID: ${offer.condition.id}, Nombre: ${offer.condition.name}`);
+                    return offer.condition.id === condition;
+                }
+                return false;
+            });
+        } else {
+            console.log('No se aplica filtro de condición - mostrando todas las ofertas');
+        }
+        
         // Calcular el precio mínimo de las ofertas
         if (filteredOffers.length > 0) {
             const minPrice = Math.min(...filteredOffers.map(offer => offer.price));
@@ -89,7 +105,7 @@ async function fetchOffers(productIdParam, color, storage) {
         
         // Mostrar mensaje si no hay ofertas que coincidan con los filtros
         if (filteredOffers.length === 0) {
-            offersSection.innerHTML = '<div class="no-offers">No hay ofertas disponibles para esta combinación de color y almacenamiento.</div>';
+            offersSection.innerHTML = '<div class="no-offers">No hay ofertas disponibles para esta combinación de filtros.</div>';
         }
         
     } catch (error) {

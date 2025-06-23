@@ -8,8 +8,8 @@ let currentColor = null;
 let currentColorId = null;
 let currentStorage = null;
 let currentStorageId = null;
-let currentRam = null;
-let currentRamId = null;
+let currentCondition = null;
+let currentConditionId = null;
 
 // Obtener parámetros de la URL al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
@@ -87,22 +87,22 @@ function setupProductOptionEvents() {
                     }
                 });
                 
-                // Filtrar ofertas por color y almacenamiento usando el ID
-                fetchOffers(currentVariantId, currentColorId, currentStorageId);
+                // Filtrar ofertas por color, almacenamiento y condición usando el ID
+                fetchOffers(currentVariantId, currentColorId, currentStorageId, currentConditionId);
             } else if (optionType === 'storage') {
                 currentStorage = selectedValue;
                 currentStorageId = selectedId;
                 console.log('Storage seleccionado:', currentStorage);
                 console.log('Storage ID seleccionado:', currentStorageId);
-                // Filtrar ofertas por color y almacenamiento usando el ID
-                fetchOffers(currentVariantId, currentColorId, currentStorageId);
-            } else if (optionType === 'ram') {
-                currentRam = selectedValue;
-                currentRamId = selectedId;
-                console.log('RAM seleccionada:', currentRam);
-                console.log('RAM ID seleccionada:', currentRamId);
-                // La RAM no afecta a las ofertas en este caso
-                fetchOffers(currentVariantId, currentColorId, currentStorageId);
+                // Filtrar ofertas por color, almacenamiento y condición usando el ID
+                fetchOffers(currentVariantId, currentColorId, currentStorageId, currentConditionId);
+            } else if (optionType === 'condition') {
+                currentCondition = selectedValue;
+                currentConditionId = selectedId;
+                console.log('Condición seleccionada:', currentCondition);
+                console.log('Condición ID seleccionada:', currentConditionId);
+                // Filtrar ofertas por color, almacenamiento y condición usando el ID
+                fetchOffers(currentVariantId, currentColorId, currentStorageId, currentConditionId);
             }
             
             console.log(`Opción ${isCurrentlyActive ? 'deseleccionada' : 'seleccionada'}: ${optionType} - ${selectedValue || 'ninguna'}`);
@@ -134,6 +134,8 @@ async function fetchProductData(skipUpdateUI = false) {
         const savedStorageId = currentStorageId;
         const savedColor = currentColor;
         const savedStorage = currentStorage;
+        const savedConditionId = currentConditionId;
+        const savedCondition = currentCondition;
         
         // Actualizar la interfaz con los datos del producto solo si no se indica lo contrario
         if (!skipUpdateUI) {
@@ -170,6 +172,21 @@ async function fetchProductData(skipUpdateUI = false) {
                     }
                 });
             }
+            
+            if (savedConditionId && savedCondition) {
+                // Buscar y activar la opción de condición correspondiente
+                const conditionOptions = document.querySelectorAll('.option[data-type="condition"]');
+                conditionOptions.forEach(option => {
+                    if (option.getAttribute('data-id') === savedConditionId) {
+                        // Desactivar todas las opciones de condición
+                        conditionOptions.forEach(opt => opt.classList.remove('active'));
+                        // Activar esta opción
+                        option.classList.add('active');
+                        currentConditionId = savedConditionId;
+                        currentCondition = savedCondition;
+                    }
+                });
+            }
         }
         
         // Actualizar las imágenes según el color seleccionado
@@ -178,7 +195,7 @@ async function fetchProductData(skipUpdateUI = false) {
         // Esperar a que se actualice la interfaz y los pickers estén disponibles
         setTimeout(() => {
             // Cargar las ofertas para la variante seleccionada usando IDs (pueden ser null si no hay filtros)
-            fetchOffers(currentVariantId, currentColorId, currentStorageId);
+            fetchOffers(currentVariantId, currentColorId, currentStorageId, currentConditionId);
         }, 100);
         
         return data;
@@ -262,7 +279,7 @@ function updateProductUI(product) {
         console.log('Updated stars for rating:', product.rating);
     }
     
-    // Actualizar opciones de producto (colores, almacenamiento, RAM)
+    // Actualizar opciones de producto (colores, almacenamiento y condición)
     console.log('Updating product options with pickers:', product.pickers);
     updateProductOptions(product.pickers);
     
@@ -276,10 +293,10 @@ function updateProductUI(product) {
  * @param {Array} pickers - Array de selectores del producto
  */
 function updateProductOptions(pickers) {
-    // Obtener los pickers de color, almacenamiento y RAM
+    // Obtener los pickers de color, almacenamiento y condición
     const colorPicker = pickers.find(picker => picker.id === 'color');
     const storagePicker = pickers.find(picker => picker.id === 'internal_memory');
-    const ramPicker = pickers.find(picker => picker.id === 'ram');
+    const conditionPicker = pickers.find(picker => picker.id === 'condicion');
     
     // Obtener el contenedor de opciones
     const productOptions = document.querySelector('.product-options');
@@ -345,33 +362,33 @@ function updateProductOptions(pickers) {
             productOptions.appendChild(storageRow);
         }
         
-        // Crear fila para opciones de RAM
-        if (ramPicker && ramPicker.values.length > 0) {
-            const ramRow = document.createElement('div');
-            ramRow.className = 'option-row';
+        // Crear fila para opciones de condición
+        if (conditionPicker && conditionPicker.values.length > 0) {
+            const conditionRow = document.createElement('div');
+            conditionRow.className = 'option-row';
             
-            // Agregar título para la fila de RAM
-            const ramTitle = document.createElement('div');
-            ramTitle.className = 'option-row-title';
-            ramTitle.textContent = ramPicker.name;
-            productOptions.appendChild(ramTitle);
+            // Agregar título para la fila de condición
+            const conditionTitle = document.createElement('div');
+            conditionTitle.className = 'option-row-title';
+            conditionTitle.textContent = conditionPicker.name;
+            productOptions.appendChild(conditionTitle);
             
-            // Agregar todas las opciones de RAM disponibles (sin activar ninguna por defecto)
-            ramPicker.values.forEach((ramValue, index) => {
-                const ramOption = document.createElement('div');
-                ramOption.className = 'option'; // Sin 'active' por defecto
-                ramOption.dataset.type = 'ram';
-                ramOption.setAttribute('data-value', ramValue.name);
-                ramOption.setAttribute('data-id', ramValue.id);
+            // Agregar todas las opciones de condición disponibles (sin activar ninguna por defecto)
+            conditionPicker.values.forEach((conditionValue, index) => {
+                const conditionOption = document.createElement('div');
+                conditionOption.className = 'option'; // Sin 'active' por defecto
+                conditionOption.dataset.type = 'condition';
+                conditionOption.setAttribute('data-value', conditionValue.name);
+                conditionOption.setAttribute('data-id', conditionValue.id);
                 
-                ramOption.innerHTML = `
-                    <div class="option-value">${ramValue.name}</div>
+                conditionOption.innerHTML = `
+                    <div class="option-value">${conditionValue.name}</div>
                 `;
                 
-                ramRow.appendChild(ramOption);
+                conditionRow.appendChild(conditionOption);
             });
             
-            productOptions.appendChild(ramRow);
+            productOptions.appendChild(conditionRow);
         }
     }
 }
@@ -531,11 +548,20 @@ function getSelectedStorageId() {
 }
 
 /**
- * Obtiene la RAM seleccionada actualmente
- * @returns {string} - RAM seleccionada
+ * Obtiene la condición seleccionada actualmente
+ * @returns {string} - Condición seleccionada
  */
-function getSelectedRam() {
-    return currentRam;
+function getSelectedCondition() {
+    return currentCondition;
+}
+
+/**
+ * Obtiene el ID de la condición seleccionada actualmente
+ * @returns {string} - ID de la condición seleccionada
+ */
+function getSelectedConditionId() {
+    const activeConditionOption = document.querySelector('.option[data-type="condition"].active');
+    return activeConditionOption ? activeConditionOption.getAttribute('data-id') : null;
 }
 
 /**
@@ -543,7 +569,7 @@ function getSelectedRam() {
  */
 function updateSelectedVariant() {
     // Ya no necesitamos construir un ID de variante basado en color y almacenamiento
-    // porque ahora usamos el ID del producto y filtramos por color y almacenamiento
+    // porque ahora usamos el ID del producto y filtramos por color, almacenamiento y condición
     
     // Actualizar la URL con la nueva variante
     updateUrlWithVariant(currentVariantId);
@@ -551,9 +577,10 @@ function updateSelectedVariant() {
     console.log('updateSelectedVariant - usando IDs directamente:');
     console.log('currentColorId:', currentColorId);
     console.log('currentStorageId:', currentStorageId);
+    console.log('currentConditionId:', currentConditionId);
     
-    // Cargar las ofertas para la nueva variante, filtrando por color y almacenamiento usando IDs
-    fetchOffers(currentVariantId, currentColorId, currentStorageId);
+    // Cargar las ofertas para la nueva variante, filtrando por color, almacenamiento y condición usando IDs
+    fetchOffers(currentVariantId, currentColorId, currentStorageId, currentConditionId);
     
     // Obtener los datos del producto pero sin actualizar la UI completa
     fetchProductData(true).then(data => {

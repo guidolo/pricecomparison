@@ -73,6 +73,20 @@
             "name": "4 GB"
           }
         ]
+      },
+      {
+        "id": "condicion",
+        "name": "Condición",
+        "values": [
+          {
+            "id": "new",
+            "name": "Nuevo"
+          },
+          {
+            "id": "reacondicionado",
+            "name": "Reacondicionado"
+          }
+        ]
       }
     ],
     "images": [

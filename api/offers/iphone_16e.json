@@ -53,8 +53,8 @@
         }
       },
       "condition": {
-        "id": "new",
-        "name": "Nuevo"
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
       },
       "tag": "Mejor precio con cashback",
       "price": 14999.0,
