@@ -315,10 +315,12 @@ function updateProductOptions(pickers) {
             colorTitle.textContent = colorPicker.name;
             productOptions.appendChild(colorTitle);
             
-            // Agregar todas las opciones de color disponibles (sin activar ninguna por defecto)
+            // Agregar todas las opciones de color disponibles
             colorPicker.values.forEach((colorValue, index) => {
                 const colorOption = document.createElement('div');
-                colorOption.className = 'option'; // Sin 'active' por defecto
+                // Seleccionar automáticamente el primer color si no hay ninguno seleccionado
+                const isFirstColor = index === 0 && !currentColorId;
+                colorOption.className = `option${isFirstColor ? ' active' : ''}`;
                 colorOption.dataset.type = 'color';
                 colorOption.setAttribute('data-value', colorValue.name);
                 colorOption.setAttribute('data-id', colorValue.id);
@@ -328,6 +330,14 @@ function updateProductOptions(pickers) {
                 `;
                 
                 colorRow.appendChild(colorOption);
+                
+                // Si es el primer color y no hay ninguno seleccionado, establecerlo como actual
+                if (isFirstColor) {
+                    currentColor = colorValue.name;
+                    currentColorId = colorValue.id;
+                    console.log('Color seleccionado por defecto:', currentColor);
+                    console.log('Color ID seleccionado por defecto:', currentColorId);
+                }
             });
             
             productOptions.appendChild(colorRow);
@@ -470,12 +480,30 @@ function updateProductImages(images) {
         console.log('Actualizando imágenes para color:', currentColor);
         console.log('Actualizando imágenes para colorId:', currentColorId);
         
-        // Primero intentar filtrar por ID de color (usando use_picker_id)
-        let colorImages = images.filter(img => img.use_picker_id === currentColorId);
+        let colorImages = [];
         
-        // Si no hay imágenes con ese ID, intentar filtrar por nombre de color
+        // Si hay un color seleccionado, buscar sus imágenes
+        if (currentColorId || currentColor) {
+            // Primero intentar filtrar por ID de color (usando use_picker_id)
+            colorImages = images.filter(img => img.use_picker_id === currentColorId);
+            
+            // Si no hay imágenes con ese ID, intentar filtrar por nombre de color
+            if (colorImages.length === 0) {
+                colorImages = images.filter(img => img.color === currentColor);
+            }
+        }
+        
+        // Si no hay imágenes para el color seleccionado o no hay color seleccionado,
+        // mostrar las imágenes del primer color disponible
         if (colorImages.length === 0) {
-            colorImages = images.filter(img => img.color === currentColor);
+            console.log('No hay color seleccionado o no se encontraron imágenes, mostrando primer color disponible');
+            
+            // Obtener el primer color disponible de las imágenes
+            const firstColor = images[0]?.color;
+            if (firstColor) {
+                colorImages = images.filter(img => img.color === firstColor);
+                console.log('Mostrando imágenes del primer color disponible:', firstColor);
+            }
         }
         
         console.log('Imágenes encontradas:', colorImages.length);
@@ -486,7 +514,8 @@ function updateProductImages(images) {
             
             // Actualizar la imagen principal
             productImg.src = colorImages[0].url;
-            productImg.alt = `${document.querySelector('.product-title').textContent} ${currentColor}`;
+            const selectedColor = currentColor || colorImages[0].color;
+            productImg.alt = `${document.querySelector('.product-title').textContent} ${selectedColor}`;
             
             // Actualizar los puntos del carrusel
             const dotsContainer = document.querySelector('.carousel-dots');
