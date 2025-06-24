@@ -1,0 +1,591 @@
+{
+  "product_id": "iphone13promax",
+  "total_offers": 13,
+  "offers": [
+    {
+      "id": "7461080105116-392036935143895",
+      "variant_id": "iphone13promax-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 9990.0,
+      "price_hist": [
+        14785.6,
+        14723.8,
+        12793.4,
+        12559.1,
+        9643.7,
+        9990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13-pro-max"
+      }
+    },
+    {
+      "id": "7461080105116-392036935143895",
+      "variant_id": "iphone13promax-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 10990.0,
+      "price_hist": [
+        17801.4,
+        15341.3,
+        15890.3,
+        14292.6,
+        11852.9,
+        10990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13-pro-max"
+      }
+    },
+    {
+      "id": "B09LPDM924-526202704834412",
+      "variant_id": "iphone13promax-azul-alpino-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul alpino",
+          "name": "Azul Alpino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11635.34,
+      "price_hist": [
+        18163.7,
+        14373.2,
+        13900.8,
+        12651.9,
+        12451.8,
+        11635.34
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPDM924?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BGYDDWDF-526202704834412",
+      "variant_id": "iphone13promax-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 21487.14,
+      "price_hist": [
+        33199.1,
+        30629.8,
+        29253.9,
+        26374.9,
+        25984.8,
+        21487.14
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BGYDDWDF?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9BPPHR-526202704834412",
+      "variant_id": "iphone13promax-azul-sierra-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 33999.0,
+      "price_hist": [
+        57206.3,
+        46370.5,
+        42021.2,
+        36045.3,
+        35503.7,
+        33999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9BPPHR?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LPK77YY-526202704834412",
+      "variant_id": "iphone13promax-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11701.73,
+      "price_hist": [
+        18984.2,
+        14840.3,
+        13531.6,
+        12729.5,
+        13629.2,
+        11701.73
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPK77YY?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09V3JKYX9-526202704834412",
+      "variant_id": "iphone13promax-verde-alpino-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde alpino",
+          "name": "Verde Alpino"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 33999.0,
+      "price_hist": [
+        57079.2,
+        52307.9,
+        49618.6,
+        41915.1,
+        40172.8,
+        33999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09V3JKYX9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G99WZJT-526202704834412",
+      "variant_id": "iphone13promax-color-plata-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "color plata",
+          "name": "Color Plata"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 38999.0,
+      "price_hist": [
+        62779.3,
+        57524.6,
+        54240.2,
+        44682.1,
+        43931.2,
+        38999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G99WZJT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BGYHCHXH-526202704834412",
+      "variant_id": "iphone13promax-verde-alpino-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde alpino",
+          "name": "Verde Alpino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 15472.46,
+      "price_hist": [
+        23475.0,
+        22565.1,
+        21542.9,
+        17807.6,
+        16364.2,
+        15472.46
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BGYHCHXH?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9BMPM8-526202704834412",
+      "variant_id": "iphone13promax-azul-sierra-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 38999.0,
+      "price_hist": [
+        61951.5,
+        57430.4,
+        52814.1,
+        48567.2,
+        38561.6,
+        38999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9BMPM8?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP9TM5L-526202704834412",
+      "variant_id": "iphone13promax-azul-alpino-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul alpino",
+          "name": "Azul Alpino"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 12459.72,
+      "price_hist": [
+        19500.8,
+        17949.5,
+        15454.8,
+        14903.2,
+        14256.9,
+        12459.72
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP9TM5L?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP86CVN-526202704834412",
+      "variant_id": "iphone13promax-plata-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "plata",
+          "name": "Plata"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 16500.0,
+      "price_hist": [
+        25455.5,
+        22735.5,
+        23199.7,
+        20580.0,
+        15910.1,
+        16500.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP86CVN?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP862LG-526202704834412",
+      "variant_id": "iphone13promax-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 14782.66,
+      "price_hist": [
+        19688.0,
+        20873.7,
+        20826.1,
+        18735.2,
+        16162.2,
+        14782.66
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP862LG?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    }
+  ]
+}

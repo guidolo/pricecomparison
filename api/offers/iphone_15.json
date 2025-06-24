@@ -1,6 +1,6 @@
 {
   "product_id": "iphone15",
-  "total_offers": 11,
+  "total_offers": 34,
   "offers": [
     {
       "id": "195949035180_82872-751534892406662",
@@ -16,11 +16,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 17499.0,
+      "price_hist": [
+        24946.5,
+        25850.0,
+        21472.2,
+        22225.9,
+        21067.0,
+        17499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -53,11 +61,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 17499.0,
+      "price_hist": [
+        26758.3,
+        24251.0,
+        20169.0,
+        18503.4,
+        19337.1,
+        17499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -90,11 +106,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 17499.0,
+      "price_hist": [
+        24441.2,
+        23348.7,
+        22433.8,
+        20511.5,
+        18009.8,
+        17499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -127,11 +151,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 17499.0,
+      "price_hist": [
+        23810.4,
+        24209.6,
+        20941.7,
+        20294.6,
+        18494.1,
+        17499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -164,11 +196,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 19999.0,
+      "price_hist": [
+        27118.1,
+        25175.2,
+        29215.7,
+        21615.5,
+        23719.7,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -201,11 +241,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 19999.0,
+      "price_hist": [
+        27124.1,
+        26111.0,
+        28888.1,
+        24723.8,
+        22397.2,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -238,11 +286,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 19999.0,
+      "price_hist": [
+        27317.0,
+        26963.8,
+        26952.2,
+        23447.8,
+        19787.6,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -262,6 +318,816 @@
       }
     },
     {
+      "id": "8274419581084-392036935143895",
+      "variant_id": "iphone15-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 14490.0,
+      "price_hist": [
+        20184.9,
+        19305.8,
+        20631.3,
+        16091.9,
+        17330.8,
+        14490.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15-plus"
+      }
+    },
+    {
+      "id": "8274419581084-392036935143895",
+      "variant_id": "iphone15-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 14490.0,
+      "price_hist": [
+        21511.7,
+        18991.5,
+        18493.4,
+        16385.0,
+        17321.0,
+        14490.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15-plus"
+      }
+    },
+    {
+      "id": "8274419581084-392036935143895",
+      "variant_id": "iphone15-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 14490.0,
+      "price_hist": [
+        19696.8,
+        21916.7,
+        20469.5,
+        16764.5,
+        14804.6,
+        14490.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15-plus"
+      }
+    },
+    {
+      "id": "8274419581084-392036935143895",
+      "variant_id": "iphone15-amarillo-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "amarillo",
+          "name": "Amarillo"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 14490.0,
+      "price_hist": [
+        20405.5,
+        18436.7,
+        16792.9,
+        17057.3,
+        17535.4,
+        14490.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15-plus"
+      }
+    },
+    {
+      "id": "8274419581084-392036935143895",
+      "variant_id": "iphone15-amarillo-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "amarillo",
+          "name": "Amarillo"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 15740.0,
+      "price_hist": [
+        24630.7,
+        19747.3,
+        19153.9,
+        19661.7,
+        15182.0,
+        15740.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15-plus"
+      }
+    },
+    {
+      "id": "8274419581084-392036935143895",
+      "variant_id": "iphone15-azul-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 15740.0,
+      "price_hist": [
+        26541.0,
+        24452.3,
+        20724.5,
+        17742.0,
+        19128.1,
+        15740.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15-plus"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 10990.0,
+      "price_hist": [
+        14811.2,
+        16756.7,
+        14032.7,
+        14797.8,
+        11829.4,
+        10990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 10990.0,
+      "price_hist": [
+        16781.5,
+        17043.4,
+        14432.8,
+        12400.3,
+        13358.5,
+        10990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 10990.0,
+      "price_hist": [
+        17530.0,
+        15077.7,
+        14864.1,
+        14008.8,
+        11618.7,
+        10990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-amarillo-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "amarillo",
+          "name": "Amarillo"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 10990.0,
+      "price_hist": [
+        15289.4,
+        13566.2,
+        14546.1,
+        13226.0,
+        12947.7,
+        10990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 11990.0,
+      "price_hist": [
+        18267.7,
+        15354.9,
+        16199.9,
+        15196.6,
+        12525.5,
+        11990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-verde-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 11990.0,
+      "price_hist": [
+        18203.8,
+        18461.9,
+        14895.3,
+        14493.8,
+        14307.7,
+        11990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 11990.0,
+      "price_hist": [
+        18526.4,
+        15376.1,
+        16416.0,
+        14542.3,
+        12523.3,
+        11990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 11990.0,
+      "price_hist": [
+        16080.4,
+        18170.5,
+        13881.2,
+        13446.7,
+        14282.6,
+        11990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "8274419646620-392036935143895",
+      "variant_id": "iphone15-amarillo-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "amarillo",
+          "name": "Amarillo"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 11990.0,
+      "price_hist": [
+        16699.1,
+        17937.3,
+        15569.5,
+        14677.8,
+        12857.5,
+        11990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-15"
+      }
+    },
+    {
+      "id": "B0CLN5XNR8-526202704834412",
+      "variant_id": "iphone15-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11752.45,
+      "price_hist": [
+        19321.5,
+        16326.8,
+        15827.5,
+        13397.3,
+        13474.1,
+        11752.45
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CLN5XNR8?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0CLMWSVX5-526202704834412",
+      "variant_id": "iphone15-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 13429.45,
+      "price_hist": [
+        21692.5,
+        19702.1,
+        17064.4,
+        18105.6,
+        15352.2,
+        13429.45
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CLMWSVX5?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0CLN8GRGR-526202704834412",
+      "variant_id": "iphone15-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 12972.0,
+      "price_hist": [
+        21207.5,
+        17814.4,
+        15706.3,
+        15865.2,
+        16022.6,
+        12972.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CLN8GRGR?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
       "id": "B0CHWZ557N-526202704834412",
       "variant_id": "iphone15-negro-512gb",
       "variant_attributes": {
@@ -275,11 +1141,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 22499.1,
+      "price_hist": [
+        35665.3,
+        32930.2,
+        27078.4,
+        25412.3,
+        23301.9,
+        22499.1
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -289,13 +1163,58 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
         "url": "https://www.amazon.com.mx/dp/B0CHWZ557N?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0CMPNR2JL-526202704834412",
+      "variant_id": "iphone15-amarillo-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "amarillo",
+          "name": "Amarillo"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 9354.96,
+      "price_hist": [
+        14991.6,
+        13889.7,
+        12750.1,
+        10167.2,
+        10990.1,
+        9354.96
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CMPNR2JL?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
@@ -312,11 +1231,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 27499.0,
+      "price_hist": [
+        45082.9,
+        37165.9,
+        37448.7,
+        30616.4,
+        26493.7,
+        27499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -326,7 +1253,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
@@ -336,12 +1263,12 @@
       }
     },
     {
-      "id": "B0CHXDLGFS-526202704834412",
-      "variant_id": "iphone15-negro-256gb",
+      "id": "B0CLNC6RR5-526202704834412",
+      "variant_id": "iphone15-azul-256gb",
       "variant_attributes": {
         "color": {
-          "id": "negro",
-          "name": "Negro"
+          "id": "azul",
+          "name": "Azul"
         },
         "storage": {
           "id": "256_gb",
@@ -349,11 +1276,19 @@
         }
       },
       "condition": {
-        "id": "new",
-        "name": "Nuevo"
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
       },
-      "tag": "Mejor precio con cashback",
-      "price": 18999.0,
+      "tag": "Con Cashback",
+      "price": 13453.81,
+      "price_hist": [
+        20818.5,
+        20060.8,
+        15576.9,
+        17179.5,
+        14020.4,
+        13453.81
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -363,13 +1298,13 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CHXDLGFS?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0CLNC6RR5?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
@@ -386,11 +1321,19 @@
         }
       },
       "condition": {
-        "id": "new",
-        "name": "Nuevo"
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 15321.39,
+      "price_hist": [
+        25848.3,
+        22321.1,
+        20794.6,
+        17012.7,
+        17942.3,
+        15321.39
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -400,13 +1343,193 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
         "url": "https://www.amazon.com.mx/dp/B0CMT3P49Q?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0CRJM2BW1-526202704834412",
+      "variant_id": "iphone15-verde-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 12490.1,
+      "price_hist": [
+        16853.9,
+        17593.6,
+        15979.6,
+        15413.0,
+        14278.4,
+        12490.1
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CRJM2BW1?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0CLN4BKMW-526202704834412",
+      "variant_id": "iphone15-rosa-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 14354.43,
+      "price_hist": [
+        20562.5,
+        22019.0,
+        17120.2,
+        15751.3,
+        16770.6,
+        14354.43
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CLN4BKMW?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0CLNG21Z8-526202704834412",
+      "variant_id": "iphone15-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 13070.14,
+      "price_hist": [
+        17833.7,
+        16769.3,
+        18884.7,
+        17305.5,
+        13702.1,
+        13070.14
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CLNG21Z8?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0CLN6K4K9-526202704834412",
+      "variant_id": "iphone15-negro-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 14174.36,
+      "price_hist": [
+        18637.2,
+        22194.5,
+        16957.5,
+        18218.8,
+        13845.4,
+        14174.36
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0CLN6K4K9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     }
   ]

@@ -1,906 +1,574 @@
 {
-  "product_id": "iphone14plus",
-  "total_offers": 20,
-  "offers": [
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-azul-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "azul",
-          "name": "Azul"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
+  "product": {
+    "id": "MLA19615341",
+    "name": "iPhone 14 Plus",
+    "category": "",
+    "description": "El iPhone 14 Plus tiene una pantalla de 6.7 pulgadas(1) y batería que te acompaña todo el día para que pienses en grande.(2) Su nuevo sistema de dos cámaras te permite tomar fotos espectaculares en condiciones de mucha o poca luz. Y viene con Detección de Choques(3), una nueva funcionalidad de seguridad que pide ayuda cuando no estás en condiciones de hacerlo.  \n\nAviso legal  \n(1) La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la pantalla tiene 6.68 pulgadas en diagonal. El área real de visualización es menor. \n(2) La duración de la batería varía según el uso y la configuración.  \n(3) La funcionalidad Emergencia SOS usa conexión celular o llamadas por Wi-Fi. \n(4) Se requiere un plan de datos. 5G está disponible en algunos mercados y a través de operadores específicos. Las velocidades varían según las condiciones del lugar y el operador. \n(5) El iPhone 14 Plus es resistente a las salpicaduras, al agua y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529 (hasta 30 minutos a una profundidad máxima de 6 metros). La resistencia a las salpicaduras, al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos. \n(6) Algunas funcionalidades podrían no estar disponibles en todos los países o áreas.",
+    "rating": 0,
+    "reviews_count": 0,
+    "brand": "",
+    "model": "iPhone 14 Plus",
+    "release_year": "",
+    "pickers": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          {
+            "id": "(product)red",
+            "name": "(Product)Red",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_762161-MLM51559383657_092022-I.jpg"
+          },
+          {
+            "id": "amarillo",
+            "name": "Amarillo",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_622325-MLU69244435508_052023-I.jpg"
+          },
+          {
+            "id": "azul",
+            "name": "Azul",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_619487-MLU77827010112_072024-I.jpg"
+          },
+          {
+            "id": "blanco_estelar",
+            "name": "Blanco estelar",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_922013-MLM51559385450_092022-I.jpg"
+          },
+          {
+            "id": "medianoche",
+            "name": "Medianoche",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_902062-MLM51559388098_092022-I.jpg"
+          },
+          {
+            "id": "morado",
+            "name": "Morado",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_782535-MLM51559386281_092022-I.jpg"
+          }
+        ]
       },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
+      {
+        "id": "internal_memory",
+        "name": "Memoria interna",
+        "values": [
+          {
+            "id": "128_gb",
+            "name": "128 GB"
+          },
+          {
+            "id": "256_gb",
+            "name": "256 GB"
+          },
+          {
+            "id": "512_gb",
+            "name": "512 GB"
+          }
+        ]
       },
-      "tag": "",
-      "price": 8790.0,
-      "price_hist": [
-        13846.1,
-        13405.9,
-        10128.2,
-        10014.8,
-        8899.0,
-        8790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
+      {
+        "id": "ram",
+        "name": "Memoria RAM",
+        "values": [
+          {
+            "id": "4_gb",
+            "name": "4 GB"
+          },
+          {
+            "id": "6_gb",
+            "name": "6 GB"
+          }
+        ]
       },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
+      {
+        "id": "condicion",
+        "name": "Condición",
+        "values": [
+          {
+            "id": "new",
+            "name": "Nuevo"
+          },
+          {
+            "id": "reacondicionado",
+            "name": "Reacondicionado"
+          }
+        ]
       }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-medianoche-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "medianoche",
-          "name": "Medianoche"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
+    ],
+    "images": [
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_619487-MLU77827010112_072024-F.jpg",
+        "position": 1,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
       },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_888109-MLM51559383705_092022-F.jpg",
+        "position": 2,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
       },
-      "tag": "",
-      "price": 8790.0,
-      "price_hist": [
-        14281.8,
-        13367.3,
-        10020.5,
-        9471.2,
-        8612.3,
-        8790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_845596-MLM74110433838_012024-F.jpg",
+        "position": 3,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
       },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_783686-MLU77827000582_072024-F.jpg",
+        "position": 4,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
       },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_927644-MLU77827059454_072024-F.jpg",
+        "position": 5,
+        "color": "Azul",
+        "use_picker_id": [
+          "MLA19615341"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_902062-MLM51559388098_092022-F.jpg",
+        "position": 1,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_817638-MLM51559388106_092022-F.jpg",
+        "position": 2,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_942467-MLM74228006875_012024-F.jpg",
+        "position": 3,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_815611-MLM51559388099_092022-F.jpg",
+        "position": 4,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_744631-MLM74227132853_012024-F.jpg",
+        "position": 5,
+        "color": "Medianoche",
+        "use_picker_id": [
+          "MLA19615347"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_782535-MLM51559386281_092022-F.jpg",
+        "position": 1,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_935329-MLM51559386278_092022-F.jpg",
+        "position": 2,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_922644-MLM74116086134_012024-F.jpg",
+        "position": 3,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_686013-MLM51559386280_092022-F.jpg",
+        "position": 4,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_716639-MLM74135903372_012024-F.jpg",
+        "position": 5,
+        "color": "Morado",
+        "use_picker_id": [
+          "MLA19615366"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_622325-MLU69244435508_052023-F.jpg",
+        "position": 1,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_923443-MLU73587669750_122023-F.jpg",
+        "position": 2,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_727017-MLU69244435514_052023-F.jpg",
+        "position": 3,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_882322-MLU69244435516_052023-F.jpg",
+        "position": 4,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_808714-MLU69244435518_052023-F.jpg",
+        "position": 5,
+        "color": "Amarillo",
+        "use_picker_id": [
+          "MLA24285551"
+        ]
       }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-morado-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "morado",
-          "name": "Morado"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
+    ],
+    "product_details": [
+      {
+        "category": "Network",
+        "specifications": [
+          {
+            "name": "Technology",
+            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+          },
+          {
+            "name": "2G bands",
+            "value": "GSM 850 / 900 / 1800 / 1900"
+          },
+          {
+            "name": "",
+            "value": "CDMA 800 / 1900"
+          },
+          {
+            "name": "3G bands",
+            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
+          },
+          {
+            "name": "",
+            "value": "CDMA2000 1xEV-DO"
+          },
+          {
+            "name": "4G bands",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2886, A2888"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66, 71 - A2632, A2885"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2887"
+          },
+          {
+            "name": "5G bands",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A2886, A2888"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 77, 78, 79, 258, 260, 261 SA/NSA/Sub6/mmWave - A2632"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 77, 78, 79 SA/NSA/Sub6 - A2885"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A2887"
+          },
+          {
+            "name": "Speed",
+            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+          }
+        ]
       },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
+      {
+        "category": "Launch",
+        "specifications": [
+          {
+            "name": "Announced",
+            "value": "2022, September 07"
+          },
+          {
+            "name": "Status",
+            "value": "Available. Released 2022, October 07"
+          }
+        ]
       },
-      "tag": "",
-      "price": 8790.0,
-      "price_hist": [
-        14674.4,
-        10912.5,
-        10500.1,
-        10694.0,
-        9529.5,
-        8790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
+      {
+        "category": "Body",
+        "specifications": [
+          {
+            "name": "Dimensions",
+            "value": "160.8 x 78.1 x 7.8 mm (6.33 x 3.07 x 0.31 in)"
+          },
+          {
+            "name": "Weight",
+            "value": "203 g (7.16 oz)"
+          },
+          {
+            "name": "Build",
+            "value": "Glass front, glass back, aluminum frame"
+          },
+          {
+            "name": "SIM",
+            "value": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)"
+          },
+          {
+            "name": "",
+            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
+          }
+        ]
       },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
+      {
+        "category": "Display",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)"
+          },
+          {
+            "name": "Size",
+            "value": "6.7 inches, 109.8 cm2 (~87.4% screen-to-body ratio)"
+          },
+          {
+            "name": "Resolution",
+            "value": "1284 x 2778 pixels, 19.5:9 ratio (~458 ppi density)"
+          },
+          {
+            "name": "Protection",
+            "value": "Ceramic Shield glass"
+          }
+        ]
       },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
+      {
+        "category": "Platform",
+        "specifications": [
+          {
+            "name": "OS",
+            "value": "iOS 16, upgradable to iOS 18.5"
+          },
+          {
+            "name": "Chipset",
+            "value": "Apple A15 Bionic (5 nm)"
+          },
+          {
+            "name": "CPU",
+            "value": "Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)"
+          },
+          {
+            "name": "GPU",
+            "value": "Apple GPU (5-core graphics)"
+          }
+        ]
+      },
+      {
+        "category": "Memory",
+        "specifications": [
+          {
+            "name": "Card slot",
+            "value": "No"
+          },
+          {
+            "name": "Internal",
+            "value": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM"
+          },
+          {
+            "name": "",
+            "value": "NVMe"
+          }
+        ]
+      },
+      {
+        "category": "Main Camera",
+        "specifications": [
+          {
+            "name": "Dual",
+            "value": "12 MP, f/1.5, 26mm (wide), 1/1.7\", 1.9µm, dual pixel PDAF, sensor-shift OIS\r\n12 MP, f/2.4, 13mm, 120˚ (ultrawide)"
+          },
+          {
+            "name": "Features",
+            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
+          }
+        ]
+      },
+      {
+        "category": "Selfie camera",
+        "specifications": [
+          {
+            "name": "Single",
+            "value": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF\r\nSL 3D, (depth/biometrics sensor)"
+          },
+          {
+            "name": "Features",
+            "value": "HDR"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+          }
+        ]
+      },
+      {
+        "category": "Sound",
+        "specifications": [
+          {
+            "name": "Loudspeaker",
+            "value": "Yes, with stereo speakers"
+          },
+          {
+            "name": "3.5mm jack",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "category": "Comms",
+        "specifications": [
+          {
+            "name": "WLAN",
+            "value": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
+          },
+          {
+            "name": "Bluetooth",
+            "value": "5.3, A2DP, LE"
+          },
+          {
+            "name": "Positioning",
+            "value": "GPS, GLONASS, GALILEO, BDS, QZSS"
+          },
+          {
+            "name": "NFC",
+            "value": "Yes"
+          },
+          {
+            "name": "Radio",
+            "value": "No"
+          },
+          {
+            "name": "USB",
+            "value": "Lightning, USB 2.0"
+          }
+        ]
+      },
+      {
+        "category": "Features",
+        "specifications": [
+          {
+            "name": "Sensors",
+            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
+          },
+          {
+            "name": "",
+            "value": "Ultra Wideband (UWB) support\r\nEmergency SOS via satellite (SMS sending/receiving)"
+          }
+        ]
+      },
+      {
+        "category": "Battery",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Li-Ion 4323 mAh (16.68 Wh)"
+          },
+          {
+            "name": "Charging",
+            "value": "Wired, PD2.0, 50% in 30 min\r\n15W wireless (MagSafe)\r\n15W wireless (Qi2) - requires iOS 17.2 update"
+          }
+        ]
+      },
+      {
+        "category": "Misc",
+        "specifications": [
+          {
+            "name": "Colors",
+            "value": "Midnight, Purple, Starlight, Blue, Red, Yellow"
+          },
+          {
+            "name": "Models",
+            "value": "A2886, A2632, A2885, A2896, A2887, iphone14,8"
+          },
+          {
+            "name": "SAR",
+            "value": "1.14 W/kg (head)     1.15 W/kg (body)"
+          },
+          {
+            "name": "SAR EU",
+            "value": "0.99 W/kg (head)     0.98 W/kg (body)"
+          },
+          {
+            "name": "Price",
+            "value": "$ 360.99 / € 425.72 / £ 358.94"
+          }
+        ]
+      },
+      {
+        "category": "Tests",
+        "specifications": [
+          {
+            "name": "Performance",
+            "value": "AnTuTu: 797976 (v9)\r\nGeekBench: 4582 (v5.1)\r\nGFXBench: 60fps (ES 3.1 onscreen)"
+          },
+          {
+            "name": "Display",
+            "value": "797 nits max brightness (measured)"
+          },
+          {
+            "name": "Camera",
+            "value": "Photo / Video"
+          },
+          {
+            "name": "Loudspeaker",
+            "value": "-24.7 LUFS (Very good)"
+          },
+          {
+            "name": "Battery (old)",
+            "value": "Endurance rating 102h"
+          }
+        ]
       }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-medianoche-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "medianoche",
-          "name": "Medianoche"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 9790.0,
-      "price_hist": [
-        14445.5,
-        12823.4,
-        11494.8,
-        13024.7,
-        9961.3,
-        9790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-amarillo-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "amarillo",
-          "name": "Amarillo"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 11040.0,
-      "price_hist": [
-        16259.1,
-        16114.9,
-        13771.8,
-        14109.0,
-        12048.2,
-        11040.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-azul-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "azul",
-          "name": "Azul"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 9790.0,
-      "price_hist": [
-        13113.8,
-        13669.7,
-        13009.6,
-        11347.3,
-        11128.9,
-        9790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-medianoche-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "medianoche",
-          "name": "Medianoche"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 9790.0,
-      "price_hist": [
-        13507.9,
-        12465.4,
-        13719.3,
-        11795.9,
-        9998.2,
-        9790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-rojo-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "rojo",
-          "name": "Rojo"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 9790.0,
-      "price_hist": [
-        14397.8,
-        13038.3,
-        13818.9,
-        10555.6,
-        10206.8,
-        9790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-blanco-estelar-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "blanco estelar",
-          "name": "Blanco Estelar"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 9790.0,
-      "price_hist": [
-        16443.0,
-        15161.5,
-        11461.6,
-        11287.9,
-        10114.8,
-        9790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-morado-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "morado",
-          "name": "Morado"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 9790.0,
-      "price_hist": [
-        14887.3,
-        12298.3,
-        12343.8,
-        11302.1,
-        12082.7,
-        9790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-amarillo-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "amarillo",
-          "name": "Amarillo"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 9790.0,
-      "price_hist": [
-        14030.8,
-        12048.5,
-        13016.6,
-        13203.6,
-        11159.7,
-        9790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-azul-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "azul",
-          "name": "Azul"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 10790.0,
-      "price_hist": [
-        17510.0,
-        15825.3,
-        13006.2,
-        11485.6,
-        11096.0,
-        10790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-rojo-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "rojo",
-          "name": "Rojo"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 10790.0,
-      "price_hist": [
-        14470.4,
-        14552.5,
-        15590.3,
-        11856.0,
-        11543.5,
-        10790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "7742540578972-392036935143895",
-      "variant_id": "iphone14plus-morado-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "morado",
-          "name": "Morado"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 10790.0,
-      "price_hist": [
-        16193.9,
-        15846.9,
-        13281.2,
-        11755.7,
-        12525.2,
-        10790.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-14-plus"
-      }
-    },
-    {
-      "id": "B0BNLTG9DF-526202704834412",
-      "variant_id": "iphone14plus-azul-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "azul",
-          "name": "Azul"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 9103.68,
-      "price_hist": [
-        12134.7,
-        12437.4,
-        10784.9,
-        10828.5,
-        9001.9,
-        9103.68
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0BNLTG9DF?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0BNLT8BMX-526202704834412",
-      "variant_id": "iphone14plus-morado-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "morado",
-          "name": "Morado"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 9049.36,
-      "price_hist": [
-        14961.2,
-        11272.7,
-        11328.8,
-        9849.4,
-        9597.8,
-        9049.36
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0BNLT8BMX?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0BDHMRR57-526202704834412",
-      "variant_id": "iphone14plus-azul-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "azul",
-          "name": "Azul"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "Con Cashback",
-      "price": 17498.99,
-      "price_hist": [
-        28793.0,
-        22639.5,
-        23996.0,
-        21229.1,
-        19503.4,
-        17498.99
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0BDHMRR57?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CG7N684H-526202704834412",
-      "variant_id": "iphone14plus-amarillo-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "amarillo",
-          "name": "Amarillo"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 9418.36,
-      "price_hist": [
-        15705.4,
-        14012.1,
-        13625.2,
-        10753.2,
-        9757.4,
-        9418.36
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CG7N684H?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0BNLTRVT9-526202704834412",
-      "variant_id": "iphone14plus-blanco-estelar-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "blanco estelar",
-          "name": "Blanco Estelar"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 9739.0,
-      "price_hist": [
-        15889.6,
-        12863.1,
-        14123.9,
-        12374.4,
-        9808.4,
-        9739.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0BNLTRVT9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0BYH9S5MT-526202704834412",
-      "variant_id": "iphone14plus-medianoche-128gb",
-      "variant_attributes": {
-        "color": {
-          "id": "medianoche",
-          "name": "Medianoche"
-        },
-        "storage": {
-          "id": "128_gb",
-          "name": "128 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 12182.08,
-      "price_hist": [
-        16327.9,
-        19168.9,
-        15293.9,
-        14399.0,
-        15051.0,
-        12182.08
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0BYH9S5MT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
+    ],
+    "product_summary": {
+      "screen_size": "6.7\"",
+      "front_camera_mp": "12 MP",
+      "ram_gb": "6 GB",
+      "battery": "Li-Ion 4323 mAh",
+      "operating_system": "iOS 16"
     }
-  ]
+  }
 }

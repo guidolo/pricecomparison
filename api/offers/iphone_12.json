@@ -1,6 +1,6 @@
 {
   "product_id": "iphone12",
-  "total_offers": 5,
+  "total_offers": 27,
   "offers": [
     {
       "id": "194252029466_261-751534892406662",
@@ -16,11 +16,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 8999.0,
+      "price_hist": [
+        13376.1,
+        13523.8,
+        10259.5,
+        11693.0,
+        10894.4,
+        8999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -40,6 +48,816 @@
       }
     },
     {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-negro-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4240.0,
+      "price_hist": [
+        5880.5,
+        6087.3,
+        4991.2,
+        4933.4,
+        4570.9,
+        4240.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        6717.3,
+        6742.1,
+        5708.7,
+        5340.3,
+        4906.8,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-blanco-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        6753.6,
+        6518.4,
+        6250.7,
+        6348.2,
+        5755.1,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-rojo-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rojo",
+          "name": "Rojo"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        7050.7,
+        6600.0,
+        5933.8,
+        5420.2,
+        5651.8,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-morado-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "morado",
+          "name": "Morado"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        7380.0,
+        6557.5,
+        6304.4,
+        6107.4,
+        5162.2,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-negro-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        8408.6,
+        6982.1,
+        6519.0,
+        5256.8,
+        4968.4,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-blanco-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        7389.8,
+        7568.2,
+        6077.2,
+        5671.9,
+        5519.0,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-morado-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "morado",
+          "name": "Morado"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        7881.5,
+        6139.8,
+        6516.3,
+        6179.5,
+        5012.5,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-rojo-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rojo",
+          "name": "Rojo"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        7251.7,
+        7805.8,
+        6390.7,
+        5408.7,
+        5703.3,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-azul-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4990.0,
+      "price_hist": [
+        7507.0,
+        7125.9,
+        6707.9,
+        5717.1,
+        5476.0,
+        4990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 5740.0,
+      "price_hist": [
+        7578.9,
+        8838.5,
+        6814.6,
+        6989.5,
+        6892.1,
+        5740.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-blanco-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 5740.0,
+      "price_hist": [
+        9537.8,
+        8866.3,
+        7518.7,
+        6067.2,
+        5967.4,
+        5740.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-rojo-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rojo",
+          "name": "Rojo"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 5740.0,
+      "price_hist": [
+        9257.0,
+        7487.1,
+        7461.3,
+        7335.2,
+        5950.2,
+        5740.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "7126572368028-392036935143895",
+      "variant_id": "iphone12-morado-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "morado",
+          "name": "Morado"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 5740.0,
+      "price_hist": [
+        8350.4,
+        7369.2,
+        7870.3,
+        6429.6,
+        6735.0,
+        5740.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12"
+      }
+    },
+    {
+      "id": "B08PP7VXQL-526202704834412",
+      "variant_id": "iphone12-verde-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 5010.0,
+      "price_hist": [
+        8137.1,
+        6907.5,
+        5828.9,
+        5494.6,
+        5193.9,
+        5010.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PP7VXQL?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PP5MSVB-526202704834412",
+      "variant_id": "iphone12-negro-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4799.0,
+      "price_hist": [
+        6721.1,
+        6007.1,
+        5942.8,
+        6378.2,
+        5801.7,
+        4799.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PP5MSVB?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PP9ZP89-526202704834412",
+      "variant_id": "iphone12-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4397.49,
+      "price_hist": [
+        6494.8,
+        6368.0,
+        5405.7,
+        5782.0,
+        5365.3,
+        4397.49
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PP9ZP89?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PNM1LNZ-526202704834412",
+      "variant_id": "iphone12-azul-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 5035.01,
+      "price_hist": [
+        7389.6,
+        6359.5,
+        6239.3,
+        6331.9,
+        5296.1,
+        5035.01
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PNM1LNZ?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
       "id": "B08L7TKCPN-526202704834412",
       "variant_id": "iphone12-product-red-256gb",
       "variant_attributes": {
@@ -53,11 +871,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 19499.0,
+      "price_hist": [
+        31219.5,
+        25907.7,
+        28157.4,
+        25998.0,
+        22835.6,
+        19499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -67,13 +893,58 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
         "url": "https://www.amazon.com.mx/dp/B08L7TKCPN?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09HMXYY8W-526202704834412",
+      "variant_id": "iphone12-morado-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "morado",
+          "name": "Morado"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 6356.16,
+      "price_hist": [
+        10115.3,
+        8692.0,
+        7803.0,
+        7081.4,
+        6779.7,
+        6356.16
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09HMXYY8W?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
@@ -90,11 +961,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 19499.0,
+      "price_hist": [
+        32806.7,
+        27456.2,
+        28512.6,
+        20611.6,
+        23664.1,
+        19499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -104,7 +983,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
@@ -114,12 +993,147 @@
       }
     },
     {
-      "id": "B08PMP778K-526202704834412",
-      "variant_id": "iphone12-pacific-blue-128gb",
+      "id": "B08PNXBKN5-526202704834412",
+      "variant_id": "iphone12-rojo-64gb",
       "variant_attributes": {
         "color": {
-          "id": "pacific blue",
-          "name": "Pacific Blue"
+          "id": "rojo",
+          "name": "Rojo"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4799.36,
+      "price_hist": [
+        7437.8,
+        6806.5,
+        6224.7,
+        5639.2,
+        5874.0,
+        4799.36
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PNXBKN5?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PPBQM23-526202704834412",
+      "variant_id": "iphone12-blanco-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 5166.06,
+      "price_hist": [
+        7986.0,
+        6711.0,
+        7506.4,
+        5976.9,
+        5090.9,
+        5166.06
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PPBQM23?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09JFNTCLX-526202704834412",
+      "variant_id": "iphone12-negro-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 6426.63,
+      "price_hist": [
+        10501.6,
+        9163.2,
+        7514.1,
+        6900.6,
+        7187.4,
+        6426.63
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09JFNTCLX?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PNXVB6B-526202704834412",
+      "variant_id": "iphone12-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
         },
         "storage": {
           "id": "128_gb",
@@ -127,11 +1141,19 @@
         }
       },
       "condition": {
-        "id": "new",
-        "name": "Nuevo"
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
       },
-      "tag": "Mejor precio con cashback",
-      "price": 10182.92,
+      "tag": "Con Cashback",
+      "price": 5676.5,
+      "price_hist": [
+        9244.5,
+        7815.0,
+        7894.3,
+        7339.3,
+        6064.9,
+        5676.5
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -141,34 +1163,42 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B08PMP778K?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B08PNXVB6B?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B08L7SPX9N-526202704834412",
-      "variant_id": "iphone12-grafito-512gb",
+      "id": "B08PNCYYVZ-526202704834412",
+      "variant_id": "iphone12-negro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "grafito",
-          "name": "Grafito"
+          "id": "negro",
+          "name": "Negro"
         },
         "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
+          "id": "128_gb",
+          "name": "128 GB"
         }
       },
       "condition": {
-        "id": "new",
-        "name": "Nuevo"
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
       },
-      "tag": "Mejor precio con cashback",
-      "price": 28181.04,
+      "tag": "Con Cashback",
+      "price": 5791.1,
+      "price_hist": [
+        8444.1,
+        7706.3,
+        7187.8,
+        6872.8,
+        5954.8,
+        5791.1
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -178,13 +1208,13 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B08L7SPX9N?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B08PNCYYVZ?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     }
   ]

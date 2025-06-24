@@ -1,861 +1,568 @@
 {
-  "product_id": "iphone15promax",
-  "total_offers": 19,
-  "offers": [
-    {
-      "id": "195949046513_82925-751534892406662",
-      "variant_id": "iphone15promax-blanco-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "blanco",
-          "name": "Blanco"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
+  "product": {
+    "id": "MLA27172720",
+    "name": "iPhone 15 Pro Max",
+    "category": "",
+    "description": "iPhone 15 Pro Max. Forjado en titanio y equipado con el revolucionario chip A17 Pro, un Boton de Accion personalizable y el sistema de camaras mas potente en un iPhone.\nAviso legal\n1. El iPhone 15, iPhone 15 Plus, iPhone 15 Pro y iPhone 15 Pro Max son resistentes a las salpicaduras, al agua y al polvo, y fueron probados en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529 (hasta 30 minutos a una profundidad máxima de 6 metros). La resistencia a las salpicaduras, al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos.\n2. La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la pantalla tiene 6.12 pulgadas (iPhone 15 Pro y iPhone 15) o 6.69 pulgadas (iPhone 15 Pro Max y iPhone 15 Plus) en diagonal. El área real de visualización es menor.\n3. La duración de la batería varía según el uso y la configuración. Para obtener más información, visita apple.com/mx/batteries.\n4. El iPhone 15 y el iPhone 15 Pro pueden detectar si sufres un accidente de auto grave y pedir ayuda. Requiere conexión celular o llamadas por Wi-Fi.\n\n",
+    "rating": 0,
+    "reviews_count": 0,
+    "brand": "",
+    "model": "iPhone 15 Pro Max",
+    "release_year": "",
+    "pickers": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          {
+            "id": "titanio_azul",
+            "name": "Titanio azul",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_912227-MLA71782903150_092023-I.jpg"
+          },
+          {
+            "id": "titanio_blanco",
+            "name": "Titanio blanco",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_924631-MLA71783367058_092023-I.jpg"
+          },
+          {
+            "id": "titanio_natural",
+            "name": "Titanio natural",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_896424-MLA71783367608_092023-I.jpg"
+          },
+          {
+            "id": "titanio_negro",
+            "name": "Titanio negro",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_768125-MLA71783090116_092023-I.jpg"
+          }
+        ]
       },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
+      {
+        "id": "internal_memory",
+        "name": "Memoria interna",
+        "values": [
+          {
+            "id": "256_gb",
+            "name": "256 GB"
+          },
+          {
+            "id": "512_gb",
+            "name": "512 GB"
+          },
+          {
+            "id": "1_tb",
+            "name": "1 TB"
+          }
+        ]
       },
-      "tag": "",
-      "price": 26999.0,
-      "price_hist": [
-        40755.4,
-        38404.8,
-        36556.8,
-        34562.3,
-        32362.1,
-        26999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
+      {
+        "id": "ram",
+        "name": "Memoria RAM",
+        "values": [
+          {
+            "id": "8_gb",
+            "name": "8 GB"
+          }
+        ]
       },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-15-pro-max/p"
+      {
+        "id": "condicion",
+        "name": "Condición",
+        "values": [
+          {
+            "id": "new",
+            "name": "Nuevo"
+          },
+          {
+            "id": "reacondicionado",
+            "name": "Reacondicionado"
+          }
+        ]
       }
-    },
-    {
-      "id": "195949046995_82925-751534892406662",
-      "variant_id": "iphone15promax-azul-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "azul",
-          "name": "Azul"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
+    ],
+    "images": [
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_896424-MLA71783367608_092023-F.jpg",
+        "position": 1,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172720"
+        ]
       },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_871825-MLU75178652916_032024-F.jpg",
+        "position": 2,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172720"
+        ]
       },
-      "tag": "",
-      "price": 27999.0,
-      "price_hist": [
-        42091.3,
-        40458.1,
-        32690.0,
-        31709.5,
-        28295.4,
-        27999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_985910-MLU75325951689_032024-F.jpg",
+        "position": 3,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172720"
+        ]
       },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_921996-MLU75178711520_032024-F.jpg",
+        "position": 4,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172720"
+        ]
       },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-15-pro-max/p"
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_865034-MLA71782873416_092023-F.jpg",
+        "position": 5,
+        "color": "Titanio natural",
+        "use_picker_id": [
+          "MLA27172720"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_924631-MLA71783367058_092023-F.jpg",
+        "position": 1,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172718"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_696281-MLU75327009579_032024-F.jpg",
+        "position": 2,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172718"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_847638-MLU75322283659_032024-F.jpg",
+        "position": 3,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172718"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_634185-MLU75179631024_032024-F.jpg",
+        "position": 4,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172718"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_902921-MLA71782872840_092023-F.jpg",
+        "position": 5,
+        "color": "Titanio blanco",
+        "use_picker_id": [
+          "MLA27172718"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_768125-MLA71783090116_092023-F.jpg",
+        "position": 1,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172719"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_991940-MLU75483452063_032024-F.jpg",
+        "position": 2,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172719"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_949570-MLU75483598313_032024-F.jpg",
+        "position": 3,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172719"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_986528-MLU75483452069_032024-F.jpg",
+        "position": 4,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172719"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_669193-MLA71783169716_092023-F.jpg",
+        "position": 5,
+        "color": "Titanio negro",
+        "use_picker_id": [
+          "MLA27172719"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_912227-MLA71782903150_092023-F.jpg",
+        "position": 1,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172721"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_709496-MLU75174242340_032024-F.jpg",
+        "position": 2,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172721"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_734751-MLU75321410925_032024-F.jpg",
+        "position": 3,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172721"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_899683-MLU75321421015_032024-F.jpg",
+        "position": 4,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172721"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_791799-MLA71783367236_092023-F.jpg",
+        "position": 5,
+        "color": "Titanio azul",
+        "use_picker_id": [
+          "MLA27172721"
+        ]
       }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-negro-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
+    ],
+    "product_details": [
+      {
+        "category": "Network",
+        "specifications": [
+          {
+            "name": "Technology",
+            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+          },
+          {
+            "name": "2G bands",
+            "value": "GSM 850 / 900 / 1800 / 1900"
+          },
+          {
+            "name": "",
+            "value": "CDMA 800 / 1900"
+          },
+          {
+            "name": "3G bands",
+            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
+          },
+          {
+            "name": "",
+            "value": "CDMA2000 1xEV-DO"
+          },
+          {
+            "name": "4G bands",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66 - A3106"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66, 71 - A2849"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66, 71 - A3105"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A3108"
+          },
+          {
+            "name": "5G bands",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A3106"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 77, 78, 79, 258, 260, 261 SA/NSA/Sub6/mmWave - A2849"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 75, 76, 77, 78, 79 SA/NSA/Sub6 - A3105"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A3108"
+          },
+          {
+            "name": "Speed",
+            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+          }
+        ]
       },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
+      {
+        "category": "Launch",
+        "specifications": [
+          {
+            "name": "Announced",
+            "value": "2023, September 12"
+          },
+          {
+            "name": "Status",
+            "value": "Available. Released 2023, September 22"
+          }
+        ]
       },
-      "tag": "",
-      "price": 17990.0,
-      "price_hist": [
-        29598.7,
-        24352.4,
-        23486.2,
-        20564.5,
-        20495.1,
-        17990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
+      {
+        "category": "Body",
+        "specifications": [
+          {
+            "name": "Dimensions",
+            "value": "159.9 x 76.7 x 8.3 mm (6.30 x 3.02 x 0.33 in)"
+          },
+          {
+            "name": "Weight",
+            "value": "221 g (7.80 oz)"
+          },
+          {
+            "name": "Build",
+            "value": "Glass front, glass back, titanium frame (grade 5)"
+          },
+          {
+            "name": "SIM",
+            "value": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)"
+          },
+          {
+            "name": "",
+            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
+          }
+        ]
       },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
+      {
+        "category": "Display",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)"
+          },
+          {
+            "name": "Size",
+            "value": "6.7 inches, 110.2 cm2 (~89.8% screen-to-body ratio)"
+          },
+          {
+            "name": "Resolution",
+            "value": "1290 x 2796 pixels, 19.5:9 ratio (~460 ppi density)"
+          },
+          {
+            "name": "Protection",
+            "value": "Ceramic Shield glass"
+          }
+        ]
       },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
+      {
+        "category": "Platform",
+        "specifications": [
+          {
+            "name": "OS",
+            "value": "iOS 17, upgradable to iOS 18.5"
+          },
+          {
+            "name": "Chipset",
+            "value": "Apple A17 Pro (3 nm)"
+          },
+          {
+            "name": "CPU",
+            "value": "Hexa-core (2x3.78 GHz + 4x2.11 GHz)"
+          },
+          {
+            "name": "GPU",
+            "value": "Apple GPU (6-core graphics)"
+          }
+        ]
+      },
+      {
+        "category": "Memory",
+        "specifications": [
+          {
+            "name": "Card slot",
+            "value": "No"
+          },
+          {
+            "name": "Internal",
+            "value": "256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM"
+          },
+          {
+            "name": "",
+            "value": "NVMe"
+          }
+        ]
+      },
+      {
+        "category": "Main Camera",
+        "specifications": [
+          {
+            "name": "Triple",
+            "value": "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22µm, dual pixel PDAF, sensor-shift OIS\r\n12 MP, f/2.8, 120mm (periscope telephoto), 1/3.06\", 1.12µm, dual pixel PDAF, 3D sensor‑shift OIS, 5x optical zoom\r\n12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF\r\nTOF 3D LiDAR scanner (depth)"
+          },
+          {
+            "name": "Features",
+            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, 3D (spatial) video, stereo sound rec."
+          }
+        ]
+      },
+      {
+        "category": "Selfie camera",
+        "specifications": [
+          {
+            "name": "Single",
+            "value": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF, OIS\r\nSL 3D, (depth/biometrics sensor)"
+          },
+          {
+            "name": "Features",
+            "value": "HDR, Dolby Vision HDR"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+          }
+        ]
+      },
+      {
+        "category": "Sound",
+        "specifications": [
+          {
+            "name": "Loudspeaker",
+            "value": "Yes, with stereo speakers"
+          },
+          {
+            "name": "3.5mm jack",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "category": "Comms",
+        "specifications": [
+          {
+            "name": "WLAN",
+            "value": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, hotspot"
+          },
+          {
+            "name": "Bluetooth",
+            "value": "5.3, A2DP, LE"
+          },
+          {
+            "name": "Positioning",
+            "value": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC"
+          },
+          {
+            "name": "NFC",
+            "value": "Yes"
+          },
+          {
+            "name": "Radio",
+            "value": "No"
+          },
+          {
+            "name": "USB",
+            "value": "USB Type-C 3.2 Gen 2, DisplayPort"
+          }
+        ]
+      },
+      {
+        "category": "Features",
+        "specifications": [
+          {
+            "name": "Sensors",
+            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
+          },
+          {
+            "name": "",
+            "value": "Ultra Wideband (UWB) support (gen2 chip)\r\nEmergency SOS, Messages and Find My via satellite"
+          }
+        ]
+      },
+      {
+        "category": "Battery",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Li-Ion 4441 mAh"
+          },
+          {
+            "name": "Charging",
+            "value": "Wired, PD2.0, 50% in 30 min\r\n15W wireless (MagSafe)\r\n15W wireless (Qi2) - requires iOS 17.2 update\r\n4.5W reverse wired"
+          }
+        ]
+      },
+      {
+        "category": "Misc",
+        "specifications": [
+          {
+            "name": "Colors",
+            "value": "Black Titanium, White Titanium, Blue Titanium, Natural Titanium"
+          },
+          {
+            "name": "Models",
+            "value": "A2849, A3105, A3106, A3108, iPhone16,2"
+          },
+          {
+            "name": "SAR",
+            "value": "1.07 W/kg (head)     1.11 W/kg (body)"
+          },
+          {
+            "name": "SAR EU",
+            "value": "0.98 W/kg (head)     0.98 W/kg (body)"
+          },
+          {
+            "name": "Price",
+            "value": "$ 679.94 / € 871.56 / £ 711.49 / ₹ 134,899"
+          }
+        ]
+      },
+      {
+        "category": "Tests",
+        "specifications": [
+          {
+            "name": "Performance",
+            "value": "AnTuTu: 1487203 (v10)\r\nGeekBench: 7237 (v6.0)"
+          },
+          {
+            "name": "Display",
+            "value": "1787 nits max brightness (measured)"
+          },
+          {
+            "name": "Camera",
+            "value": "Photo / Video"
+          },
+          {
+            "name": "Loudspeaker",
+            "value": "-24.5 LUFS (Very good)"
+          },
+          {
+            "name": "Battery (new)",
+            "value": "Active use score 16:01h"
+          },
+          {
+            "name": "Battery (old)",
+            "value": "Endurance rating 118h"
+          }
+        ]
       }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-azul-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 17990.0,
-      "price_hist": [
-        25000.7,
-        26852.4,
-        21787.9,
-        19149.8,
-        18061.0,
-        17990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-natural-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 17990.0,
-      "price_hist": [
-        24719.7,
-        25939.4,
-        23067.2,
-        19577.9,
-        19373.3,
-        17990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-azul-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 19490.0,
-      "price_hist": [
-        28256.4,
-        24402.0,
-        25817.5,
-        24704.7,
-        23982.7,
-        19490.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-azul-1tb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 21240.0,
-      "price_hist": [
-        32098.5,
-        30204.3,
-        27402.9,
-        27500.5,
-        21802.1,
-        21240.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-azul-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 18990.0,
-      "price_hist": [
-        25131.4,
-        26688.0,
-        24324.2,
-        23897.2,
-        18577.0,
-        18990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-natural-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 18990.0,
-      "price_hist": [
-        25087.5,
-        26094.5,
-        25437.5,
-        25324.9,
-        21938.0,
-        18990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-blanco-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 18990.0,
-      "price_hist": [
-        25963.2,
-        28396.6,
-        22113.9,
-        23081.6,
-        20862.8,
-        18990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "B0CLQ6XKDV-526202704834412",
-      "variant_id": "iphone15promax-titanio-azul-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 16683.76,
-      "price_hist": [
-        22952.1,
-        25280.3,
-        22691.9,
-        18827.3,
-        17785.4,
-        16683.76
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ6XKDV?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CMZDBVWT-526202704834412",
-      "variant_id": "iphone15promax-titanio-azul-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 17807.68,
-      "price_hist": [
-        29750.7,
-        25361.0,
-        21398.5,
-        20955.9,
-        20631.0,
-        17807.68
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CMZDBVWT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLPY3SKF-526202704834412",
-      "variant_id": "iphone15promax-titanio-azul-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 17987.02,
-      "price_hist": [
-        25735.2,
-        27812.4,
-        24063.2,
-        21186.0,
-        19121.5,
-        17987.02
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLPY3SKF?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLPN298T-526202704834412",
-      "variant_id": "iphone15promax-titanio-azul-1tb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 20197.46,
-      "price_hist": [
-        26751.1,
-        31002.6,
-        27096.1,
-        24107.0,
-        21741.6,
-        20197.46
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLPN298T?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLQ5FM1P-526202704834412",
-      "variant_id": "iphone15promax-titanio-negro-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 15999.0,
-      "price_hist": [
-        21045.0,
-        21009.1,
-        18608.5,
-        20275.3,
-        17643.8,
-        15999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ5FM1P?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLQ3R3WS-526202704834412",
-      "variant_id": "iphone15promax-titanio-blanco-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 15999.0,
-      "price_hist": [
-        23698.3,
-        20824.2,
-        19826.4,
-        20397.4,
-        15530.9,
-        15999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ3R3WS?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLPZ57GB-526202704834412",
-      "variant_id": "iphone15promax-titanio-blanco-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 24940.35,
-      "price_hist": [
-        35696.2,
-        36638.6,
-        30169.5,
-        32394.8,
-        25428.7,
-        24940.35
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLPZ57GB?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLQ7SP3L-526202704834412",
-      "variant_id": "iphone15promax-titanio-natural-1tb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 19888.0,
-      "price_hist": [
-        28893.1,
-        25537.4,
-        27375.9,
-        25192.1,
-        21514.9,
-        19888.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ7SP3L?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLQ117Z3-526202704834412",
-      "variant_id": "iphone15promax-titanio-natural-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 18808.91,
-      "price_hist": [
-        27091.6,
-        26703.0,
-        27433.0,
-        21310.2,
-        19916.5,
-        18808.91
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ117Z3?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
+    ],
+    "product_summary": {
+      "screen_size": "6.7\"",
+      "front_camera_mp": "12 MP",
+      "ram_gb": "8 GB",
+      "battery": "Li-Ion 4441 mAh",
+      "operating_system": "iOS 17"
     }
-  ]
+  }
 }

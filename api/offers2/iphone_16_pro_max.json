@@ -1,6 +1,6 @@
 {
   "product_id": "iphone16promax",
-  "total_offers": 18,
+  "total_offers": 15,
   "offers": [
     {
       "id": "195949805257_88186-751534892406662",
@@ -16,19 +16,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 30999.0,
-      "price_hist": [
-        45956.6,
-        42357.9,
-        45332.8,
-        39920.1,
-        36775.5,
-        30999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -61,19 +53,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 40999.0,
-      "price_hist": [
-        68641.2,
-        51040.8,
-        56165.8,
-        43137.3,
-        45901.5,
-        40999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -106,19 +90,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 40999.0,
-      "price_hist": [
-        56458.0,
-        54534.4,
-        54565.6,
-        52796.7,
-        41358.8,
-        40999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -151,19 +127,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 30999.0,
-      "price_hist": [
-        41689.8,
-        48176.3,
-        40646.1,
-        41491.0,
-        31864.3,
-        30999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -196,19 +164,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 35999.0,
-      "price_hist": [
-        58481.4,
-        44140.9,
-        51152.0,
-        39529.6,
-        44238.4,
-        35999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -241,19 +201,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 30999.0,
-      "price_hist": [
-        43569.1,
-        48790.0,
-        42798.2,
-        39783.1,
-        32181.0,
-        30999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -286,19 +238,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 40999.0,
-      "price_hist": [
-        65900.9,
-        52424.5,
-        51934.3,
-        48691.0,
-        49631.9,
-        40999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -331,19 +275,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 35999.0,
-      "price_hist": [
-        55685.7,
-        53983.6,
-        45271.3,
-        48069.5,
-        36953.8,
-        35999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -376,19 +312,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 30999.0,
-      "price_hist": [
-        43044.4,
-        41878.0,
-        39706.7,
-        36786.8,
-        32991.2,
-        30999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -421,19 +349,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 35999.0,
-      "price_hist": [
-        47334.5,
-        54305.8,
-        43385.1,
-        42649.8,
-        37884.2,
-        35999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -466,19 +386,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 40999.0,
-      "price_hist": [
-        67558.1,
-        58962.9,
-        50107.1,
-        50769.1,
-        43285.9,
-        40999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -511,19 +423,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 35999.0,
-      "price_hist": [
-        57021.0,
-        55243.2,
-        47857.7,
-        46484.2,
-        35277.8,
-        35999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -556,19 +460,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "Con Cashback",
+      "tag": "Mejor precio con cashback",
       "price": 33999.0,
-      "price_hist": [
-        54940.9,
-        47503.5,
-        43882.6,
-        36428.9,
-        40880.0,
-        33999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -578,7 +474,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
@@ -601,19 +497,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "Con Cashback",
+      "tag": "Mejor precio con cashback",
       "price": 32399.1,
-      "price_hist": [
-        50653.8,
-        41694.2,
-        37013.4,
-        38945.8,
-        39438.4,
-        32399.1
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -623,58 +511,13 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
         "url": "https://www.amazon.com.mx/dp/B0DGJFV9WH?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0DHJ9SCJ4-526202704834412",
-      "variant_id": "iphone16promax-titanio-del-desierto-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio del desierto",
-          "name": "Titanio Del Desierto"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 28599.0,
-      "price_hist": [
-        38433.8,
-        36986.0,
-        37874.7,
-        33003.0,
-        34703.6,
-        28599.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DHJ9SCJ4?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
@@ -691,19 +534,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "Con Cashback",
+      "tag": "Mejor precio con cashback",
       "price": 27899.1,
-      "price_hist": [
-        45039.8,
-        34706.0,
-        39667.5,
-        31884.1,
-        30959.3,
-        27899.1
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -713,103 +548,13 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
         "url": "https://www.amazon.com.mx/dp/B0DGJH9VPV?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0DHJ2MKQB-526202704834412",
-      "variant_id": "iphone16promax-titanio-negro-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 32224.62,
-      "price_hist": [
-        51748.4,
-        40309.7,
-        43965.5,
-        39988.7,
-        32851.0,
-        32224.62
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DHJ2MKQB?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0DHJ9DL7L-526202704834412",
-      "variant_id": "iphone16promax-titanio-blanco-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 29265.58,
-      "price_hist": [
-        39590.1,
-        42288.2,
-        41264.4,
-        34041.6,
-        29513.2,
-        29265.58
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DHJ9DL7L?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     }
   ]

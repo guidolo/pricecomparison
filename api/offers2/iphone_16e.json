@@ -16,19 +16,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 14999.0,
-      "price_hist": [
-        22646.5,
-        18470.0,
-        19347.7,
-        17315.9,
-        15033.3,
-        14999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -61,19 +53,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 14999.0,
-      "price_hist": [
-        21527.8,
-        20062.4,
-        21603.6,
-        15900.0,
-        16923.1,
-        14999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -106,19 +90,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 17499.0,
-      "price_hist": [
-        25883.6,
-        25592.4,
-        25109.6,
-        20811.9,
-        18111.2,
-        17499.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -151,19 +127,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 17499.0,
-      "price_hist": [
-        24256.7,
-        27268.3,
-        22778.0,
-        22753.7,
-        19478.1,
-        17499.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -196,19 +164,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 22499.0,
-      "price_hist": [
-        33525.7,
-        34304.1,
-        32559.9,
-        24743.0,
-        23732.1,
-        22499.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -241,19 +201,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
+      "tag": "Mejor precio con cashback",
       "price": 22499.0,
-      "price_hist": [
-        36497.0,
-        32653.5,
-        29708.8,
-        29555.0,
-        24185.4,
-        22499.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -286,19 +238,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "Con Cashback",
+      "tag": "Mejor precio con cashback",
       "price": 14999.0,
-      "price_hist": [
-        23700.2,
-        19390.6,
-        19586.4,
-        19359.0,
-        16058.9,
-        14999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -308,7 +252,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
@@ -331,19 +275,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "Con Cashback",
+      "tag": "Mejor precio con cashback",
       "price": 14999.0,
-      "price_hist": [
-        22618.4,
-        19427.9,
-        20100.4,
-        18826.0,
-        17960.7,
-        14999.0
-      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -353,7 +289,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },

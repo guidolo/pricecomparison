@@ -1,0 +1,726 @@
+{
+  "product_id": "iphone13pro",
+  "total_offers": 16,
+  "offers": [
+    {
+      "id": "7461080203420-392036935143895",
+      "variant_id": "iphone13pro-verde-alpino-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde alpino",
+          "name": "Verde Alpino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 9990.0,
+      "price_hist": [
+        13840.5,
+        14502.4,
+        12688.7,
+        11780.0,
+        10946.5,
+        9990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13-pro"
+      }
+    },
+    {
+      "id": "B09LPN7C8Z-526202704834412",
+      "variant_id": "iphone13pro-azul-alpino-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul alpino",
+          "name": "Azul Alpino"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 9613.06,
+      "price_hist": [
+        14003.0,
+        12104.2,
+        13828.6,
+        11596.7,
+        10950.5,
+        9613.06
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPN7C8Z?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G8Y37WT-526202704834412",
+      "variant_id": "iphone13pro-color-grafito-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "color grafito",
+          "name": "Color Grafito"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 26999.0,
+      "price_hist": [
+        44807.2,
+        36480.6,
+        35226.2,
+        32418.7,
+        32950.8,
+        26999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G8Y37WT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BGYBZ189-526202704834412",
+      "variant_id": "iphone13pro-grafito-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 14489.26,
+      "price_hist": [
+        19358.6,
+        21668.7,
+        16874.5,
+        15931.0,
+        15838.4,
+        14489.26
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BGYBZ189?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP988K8-526202704834412",
+      "variant_id": "iphone13pro-azul-alpino-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul alpino",
+          "name": "Azul Alpino"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 10261.76,
+      "price_hist": [
+        16345.7,
+        16019.1,
+        14724.9,
+        11061.8,
+        10473.3,
+        10261.76
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP988K8?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LPB9SQH-526202704834412",
+      "variant_id": "iphone13pro-azul-alpino-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul alpino",
+          "name": "Azul Alpino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 8414.85,
+      "price_hist": [
+        13859.0,
+        10941.1,
+        10065.7,
+        9851.5,
+        9346.5,
+        8414.85
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPB9SQH?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0B5FK6G8Q-526202704834412",
+      "variant_id": "iphone13pro-verde-alpino-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde alpino",
+          "name": "Verde Alpino"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 9539.0,
+      "price_hist": [
+        14290.1,
+        12634.9,
+        13406.8,
+        12722.8,
+        11292.6,
+        9539.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0B5FK6G8Q?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP6WWLB-526202704834412",
+      "variant_id": "iphone13pro-grafito-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 9493.99,
+      "price_hist": [
+        14852.8,
+        12986.5,
+        11821.5,
+        12261.6,
+        9668.1,
+        9493.99
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP6WWLB?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G95TGCS-526202704834412",
+      "variant_id": "iphone13pro-azul-sierra-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 33299.0,
+      "price_hist": [
+        46817.5,
+        45107.5,
+        48037.1,
+        40783.8,
+        40595.5,
+        33299.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G95TGCS?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LPPLKLT-526202704834412",
+      "variant_id": "iphone13pro-plata-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "plata",
+          "name": "Plata"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 10301.38,
+      "price_hist": [
+        14752.1,
+        15148.6,
+        11718.6,
+        13046.7,
+        11279.3,
+        10301.38
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPPLKLT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP3RX93-526202704834412",
+      "variant_id": "iphone13pro-grafito-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11699.0,
+      "price_hist": [
+        18486.0,
+        17250.0,
+        14853.0,
+        15741.9,
+        11575.1,
+        11699.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP3RX93?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP77GDL-526202704834412",
+      "variant_id": "iphone13pro-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 8400.55,
+      "price_hist": [
+        13168.7,
+        12510.6,
+        12017.1,
+        11062.1,
+        8740.3,
+        8400.55
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP77GDL?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9FN6X7-526202704834412",
+      "variant_id": "iphone13pro-color-grafito-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "color grafito",
+          "name": "Color Grafito"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 31998.99,
+      "price_hist": [
+        47628.5,
+        45530.8,
+        36785.4,
+        39584.1,
+        32841.6,
+        31998.99
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9FN6X7?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LPB8XDL-526202704834412",
+      "variant_id": "iphone13pro-plata-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "plata",
+          "name": "Plata"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 8900.0,
+      "price_hist": [
+        14441.9,
+        12858.2,
+        11823.7,
+        10154.1,
+        8761.6,
+        8900.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPB8XDL?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP7YLF9-526202704834412",
+      "variant_id": "iphone13pro-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 8818.36,
+      "price_hist": [
+        13735.7,
+        11930.5,
+        11429.0,
+        11340.4,
+        10169.8,
+        8818.36
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP7YLF9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LPLK7KD-526202704834412",
+      "variant_id": "iphone13pro-grafito-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 10219.0,
+      "price_hist": [
+        15791.6,
+        14685.9,
+        14438.0,
+        13395.7,
+        10746.7,
+        10219.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPLK7KD?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    }
+  ]
+}

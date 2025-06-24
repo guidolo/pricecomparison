@@ -1,33 +1,33 @@
 {
-  "product_id": "iphone15promax",
-  "total_offers": 19,
+  "product_id": "iphone14pro",
+  "total_offers": 16,
   "offers": [
     {
-      "id": "195949046513_82925-751534892406662",
-      "variant_id": "iphone15promax-blanco-256gb",
+      "id": "7742543102108-392036935143895",
+      "variant_id": "iphone14pro-negro-espacial-128gb",
       "variant_attributes": {
         "color": {
-          "id": "blanco",
-          "name": "Blanco"
+          "id": "negro espacial",
+          "name": "Negro Espacial"
         },
         "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
+          "id": "128_gb",
+          "name": "128 GB"
         }
       },
       "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
+        "id": "usado",
+        "name": "Usado"
       },
       "tag": "",
-      "price": 26999.0,
+      "price": 10990.0,
       "price_hist": [
-        40755.4,
-        38404.8,
-        36556.8,
-        34562.3,
-        32362.1,
-        26999.0
+        16798.3,
+        16224.1,
+        14517.1,
+        13215.0,
+        10991.9,
+        10990.0
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -37,23 +37,203 @@
         "cost": "Envío gratuito"
       },
       "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-15-pro-max/p"
+        "url": "https://clevercelmx.myshopify.com/products/iphone-14-pro"
       }
     },
     {
-      "id": "195949046995_82925-751534892406662",
-      "variant_id": "iphone15promax-azul-512gb",
+      "id": "7742543102108-392036935143895",
+      "variant_id": "iphone14pro-negro-espacial-128gb",
       "variant_attributes": {
         "color": {
-          "id": "azul",
-          "name": "Azul"
+          "id": "negro espacial",
+          "name": "Negro Espacial"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 12490.0,
+      "price_hist": [
+        20618.0,
+        15763.9,
+        15699.1,
+        13237.4,
+        14078.0,
+        12490.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-14-pro"
+      }
+    },
+    {
+      "id": "7742543102108-392036935143895",
+      "variant_id": "iphone14pro-morado-oscuro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "morado oscuro",
+          "name": "Morado Oscuro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 12490.0,
+      "price_hist": [
+        16602.5,
+        16950.0,
+        16000.3,
+        14929.5,
+        13473.6,
+        12490.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-14-pro"
+      }
+    },
+    {
+      "id": "7742543102108-392036935143895",
+      "variant_id": "iphone14pro-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 12490.0,
+      "price_hist": [
+        17739.4,
+        16583.7,
+        14358.4,
+        16361.5,
+        12877.2,
+        12490.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-14-pro"
+      }
+    },
+    {
+      "id": "7742543102108-392036935143895",
+      "variant_id": "iphone14pro-oro-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 13490.0,
+      "price_hist": [
+        18059.3,
+        16581.4,
+        16780.9,
+        17157.0,
+        13141.4,
+        13490.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-14-pro"
+      }
+    },
+    {
+      "id": "7742543102108-392036935143895",
+      "variant_id": "iphone14pro-color-plata-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "color plata",
+          "name": "Color Plata"
         },
         "storage": {
           "id": "512_gb",
@@ -61,63 +241,18 @@
         }
       },
       "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 27999.0,
-      "price_hist": [
-        42091.3,
-        40458.1,
-        32690.0,
-        31709.5,
-        28295.4,
-        27999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-15-pro-max/p"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-negro-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
         "id": "usado",
         "name": "Usado"
       },
       "tag": "",
-      "price": 17990.0,
+      "price": 14740.0,
       "price_hist": [
-        29598.7,
-        24352.4,
-        23486.2,
-        20564.5,
-        20495.1,
-        17990.0
+        24812.1,
+        20480.6,
+        18348.9,
+        17946.4,
+        18095.2,
+        14740.0
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -134,331 +269,16 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
+        "url": "https://clevercelmx.myshopify.com/products/iphone-14-pro"
       }
     },
     {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-azul-256gb",
+      "id": "B0BNM2TM2D-526202704834412",
+      "variant_id": "iphone14pro-negro-espacial-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 17990.0,
-      "price_hist": [
-        25000.7,
-        26852.4,
-        21787.9,
-        19149.8,
-        18061.0,
-        17990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-natural-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 17990.0,
-      "price_hist": [
-        24719.7,
-        25939.4,
-        23067.2,
-        19577.9,
-        19373.3,
-        17990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-azul-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 19490.0,
-      "price_hist": [
-        28256.4,
-        24402.0,
-        25817.5,
-        24704.7,
-        23982.7,
-        19490.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-azul-1tb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 21240.0,
-      "price_hist": [
-        32098.5,
-        30204.3,
-        27402.9,
-        27500.5,
-        21802.1,
-        21240.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-azul-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 18990.0,
-      "price_hist": [
-        25131.4,
-        26688.0,
-        24324.2,
-        23897.2,
-        18577.0,
-        18990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-natural-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 18990.0,
-      "price_hist": [
-        25087.5,
-        26094.5,
-        25437.5,
-        25324.9,
-        21938.0,
-        18990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "8274419482780-392036935143895",
-      "variant_id": "iphone15promax-titanio-blanco-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "usado",
-        "name": "Usado"
-      },
-      "tag": "",
-      "price": 18990.0,
-      "price_hist": [
-        25963.2,
-        28396.6,
-        22113.9,
-        23081.6,
-        20862.8,
-        18990.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "392036935143895",
-        "name": "CLEVERCEL",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://clevercelmx.myshopify.com/products/iphone-15-pro-max"
-      }
-    },
-    {
-      "id": "B0CLQ6XKDV-526202704834412",
-      "variant_id": "iphone15promax-titanio-azul-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
+          "id": "negro espacial",
+          "name": "Negro Espacial"
         },
         "storage": {
           "id": "256_gb",
@@ -470,14 +290,14 @@
         "name": "Reacondicionado"
       },
       "tag": "Con Cashback",
-      "price": 16683.76,
+      "price": 12039.55,
       "price_hist": [
-        22952.1,
-        25280.3,
-        22691.9,
-        18827.3,
-        17785.4,
-        16683.76
+        17110.4,
+        15133.1,
+        15841.9,
+        14017.1,
+        12513.4,
+        12039.55
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -494,20 +314,20 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ6XKDV?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0BNM2TM2D?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0CMZDBVWT-526202704834412",
-      "variant_id": "iphone15promax-titanio-azul-256gb",
+      "id": "B0BYLTKTY5-526202704834412",
+      "variant_id": "iphone14pro-oro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
+          "id": "oro",
+          "name": "Oro"
         },
         "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
+          "id": "128_gb",
+          "name": "128 GB"
         }
       },
       "condition": {
@@ -515,14 +335,14 @@
         "name": "Reacondicionado"
       },
       "tag": "Con Cashback",
-      "price": 17807.68,
+      "price": 13748.79,
       "price_hist": [
-        29750.7,
-        25361.0,
-        21398.5,
-        20955.9,
-        20631.0,
-        17807.68
+        18250.3,
+        20021.4,
+        19993.0,
+        15169.9,
+        15719.1,
+        13748.79
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -539,16 +359,16 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CMZDBVWT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0BYLTKTY5?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0CLPY3SKF-526202704834412",
-      "variant_id": "iphone15promax-titanio-azul-512gb",
+      "id": "B0BYLJK84Z-526202704834412",
+      "variant_id": "iphone14pro-oro-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
+          "id": "oro",
+          "name": "Oro"
         },
         "storage": {
           "id": "512_gb",
@@ -560,14 +380,14 @@
         "name": "Reacondicionado"
       },
       "tag": "Con Cashback",
-      "price": 17987.02,
+      "price": 17292.75,
       "price_hist": [
-        25735.2,
-        27812.4,
-        24063.2,
-        21186.0,
-        19121.5,
-        17987.02
+        23577.4,
+        24112.5,
+        24277.9,
+        21553.0,
+        17377.5,
+        17292.75
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -584,61 +404,16 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLPY3SKF?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0BYLJK84Z?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0CLPN298T-526202704834412",
-      "variant_id": "iphone15promax-titanio-azul-1tb",
+      "id": "B0BNLWKDQM-526202704834412",
+      "variant_id": "iphone14pro-morado-oscuro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
-          "name": "Titanio Azul"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 20197.46,
-      "price_hist": [
-        26751.1,
-        31002.6,
-        27096.1,
-        24107.0,
-        21741.6,
-        20197.46
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLPN298T?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLQ5FM1P-526202704834412",
-      "variant_id": "iphone15promax-titanio-negro-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
+          "id": "morado oscuro",
+          "name": "Morado Oscuro"
         },
         "storage": {
           "id": "256_gb",
@@ -650,14 +425,14 @@
         "name": "Reacondicionado"
       },
       "tag": "Con Cashback",
-      "price": 15999.0,
+      "price": 12103.65,
       "price_hist": [
-        21045.0,
-        21009.1,
-        18608.5,
-        20275.3,
-        17643.8,
-        15999.0
+        16559.8,
+        18345.4,
+        14744.2,
+        15808.6,
+        14929.9,
+        12103.65
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -674,61 +449,16 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ5FM1P?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0BNLWKDQM?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0CLQ3R3WS-526202704834412",
-      "variant_id": "iphone15promax-titanio-blanco-256gb",
+      "id": "B0BNLSHBFZ-526202704834412",
+      "variant_id": "iphone14pro-morado-oscuro-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 15999.0,
-      "price_hist": [
-        23698.3,
-        20824.2,
-        19826.4,
-        20397.4,
-        15530.9,
-        15999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ3R3WS?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0CLPZ57GB-526202704834412",
-      "variant_id": "iphone15promax-titanio-blanco-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
+          "id": "morado oscuro",
+          "name": "Morado Oscuro"
         },
         "storage": {
           "id": "512_gb",
@@ -740,14 +470,14 @@
         "name": "Reacondicionado"
       },
       "tag": "Con Cashback",
-      "price": 24940.35,
+      "price": 25312.75,
       "price_hist": [
-        35696.2,
-        36638.6,
-        30169.5,
-        32394.8,
-        25428.7,
-        24940.35
+        36546.0,
+        32643.3,
+        29044.2,
+        33950.6,
+        26751.7,
+        25312.75
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -764,16 +494,151 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLPZ57GB?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0BNLSHBFZ?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0CLQ7SP3L-526202704834412",
-      "variant_id": "iphone15promax-titanio-natural-1tb",
+      "id": "B0BNLTPVQ7-526202704834412",
+      "variant_id": "iphone14pro-plata-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
+          "id": "plata",
+          "name": "Plata"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 12247.04,
+      "price_hist": [
+        18256.2,
+        18222.8,
+        16991.6,
+        12938.2,
+        14108.3,
+        12247.04
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BNLTPVQ7?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BNLSL98L-526202704834412",
+      "variant_id": "iphone14pro-negro-espacial-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro espacial",
+          "name": "Negro Espacial"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 10978.85,
+      "price_hist": [
+        18104.4,
+        13525.9,
+        14608.7,
+        14611.2,
+        11875.0,
+        10978.85
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BNLSL98L?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BNLV66P9-526202704834412",
+      "variant_id": "iphone14pro-morado-oscuro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "morado oscuro",
+          "name": "Morado Oscuro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11012.67,
+      "price_hist": [
+        16357.8,
+        15875.0,
+        15032.1,
+        13635.6,
+        12956.4,
+        11012.67
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BNLV66P9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BNLT8BLH-526202704834412",
+      "variant_id": "iphone14pro-negro-espacial-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro espacial",
+          "name": "Negro Espacial"
         },
         "storage": {
           "id": "1_tb",
@@ -785,14 +650,14 @@
         "name": "Reacondicionado"
       },
       "tag": "Con Cashback",
-      "price": 19888.0,
+      "price": 14999.0,
       "price_hist": [
-        28893.1,
-        25537.4,
-        27375.9,
-        25192.1,
-        21514.9,
-        19888.0
+        20464.3,
+        18960.6,
+        21882.8,
+        19428.2,
+        16434.6,
+        14999.0
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -809,20 +674,20 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ7SP3L?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0BNLT8BLH?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0CLQ117Z3-526202704834412",
-      "variant_id": "iphone15promax-titanio-natural-512gb",
+      "id": "B0BNLTTY1M-526202704834412",
+      "variant_id": "iphone14pro-plata-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
+          "id": "plata",
+          "name": "Plata"
         },
         "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
+          "id": "256_gb",
+          "name": "256 GB"
         }
       },
       "condition": {
@@ -830,14 +695,14 @@
         "name": "Reacondicionado"
       },
       "tag": "Con Cashback",
-      "price": 18808.91,
+      "price": 12676.41,
       "price_hist": [
-        27091.6,
-        26703.0,
-        27433.0,
-        21310.2,
-        19916.5,
-        18808.91
+        18025.4,
+        17342.5,
+        17185.4,
+        14971.9,
+        14221.9,
+        12676.41
       ],
       "taxInfo": "IVA incl.",
       "shipping": {
@@ -854,7 +719,7 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0CLQ117Z3?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0BNLTTY1M?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     }
   ]

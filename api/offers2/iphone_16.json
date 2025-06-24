@@ -1,14 +1,51 @@
 {
-  "product_id": "iphone16promax",
-  "total_offers": 18,
+  "product_id": "iphone16",
+  "total_offers": 23,
   "offers": [
     {
-      "id": "195949805257_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-del-desierto-256gb",
+      "id": "195949821332_88187-751534892406662",
+      "variant_id": "iphone16-ultramarino-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
-          "name": "Titanio Del Desierto"
+          "id": "ultramarino",
+          "name": "Ultramarino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821530_88187-751534892406662",
+      "variant_id": "iphone16-ultramarino-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "ultramarino",
+          "name": "Ultramarino"
         },
         "storage": {
           "id": "256_gb",
@@ -16,19 +53,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
-      "price": 30999.0,
-      "price_hist": [
-        45956.6,
-        42357.9,
-        45332.8,
-        39920.1,
-        36775.5,
-        30999.0
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -44,151 +73,16 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
+        "url": "https://www.ishopmixup.com/iphone-16/p"
       }
     },
     {
-      "id": "195949805615_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-natural-1tb",
+      "id": "195949821615_88187-751534892406662",
+      "variant_id": "iphone16-negro-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 40999.0,
-      "price_hist": [
-        68641.2,
-        51040.8,
-        56165.8,
-        43137.3,
-        45901.5,
-        40999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
-      }
-    },
-    {
-      "id": "195949805493_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-negro-1tb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 40999.0,
-      "price_hist": [
-        56458.0,
-        54534.4,
-        54565.6,
-        52796.7,
-        41358.8,
-        40999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
-      }
-    },
-    {
-      "id": "195949805295_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-natural-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 30999.0,
-      "price_hist": [
-        41689.8,
-        48176.3,
-        40646.1,
-        41491.0,
-        31864.3,
-        30999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
-      }
-    },
-    {
-      "id": "195949805417_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-del-desierto-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio del desierto",
-          "name": "Titanio Del Desierto"
+          "id": "negro",
+          "name": "Negro"
         },
         "storage": {
           "id": "512_gb",
@@ -196,19 +90,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
-      "price": 35999.0,
-      "price_hist": [
-        58481.4,
-        44140.9,
-        51152.0,
-        39529.6,
-        44238.4,
-        35999.0
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -224,106 +110,16 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
+        "url": "https://www.ishopmixup.com/iphone-16/p"
       }
     },
     {
-      "id": "195949805219_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-blanco-256gb",
+      "id": "195949821691_88187-751534892406662",
+      "variant_id": "iphone16-rosa-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 30999.0,
-      "price_hist": [
-        43569.1,
-        48790.0,
-        42798.2,
-        39783.1,
-        32181.0,
-        30999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
-      }
-    },
-    {
-      "id": "195949805530_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-blanco-1tb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 40999.0,
-      "price_hist": [
-        65900.9,
-        52424.5,
-        51934.3,
-        48691.0,
-        49631.9,
-        40999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
-      }
-    },
-    {
-      "id": "195949805370_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-blanco-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
+          "id": "rosa",
+          "name": "Rosa"
         },
         "storage": {
           "id": "512_gb",
@@ -331,19 +127,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
-      "price": 35999.0,
-      "price_hist": [
-        55685.7,
-        53983.6,
-        45271.3,
-        48069.5,
-        36953.8,
-        35999.0
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -359,16 +147,90 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
+        "url": "https://www.ishopmixup.com/iphone-16/p"
       }
     },
     {
-      "id": "195949805172_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-negro-256gb",
+      "id": "195949821257_88187-751534892406662",
+      "variant_id": "iphone16-blanco-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821295_88187-751534892406662",
+      "variant_id": "iphone16-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821455_88187-751534892406662",
+      "variant_id": "iphone16-blanco-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
         },
         "storage": {
           "id": "256_gb",
@@ -376,19 +238,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "",
-      "price": 30999.0,
-      "price_hist": [
-        43044.4,
-        41878.0,
-        39706.7,
-        36786.8,
-        32991.2,
-        30999.0
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -404,151 +258,16 @@
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
+        "url": "https://www.ishopmixup.com/iphone-16/p"
       }
     },
     {
-      "id": "195949805332_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-negro-512gb",
+      "id": "195949821578_88187-751534892406662",
+      "variant_id": "iphone16-verde-azulado-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 35999.0,
-      "price_hist": [
-        47334.5,
-        54305.8,
-        43385.1,
-        42649.8,
-        37884.2,
-        35999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
-      }
-    },
-    {
-      "id": "195949805578_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-del-desierto-1tb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio del desierto",
-          "name": "Titanio Del Desierto"
-        },
-        "storage": {
-          "id": "1_tb",
-          "name": "1 TB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 40999.0,
-      "price_hist": [
-        67558.1,
-        58962.9,
-        50107.1,
-        50769.1,
-        43285.9,
-        40999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
-      }
-    },
-    {
-      "id": "195949805455_88186-751534892406662",
-      "variant_id": "iphone16promax-titanio-natural-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "nuevo",
-        "name": "Nuevo"
-      },
-      "tag": "",
-      "price": 35999.0,
-      "price_hist": [
-        57021.0,
-        55243.2,
-        47857.7,
-        46484.2,
-        35277.8,
-        35999.0
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "751534892406662",
-        "name": "iShop",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.ishopmixup.com/iphone-16-pro-max/p"
-      }
-    },
-    {
-      "id": "B0DGJL1S2P-526202704834412",
-      "variant_id": "iphone16promax-titanio-blanco-256gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
+          "id": "verde azulado",
+          "name": "Verde Azulado"
         },
         "storage": {
           "id": "256_gb",
@@ -556,19 +275,307 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "Con Cashback",
-      "price": 33999.0,
-      "price_hist": [
-        54940.9,
-        47503.5,
-        43882.6,
-        36428.9,
-        40880.0,
-        33999.0
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821219_88187-751534892406662",
+      "variant_id": "iphone16-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821653_88187-751534892406662",
+      "variant_id": "iphone16-blanco-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821493_88187-751534892406662",
+      "variant_id": "iphone16-rosa-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821370_88187-751534892406662",
+      "variant_id": "iphone16-verde-azulado-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde azulado",
+          "name": "Verde Azulado"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821776_88187-751534892406662",
+      "variant_id": "iphone16-verde-azulado-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde azulado",
+          "name": "Verde Azulado"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821738_88187-751534892406662",
+      "variant_id": "iphone16-ultramarino-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "ultramarino",
+          "name": "Ultramarino"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 27499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "195949821417_88187-751534892406662",
+      "variant_id": "iphone16-negro-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16/p"
+      }
+    },
+    {
+      "id": "B0DGJL7WQ9-526202704834412",
+      "variant_id": "iphone16-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 17999.1,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -578,42 +585,34 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DGJL1S2P?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0DGJL7WQ9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0DGJFV9WH-526202704834412",
-      "variant_id": "iphone16promax-titanio-natural-512gb",
+      "id": "B0DGJ1DGFT-526202704834412",
+      "variant_id": "iphone16-negro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
-          "name": "Titanio Natural"
+          "id": "negro",
+          "name": "Negro"
         },
         "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
+          "id": "128_gb",
+          "name": "128 GB"
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "Con Cashback",
-      "price": 32399.1,
-      "price_hist": [
-        50653.8,
-        41694.2,
-        37013.4,
-        38945.8,
-        39438.4,
-        32399.1
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 19602.3,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -623,22 +622,22 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DGJFV9WH?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0DGJ1DGFT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0DHJ9SCJ4-526202704834412",
-      "variant_id": "iphone16promax-titanio-del-desierto-256gb",
+      "id": "B0DGJ9JGSK-526202704834412",
+      "variant_id": "iphone16-negro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
-          "name": "Titanio Del Desierto"
+          "id": "negro",
+          "name": "Negro"
         },
         "storage": {
           "id": "256_gb",
@@ -646,19 +645,11 @@
         }
       },
       "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
+        "id": "new",
+        "name": "Nuevo"
       },
-      "tag": "Con Cashback",
-      "price": 28599.0,
-      "price_hist": [
-        38433.8,
-        36986.0,
-        37874.7,
-        33003.0,
-        34703.6,
-        28599.0
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 22499.0,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -668,22 +659,59 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DHJ9SCJ4?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0DGJ9JGSK?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0DGJH9VPV-526202704834412",
-      "variant_id": "iphone16promax-titanio-del-desierto-256gb",
+      "id": "B0DGJ7N1KM-526202704834412",
+      "variant_id": "iphone16-rosa-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
-          "name": "Titanio Del Desierto"
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 24749.1,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJ7N1KM?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJ66HHK-526202704834412",
+      "variant_id": "iphone16-rosa-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
         },
         "storage": {
           "id": "256_gb",
@@ -691,19 +719,11 @@
         }
       },
       "condition": {
-        "id": "nuevo",
+        "id": "new",
         "name": "Nuevo"
       },
-      "tag": "Con Cashback",
-      "price": 27899.1,
-      "price_hist": [
-        45039.8,
-        34706.0,
-        39667.5,
-        31884.1,
-        30959.3,
-        27899.1
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 20249.1,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -713,22 +733,96 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DGJH9VPV?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0DGJ66HHK?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
-      "id": "B0DHJ2MKQB-526202704834412",
-      "variant_id": "iphone16promax-titanio-negro-512gb",
+      "id": "B0DGJCD9ZQ-526202704834412",
+      "variant_id": "iphone16-verde-azulado-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
-          "name": "Titanio Negro"
+          "id": "verde azulado",
+          "name": "Verde Azulado"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 19999.0,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJCD9ZQ?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJJ5BM1-526202704834412",
+      "variant_id": "iphone16-blanco-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "new",
+        "name": "Nuevo"
+      },
+      "tag": "Mejor precio con cashback",
+      "price": 17999.1,
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJJ5BM1?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJMC6HR-526202704834412",
+      "variant_id": "iphone16-ultramarino-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "ultramarino",
+          "name": "Ultramarino"
         },
         "storage": {
           "id": "512_gb",
@@ -736,19 +830,11 @@
         }
       },
       "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
+        "id": "new",
+        "name": "Nuevo"
       },
-      "tag": "Con Cashback",
-      "price": 32224.62,
-      "price_hist": [
-        51748.4,
-        40309.7,
-        43965.5,
-        39988.7,
-        32851.0,
-        32224.62
-      ],
+      "tag": "Mejor precio con cashback",
+      "price": 24749.1,
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -758,58 +844,13 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon.mx",
+        "name": "Amazon",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DHJ2MKQB?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
-      }
-    },
-    {
-      "id": "B0DHJ9DL7L-526202704834412",
-      "variant_id": "iphone16promax-titanio-blanco-512gb",
-      "variant_attributes": {
-        "color": {
-          "id": "titanio blanco",
-          "name": "Titanio Blanco"
-        },
-        "storage": {
-          "id": "512_gb",
-          "name": "512 GB"
-        }
-      },
-      "condition": {
-        "id": "reacondicionado",
-        "name": "Reacondicionado"
-      },
-      "tag": "Con Cashback",
-      "price": 29265.58,
-      "price_hist": [
-        39590.1,
-        42288.2,
-        41264.4,
-        34041.6,
-        29513.2,
-        29265.58
-      ],
-      "taxInfo": "IVA incl.",
-      "shipping": {
-        "returnIcon": true,
-        "truckIcon": true,
-        "date": "03.06. - 04.06.",
-        "cost": "Envío gratuito"
-      },
-      "merchant": {
-        "id": "526202704834412",
-        "name": "Amazon.mx",
-        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
-        "rating": 4.7
-      },
-      "actionButton": {
-        "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DHJ9DL7L?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0DGJMC6HR?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "product_id": "iphone16",
-  "total_offers": 23,
+  "total_offers": 27,
   "offers": [
     {
       "id": "195949821332_88187-751534892406662",
@@ -16,11 +16,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 19999.0,
+      "price_hist": [
+        26397.3,
+        27611.6,
+        23659.7,
+        25378.3,
+        24600.3,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -53,11 +61,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 22499.0,
+      "price_hist": [
+        33870.6,
+        32116.1,
+        30987.2,
+        28317.6,
+        24457.4,
+        22499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -90,11 +106,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 27499.0,
+      "price_hist": [
+        43556.2,
+        41002.1,
+        32060.7,
+        30791.6,
+        26977.9,
+        27499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -127,11 +151,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 27499.0,
+      "price_hist": [
+        41409.6,
+        42043.6,
+        36634.6,
+        36732.2,
+        27741.8,
+        27499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -164,11 +196,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 19999.0,
+      "price_hist": [
+        29999.1,
+        31050.8,
+        23228.0,
+        21417.4,
+        22255.5,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -201,11 +241,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 19999.0,
+      "price_hist": [
+        29534.3,
+        28490.3,
+        22963.8,
+        22300.7,
+        21202.3,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -238,11 +286,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 22499.0,
+      "price_hist": [
+        36143.8,
+        34259.9,
+        28306.5,
+        28139.2,
+        26410.1,
+        22499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -275,11 +331,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 22499.0,
+      "price_hist": [
+        33001.8,
+        28895.6,
+        29920.5,
+        28830.2,
+        27552.3,
+        22499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -312,11 +376,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 19999.0,
+      "price_hist": [
+        26705.4,
+        28655.7,
+        26426.5,
+        25325.3,
+        23926.9,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -349,11 +421,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 27499.0,
+      "price_hist": [
+        39559.0,
+        36683.3,
+        32515.0,
+        35940.7,
+        32863.0,
+        27499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -386,11 +466,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 22499.0,
+      "price_hist": [
+        29900.1,
+        29593.4,
+        31476.1,
+        26734.4,
+        26866.3,
+        22499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -423,11 +511,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 19999.0,
+      "price_hist": [
+        30035.3,
+        26158.2,
+        26995.9,
+        26251.0,
+        22885.9,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -460,11 +556,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 27499.0,
+      "price_hist": [
+        37040.5,
+        42993.3,
+        37251.2,
+        30419.7,
+        31171.9,
+        27499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -497,11 +601,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 27499.0,
+      "price_hist": [
+        43162.8,
+        37753.4,
+        38307.7,
+        33787.8,
+        32030.6,
+        27499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -534,11 +646,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "",
       "price": 22499.0,
+      "price_hist": [
+        32298.2,
+        30368.8,
+        27458.9,
+        27135.1,
+        26604.1,
+        22499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -571,11 +691,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 17999.1,
+      "price_hist": [
+        29907.6,
+        23428.7,
+        21426.8,
+        21982.0,
+        17483.5,
+        17999.1
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -585,13 +713,58 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
         "url": "https://www.amazon.com.mx/dp/B0DGJL7WQ9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DHJHY3BH-526202704834412",
+      "variant_id": "iphone16-blanco-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 16154.42,
+      "price_hist": [
+        27239.4,
+        20041.0,
+        20294.0,
+        21444.3,
+        19247.1,
+        16154.42
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHJHY3BH?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
@@ -608,11 +781,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
-      "price": 19602.3,
+      "tag": "Con Cashback",
+      "price": 19660.76,
+      "price_hist": [
+        30201.1,
+        29824.2,
+        24505.6,
+        25223.4,
+        21826.4,
+        19660.76
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -622,13 +803,58 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
         "url": "https://www.amazon.com.mx/dp/B0DGJ1DGFT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DHHVK432-526202704834412",
+      "variant_id": "iphone16-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 13912.55,
+      "price_hist": [
+        20665.4,
+        20109.6,
+        16021.1,
+        17070.6,
+        15602.2,
+        13912.55
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHHVK432?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
@@ -645,11 +871,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 22499.0,
+      "price_hist": [
+        35626.8,
+        29142.7,
+        31419.4,
+        27298.7,
+        22323.4,
+        22499.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -659,7 +893,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
@@ -682,11 +916,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 24749.1,
+      "price_hist": [
+        39381.3,
+        34684.5,
+        29005.9,
+        28896.7,
+        24952.0,
+        24749.1
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -696,7 +938,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
@@ -706,24 +948,32 @@
       }
     },
     {
-      "id": "B0DGJ66HHK-526202704834412",
-      "variant_id": "iphone16-rosa-256gb",
+      "id": "B0DHJBL4PB-526202704834412",
+      "variant_id": "iphone16-blanco-128gb",
       "variant_attributes": {
         "color": {
-          "id": "rosa",
-          "name": "Rosa"
+          "id": "blanco",
+          "name": "Blanco"
         },
         "storage": {
-          "id": "256_gb",
-          "name": "256 GB"
+          "id": "128_gb",
+          "name": "128 GB"
         }
       },
       "condition": {
-        "id": "new",
-        "name": "Nuevo"
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
       },
-      "tag": "Mejor precio con cashback",
-      "price": 20249.1,
+      "tag": "Con Cashback",
+      "price": 13765.59,
+      "price_hist": [
+        18226.5,
+        16941.4,
+        16863.9,
+        15504.4,
+        16936.7,
+        13765.59
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -733,13 +983,103 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
       "actionButton": {
         "text": "Ver oferta",
-        "url": "https://www.amazon.com.mx/dp/B0DGJ66HHK?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+        "url": "https://www.amazon.com.mx/dp/B0DHJBL4PB?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DHJH2GZL-526202704834412",
+      "variant_id": "iphone16-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 16743.87,
+      "price_hist": [
+        27043.4,
+        26278.0,
+        22469.8,
+        18592.4,
+        17678.1,
+        16743.87
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHJH2GZL?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DHJGKNT1-526202704834412",
+      "variant_id": "iphone16-ultramarino-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "ultramarino",
+          "name": "Ultramarino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 14110.6,
+      "price_hist": [
+        22825.1,
+        19553.1,
+        18775.9,
+        16724.7,
+        14801.1,
+        14110.6
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHJGKNT1?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
     },
     {
@@ -756,11 +1096,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 19999.0,
+      "price_hist": [
+        29506.4,
+        26408.6,
+        24755.8,
+        26149.4,
+        19379.3,
+        19999.0
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -770,7 +1118,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
@@ -793,11 +1141,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 17999.1,
+      "price_hist": [
+        26113.7,
+        27337.6,
+        26196.3,
+        21565.2,
+        21015.8,
+        17999.1
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -807,7 +1163,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },
@@ -830,11 +1186,19 @@
         }
       },
       "condition": {
-        "id": "new",
+        "id": "nuevo",
         "name": "Nuevo"
       },
-      "tag": "Mejor precio con cashback",
+      "tag": "Con Cashback",
       "price": 24749.1,
+      "price_hist": [
+        37995.0,
+        31064.1,
+        33555.6,
+        28776.0,
+        28680.7,
+        24749.1
+      ],
       "taxInfo": "IVA incl.",
       "shipping": {
         "returnIcon": true,
@@ -844,7 +1208,7 @@
       },
       "merchant": {
         "id": "526202704834412",
-        "name": "Amazon",
+        "name": "Amazon.mx",
         "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
         "rating": 4.7
       },

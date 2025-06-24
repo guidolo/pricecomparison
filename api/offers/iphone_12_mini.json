@@ -1,0 +1,681 @@
+{
+  "product_id": "iphone12mini",
+  "total_offers": 15,
+  "offers": [
+    {
+      "id": "7148686311580-392036935143895",
+      "variant_id": "iphone12mini-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4790.0,
+      "price_hist": [
+        8011.6,
+        7173.4,
+        5706.9,
+        5202.6,
+        5000.8,
+        4790.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-mini"
+      }
+    },
+    {
+      "id": "7148686311580-392036935143895",
+      "variant_id": "iphone12mini-negro-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 4790.0,
+      "price_hist": [
+        7735.9,
+        6947.1,
+        6703.8,
+        5260.5,
+        4698.7,
+        4790.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-mini"
+      }
+    },
+    {
+      "id": "7148686311580-392036935143895",
+      "variant_id": "iphone12mini-blanco-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 5540.0,
+      "price_hist": [
+        8941.0,
+        7081.2,
+        7600.8,
+        7448.2,
+        6136.3,
+        5540.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-mini"
+      }
+    },
+    {
+      "id": "B08PNKRPCY-526202704834412",
+      "variant_id": "iphone12mini-verde-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4148.39,
+      "price_hist": [
+        6165.0,
+        5861.5,
+        4959.5,
+        4570.5,
+        4125.1,
+        4148.39
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PNKRPCY?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09F5VP4CC-526202704834412",
+      "variant_id": "iphone12mini-azul-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4107.36,
+      "price_hist": [
+        6474.0,
+        5624.4,
+        4769.4,
+        5475.6,
+        4319.3,
+        4107.36
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09F5VP4CC?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PP9H4K2-526202704834412",
+      "variant_id": "iphone12mini-negro-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4845.3,
+      "price_hist": [
+        7217.6,
+        6248.2,
+        6471.0,
+        6327.4,
+        5945.6,
+        4845.3
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PP9H4K2?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PNKN4J7-526202704834412",
+      "variant_id": "iphone12mini-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "negro",
+          "name": "Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4877.26,
+      "price_hist": [
+        6667.9,
+        6284.3,
+        6464.2,
+        5692.7,
+        4770.7,
+        4877.26
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PNKN4J7?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09JFGWDK9-526202704834412",
+      "variant_id": "iphone12mini-rojo-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rojo",
+          "name": "Rojo"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 6147.37,
+      "price_hist": [
+        8913.9,
+        9506.0,
+        8183.2,
+        6621.2,
+        6213.1,
+        6147.37
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09JFGWDK9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09JFKQ6Y4-526202704834412",
+      "variant_id": "iphone12mini-azul-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 5979.09,
+      "price_hist": [
+        8611.7,
+        8264.0,
+        7452.2,
+        6366.7,
+        6074.5,
+        5979.09
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09JFKQ6Y4?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PP4X584-526202704834412",
+      "variant_id": "iphone12mini-product-red-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "product red",
+          "name": "Product Red"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4767.0,
+      "price_hist": [
+        7339.7,
+        6787.5,
+        5888.6,
+        5867.0,
+        5780.2,
+        4767.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PP4X584?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PNBW19J-526202704834412",
+      "variant_id": "iphone12mini-verde-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 5257.72,
+      "price_hist": [
+        7436.6,
+        7184.2,
+        7152.6,
+        5680.1,
+        6090.4,
+        5257.72
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PNBW19J?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09JFTT832-526202704834412",
+      "variant_id": "iphone12mini-blanco-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 5957.42,
+      "price_hist": [
+        8644.0,
+        8751.2,
+        8262.8,
+        6660.2,
+        5741.8,
+        5957.42
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09JFTT832?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09JFFKWDQ-526202704834412",
+      "variant_id": "iphone12mini-verde-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 5558.67,
+      "price_hist": [
+        9234.6,
+        8708.1,
+        6517.5,
+        6035.1,
+        5451.7,
+        5558.67
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09JFFKWDQ?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09JFNJ82P-526202704834412",
+      "variant_id": "iphone12mini-purpura-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "purpura",
+          "name": "Purpura"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 7343.14,
+      "price_hist": [
+        11746.9,
+        10405.4,
+        10467.4,
+        9485.7,
+        8374.2,
+        7343.14
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09JFNJ82P?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09F5N5GLV-526202704834412",
+      "variant_id": "iphone12mini-blanco-64gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco",
+          "name": "Blanco"
+        },
+        "storage": {
+          "id": "64_gb",
+          "name": "64 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 4447.83,
+      "price_hist": [
+        7020.8,
+        6094.5,
+        5701.2,
+        4821.3,
+        4927.0,
+        4447.83
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09F5N5GLV?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    }
+  ]
+}
