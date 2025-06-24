@@ -176,88 +176,273 @@ function setupTabNavigation() {
     });
 }
 
+/**
+ * Actualiza el gráfico de precios si está visible
+ * Esta función se llama cuando cambian los filtros
+ */
+async function updatePriceChartIfVisible() {
+    console.log('updatePriceChartIfVisible called');
+    
+    const priceChartSection = document.querySelector('.price-chart-section');
+    const priceChartTab = document.querySelector('.tab-navigation .tab:nth-child(2)');
+    
+    console.log('priceChartSection:', priceChartSection);
+    console.log('priceChartTab:', priceChartTab);
+    console.log('priceChartTab active:', priceChartTab?.classList.contains('active'));
+    console.log('priceChartSection display:', priceChartSection?.style.display);
+    
+    // Solo actualizar si la pestaña del gráfico está activa y visible
+    if (priceChartTab && priceChartTab.classList.contains('active') && 
+        priceChartSection && priceChartSection.style.display !== 'none') {
+        console.log('Updating price chart...');
+        await renderPriceChart();
+        console.log('Price chart updated successfully');
+    } else {
+        console.log('Price chart not visible, skipping update');
+    }
+}
+
 // Renderiza el gráfico de precios usando canvas puro
 async function renderPriceChart() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const productId = urlParams.get('product') || 'iphone_14_pro_max';
-    const apiUrl = `api/products/${productId}.json`;
-    const response = await fetch(apiUrl);
-    const data = await response.json();
-    const priceHistory = (data && data.product && data.product.price_history) ? data.product.price_history : [];
-    const canvas = document.getElementById('priceChartCanvas');
-    const ctx = canvas.getContext('2d');
-    // Limpiar canvas
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    // Configuración visual
-    const width = canvas.width = canvas.offsetWidth;
-    const height = canvas.height = canvas.offsetHeight;
-    ctx.fillStyle = '#f8fafd';
-    ctx.fillRect(0, 0, width, height);
-    // Si no hay datos, mostrar mensaje
-    if (!priceHistory.length) {
+    try {
+        console.log('renderPriceChart called');
+        
+        // Obtener el ID del producto de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('product') || 'iphone_14_pro_max';
+        
+        // Obtener los filtros actuales - intentar primero desde las variables globales
+        // y luego desde la URL como fallback
+        let color = null;
+        let storage = null;
+        let condition = null;
+        
+        // Intentar obtener desde variables globales (si están disponibles)
+        if (typeof currentColorId !== 'undefined' && currentColorId) {
+            color = currentColorId;
+        } else {
+            color = urlParams.get('color');
+        }
+        
+        if (typeof currentStorageId !== 'undefined' && currentStorageId) {
+            storage = currentStorageId;
+        } else {
+            storage = urlParams.get('storage');
+        }
+        
+        if (typeof currentConditionId !== 'undefined' && currentConditionId) {
+            condition = currentConditionId;
+        } else {
+            condition = urlParams.get('condition');
+        }
+        
+        console.log('Current filters - color:', color, 'storage:', storage, 'condition:', condition);
+        console.log('Global variables - currentColorId:', typeof currentColorId !== 'undefined' ? currentColorId : 'undefined', 
+                   'currentStorageId:', typeof currentStorageId !== 'undefined' ? currentStorageId : 'undefined',
+                   'currentConditionId:', typeof currentConditionId !== 'undefined' ? currentConditionId : 'undefined');
+        
+        // Construir el nombre del archivo de ofertas
+        const offersFileName = `${productId}.json`;
+        const offersApiUrl = `api/offers/${offersFileName}`;
+        
+        console.log('Fetching offers from:', offersApiUrl);
+        
+        // Obtener las ofertas
+        const response = await fetch(offersApiUrl);
+        if (!response.ok) {
+            throw new Error(`Error HTTP: ${response.status}`);
+        }
+        
+        const offersData = await response.json();
+        console.log('Total offers loaded:', offersData.offers.length);
+        
+        // Aplicar los mismos filtros que se usan en offers-loader.js
+        let filteredOffers = offersData.offers;
+        
+        // Filtrar por color si se proporciona y no es null
+        if (color && color !== 'null') {
+            console.log(`Filtrando por color ID: ${color}`);
+            filteredOffers = filteredOffers.filter(offer => {
+                if (offer.variant_attributes && offer.variant_attributes.color) {
+                    return offer.variant_attributes.color.id === color;
+                }
+                return false;
+            });
+            console.log('Ofertas después del filtro de color:', filteredOffers.length);
+        }
+        
+        // Filtrar por almacenamiento si se proporciona y no es null
+        if (storage && storage !== 'null') {
+            console.log(`Filtrando por almacenamiento ID: ${storage}`);
+            filteredOffers = filteredOffers.filter(offer => {
+                if (offer.variant_attributes && offer.variant_attributes.storage) {
+                    return offer.variant_attributes.storage.id === storage;
+                }
+                return false;
+            });
+            console.log('Ofertas después del filtro de almacenamiento:', filteredOffers.length);
+        }
+        
+        // Filtrar por condición si se proporciona y no es null
+        if (condition && condition !== 'null') {
+            console.log(`Filtrando por condición ID: ${condition}`);
+            filteredOffers = filteredOffers.filter(offer => {
+                if (offer.condition && offer.condition.id) {
+                    return offer.condition.id === condition;
+                }
+                return false;
+            });
+            console.log('Ofertas después del filtro de condición:', filteredOffers.length);
+        }
+        
+        // Obtener la primera oferta filtrada que tenga price_hist
+        let firstOfferWithPriceHist = null;
+        for (const offer of filteredOffers) {
+            if (offer.price_hist && offer.price_hist.length > 0) {
+                firstOfferWithPriceHist = offer;
+                break;
+            }
+        }
+        
+        console.log('Primera oferta con price_hist encontrada:', firstOfferWithPriceHist ? 'Sí' : 'No');
+        
+        // Si no hay ofertas filtradas con price_hist, no mostrar nada
+        if (!firstOfferWithPriceHist) {
+            console.log('No hay ofertas filtradas con price_hist - mostrando mensaje');
+            const canvas = document.getElementById('priceChartCanvas');
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            const width = canvas.width = canvas.offsetWidth;
+            const height = canvas.height = canvas.offsetHeight;
+            
+            ctx.fillStyle = '#f8fafd';
+            ctx.fillRect(0, 0, width, height);
+            
+            ctx.fillStyle = '#888';
+            ctx.font = '18px sans-serif';
+            ctx.fillText('Sin datos de histórico de precios para los filtros seleccionados', 20, height / 2);
+            return;
+        }
+        
+        // Usar el price_hist de la primera oferta (filtrada o no)
+        const priceHistory = firstOfferWithPriceHist.price_hist;
+        console.log('Price history data:', priceHistory);
+        console.log('Oferta seleccionada:', firstOfferWithPriceHist.variant_attributes);
+        
+        // Generar fechas para los últimos 6 meses (el último registro es junio 2025)
+        const months = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun'];
+        const currentYear = 2025;
+        
+        // Crear array de fechas en formato YYYY-MM
+        const dates = [];
+        for (let i = 5; i >= 0; i--) {
+            const month = (6 - i) % 12;
+            const year = currentYear - (month === 0 ? 1 : 0);
+            const monthStr = (month === 0 ? 12 : month).toString().padStart(2, '0');
+            dates.push(`${year}-${monthStr}`);
+        }
+        
+        const canvas = document.getElementById('priceChartCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Limpiar canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Configuración visual
+        const width = canvas.width = canvas.offsetWidth;
+        const height = canvas.height = canvas.offsetHeight;
+        
+        ctx.fillStyle = '#f8fafd';
+        ctx.fillRect(0, 0, width, height);
+        
+        // Margen y escalas
+        const margin = 40;
+        const chartW = width - margin * 2;
+        const chartH = height - margin * 2;
+        
+        // Extraer precios
+        const prices = priceHistory;
+        const minPrice = Math.min(...prices);
+        const maxPrice = Math.max(...prices);
+        
+        // Dibujar líneas de fondo
+        ctx.strokeStyle = '#e0e6ef';
+        ctx.lineWidth = 1;
+        
+        for (let i = 0; i <= 4; i++) {
+            const y = margin + (chartH * i) / 4;
+            ctx.beginPath();
+            ctx.moveTo(margin, y);
+            ctx.lineTo(width - margin, y);
+            ctx.stroke();
+            
+            // Etiquetas de precio (eje Y)
+            ctx.fillStyle = '#bbb';
+            ctx.font = '13px sans-serif';
+            const priceLabel = (maxPrice - ((maxPrice - minPrice) * i) / 4).toFixed(0);
+            ctx.fillText(priceLabel + ' $', 5, y + 4);
+        }
+        
+        // Dibujar línea de precios
+        ctx.strokeStyle = '#ff9800';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        
+        priceHistory.forEach((price, i) => {
+            const x = margin + (chartW * i) / (priceHistory.length - 1);
+            const y = margin + chartH * (1 - (price - minPrice) / (maxPrice - minPrice || 1));
+            
+            if (i === 0) ctx.moveTo(x, y);
+            else ctx.lineTo(x, y);
+        });
+        ctx.stroke();
+        
+        // Dibujar puntos y etiquetas
+        priceHistory.forEach((price, i) => {
+            const x = margin + (chartW * i) / (priceHistory.length - 1);
+            const y = margin + chartH * (1 - (price - minPrice) / (maxPrice - minPrice || 1));
+            
+            // Punto
+            ctx.beginPath();
+            ctx.arc(x, y, 5, 0, 2 * Math.PI);
+            ctx.fillStyle = '#fff';
+            ctx.fill();
+            ctx.strokeStyle = '#ff9800';
+            ctx.lineWidth = 2;
+            ctx.stroke();
+            
+            // Etiqueta de precio solo para min y max
+            if (price === minPrice || price === maxPrice) {
+                ctx.fillStyle = '#ff9800';
+                ctx.font = 'bold 13px sans-serif';
+                ctx.fillText(price.toFixed(0) + ' $', x - 25, y - 12);
+            }
+            
+            // Etiqueta de fecha (mes)
+            ctx.fillStyle = '#888';
+            ctx.font = '12px sans-serif';
+            ctx.fillText(months[i], x - 18, height - 10);
+        });
+        
+    } catch (error) {
+        console.error('Error al renderizar el gráfico de precios:', error);
+        
+        // Mostrar mensaje de error en el canvas
+        const canvas = document.getElementById('priceChartCanvas');
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        const width = canvas.width = canvas.offsetWidth;
+        const height = canvas.height = canvas.offsetHeight;
+        
+        ctx.fillStyle = '#f8fafd';
+        ctx.fillRect(0, 0, width, height);
+        
         ctx.fillStyle = '#888';
         ctx.font = '18px sans-serif';
-        ctx.fillText('Sin datos de histórico de precios', 20, height / 2);
-        return;
+        ctx.fillText('Error al cargar el gráfico de precios', 20, height / 2);
     }
-    // Margen y escalas
-    const margin = 40;
-    const chartW = width - margin * 2;
-    const chartH = height - margin * 2;
-    // Extraer precios y fechas
-    const prices = priceHistory.map(p => p.price);
-    const dates = priceHistory.map(p => p.date.slice(0, 7));
-    const minPrice = Math.min(...prices);
-    const maxPrice = Math.max(...prices);
-    // Dibujar líneas de fondo
-    ctx.strokeStyle = '#e0e6ef';
-    ctx.lineWidth = 1;
-    for (let i = 0; i <= 4; i++) {
-        const y = margin + (chartH * i) / 4;
-        ctx.beginPath();
-        ctx.moveTo(margin, y);
-        ctx.lineTo(width - margin, y);
-        ctx.stroke();
-        // Etiquetas de precio (eje Y)
-        ctx.fillStyle = '#bbb';
-        ctx.font = '13px sans-serif';
-        const priceLabel = (maxPrice - ((maxPrice - minPrice) * i) / 4).toFixed(2);
-        ctx.fillText(priceLabel + ' $', 5, y + 4);
-    }
-    // Dibujar línea de precios
-    ctx.strokeStyle = '#ff9800';
-    ctx.lineWidth = 3;
-    ctx.beginPath();
-    priceHistory.forEach((point, i) => {
-        const x = margin + (chartW * i) / (priceHistory.length - 1);
-        const y = margin + chartH * (1 - (point.price - minPrice) / (maxPrice - minPrice || 1));
-        if (i === 0) ctx.moveTo(x, y);
-        else ctx.lineTo(x, y);
-    });
-    ctx.stroke();
-    // Dibujar puntos y etiquetas solo para min y max
-    priceHistory.forEach((point, i) => {
-        const x = margin + (chartW * i) / (priceHistory.length - 1);
-        const y = margin + chartH * (1 - (point.price - minPrice) / (maxPrice - minPrice || 1));
-        // Punto
-        ctx.beginPath();
-        ctx.arc(x, y, 5, 0, 2 * Math.PI);
-        ctx.fillStyle = '#fff';
-        ctx.fill();
-        ctx.strokeStyle = '#ff9800';
-        ctx.lineWidth = 2;
-        ctx.stroke();
-        // Etiqueta de precio solo para min y max
-        if (point.price === minPrice || point.price === maxPrice) {
-            ctx.fillStyle = '#ff9800';
-            ctx.font = 'bold 13px sans-serif';
-            ctx.fillText(point.price.toFixed(2) + ' $', x - 25, y - 12);
-        }
-        // Etiqueta de fecha
-        ctx.fillStyle = '#888';
-        ctx.font = '12px sans-serif';
-        ctx.fillText(dates[i], x - 18, height - 10);
-    });
 }
 
 // Cargar los detalles del producto cuando se cargue la página

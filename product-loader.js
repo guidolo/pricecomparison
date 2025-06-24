@@ -89,6 +89,14 @@ function setupProductOptionEvents() {
                 
                 // Filtrar ofertas por color, almacenamiento y condición usando el ID
                 fetchOffers(currentVariantId, currentColorId, currentStorageId, currentConditionId);
+                
+                // Actualizar el gráfico de precios si está visible
+                if (typeof updatePriceChartIfVisible === 'function') {
+                    console.log('Calling updatePriceChartIfVisible for color change');
+                    updatePriceChartIfVisible();
+                } else {
+                    console.log('updatePriceChartIfVisible function not available');
+                }
             } else if (optionType === 'storage') {
                 currentStorage = selectedValue;
                 currentStorageId = selectedId;
@@ -96,6 +104,14 @@ function setupProductOptionEvents() {
                 console.log('Storage ID seleccionado:', currentStorageId);
                 // Filtrar ofertas por color, almacenamiento y condición usando el ID
                 fetchOffers(currentVariantId, currentColorId, currentStorageId, currentConditionId);
+                
+                // Actualizar el gráfico de precios si está visible
+                if (typeof updatePriceChartIfVisible === 'function') {
+                    console.log('Calling updatePriceChartIfVisible for storage change');
+                    updatePriceChartIfVisible();
+                } else {
+                    console.log('updatePriceChartIfVisible function not available');
+                }
             } else if (optionType === 'condition') {
                 currentCondition = selectedValue;
                 currentConditionId = selectedId;
@@ -103,6 +119,14 @@ function setupProductOptionEvents() {
                 console.log('Condición ID seleccionada:', currentConditionId);
                 // Filtrar ofertas por color, almacenamiento y condición usando el ID
                 fetchOffers(currentVariantId, currentColorId, currentStorageId, currentConditionId);
+                
+                // Actualizar el gráfico de precios si está visible
+                if (typeof updatePriceChartIfVisible === 'function') {
+                    console.log('Calling updatePriceChartIfVisible for condition change');
+                    updatePriceChartIfVisible();
+                } else {
+                    console.log('updatePriceChartIfVisible function not available');
+                }
             }
             
             console.log(`Opción ${isCurrentlyActive ? 'deseleccionada' : 'seleccionada'}: ${optionType} - ${selectedValue || 'ninguna'}`);
