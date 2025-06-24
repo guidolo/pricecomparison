@@ -1,582 +1,1266 @@
 {
-  "product": {
-    "id": "MLA48561112",
-    "name": "iPhone 16 Pro",
-    "category": "",
-    "description": "Fotografía profesional en tu bolsillo\nDescubre infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Pon a prueba tu creatividad y juega con la iluminación, diferentes planos y efectos para obtener grandes resultados.\n\nPerfecta para los amantes del plano detalle. Su zoom óptico te ofrecerá la posibilidad de realizar acercamientos sin que tus capturas pierdan calidad. \n\nCapacidad y eficiencia\nCon su potente procesador y memoria RAM de 8 GB tu equipo alcanzará un alto rendimiento con gran velocidad de transmisión de contenidos y ejecutará múltiples aplicaciones a la vez sin demoras.\n\nReconocimiento facial para mayor seguridad\nAcerca el dispositivo a tu rostro para desbloquearlo instantáneamente. Su precisa tecnología de reconocimiento facial te garantiza un acceso al equipo rápido y seguro.\n\n",
-    "rating": 0,
-    "reviews_count": 0,
-    "brand": "",
-    "model": "iPhone 16 Pro",
-    "release_year": "",
-    "pickers": [
-      {
-        "id": "color",
-        "name": "Color",
-        "values": [
-          {
-            "id": "desert_titanium",
-            "name": "Desert Titanium",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_634453-MLA83818446885_042025-I.jpg"
-          },
-          {
-            "id": "blanco",
-            "name": "Blanco",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_788777-MLA83299096892_042025-I.jpg"
-          },
-          {
-            "id": "titanio_blanco",
-            "name": "Titanio blanco",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_882620-MLU79129262427_092024-I.jpg"
-          },
-          {
-            "id": "titanio_del_desierto",
-            "name": "Titanio del desierto",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_635781-MLU78878969280_092024-I.jpg"
-          },
-          {
-            "id": "titanio_natural",
-            "name": "Titanio natural",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_939427-MLU79132024637_092024-I.jpg"
-          },
-          {
-            "id": "titanio_negro",
-            "name": "Titanio negro",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_836017-MLU78891585728_092024-I.jpg"
-          }
-        ]
+  "product_id": "iphone16pro",
+  "total_offers": 28,
+  "offers": [
+    {
+      "id": "195949770647_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-del-desierto-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio del desierto",
+          "name": "Titanio Del Desierto"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
       },
-      {
-        "id": "internal_memory",
-        "name": "Memoria interna",
-        "values": [
-          {
-            "id": "256_gb",
-            "name": "256 GB"
-          },
-          {
-            "id": "128_gb",
-            "name": "128 GB"
-          },
-          {
-            "id": "512_gb",
-            "name": "512 GB"
-          },
-          {
-            "id": "1_tb",
-            "name": "1 TB"
-          }
-        ]
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
       },
-      {
-        "id": "ram",
-        "name": "Memoria RAM",
-        "values": [
-          {
-            "id": "8_gb",
-            "name": "8 GB"
-          }
-        ]
+      "tag": "",
+      "price": 28499.0,
+      "price_hist": [
+        42890.0,
+        43134.8,
+        35053.0,
+        36088.4,
+        32169.7,
+        28499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "id": "condicion",
-        "name": "Condición",
-        "values": [
-          {
-            "id": "new",
-            "name": "Nuevo"
-          },
-          {
-            "id": "reacondicionado",
-            "name": "Reacondicionado"
-          }
-        ]
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
       }
-    ],
-    "images": [
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_634453-MLA83818446885_042025-F.jpg",
-        "position": 1,
-        "color": "Desert Titanium",
-        "use_picker_id": [
-          "MLA48561112"
-        ]
+    },
+    {
+      "id": "195949770401_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio negro",
+          "name": "Titanio Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_931719-MLA83818436919_042025-F.jpg",
-        "position": 2,
-        "color": "Desert Titanium",
-        "use_picker_id": [
-          "MLA48561112"
-        ]
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_928673-MLA83818446899_042025-F.jpg",
-        "position": 3,
-        "color": "Desert Titanium",
-        "use_picker_id": [
-          "MLA48561112"
-        ]
+      "tag": "",
+      "price": 25999.0,
+      "price_hist": [
+        42425.6,
+        35806.4,
+        36328.8,
+        27848.6,
+        25796.0,
+        25999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_788777-MLA83299096892_042025-F.jpg",
-        "position": 1,
-        "color": "Blanco",
-        "use_picker_id": [
-          "MLA47769261"
-        ]
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_885709-MLA83590698439_042025-F.jpg",
-        "position": 2,
-        "color": "Blanco",
-        "use_picker_id": [
-          "MLA47769261"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_600748-MLA83590312547_042025-F.jpg",
-        "position": 3,
-        "color": "Blanco",
-        "use_picker_id": [
-          "MLA47769261"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_939427-MLU79132024637_092024-F.jpg",
-        "position": 1,
-        "color": "Titanio natural",
-        "use_picker_id": [
-          "MLA40287832"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_890376-MLU79132251745_092024-F.jpg",
-        "position": 2,
-        "color": "Titanio natural",
-        "use_picker_id": [
-          "MLA40287832"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_604464-MLU78894756056_092024-F.jpg",
-        "position": 3,
-        "color": "Titanio natural",
-        "use_picker_id": [
-          "MLA40287832"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_722717-MLU79132378799_092024-F.jpg",
-        "position": 4,
-        "color": "Titanio natural",
-        "use_picker_id": [
-          "MLA40287832"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_976059-MLU79132378813_092024-F.jpg",
-        "position": 5,
-        "color": "Titanio natural",
-        "use_picker_id": [
-          "MLA40287832"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_836017-MLU78891585728_092024-F.jpg",
-        "position": 1,
-        "color": "Titanio negro",
-        "use_picker_id": [
-          "MLA40287834"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_730599-MLU78891585740_092024-F.jpg",
-        "position": 2,
-        "color": "Titanio negro",
-        "use_picker_id": [
-          "MLA40287834"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_677720-MLU78891418494_092024-F.jpg",
-        "position": 3,
-        "color": "Titanio negro",
-        "use_picker_id": [
-          "MLA40287834"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_625729-MLU78891585752_092024-F.jpg",
-        "position": 4,
-        "color": "Titanio negro",
-        "use_picker_id": [
-          "MLA40287834"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_601767-MLU79129255255_092024-F.jpg",
-        "position": 5,
-        "color": "Titanio negro",
-        "use_picker_id": [
-          "MLA40287834"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_882620-MLU79129262427_092024-F.jpg",
-        "position": 1,
-        "color": "Titanio blanco",
-        "use_picker_id": [
-          "MLA40287839"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_950837-MLU78891592886_092024-F.jpg",
-        "position": 2,
-        "color": "Titanio blanco",
-        "use_picker_id": [
-          "MLA40287839"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_666618-MLU79129486949_092024-F.jpg",
-        "position": 3,
-        "color": "Titanio blanco",
-        "use_picker_id": [
-          "MLA40287839"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_888689-MLU79129262447_092024-F.jpg",
-        "position": 4,
-        "color": "Titanio blanco",
-        "use_picker_id": [
-          "MLA40287839"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_730688-MLU78891592892_092024-F.jpg",
-        "position": 5,
-        "color": "Titanio blanco",
-        "use_picker_id": [
-          "MLA40287839"
-        ]
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
       }
-    ],
-    "product_details": [
-      {
-        "category": "Network",
-        "specifications": [
-          {
-            "name": "Technology",
-            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
-          },
-          {
-            "name": "2G bands",
-            "value": "GSM 850 / 900 / 1800 / 1900"
-          },
-          {
-            "name": "",
-            "value": "CDMA 800 / 1900"
-          },
-          {
-            "name": "3G bands",
-            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
-          },
-          {
-            "name": "",
-            "value": "CDMA2000 1xEV-DO"
-          },
-          {
-            "name": "4G bands",
-            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66 - A3293"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66, 71 - A3083"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66, 71 - A3292"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 48, 66 - A3294"
-          },
-          {
-            "name": "5G bands",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 75, 76, 77, 78, 79 SA/NSA/Sub6 - A3293"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 75, 76, 77, 78, 79, 258, 260, 261 SA/NSA/Sub6/mmWave - A3083"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 75, 76, 77, 78, 79 SA/NSA/Sub6 - A3292"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 75, 76, 77, 78, 79 SA/NSA/Sub6 - A3294"
-          },
-          {
-            "name": "Speed",
-            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
-          }
-        ]
+    },
+    {
+      "id": "195949770760_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-blanco-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio blanco",
+          "name": "Titanio Blanco"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
       },
-      {
-        "category": "Launch",
-        "specifications": [
-          {
-            "name": "Announced",
-            "value": "2024, September 09"
-          },
-          {
-            "name": "Status",
-            "value": "Available. Released 2024, September 20"
-          }
-        ]
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
       },
-      {
-        "category": "Body",
-        "specifications": [
-          {
-            "name": "Dimensions",
-            "value": "149.6 x 71.5 x 8.3 mm (5.89 x 2.81 x 0.33 in)"
-          },
-          {
-            "name": "Weight",
-            "value": "199 g (7.02 oz)"
-          },
-          {
-            "name": "Build",
-            "value": "Glass front, glass back, titanium frame (grade 5)"
-          },
-          {
-            "name": "SIM",
-            "value": "Nano-SIM + eSIM + eSIM (max 2 at a time; International)eSIM + eSIM (8 or more, max 2 at a time; USA)Nano-SIM + Nano-SIM (China)"
-          },
-          {
-            "name": "",
-            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
-          }
-        ]
+      "tag": "",
+      "price": 33499.0,
+      "price_hist": [
+        49738.2,
+        51970.0,
+        43176.0,
+        38806.9,
+        40238.2,
+        33499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "category": "Display",
-        "specifications": [
-          {
-            "name": "Type",
-            "value": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)"
-          },
-          {
-            "name": "Size",
-            "value": "6.3 inches, 96.4 cm2 (~90.1% screen-to-body ratio)"
-          },
-          {
-            "name": "Resolution",
-            "value": "1206 x 2622 pixels, 19.5:9 ratio (~460 ppi density)"
-          },
-          {
-            "name": "Protection",
-            "value": "Ceramic Shield glass (2024 gen)"
-          }
-        ]
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
       },
-      {
-        "category": "Platform",
-        "specifications": [
-          {
-            "name": "OS",
-            "value": "iOS 18, upgradable to iOS 18.5"
-          },
-          {
-            "name": "Chipset",
-            "value": "Apple A18 Pro (3 nm)"
-          },
-          {
-            "name": "CPU",
-            "value": "Hexa-core (2x4.05 GHz + 4x2.42 GHz)"
-          },
-          {
-            "name": "GPU",
-            "value": "Apple GPU (6-core graphics)"
-          }
-        ]
-      },
-      {
-        "category": "Memory",
-        "specifications": [
-          {
-            "name": "Card slot",
-            "value": "No"
-          },
-          {
-            "name": "Internal",
-            "value": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM"
-          },
-          {
-            "name": "",
-            "value": "NVMe"
-          }
-        ]
-      },
-      {
-        "category": "Main Camera",
-        "specifications": [
-          {
-            "name": "Triple",
-            "value": "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22µm, dual pixel PDAF, sensor-shift OIS\r\n12 MP, f/2.8, 120mm (periscope telephoto), 1/3.06\", 1.12µm, dual pixel PDAF, 3D sensor‑shift OIS, 5x optical zoom\r\n48 MP, f/2.2, 13mm (ultrawide), 1/2.55\", 0.7µm, PDAF\r\nTOF 3D LiDAR scanner (depth)"
-          },
-          {
-            "name": "Features",
-            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
-          },
-          {
-            "name": "Video",
-            "value": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, 3D (spatial) video/audio, stereo sound rec."
-          }
-        ]
-      },
-      {
-        "category": "Selfie camera",
-        "specifications": [
-          {
-            "name": "Single",
-            "value": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF, OIS\r\nSL 3D, (depth/biometrics sensor)"
-          },
-          {
-            "name": "Features",
-            "value": "HDR, Dolby Vision HDR, 3D (spatial) audio, stereo sound rec."
-          },
-          {
-            "name": "Video",
-            "value": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
-          }
-        ]
-      },
-      {
-        "category": "Sound",
-        "specifications": [
-          {
-            "name": "Loudspeaker",
-            "value": "Yes, with stereo speakers"
-          },
-          {
-            "name": "3.5mm jack",
-            "value": "No"
-          }
-        ]
-      },
-      {
-        "category": "Comms",
-        "specifications": [
-          {
-            "name": "WLAN",
-            "value": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, hotspot"
-          },
-          {
-            "name": "Bluetooth",
-            "value": "5.3, A2DP, LE"
-          },
-          {
-            "name": "Positioning",
-            "value": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC"
-          },
-          {
-            "name": "NFC",
-            "value": "Yes"
-          },
-          {
-            "name": "Radio",
-            "value": "No"
-          },
-          {
-            "name": "USB",
-            "value": "USB Type-C 3.2 Gen 2, DisplayPort"
-          }
-        ]
-      },
-      {
-        "category": "Features",
-        "specifications": [
-          {
-            "name": "Sensors",
-            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
-          },
-          {
-            "name": "",
-            "value": "Ultra Wideband (UWB) support (gen2 chip)\r\nEmergency SOS, Messages and Find My via satellite"
-          }
-        ]
-      },
-      {
-        "category": "Battery",
-        "specifications": [
-          {
-            "name": "Type",
-            "value": "Li-Ion 3582 mAh"
-          },
-          {
-            "name": "Charging",
-            "value": "Wired, PD2.0, 50% in 30 min\r\n25W wireless (MagSafe), 15W wireless (China only)\r\n15W wireless (Qi2)\r\n4.5W reverse wired"
-          }
-        ]
-      },
-      {
-        "category": "Misc",
-        "specifications": [
-          {
-            "name": "Colors",
-            "value": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium"
-          },
-          {
-            "name": "Models",
-            "value": "A3293, A3083, A3292, A3294, iPhone17,1"
-          },
-          {
-            "name": "SAR",
-            "value": "1.09 W/kg (head)     1.19 W/kg (body)"
-          },
-          {
-            "name": "SAR EU",
-            "value": "1.24 W/kg (head)     1.48 W/kg (body)"
-          },
-          {
-            "name": "Price",
-            "value": "$ 743.00 / € 937.98 / £ 793.50"
-          }
-        ]
-      },
-      {
-        "category": "Tests",
-        "specifications": [
-          {
-            "name": "Performance",
-            "value": "AnTuTu: 1871052 (v10)\r\nGeekBench: 8283 (v6)\r\n3DMark: 4898 (Wild Life Extreme)"
-          },
-          {
-            "name": "Display",
-            "value": "1764 nits max brightness (measured)"
-          },
-          {
-            "name": "Loudspeaker",
-            "value": "-27.3 LUFS (Good)"
-          },
-          {
-            "name": "Battery (new)",
-            "value": "Active use score 14:17h"
-          }
-        ]
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
       }
-    ],
-    "product_summary": {
-      "screen_size": "6.3\"",
-      "front_camera_mp": "12 MP",
-      "ram_gb": "8 GB",
-      "battery": "Li-Ion 3582 mAh",
-      "operating_system": "iOS 18"
+    },
+    {
+      "id": "195949771002_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-natural-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio natural",
+          "name": "Titanio Natural"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 38499.0,
+      "price_hist": [
+        60132.5,
+        52995.4,
+        49752.9,
+        46744.0,
+        45057.9,
+        38499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770487_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-del-desierto-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio del desierto",
+          "name": "Titanio Del Desierto"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 25999.0,
+      "price_hist": [
+        36403.1,
+        33570.3,
+        37560.3,
+        31521.7,
+        26310.7,
+        25999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770807_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-del-desierto-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio del desierto",
+          "name": "Titanio Del Desierto"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 33499.0,
+      "price_hist": [
+        54580.2,
+        50728.0,
+        39625.1,
+        36870.3,
+        34603.5,
+        33499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770524_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-natural-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio natural",
+          "name": "Titanio Natural"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 25999.0,
+      "price_hist": [
+        43450.4,
+        32549.4,
+        36985.9,
+        29204.8,
+        30090.5,
+        25999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770685_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-natural-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio natural",
+          "name": "Titanio Natural"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 28499.0,
+      "price_hist": [
+        38143.5,
+        40766.5,
+        33014.9,
+        38362.2,
+        32547.9,
+        28499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770920_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-blanco-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio blanco",
+          "name": "Titanio Blanco"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 38499.0,
+      "price_hist": [
+        60267.4,
+        58000.4,
+        48064.5,
+        48548.3,
+        41175.0,
+        38499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770609_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-blanco-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio blanco",
+          "name": "Titanio Blanco"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 28499.0,
+      "price_hist": [
+        47509.0,
+        39773.4,
+        36687.7,
+        36823.8,
+        28746.0,
+        28499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770968_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-del-desierto-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio del desierto",
+          "name": "Titanio Del Desierto"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 38499.0,
+      "price_hist": [
+        58733.0,
+        55568.7,
+        52051.0,
+        47335.4,
+        43480.3,
+        38499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770722_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-negro-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio negro",
+          "name": "Titanio Negro"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 33499.0,
+      "price_hist": [
+        47047.9,
+        44502.1,
+        43326.4,
+        40867.6,
+        36477.5,
+        33499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770883_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-negro-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio negro",
+          "name": "Titanio Negro"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 38499.0,
+      "price_hist": [
+        56364.6,
+        48849.9,
+        48455.7,
+        50402.1,
+        40835.9,
+        38499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770449_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-blanco-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio blanco",
+          "name": "Titanio Blanco"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 25999.0,
+      "price_hist": [
+        43836.3,
+        39832.2,
+        35602.3,
+        30560.8,
+        32115.4,
+        25999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770845_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-natural-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio natural",
+          "name": "Titanio Natural"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 33499.0,
+      "price_hist": [
+        46421.8,
+        48663.7,
+        38462.8,
+        36127.6,
+        41311.1,
+        33499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "195949770562_88185-751534892406662",
+      "variant_id": "iphone16pro-titanio-negro-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio negro",
+          "name": "Titanio Negro"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "",
+      "price": 28499.0,
+      "price_hist": [
+        45466.1,
+        38456.2,
+        37333.6,
+        33210.0,
+        28044.7,
+        28499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-16-pro/p"
+      }
+    },
+    {
+      "id": "B0DHJ3SRDL-526202704834412",
+      "variant_id": "iphone16pro-titanio-del-desierto-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio del desierto",
+          "name": "Titanio Del Desierto"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 20982.6,
+      "price_hist": [
+        34828.1,
+        30775.5,
+        29417.0,
+        23251.2,
+        23127.0,
+        20982.6
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHJ3SRDL?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DHJC1VZ5-526202704834412",
+      "variant_id": "iphone16pro-titanio-del-desierto-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio del desierto",
+          "name": "Titanio Del Desierto"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 20158.85,
+      "price_hist": [
+        31987.3,
+        24868.1,
+        24457.8,
+        23795.4,
+        24059.7,
+        20158.85
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHJC1VZ5?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJMHY5Y-526202704834412",
+      "variant_id": "iphone16pro-titanio-natural-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio natural",
+          "name": "Titanio Natural"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 25649.1,
+      "price_hist": [
+        39475.3,
+        34670.0,
+        29630.4,
+        33833.6,
+        27320.7,
+        25649.1
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJMHY5Y?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJ7YTQB-526202704834412",
+      "variant_id": "iphone16pro-titanio-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio negro",
+          "name": "Titanio Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 25999.0,
+      "price_hist": [
+        40073.9,
+        39370.2,
+        33192.6,
+        33937.7,
+        26940.2,
+        25999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJ7YTQB?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DHJDPYYR-526202704834412",
+      "variant_id": "iphone16pro-titanio-negro-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio negro",
+          "name": "Titanio Negro"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 21675.79,
+      "price_hist": [
+        36011.0,
+        32590.1,
+        25879.0,
+        24758.2,
+        24254.6,
+        21675.79
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHJDPYYR?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJD9GPX-526202704834412",
+      "variant_id": "iphone16pro-titanio-del-desierto-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio del desierto",
+          "name": "Titanio Del Desierto"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 25649.1,
+      "price_hist": [
+        35438.8,
+        38103.8,
+        37225.2,
+        33861.3,
+        30798.0,
+        25649.1
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJD9GPX?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJLBYM9-526202704834412",
+      "variant_id": "iphone16pro-titanio-del-desierto-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio del desierto",
+          "name": "Titanio Del Desierto"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 25559.11,
+      "price_hist": [
+        34729.6,
+        33444.4,
+        30791.4,
+        28414.7,
+        29955.6,
+        25559.11
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJLBYM9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJC6D6D-526202704834412",
+      "variant_id": "iphone16pro-titanio-blanco-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio blanco",
+          "name": "Titanio Blanco"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 34649.1,
+      "price_hist": [
+        51606.1,
+        52255.5,
+        49006.1,
+        39498.3,
+        34392.1,
+        34649.1
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJC6D6D?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DHJGWP9W-526202704834412",
+      "variant_id": "iphone16pro-titanio-natural-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio natural",
+          "name": "Titanio Natural"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 19598.19,
+      "price_hist": [
+        26071.5,
+        29162.6,
+        26650.5,
+        26445.2,
+        22482.4,
+        19598.19
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHJGWP9W?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DHJG6JPH-526202704834412",
+      "variant_id": "iphone16pro-titanio-negro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio negro",
+          "name": "Titanio Negro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 19606.98,
+      "price_hist": [
+        32605.7,
+        30156.7,
+        26029.7,
+        25451.5,
+        23448.5,
+        19606.98
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DHJG6JPH?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJFWLRP-526202704834412",
+      "variant_id": "iphone16pro-titanio-blanco-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio blanco",
+          "name": "Titanio Blanco"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 30149.1,
+      "price_hist": [
+        42866.1,
+        39043.2,
+        41966.9,
+        38502.1,
+        32834.7,
+        30149.1
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJFWLRP?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0DGJ9P1LF-526202704834412",
+      "variant_id": "iphone16pro-titanio-negro-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "titanio negro",
+          "name": "Titanio Negro"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 28499.0,
+      "price_hist": [
+        40535.9,
+        43566.1,
+        32800.4,
+        31095.3,
+        34592.9,
+        28499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0DGJ9P1LF?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
     }
-  }
+  ]
 }

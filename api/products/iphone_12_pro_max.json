@@ -1,548 +1,861 @@
 {
-  "product": {
-    "id": "MLA16163694",
-    "name": "iPhone 12 Pro Max",
-    "category": "",
-    "description": "El iPhone 12 Pro Max tiene una pantalla Super Retina XDR más grande, de 6.7 pulgadas (1). Con el nuevo Ceramic Shield, es cuatro veces más resistente a las caídas (2). Y te permite tomar fotos increíbles con poca luz gracias al mejor sistema de cámaras Pro de un iPhone y al rango de zoom óptico de 5x. También puedes grabar, editar y reproducir video en Dolby Vision con calidad cinematográfica, tomar retratos con modo Noche y disfrutar experiencias de realidad aumentada de última generación con el escáner LiDAR. El iPhone 12 Pro Max viene con el potente chip A14 Bionic y es compatible con los nuevos accesorios MagSafe, que se adhieren magnéticamente a tu iPhone y brindan una carga inalámbrica más rápida (3). Una infinidad de posibilidades que no dejarán de sorprenderte.\n\n\nAvisos Legales\n(1) La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la pantalla tiene 6.68 pulgadas en diagonal. El área real de visualización es menor.\n(2) Afirmación basada en la comparación del frente de Ceramic Shield del iPhone 12 Pro Max con el iPhone de la generación anterior.\n(3) Los accesorios se venden por separado.\n(4) El iPhone 12 Pro Max es resistente a las salpicaduras, al agua y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529 (hasta 30 minutos a una profundidad máxima de 6 metros). La resistencia a las salpicaduras, al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos.",
-    "rating": 0,
-    "reviews_count": 0,
-    "brand": "",
-    "model": "iPhone 12 Pro Max",
-    "release_year": "",
-    "pickers": [
-      {
-        "id": "color",
-        "name": "Color",
-        "values": [
-          {
-            "id": "azul_pacífico",
-            "name": "Azul pacífico",
-            "thumbnail": "https://mla-s1-p.mlstatic.com/779435-MLA46088610316_052021-I.jpg"
-          },
-          {
-            "id": "grafito",
-            "name": "Grafito",
-            "thumbnail": "https://mla-s1-p.mlstatic.com/658505-MLA46088597451_052021-I.jpg"
-          },
-          {
-            "id": "oro",
-            "name": "Oro",
-            "thumbnail": "https://mla-s1-p.mlstatic.com/944013-MLA46088597493_052021-I.jpg"
-          },
-          {
-            "id": "plata",
-            "name": "Plata",
-            "thumbnail": "https://mla-s2-p.mlstatic.com/608148-MLA46088620248_052021-I.jpg"
-          }
-        ]
+  "product_id": "iphone12promax",
+  "total_offers": 19,
+  "offers": [
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-azul-sierra-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "id": "internal_memory",
-        "name": "Memoria interna",
-        "values": [
-          {
-            "id": "128_gb",
-            "name": "128 GB"
-          },
-          {
-            "id": "256_gb",
-            "name": "256 GB"
-          },
-          {
-            "id": "512_gb",
-            "name": "512 GB"
-          }
-        ]
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
       },
-      {
-        "id": "ram",
-        "name": "Memoria RAM",
-        "values": [
-          {
-            "id": "6_gb",
-            "name": "6 GB"
-          }
-        ]
+      "tag": "",
+      "price": 8290.0,
+      "price_hist": [
+        12505.1,
+        10767.8,
+        10606.8,
+        9213.5,
+        9577.9,
+        8290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "id": "condicion",
-        "name": "Condición",
-        "values": [
-          {
-            "id": "new",
-            "name": "Nuevo"
-          },
-          {
-            "id": "reacondicionado",
-            "name": "Reacondicionado"
-          }
-        ]
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
       }
-    ],
-    "images": [
-      {
-        "url": "https://mla-s1-p.mlstatic.com/944013-MLA46088597493_052021-F.jpg",
-        "position": 1,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA16163694"
-        ]
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/925465-MLA46088610299_052021-F.jpg",
-        "position": 2,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA16163694"
-        ]
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
       },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/982255-MLA46088620258_052021-F.jpg",
-        "position": 3,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA16163694"
-        ]
+      "tag": "",
+      "price": 8290.0,
+      "price_hist": [
+        11615.7,
+        10979.2,
+        10120.8,
+        10035.9,
+        8638.6,
+        8290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/730998-MLA46088620260_052021-F.jpg",
-        "position": 4,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA16163694"
-        ]
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
       },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/684498-MLA46088610307_052021-F.jpg",
-        "position": 5,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA16163694"
-        ]
-      },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/961977-MLA46088620360_052021-F.jpg",
-        "position": 1,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA16163701"
-        ]
-      },
-      {
-        "url": "https://mla-s2-p.mlstatic.com/670837-MLA46088597621_052021-F.jpg",
-        "position": 2,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA16163701"
-        ]
-      },
-      {
-        "url": "https://mla-s2-p.mlstatic.com/852757-MLA46088610439_052021-F.jpg",
-        "position": 3,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA16163701"
-        ]
-      },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/902017-MLA46088620364_052021-F.jpg",
-        "position": 4,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA16163701"
-        ]
-      },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/893657-MLA46088610447_052021-F.jpg",
-        "position": 5,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA16163701"
-        ]
-      },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/658505-MLA46088597451_052021-F.jpg",
-        "position": 1,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA16163692"
-        ]
-      },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/858290-MLA46088610272_052021-F.jpg",
-        "position": 2,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA16163692"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_780591-MLA80684089623_112024-F.jpg",
-        "position": 3,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA16163692"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_630272-MLA80423934546_112024-F.jpg",
-        "position": 4,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA16163692"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_814143-MLA80684089635_112024-F.jpg",
-        "position": 5,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA16163692"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_860129-MLA46088610473_052021-F.jpg",
-        "position": 1,
-        "color": "Azul pacífico",
-        "use_picker_id": [
-          "MLA16163703"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_613874-MLA46088597640_052021-F.jpg",
-        "position": 2,
-        "color": "Azul pacífico",
-        "use_picker_id": [
-          "MLA16163703"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_712890-MLA46088610477_052021-F.jpg",
-        "position": 3,
-        "color": "Azul pacífico",
-        "use_picker_id": [
-          "MLA16163703"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_618934-MLA46088620404_052021-F.jpg",
-        "position": 4,
-        "color": "Azul pacífico",
-        "use_picker_id": [
-          "MLA16163703"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_919660-MLA46088610482_052021-F.jpg",
-        "position": 5,
-        "color": "Azul pacífico",
-        "use_picker_id": [
-          "MLA16163703"
-        ]
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
       }
-    ],
-    "product_details": [
-      {
-        "category": "Network",
-        "specifications": [
-          {
-            "name": "Technology",
-            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
-          },
-          {
-            "name": "2G bands",
-            "value": "GSM 850 / 900 / 1800 / 1900"
-          },
-          {
-            "name": "",
-            "value": "CDMA 800 / 1900"
-          },
-          {
-            "name": "3G bands",
-            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
-          },
-          {
-            "name": "",
-            "value": "CDMA2000 1xEV-DO"
-          },
-          {
-            "name": "4G bands",
-            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2342"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2411, A2412"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2410"
-          },
-          {
-            "name": "5G bands",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 71, 77, 78, 79, 260, 261 Sub6/mmWave - A2342"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 77, 78, 79 Sub6 - A2410, A2411, A2412"
-          },
-          {
-            "name": "Speed",
-            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
-          }
-        ]
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-azul-sierra-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
       },
-      {
-        "category": "Launch",
-        "specifications": [
-          {
-            "name": "Announced",
-            "value": "2020, October 13"
-          },
-          {
-            "name": "Status",
-            "value": "Available. Released 2020, November 13"
-          }
-        ]
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
       },
-      {
-        "category": "Body",
-        "specifications": [
-          {
-            "name": "Dimensions",
-            "value": "160.8 x 78.1 x 7.4 mm (6.33 x 3.07 x 0.29 in)"
-          },
-          {
-            "name": "Weight",
-            "value": "228 g (8.04 oz)"
-          },
-          {
-            "name": "Build",
-            "value": "Glass front, glass back, stainless steel frame"
-          },
-          {
-            "name": "SIM",
-            "value": "Nano-SIM + eSIMNano-SIM + Nano-SIM (China)"
-          },
-          {
-            "name": "",
-            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
-          }
-        ]
+      "tag": "",
+      "price": 9290.0,
+      "price_hist": [
+        14495.5,
+        13736.6,
+        11562.8,
+        11384.1,
+        10612.4,
+        9290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "category": "Display",
-        "specifications": [
-          {
-            "name": "Type",
-            "value": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)"
-          },
-          {
-            "name": "Size",
-            "value": "6.7 inches, 109.8 cm2 (~87.4% screen-to-body ratio)"
-          },
-          {
-            "name": "Resolution",
-            "value": "1284 x 2778 pixels, 19.5:9 ratio (~458 ppi density)"
-          },
-          {
-            "name": "Protection",
-            "value": "Ceramic Shield glass"
-          }
-        ]
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
       },
-      {
-        "category": "Platform",
-        "specifications": [
-          {
-            "name": "OS",
-            "value": "iOS 14.1, upgradable to iOS 18.5"
-          },
-          {
-            "name": "Chipset",
-            "value": "Apple A14 Bionic (5 nm)"
-          },
-          {
-            "name": "CPU",
-            "value": "Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)"
-          },
-          {
-            "name": "GPU",
-            "value": "Apple GPU (4-core graphics)"
-          }
-        ]
-      },
-      {
-        "category": "Memory",
-        "specifications": [
-          {
-            "name": "Card slot",
-            "value": "No"
-          },
-          {
-            "name": "Internal",
-            "value": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM"
-          },
-          {
-            "name": "",
-            "value": "NVMe"
-          }
-        ]
-      },
-      {
-        "category": "Main Camera",
-        "specifications": [
-          {
-            "name": "Triple",
-            "value": "12 MP, f/1.6, 26mm (wide), 1/1.9\", 1.7µm, dual pixel PDAF, sensor-shift OIS\r\n12 MP, f/2.2, 65mm (telephoto), 1/3.4\", 1.0µm, PDAF, OIS, 2.5x optical zoom\r\n12 MP, f/2.4, 13mm, 120˚ (ultrawide), 1/3.4\", 1.0µm\r\nTOF 3D LiDAR scanner (depth)"
-          },
-          {
-            "name": "Features",
-            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
-          },
-          {
-            "name": "Video",
-            "value": "4K@24/30/60fps, 1080p@30/60/120/240fps, 10‑bit HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
-          }
-        ]
-      },
-      {
-        "category": "Selfie camera",
-        "specifications": [
-          {
-            "name": "Single",
-            "value": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0µm\r\nSL 3D, (depth/biometrics sensor)"
-          },
-          {
-            "name": "Features",
-            "value": "HDR"
-          },
-          {
-            "name": "Video",
-            "value": "4K@24/30/60fps, 1080p@30/60/120fps, gyro-EIS"
-          }
-        ]
-      },
-      {
-        "category": "Sound",
-        "specifications": [
-          {
-            "name": "Loudspeaker",
-            "value": "Yes, with stereo speakers"
-          },
-          {
-            "name": "3.5mm jack",
-            "value": "No"
-          }
-        ]
-      },
-      {
-        "category": "Comms",
-        "specifications": [
-          {
-            "name": "WLAN",
-            "value": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
-          },
-          {
-            "name": "Bluetooth",
-            "value": "5.0, A2DP, LE"
-          },
-          {
-            "name": "Positioning",
-            "value": "GPS, GLONASS, GALILEO, QZSS"
-          },
-          {
-            "name": "NFC",
-            "value": "Yes"
-          },
-          {
-            "name": "Radio",
-            "value": "No"
-          },
-          {
-            "name": "USB",
-            "value": "Lightning, USB 2.0"
-          }
-        ]
-      },
-      {
-        "category": "Features",
-        "specifications": [
-          {
-            "name": "Sensors",
-            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
-          },
-          {
-            "name": "",
-            "value": "Ultra Wideband (UWB) support"
-          }
-        ]
-      },
-      {
-        "category": "Battery",
-        "specifications": [
-          {
-            "name": "Type",
-            "value": "Li-Ion 3687 mAh (14.13 Wh)"
-          },
-          {
-            "name": "Charging",
-            "value": "Wired, PD2.0, 50% in 30 min\r\n15W wireless (MagSafe)\r\n15W wireless (Qi2) - requires iOS 17.4 update"
-          }
-        ]
-      },
-      {
-        "category": "Misc",
-        "specifications": [
-          {
-            "name": "Colors",
-            "value": "Silver, Graphite, Gold, Pacific Blue"
-          },
-          {
-            "name": "Models",
-            "value": "A2411, A2342, A2410, A2412, iPhone13,4"
-          },
-          {
-            "name": "SAR EU",
-            "value": "0.99 W/kg (head)     0.99 W/kg (body)"
-          },
-          {
-            "name": "Price",
-            "value": "$ 235.03 / € 399.99 / £ 288.97"
-          }
-        ]
-      },
-      {
-        "category": "Tests",
-        "specifications": [
-          {
-            "name": "Performance",
-            "value": "AnTuTu: 638584 (v8)\r\nGeekBench: 4240 (v5.1)\r\nGFXBench: 55fps (ES 3.1 onscreen)"
-          },
-          {
-            "name": "Display",
-            "value": "822 nits max brightness (measured)"
-          },
-          {
-            "name": "Camera",
-            "value": "Photo / Video"
-          },
-          {
-            "name": "Loudspeaker",
-            "value": "-23.8 LUFS (Very good)"
-          },
-          {
-            "name": "Battery (old)",
-            "value": "Endurance rating 95h"
-          }
-        ]
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
       }
-    ],
-    "product_summary": {
-      "screen_size": "6.7\"",
-      "front_camera_mp": "12 MP",
-      "ram_gb": "6 GB",
-      "battery": "Li-Ion 3687 mAh",
-      "operating_system": "iOS 14"
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-color-plata-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "color plata",
+          "name": "Color Plata"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 9290.0,
+      "price_hist": [
+        15642.4,
+        13446.4,
+        12266.6,
+        9773.6,
+        10302.3,
+        9290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-grafito-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 9290.0,
+      "price_hist": [
+        15371.2,
+        14345.9,
+        12574.2,
+        12153.2,
+        10850.0,
+        9290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-azul-sierra-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 9290.0,
+      "price_hist": [
+        14881.4,
+        12593.3,
+        12345.6,
+        11690.2,
+        8956.6,
+        9290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 9290.0,
+      "price_hist": [
+        13282.5,
+        12256.3,
+        11270.5,
+        11728.6,
+        10322.8,
+        9290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 9290.0,
+      "price_hist": [
+        14015.9,
+        14273.4,
+        11612.0,
+        10435.9,
+        10237.4,
+        9290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-azul-sierra-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 10290.0,
+      "price_hist": [
+        13788.8,
+        13152.6,
+        13284.2,
+        13137.7,
+        12250.0,
+        10290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-color-plata-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "color plata",
+          "name": "Color Plata"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 10290.0,
+      "price_hist": [
+        17118.7,
+        13047.7,
+        12533.9,
+        11655.1,
+        11720.1,
+        10290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-grafito-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 10290.0,
+      "price_hist": [
+        14174.7,
+        14341.7,
+        11711.1,
+        12291.4,
+        12166.8,
+        10290.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "7148647481500-392036935143895",
+      "variant_id": "iphone12promax-azul-sierra-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 11540.0,
+      "price_hist": [
+        18200.8,
+        16630.6,
+        15514.4,
+        13901.9,
+        11872.2,
+        11540.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-12-pro-max"
+      }
+    },
+    {
+      "id": "B08PL89SJS-526202704834412",
+      "variant_id": "iphone12promax-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 9268.05,
+      "price_hist": [
+        15128.7,
+        13784.6,
+        13276.9,
+        10924.3,
+        10365.9,
+        9268.05
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PL89SJS?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PMNCTGF-526202704834412",
+      "variant_id": "iphone12promax-grafito-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 13104.46,
+      "price_hist": [
+        18417.1,
+        19523.8,
+        17733.1,
+        14873.4,
+        12857.0,
+        13104.46
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PMNCTGF?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09PWXB2ZW-526202704834412",
+      "variant_id": "iphone12promax-grafito-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11500.0,
+      "price_hist": [
+        17998.6,
+        14652.7,
+        16607.4,
+        13600.8,
+        11870.3,
+        11500.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09PWXB2ZW?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09PWTC3K3-526202704834412",
+      "variant_id": "iphone12promax-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11200.0,
+      "price_hist": [
+        15717.4,
+        17627.2,
+        14542.2,
+        12066.8,
+        13096.6,
+        11200.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09PWTC3K3?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B08PMP778K-526202704834412",
+      "variant_id": "iphone12promax-azul-sierra-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 10192.34,
+      "price_hist": [
+        15848.2,
+        15495.1,
+        14471.0,
+        11903.8,
+        10093.7,
+        10192.34
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B08PMP778K?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09JFSMFB5-526202704834412",
+      "variant_id": "iphone12promax-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11900.92,
+      "price_hist": [
+        16152.7,
+        16172.0,
+        16349.7,
+        15670.2,
+        11892.7,
+        11900.92
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09JFSMFB5?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09PWDC4Y9-526202704834412",
+      "variant_id": "iphone12promax-azul-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 9539.0,
+      "price_hist": [
+        13344.8,
+        12740.7,
+        12246.9,
+        10834.9,
+        10555.4,
+        9539.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09PWDC4Y9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
     }
-  }
+  ]
 }

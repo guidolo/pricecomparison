@@ -1,521 +1,591 @@
 {
-  "product": {
-    "id": "MLA18494238",
-    "name": "iPhone 13 Pro Max",
-    "category": "",
-    "description": "iPhone 13 Pro Max. El mayor avance en el sistema de cámaras Pro hasta ahora. Pantalla Super Retina XDR con ProMotion que brinda una respuesta más rápida y fluida. Chip A15 Bionic para un rendimiento fuera de serie. Diseño resistente y la mayor duración de batería jamás vista en un iPhone.1\n\nAvisos Legales\n(1)La duración de la batería varía según el uso y la configuración.\n(2)La pantalla tiene esquinas redondeadas que siguen el elegante diseño curvo del teléfono, y las esquinas se encuentran dentro de un rectángulo estándar. Si se mide en forma de rectángulo estándar, la pantalla tiene 6.68 pulgadas en diagonal. El área real de visualización es menor.\n(3)Disponible más adelante en 2021.\n(4)El iPhone 13 Pro Max es resistente a los derrames, a las salpicaduras y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529. La resistencia a los derrames, a las salpicaduras y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos.\n(5)Algunas funcionalidades podrían no estar disponibles en todos los países o áreas.\n(6)Los accesorios se venden por separado.",
-    "rating": 0,
-    "reviews_count": 0,
-    "brand": "",
-    "model": "iPhone 13 Pro Max",
-    "release_year": "",
-    "pickers": [
-      {
-        "id": "color",
-        "name": "Color",
-        "values": [
-          {
-            "id": "azul_sierra",
-            "name": "Azul sierra",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_932467-MLA47776357598_102021-I.jpg"
-          },
-          {
-            "id": "grafito",
-            "name": "Grafito",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_647219-MLU77450459244_072024-I.jpg"
-          },
-          {
-            "id": "oro",
-            "name": "Oro",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_824822-MLU69497624735_052023-O.jpg"
-          },
-          {
-            "id": "plata",
-            "name": "Plata",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_818850-MLU69484159436_052023-O.jpg"
-          },
-          {
-            "id": "verde_alpino",
-            "name": "Verde alpino",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_912054-MLA53354557227_012023-I.jpg"
-          }
-        ]
+  "product_id": "iphone13promax",
+  "total_offers": 13,
+  "offers": [
+    {
+      "id": "7461080105116-392036935143895",
+      "variant_id": "iphone13promax-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "id": "internal_memory",
-        "name": "Memoria interna",
-        "values": [
-          {
-            "id": "128_gb",
-            "name": "128 GB"
-          },
-          {
-            "id": "256_gb",
-            "name": "256 GB"
-          },
-          {
-            "id": "512_gb",
-            "name": "512 GB"
-          },
-          {
-            "id": "1_tb",
-            "name": "1 TB"
-          }
-        ]
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
       },
-      {
-        "id": "ram",
-        "name": "Memoria RAM",
-        "values": [
-          {
-            "id": "6_gb",
-            "name": "6 GB"
-          }
-        ]
+      "tag": "",
+      "price": 9990.0,
+      "price_hist": [
+        14785.6,
+        14723.8,
+        12793.4,
+        12559.1,
+        9643.7,
+        9990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "id": "condicion",
-        "name": "Condición",
-        "values": [
-          {
-            "id": "new",
-            "name": "Nuevo"
-          },
-          {
-            "id": "reacondicionado",
-            "name": "Reacondicionado"
-          }
-        ]
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13-pro-max"
       }
-    ],
-    "images": [
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_824822-MLU69497624735_052023-O.jpg",
-        "position": 1,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA18494238"
-        ]
+    },
+    {
+      "id": "7461080105116-392036935143895",
+      "variant_id": "iphone13promax-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_618226-MLU69497664731_052023-O.jpg",
-        "position": 2,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA18494238"
-        ]
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_818394-MLU69497316153_052023-O.jpg",
-        "position": 3,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA18494238"
-        ]
+      "tag": "",
+      "price": 10990.0,
+      "price_hist": [
+        17801.4,
+        15341.3,
+        15890.3,
+        14292.6,
+        11852.9,
+        10990.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_613382-MLU69497316159_052023-O.jpg",
-        "position": 4,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA18494238"
-        ]
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_775883-MLU69497644737_052023-O.jpg",
-        "position": 5,
-        "color": "Oro",
-        "use_picker_id": [
-          "MLA18494238"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_818850-MLU69484159436_052023-O.jpg",
-        "position": 1,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA18494239"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_694475-MLU69484187260_052023-O.jpg",
-        "position": 2,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA18494239"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_822324-MLU69496906585_052023-O.jpg",
-        "position": 3,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA18494239"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_941790-MLU69484159464_052023-O.jpg",
-        "position": 4,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA18494239"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_750632-MLU69496906599_052023-O.jpg",
-        "position": 5,
-        "color": "Plata",
-        "use_picker_id": [
-          "MLA18494239"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_647219-MLU77450459244_072024-F.jpg",
-        "position": 1,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA18494241"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_982190-MLU74339225747_022024-F.jpg",
-        "position": 2,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA18494241"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_765894-MLU73884748233_012024-F.jpg",
-        "position": 3,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA18494241"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_663207-MLU74225263424_022024-F.jpg",
-        "position": 4,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA18494241"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_702023-MLU77450449414_072024-F.jpg",
-        "position": 5,
-        "color": "Grafito",
-        "use_picker_id": [
-          "MLA18494241"
-        ]
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13-pro-max"
       }
-    ],
-    "product_details": [
-      {
-        "category": "Network",
-        "specifications": [
-          {
-            "name": "Technology",
-            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
-          },
-          {
-            "name": "2G bands",
-            "value": "GSM 850 / 900 / 1800 / 1900"
-          },
-          {
-            "name": "",
-            "value": "CDMA 800 / 1900"
-          },
-          {
-            "name": "3G bands",
-            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
-          },
-          {
-            "name": "",
-            "value": "CDMA2000 1xEV-DO"
-          },
-          {
-            "name": "4G bands",
-            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2643, A2644, A2645"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2484, A2641"
-          },
-          {
-            "name": "5G bands",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 30, 38, 40, 41, 48, 66, 77, 78, 79 SA/NSA/Sub6 - A2643, A2644"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 29, 30, 38, 40, 41, 48, 66, 71, 78, 79, 258, 260, 261 SA/NSA/Sub6/mmWave - A2484"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 29, 30, 38, 40, 41, 48, 66, 71, 77, 78, 79 SA/NSA/Sub6 - A2641"
-          },
-          {
-            "name": "Speed",
-            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
-          }
-        ]
+    },
+    {
+      "id": "B09LPDM924-526202704834412",
+      "variant_id": "iphone13promax-azul-alpino-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul alpino",
+          "name": "Azul Alpino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "category": "Launch",
-        "specifications": [
-          {
-            "name": "Announced",
-            "value": "2021, September 14"
-          },
-          {
-            "name": "Status",
-            "value": "Available. Released 2021, September 24"
-          }
-        ]
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
       },
-      {
-        "category": "Body",
-        "specifications": [
-          {
-            "name": "Dimensions",
-            "value": "160.8 x 78.1 x 7.7 mm (6.33 x 3.07 x 0.30 in)"
-          },
-          {
-            "name": "Weight",
-            "value": "240 g (8.47 oz)"
-          },
-          {
-            "name": "Build",
-            "value": "Glass front, glass back, stainless steel frame"
-          },
-          {
-            "name": "SIM",
-            "value": "Nano-SIM + eSIMNano-SIM + Nano-SIM"
-          },
-          {
-            "name": "",
-            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
-          }
-        ]
+      "tag": "Con Cashback",
+      "price": 11635.34,
+      "price_hist": [
+        18163.7,
+        14373.2,
+        13900.8,
+        12651.9,
+        12451.8,
+        11635.34
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "category": "Display",
-        "specifications": [
-          {
-            "name": "Type",
-            "value": "Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (HBM), 1200 nits (peak)"
-          },
-          {
-            "name": "Size",
-            "value": "6.7 inches, 109.8 cm2 (~87.4% screen-to-body ratio)"
-          },
-          {
-            "name": "Resolution",
-            "value": "1284 x 2778 pixels, 19.5:9 ratio (~458 ppi density)"
-          },
-          {
-            "name": "Protection",
-            "value": "Ceramic Shield glass"
-          }
-        ]
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
       },
-      {
-        "category": "Platform",
-        "specifications": [
-          {
-            "name": "OS",
-            "value": "iOS 15, upgradable to iOS 18.5"
-          },
-          {
-            "name": "Chipset",
-            "value": "Apple A15 Bionic (5 nm)"
-          },
-          {
-            "name": "CPU",
-            "value": "Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)"
-          },
-          {
-            "name": "GPU",
-            "value": "Apple GPU (5-core graphics)"
-          }
-        ]
-      },
-      {
-        "category": "Memory",
-        "specifications": [
-          {
-            "name": "Card slot",
-            "value": "No"
-          },
-          {
-            "name": "Internal",
-            "value": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM"
-          },
-          {
-            "name": "",
-            "value": "NVMe"
-          }
-        ]
-      },
-      {
-        "category": "Main Camera",
-        "specifications": [
-          {
-            "name": "Triple",
-            "value": "12 MP, f/1.5, 26mm (wide), 1/1.7\", 1.9µm, dual pixel PDAF, sensor-shift OIS\r\n12 MP, f/2.8, 77mm (telephoto), PDAF, 1/3.4\", 1.0µm, OIS, 3x optical zoom\r\n12 MP, f/1.8, 13mm, 120˚ (ultrawide), 1/3.4\", 1.0µm, PDAF\r\nTOF 3D LiDAR scanner (depth)"
-          },
-          {
-            "name": "Features",
-            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
-          },
-          {
-            "name": "Video",
-            "value": "4K@24/30/60fps, 1080p@30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, stereo sound rec."
-          }
-        ]
-      },
-      {
-        "category": "Selfie camera",
-        "specifications": [
-          {
-            "name": "Single",
-            "value": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0µm\r\nSL 3D, (depth/biometrics sensor)"
-          },
-          {
-            "name": "Features",
-            "value": "HDR"
-          },
-          {
-            "name": "Video",
-            "value": "4K@24/25/30/60fps, 1080p@30/60/120fps, gyro-EIS"
-          }
-        ]
-      },
-      {
-        "category": "Sound",
-        "specifications": [
-          {
-            "name": "Loudspeaker",
-            "value": "Yes, with stereo speakers"
-          },
-          {
-            "name": "3.5mm jack",
-            "value": "No"
-          }
-        ]
-      },
-      {
-        "category": "Comms",
-        "specifications": [
-          {
-            "name": "WLAN",
-            "value": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
-          },
-          {
-            "name": "Bluetooth",
-            "value": "5.0, A2DP, LE"
-          },
-          {
-            "name": "Positioning",
-            "value": "GPS, GLONASS, GALILEO, BDS, QZSS"
-          },
-          {
-            "name": "NFC",
-            "value": "Yes"
-          },
-          {
-            "name": "Radio",
-            "value": "No"
-          },
-          {
-            "name": "USB",
-            "value": "Lightning, USB 2.0"
-          }
-        ]
-      },
-      {
-        "category": "Features",
-        "specifications": [
-          {
-            "name": "Sensors",
-            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
-          },
-          {
-            "name": "",
-            "value": "Ultra Wideband (UWB) support"
-          }
-        ]
-      },
-      {
-        "category": "Battery",
-        "specifications": [
-          {
-            "name": "Type",
-            "value": "Li-Ion 4352 mAh (16.75 Wh)"
-          },
-          {
-            "name": "Charging",
-            "value": "Wired, PD2.0, 50% in 30 min\r\n15W wireless (MagSafe)\r\n15W wireless (Qi2) - requires iOS 17.2 update"
-          }
-        ]
-      },
-      {
-        "category": "Misc",
-        "specifications": [
-          {
-            "name": "Colors",
-            "value": "Graphite, Gold, Silver, Sierra Blue, Alpine Green"
-          },
-          {
-            "name": "Models",
-            "value": "A2643, A2484, A2641, A2644, A2645, iphone14,3"
-          },
-          {
-            "name": "SAR",
-            "value": "1.18 W/kg (head)     1.20 W/kg (body)"
-          },
-          {
-            "name": "SAR EU",
-            "value": "0.99 W/kg (head)     0.98 W/kg (body)"
-          },
-          {
-            "name": "Price",
-            "value": "$ 403.86 / € 503.00 / £ 368.72"
-          }
-        ]
-      },
-      {
-        "category": "Tests",
-        "specifications": [
-          {
-            "name": "Performance",
-            "value": "AnTuTu: 801691 (v9)\r\nGeekBench: 4706 (v5.1)\r\nGFXBench: 60fps (ES 3.1 onscreen)"
-          },
-          {
-            "name": "Display",
-            "value": "1050 nits max brightness (measured)"
-          },
-          {
-            "name": "Camera",
-            "value": "Photo / Video"
-          },
-          {
-            "name": "Loudspeaker",
-            "value": "-24.0 LUFS (Very good)"
-          },
-          {
-            "name": "Battery (old)",
-            "value": "Endurance rating 121h"
-          }
-        ]
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPDM924?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
       }
-    ],
-    "product_summary": {
-      "screen_size": "6.7\"",
-      "front_camera_mp": "12 MP",
-      "ram_gb": "6 GB",
-      "battery": "Li-Ion 4352 mAh",
-      "operating_system": "iOS 15"
+    },
+    {
+      "id": "B0BGYDDWDF-526202704834412",
+      "variant_id": "iphone13promax-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 21487.14,
+      "price_hist": [
+        33199.1,
+        30629.8,
+        29253.9,
+        26374.9,
+        25984.8,
+        21487.14
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BGYDDWDF?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9BPPHR-526202704834412",
+      "variant_id": "iphone13promax-azul-sierra-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 33999.0,
+      "price_hist": [
+        57206.3,
+        46370.5,
+        42021.2,
+        36045.3,
+        35503.7,
+        33999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9BPPHR?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LPK77YY-526202704834412",
+      "variant_id": "iphone13promax-grafito-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "grafito",
+          "name": "Grafito"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 11701.73,
+      "price_hist": [
+        18984.2,
+        14840.3,
+        13531.6,
+        12729.5,
+        13629.2,
+        11701.73
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LPK77YY?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09V3JKYX9-526202704834412",
+      "variant_id": "iphone13promax-verde-alpino-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde alpino",
+          "name": "Verde Alpino"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 33999.0,
+      "price_hist": [
+        57079.2,
+        52307.9,
+        49618.6,
+        41915.1,
+        40172.8,
+        33999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09V3JKYX9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G99WZJT-526202704834412",
+      "variant_id": "iphone13promax-color-plata-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "color plata",
+          "name": "Color Plata"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 38999.0,
+      "price_hist": [
+        62779.3,
+        57524.6,
+        54240.2,
+        44682.1,
+        43931.2,
+        38999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G99WZJT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BGYHCHXH-526202704834412",
+      "variant_id": "iphone13promax-verde-alpino-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde alpino",
+          "name": "Verde Alpino"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 15472.46,
+      "price_hist": [
+        23475.0,
+        22565.1,
+        21542.9,
+        17807.6,
+        16364.2,
+        15472.46
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BGYHCHXH?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9BMPM8-526202704834412",
+      "variant_id": "iphone13promax-azul-sierra-1tb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul sierra",
+          "name": "Azul Sierra"
+        },
+        "storage": {
+          "id": "1_tb",
+          "name": "1 TB"
+        }
+      },
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
+      },
+      "tag": "Con Cashback",
+      "price": 38999.0,
+      "price_hist": [
+        61951.5,
+        57430.4,
+        52814.1,
+        48567.2,
+        38561.6,
+        38999.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9BMPM8?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP9TM5L-526202704834412",
+      "variant_id": "iphone13promax-azul-alpino-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul alpino",
+          "name": "Azul Alpino"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 12459.72,
+      "price_hist": [
+        19500.8,
+        17949.5,
+        15454.8,
+        14903.2,
+        14256.9,
+        12459.72
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP9TM5L?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP86CVN-526202704834412",
+      "variant_id": "iphone13promax-plata-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "plata",
+          "name": "Plata"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 16500.0,
+      "price_hist": [
+        25455.5,
+        22735.5,
+        23199.7,
+        20580.0,
+        15910.1,
+        16500.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP86CVN?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LP862LG-526202704834412",
+      "variant_id": "iphone13promax-oro-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "oro",
+          "name": "Oro"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 14782.66,
+      "price_hist": [
+        19688.0,
+        20873.7,
+        20826.1,
+        18735.2,
+        16162.2,
+        14782.66
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LP862LG?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
     }
-  }
+  ]
 }

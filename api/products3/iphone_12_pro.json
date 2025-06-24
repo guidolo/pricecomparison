@@ -1,0 +1,512 @@
+{
+  "product": {
+    "id": "MLA16163679",
+    "name": "iPhone 12 Pro",
+    "category": "",
+    "description": "El iPhone 12 Pro tiene una espectacular pantalla Super Retina XDR de 6.1 pulgadas (1). Con el nuevo Ceramic Shield, es cuatro veces más resistente a las caídas (2). Y te permite tomar fotos increíbles con poca luz gracias a un nuevo sistema de cámaras Pro y un rango de zoom óptico de 4x. También puedes grabar, editar y reproducir video en Dolby Vision con calidad cinematográfica, tomar retratos con modo Noche y disfrutar experiencias de realidad aumentada de última generación con el escáner LiDAR. El iPhone 12 Pro viene con el potente chip A14 Bionic y es compatible con los nuevos accesorios MagSafe que se adhieren magnéticamente a tu iPhone y brindan una carga inalámbrica más rápida (3). Una infinidad de posibilidades que no dejarán de sorprenderte.\n\n\nAvisos Legales\n(1) La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la pantalla tiene 6.06 pulgadas en diagonal. El área real de visualización es menor.\n(2) Afirmación basada en la comparación del frente de Ceramic Shield del iPhone 12 Pro con el iPhone de la generación anterior.\n(3) Los accesorios se venden por separado.\n(4) El iPhone 12 Pro es resistente a las salpicaduras, al agua y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529 (hasta 30 minutos a una profundidad máxima de 6 metros). La resistencia a las salpicaduras, al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos.",
+    "rating": 0,
+    "reviews_count": 0,
+    "brand": "",
+    "model": "iPhone 12 Pro",
+    "release_year": "",
+    "pickers": [
+      {
+        "id": "color",
+        "name": "Color",
+        "values": [
+          {
+            "id": "azul_pacífico",
+            "name": "Azul pacífico",
+            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_869199-MLA46081508793_052021-I.jpg"
+          },
+          {
+            "id": "grafito",
+            "name": "Grafito",
+            "thumbnail": "https://mla-s2-p.mlstatic.com/637846-MLA46081340098_052021-I.jpg"
+          },
+          {
+            "id": "oro",
+            "name": "Oro",
+            "thumbnail": "https://mla-s2-p.mlstatic.com/798980-MLA46081532577_052021-I.jpg"
+          },
+          {
+            "id": "plata",
+            "name": "Plata",
+            "thumbnail": "https://mla-s2-p.mlstatic.com/677014-MLA46081508121_052021-I.jpg"
+          }
+        ]
+      },
+      {
+        "id": "internal_memory",
+        "name": "Memoria interna",
+        "values": [
+          {
+            "id": "128_gb",
+            "name": "128 GB"
+          },
+          {
+            "id": "256_gb",
+            "name": "256 GB"
+          },
+          {
+            "id": "512_gb",
+            "name": "512 GB"
+          }
+        ]
+      },
+      {
+        "id": "ram",
+        "name": "Memoria RAM",
+        "values": [
+          {
+            "id": "6_gb",
+            "name": "6 GB"
+          }
+        ]
+      },
+      {
+        "id": "condicion",
+        "name": "Condición",
+        "values": [
+          {
+            "id": "new",
+            "name": "Nuevo"
+          },
+          {
+            "id": "reacondicionado",
+            "name": "Reacondicionado"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "url": "https://mla-s2-p.mlstatic.com/637846-MLA46081340098_052021-F.jpg",
+        "position": 1,
+        "color": "Grafito",
+        "use_picker_id": [
+          "MLA16163679"
+        ]
+      },
+      {
+        "url": "https://mla-s2-p.mlstatic.com/959115-MLA46081340133_052021-F.jpg",
+        "position": 2,
+        "color": "Grafito",
+        "use_picker_id": [
+          "MLA16163679"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_722783-MLU78007368645_072024-F.jpg",
+        "position": 3,
+        "color": "Grafito",
+        "use_picker_id": [
+          "MLA16163679"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_940302-MLA80556313430_112024-F.jpg",
+        "position": 4,
+        "color": "Grafito",
+        "use_picker_id": [
+          "MLA16163679"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_801665-MLA80556313436_112024-F.jpg",
+        "position": 5,
+        "color": "Grafito",
+        "use_picker_id": [
+          "MLA16163679"
+        ]
+      },
+      {
+        "url": "https://mla-s1-p.mlstatic.com/872427-MLA46080678757_052021-F.jpg",
+        "position": 1,
+        "color": "Oro",
+        "use_picker_id": [
+          "MLA16163685"
+        ]
+      },
+      {
+        "url": "https://mla-s2-p.mlstatic.com/695472-MLA46080736565_052021-F.jpg",
+        "position": 2,
+        "color": "Oro",
+        "use_picker_id": [
+          "MLA16163685"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_918565-MLA80780713421_112024-F.jpg",
+        "position": 3,
+        "color": "Oro",
+        "use_picker_id": [
+          "MLA16163685"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_844976-MLA80780902221_112024-F.jpg",
+        "position": 4,
+        "color": "Oro",
+        "use_picker_id": [
+          "MLA16163685"
+        ]
+      },
+      {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_675280-MLA80780713439_112024-F.jpg",
+        "position": 5,
+        "color": "Oro",
+        "use_picker_id": [
+          "MLA16163685"
+        ]
+      },
+      {
+        "url": "https://mla-s2-p.mlstatic.com/677014-MLA46081508121_052021-F.jpg",
+        "position": 1,
+        "color": "Plata",
+        "use_picker_id": [
+          "MLA16163680"
+        ]
+      },
+      {
+        "url": "https://mla-s1-p.mlstatic.com/732817-MLA46081508192_052021-F.jpg",
+        "position": 2,
+        "color": "Plata",
+        "use_picker_id": [
+          "MLA16163680"
+        ]
+      },
+      {
+        "url": "https://mla-s2-p.mlstatic.com/720176-MLA46081508194_052021-F.jpg",
+        "position": 3,
+        "color": "Plata",
+        "use_picker_id": [
+          "MLA16163680"
+        ]
+      },
+      {
+        "url": "https://mla-s1-p.mlstatic.com/713811-MLA46081340722_052021-F.jpg",
+        "position": 4,
+        "color": "Plata",
+        "use_picker_id": [
+          "MLA16163680"
+        ]
+      },
+      {
+        "url": "https://mla-s1-p.mlstatic.com/921084-MLA46081532092_052021-F.jpg",
+        "position": 5,
+        "color": "Plata",
+        "use_picker_id": [
+          "MLA16163680"
+        ]
+      }
+    ],
+    "product_details": [
+      {
+        "category": "Network",
+        "specifications": [
+          {
+            "name": "Technology",
+            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+          },
+          {
+            "name": "2G bands",
+            "value": "GSM 850 / 900 / 1800 / 1900"
+          },
+          {
+            "name": "",
+            "value": "CDMA 800 / 1900"
+          },
+          {
+            "name": "3G bands",
+            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
+          },
+          {
+            "name": "",
+            "value": "CDMA2000 1xEV-DO"
+          },
+          {
+            "name": "4G bands",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2341"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2407, A2408"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2406"
+          },
+          {
+            "name": "5G bands",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 71, 77, 78, 79, 260, 261 Sub6/mmWave - A2341"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 77, 78, 79 Sub6 - A2407, A2408"
+          },
+          {
+            "name": "",
+            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 71, 77, 78, 79 Sub6 - A2406"
+          },
+          {
+            "name": "Speed",
+            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+          }
+        ]
+      },
+      {
+        "category": "Launch",
+        "specifications": [
+          {
+            "name": "Announced",
+            "value": "2020, October 13"
+          },
+          {
+            "name": "Status",
+            "value": "Available. Released 2020, October 23"
+          }
+        ]
+      },
+      {
+        "category": "Body",
+        "specifications": [
+          {
+            "name": "Dimensions",
+            "value": "146.7 x 71.5 x 7.4 mm (5.78 x 2.81 x 0.29 in)"
+          },
+          {
+            "name": "Weight",
+            "value": "189 g (6.67 oz)"
+          },
+          {
+            "name": "Build",
+            "value": "Glass front, glass back, stainless steel frame"
+          },
+          {
+            "name": "SIM",
+            "value": "Nano-SIM + eSIMNano-SIM + Nano-SIM (China)"
+          },
+          {
+            "name": "",
+            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
+          }
+        ]
+      },
+      {
+        "category": "Display",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)"
+          },
+          {
+            "name": "Size",
+            "value": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)"
+          },
+          {
+            "name": "Resolution",
+            "value": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)"
+          },
+          {
+            "name": "Protection",
+            "value": "Ceramic Shield glass"
+          }
+        ]
+      },
+      {
+        "category": "Platform",
+        "specifications": [
+          {
+            "name": "OS",
+            "value": "iOS 14.1, upgradable to iOS 18.5"
+          },
+          {
+            "name": "Chipset",
+            "value": "Apple A14 Bionic (5 nm)"
+          },
+          {
+            "name": "CPU",
+            "value": "Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)"
+          },
+          {
+            "name": "GPU",
+            "value": "Apple GPU (4-core graphics)"
+          }
+        ]
+      },
+      {
+        "category": "Memory",
+        "specifications": [
+          {
+            "name": "Card slot",
+            "value": "No"
+          },
+          {
+            "name": "Internal",
+            "value": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM"
+          },
+          {
+            "name": "",
+            "value": "NVMe"
+          }
+        ]
+      },
+      {
+        "category": "Main Camera",
+        "specifications": [
+          {
+            "name": "Triple",
+            "value": "12 MP, f/1.6, 26mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS\r\n12 MP, f/2.0, 52mm (telephoto), 1/3.4\", 1.0µm, PDAF, OIS, 2x optical zoom\r\n12 MP, f/2.4, 13mm, 120˚ (ultrawide), 1/3.4\", 1.0µm\r\nTOF 3D LiDAR scanner (depth)"
+          },
+          {
+            "name": "Features",
+            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/30/60fps, 1080p@30/60/120/240fps, 10‑bit HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
+          }
+        ]
+      },
+      {
+        "category": "Selfie camera",
+        "specifications": [
+          {
+            "name": "Single",
+            "value": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0µm\r\nSL 3D, (depth/biometrics sensor)"
+          },
+          {
+            "name": "Features",
+            "value": "HDR"
+          },
+          {
+            "name": "Video",
+            "value": "4K@24/30/60fps, 1080p@30/60/120fps, gyro-EIS"
+          }
+        ]
+      },
+      {
+        "category": "Sound",
+        "specifications": [
+          {
+            "name": "Loudspeaker",
+            "value": "Yes, with stereo speakers"
+          },
+          {
+            "name": "3.5mm jack",
+            "value": "No"
+          }
+        ]
+      },
+      {
+        "category": "Comms",
+        "specifications": [
+          {
+            "name": "WLAN",
+            "value": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
+          },
+          {
+            "name": "Bluetooth",
+            "value": "5.0, A2DP, LE"
+          },
+          {
+            "name": "Positioning",
+            "value": "GPS, GLONASS, GALILEO, QZSS"
+          },
+          {
+            "name": "NFC",
+            "value": "Yes"
+          },
+          {
+            "name": "Radio",
+            "value": "No"
+          },
+          {
+            "name": "USB",
+            "value": "Lightning, USB 2.0"
+          }
+        ]
+      },
+      {
+        "category": "Features",
+        "specifications": [
+          {
+            "name": "Sensors",
+            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
+          },
+          {
+            "name": "",
+            "value": "Ultra Wideband (UWB) support"
+          }
+        ]
+      },
+      {
+        "category": "Battery",
+        "specifications": [
+          {
+            "name": "Type",
+            "value": "Li-Ion 2815 mAh (10.78 Wh)"
+          },
+          {
+            "name": "Charging",
+            "value": "Wired, PD2.0, 50% in 30 min\r\n15W wireless (MagSafe)\r\n15W wireless (Qi2) - requires iOS 17.4 update"
+          }
+        ]
+      },
+      {
+        "category": "Misc",
+        "specifications": [
+          {
+            "name": "Colors",
+            "value": "Silver, Graphite, Gold, Pacific Blue"
+          },
+          {
+            "name": "Models",
+            "value": "A2407, A2341, A2406, A2408, iPhone13,3"
+          },
+          {
+            "name": "SAR EU",
+            "value": "0.99 W/kg (head)     0.99 W/kg (body)"
+          },
+          {
+            "name": "Price",
+            "value": "$ 152.11 / € 338.50 / £ 239.47"
+          }
+        ]
+      },
+      {
+        "category": "Tests",
+        "specifications": [
+          {
+            "name": "Performance",
+            "value": "AnTuTu: 596244 (v8)\r\nGeekBench: 4056 (v5.1)\r\nGFXBench: 58fps (ES 3.1 onscreen)"
+          },
+          {
+            "name": "Display",
+            "value": "Contrast ratio: Infinite (nominal)"
+          },
+          {
+            "name": "Camera",
+            "value": "Photo / Video"
+          },
+          {
+            "name": "Loudspeaker",
+            "value": "-24.2 LUFS (Very good)"
+          },
+          {
+            "name": "Battery (old)",
+            "value": "Endurance rating 81h"
+          }
+        ]
+      }
+    ],
+    "product_summary": {
+      "screen_size": "6.1\"",
+      "front_camera_mp": "12 MP",
+      "ram_gb": "6 GB",
+      "battery": "Li-Ion 2815 mAh",
+      "operating_system": "iOS 14"
+    }
+  }
+}

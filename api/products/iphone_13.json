@@ -1,571 +1,861 @@
 {
-  "product": {
-    "id": "MLA18500847",
-    "name": "iPhone 13",
-    "category": "",
-    "description": "iPhone 13. El sistema de dos cámaras más avanzado en un iPhone. El superrápido chip A15 Bionic. Un gran\nsalto en duración de batería. Un diseño resistente. Y una pantalla Super Retina XDR más brillante.\n\nAvisos Legales\n(1)La pantalla tiene esquinas redondeadas que siguen el elegante diseño curvo del teléfono, y las esquinas se encuentran dentro de un rectángulo estándar. Si se mide en forma de rectángulo estándar, la pantalla tiene 6.06 pulgadas en diagonal. El área real de visualización es menor.\n(2)La duración de la batería varía según el uso y la configuración.\n(3)El iPhone 13 es resistente a los derrames, a las salpicaduras y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529. La resistencia a los derrames, a las salpicaduras y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos.\n(4)Algunas funcionalidades podrían no estar disponibles en todos los países o áreas.\n(5)Los accesorios se venden por separado.",
-    "rating": 0,
-    "reviews_count": 0,
-    "brand": "",
-    "model": "iPhone 13",
-    "release_year": "",
-    "pickers": [
-      {
-        "id": "color",
-        "name": "Color",
-        "values": [
-          {
-            "id": "(product)red",
-            "name": "(Product)Red",
-            "thumbnail": "https://mla-s1-p.mlstatic.com/771004-MLA47781864181_102021-I.jpg"
-          },
-          {
-            "id": "azul",
-            "name": "Azul",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_795127-MLU77719747195_072024-I.jpg"
-          },
-          {
-            "id": "azul_medianoche",
-            "name": "Azul medianoche",
-            "thumbnail": "https://mla-s1-p.mlstatic.com/973345-MLA47781591382_102021-I.jpg"
-          },
-          {
-            "id": "blanco_estelar",
-            "name": "Blanco estelar",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_736168-MLA47781742030_102021-I.jpg"
-          },
-          {
-            "id": "medianoche",
-            "name": "Medianoche",
-            "thumbnail": "https://mla-s1-p.mlstatic.com/973345-MLA47781591382_102021-I.jpg"
-          },
-          {
-            "id": "rosa",
-            "name": "Rosa",
-            "thumbnail": "https://mla-s2-p.mlstatic.com/654080-MLA47781882564_102021-I.jpg"
-          },
-          {
-            "id": "verde",
-            "name": "Verde",
-            "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_736376-MLA49590060561_042022-I.jpg"
-          }
-        ]
+  "product_id": "iphone13",
+  "total_offers": 19,
+  "offers": [
+    {
+      "id": "194252838020_3909-751534892406662",
+      "variant_id": "iphone13-azul-medianoche-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul medianoche",
+          "name": "Azul Medianoche"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "id": "internal_memory",
-        "name": "Memoria interna",
-        "values": [
-          {
-            "id": "128_gb",
-            "name": "128 GB"
-          },
-          {
-            "id": "256_gb",
-            "name": "256 GB"
-          },
-          {
-            "id": "512_gb",
-            "name": "512 GB"
-          }
-        ]
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
       },
-      {
-        "id": "ram",
-        "name": "Memoria RAM",
-        "values": [
-          {
-            "id": "4_gb",
-            "name": "4 GB"
-          }
-        ]
+      "tag": "",
+      "price": 12499.0,
+      "price_hist": [
+        16864.9,
+        15600.6,
+        17036.0,
+        13441.2,
+        14827.0,
+        12499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "id": "condicion",
-        "name": "Condición",
-        "values": [
-          {
-            "id": "new",
-            "name": "Nuevo"
-          },
-          {
-            "id": "reacondicionado",
-            "name": "Reacondicionado"
-          }
-        ]
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-13/p"
       }
-    ],
-    "images": [
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_991753-MLA80658509187_112024-F.jpg",
-        "position": 1,
-        "color": "Azul",
-        "use_picker_id": [
-          "MLA18500847"
-        ]
+    },
+    {
+      "id": "194252838037_3909-751534892406662",
+      "variant_id": "iphone13-blanco-estelar-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco estelar",
+          "name": "Blanco Estelar"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_795127-MLU77719747195_072024-F.jpg",
-        "position": 2,
-        "color": "Azul",
-        "use_picker_id": [
-          "MLA18500847"
-        ]
+      "condition": {
+        "id": "nuevo",
+        "name": "Nuevo"
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_838608-MLA80399167574_112024-F.jpg",
-        "position": 3,
-        "color": "Azul",
-        "use_picker_id": [
-          "MLA18500847"
-        ]
+      "tag": "",
+      "price": 12499.0,
+      "price_hist": [
+        20992.0,
+        18376.9,
+        16601.2,
+        13795.4,
+        12306.3,
+        12499.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_914428-MLA80658655819_112024-F.jpg",
-        "position": 4,
-        "color": "Azul",
-        "use_picker_id": [
-          "MLA18500847"
-        ]
+      "merchant": {
+        "id": "751534892406662",
+        "name": "iShop",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/751534892406662/logo.png",
+        "rating": 4.7
       },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_823552-MLA80398982214_112024-F.jpg",
-        "position": 5,
-        "color": "Azul",
-        "use_picker_id": [
-          "MLA18500847"
-        ]
-      },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/973345-MLA47781591382_102021-F.jpg",
-        "position": 1,
-        "color": "Medianoche",
-        "use_picker_id": [
-          "MLA18500844"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_834290-MLA74781175605_022024-F.jpg",
-        "position": 2,
-        "color": "Medianoche",
-        "use_picker_id": [
-          "MLA18500844"
-        ]
-      },
-      {
-        "url": "https://mla-s2-p.mlstatic.com/924329-MLA47781591383_102021-F.jpg",
-        "position": 3,
-        "color": "Medianoche",
-        "use_picker_id": [
-          "MLA18500844"
-        ]
-      },
-      {
-        "url": "https://mla-s2-p.mlstatic.com/726539-MLA47781378921_102021-F.jpg",
-        "position": 4,
-        "color": "Medianoche",
-        "use_picker_id": [
-          "MLA18500844"
-        ]
-      },
-      {
-        "url": "https://mla-s2-p.mlstatic.com/703744-MLA47781634246_102021-F.jpg",
-        "position": 5,
-        "color": "Medianoche",
-        "use_picker_id": [
-          "MLA18500844"
-        ]
-      },
-      {
-        "url": "https://mla-s2-p.mlstatic.com/654080-MLA47781882564_102021-F.jpg",
-        "position": 1,
-        "color": "Rosa",
-        "use_picker_id": [
-          "MLA18500850"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_799024-MLA74781602369_022024-F.jpg",
-        "position": 2,
-        "color": "Rosa",
-        "use_picker_id": [
-          "MLA18500850"
-        ]
-      },
-      {
-        "url": "https://mla-s2-p.mlstatic.com/842825-MLA47781962237_102021-F.jpg",
-        "position": 3,
-        "color": "Rosa",
-        "use_picker_id": [
-          "MLA18500850"
-        ]
-      },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/792272-MLA47781864653_102021-F.jpg",
-        "position": 4,
-        "color": "Rosa",
-        "use_picker_id": [
-          "MLA18500850"
-        ]
-      },
-      {
-        "url": "https://mla-s1-p.mlstatic.com/857867-MLA47781882569_102021-F.jpg",
-        "position": 5,
-        "color": "Rosa",
-        "use_picker_id": [
-          "MLA18500850"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_736376-MLA49590060561_042022-F.jpg",
-        "position": 1,
-        "color": "Verde",
-        "use_picker_id": [
-          "MLA18969312"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_889580-MLA49590060562_042022-F.jpg",
-        "position": 2,
-        "color": "Verde",
-        "use_picker_id": [
-          "MLA18969312"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_867312-MLA74807972467_022024-F.jpg",
-        "position": 3,
-        "color": "Verde",
-        "use_picker_id": [
-          "MLA18969312"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_775448-MLA49590042917_042022-F.jpg",
-        "position": 4,
-        "color": "Verde",
-        "use_picker_id": [
-          "MLA18969312"
-        ]
-      },
-      {
-        "url": "https://http2.mlstatic.com/D_NQ_NP_800411-MLA49590136120_042022-F.jpg",
-        "position": 5,
-        "color": "Verde",
-        "use_picker_id": [
-          "MLA18969312"
-        ]
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.ishopmixup.com/iphone-13/p"
       }
-    ],
-    "product_details": [
-      {
-        "category": "Network",
-        "specifications": [
-          {
-            "name": "Technology",
-            "value": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
-          },
-          {
-            "name": "2G bands",
-            "value": "GSM 850 / 900 / 1800 / 1900"
-          },
-          {
-            "name": "",
-            "value": "CDMA 800 / 1900"
-          },
-          {
-            "name": "3G bands",
-            "value": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100"
-          },
-          {
-            "name": "",
-            "value": "CDMA2000 1xEV-DO"
-          },
-          {
-            "name": "4G bands",
-            "value": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2633, A2634, A2635"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2482, A2631"
-          },
-          {
-            "name": "5G bands",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 29, 30, 38, 40, 41, 48, 66, 71, 77, 78, 79 Sub6/mmWave - A2633"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 29, 30, 38, 40, 41, 48, 66, 71, 77, 78, 79, 258, 260, 261 SA/NSA/Sub6/mmWave - A2482"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 29, 30, 38, 40, 41, 48, 66, 71, 77, 78, 79 SA/NSA/Sub6 - A2631"
-          },
-          {
-            "name": "",
-            "value": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 30, 38, 40, 41, 48, 66, 77, 78, 79 SA/NSA/Sub6 - A2634, A2635"
-          },
-          {
-            "name": "Speed",
-            "value": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
-          }
-        ]
+    },
+    {
+      "id": "7461079908508-392036935143895",
+      "variant_id": "iphone13-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
       },
-      {
-        "category": "Launch",
-        "specifications": [
-          {
-            "name": "Announced",
-            "value": "2021, September 14"
-          },
-          {
-            "name": "Status",
-            "value": "Available. Released 2021, September 24"
-          }
-        ]
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
       },
-      {
-        "category": "Body",
-        "specifications": [
-          {
-            "name": "Dimensions",
-            "value": "146.7 x 71.5 x 7.7 mm (5.78 x 2.81 x 0.30 in)"
-          },
-          {
-            "name": "Weight",
-            "value": "174 g (6.14 oz)"
-          },
-          {
-            "name": "Build",
-            "value": "Glass front, glass back, aluminum frame"
-          },
-          {
-            "name": "SIM",
-            "value": "Nano-SIM + eSIMNano-SIM + Nano-SIM"
-          },
-          {
-            "name": "",
-            "value": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
-          }
-        ]
+      "tag": "",
+      "price": 5590.0,
+      "price_hist": [
+        8295.3,
+        7591.3,
+        8170.7,
+        6700.5,
+        6250.5,
+        5590.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
       },
-      {
-        "category": "Display",
-        "specifications": [
-          {
-            "name": "Type",
-            "value": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)"
-          },
-          {
-            "name": "Size",
-            "value": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)"
-          },
-          {
-            "name": "Resolution",
-            "value": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)"
-          },
-          {
-            "name": "Protection",
-            "value": "Ceramic Shield glass"
-          }
-        ]
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
       },
-      {
-        "category": "Platform",
-        "specifications": [
-          {
-            "name": "OS",
-            "value": "iOS 15, upgradable to iOS 18.5"
-          },
-          {
-            "name": "Chipset",
-            "value": "Apple A15 Bionic (5 nm)"
-          },
-          {
-            "name": "CPU",
-            "value": "Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)"
-          },
-          {
-            "name": "GPU",
-            "value": "Apple GPU (4-core graphics)"
-          }
-        ]
-      },
-      {
-        "category": "Memory",
-        "specifications": [
-          {
-            "name": "Card slot",
-            "value": "No"
-          },
-          {
-            "name": "Internal",
-            "value": "128GB 4GB RAM, 256GB 4GB RAM, 512GB 4GB RAM"
-          },
-          {
-            "name": "",
-            "value": "NVMe"
-          }
-        ]
-      },
-      {
-        "category": "Main Camera",
-        "specifications": [
-          {
-            "name": "Dual",
-            "value": "12 MP, f/1.6, 26mm (wide), 1/1.9\", 1.7µm, dual pixel PDAF, sensor-shift OIS\r\n12 MP, f/2.4, 120˚, 13mm (ultrawide), 1/3.4\", 1.0µm"
-          },
-          {
-            "name": "Features",
-            "value": "Dual-LED dual-tone flash, HDR (photo/panorama)"
-          },
-          {
-            "name": "Video",
-            "value": "4K@24/30/60fps, 1080p@30/60/120/240fps, HDR, Dolby Vision HDR (up to 60fps), stereo sound rec."
-          }
-        ]
-      },
-      {
-        "category": "Selfie camera",
-        "specifications": [
-          {
-            "name": "Single",
-            "value": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0µm\r\nSL 3D, (depth/biometrics sensor)"
-          },
-          {
-            "name": "Features",
-            "value": "HDR"
-          },
-          {
-            "name": "Video",
-            "value": "4K@24/25/30/60fps, 1080p@30/60/120fps, gyro-EIS"
-          }
-        ]
-      },
-      {
-        "category": "Sound",
-        "specifications": [
-          {
-            "name": "Loudspeaker",
-            "value": "Yes, with stereo speakers"
-          },
-          {
-            "name": "3.5mm jack",
-            "value": "No"
-          }
-        ]
-      },
-      {
-        "category": "Comms",
-        "specifications": [
-          {
-            "name": "WLAN",
-            "value": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot"
-          },
-          {
-            "name": "Bluetooth",
-            "value": "5.0, A2DP, LE"
-          },
-          {
-            "name": "Positioning",
-            "value": "GPS, GLONASS, GALILEO, BDS, QZSS"
-          },
-          {
-            "name": "NFC",
-            "value": "Yes"
-          },
-          {
-            "name": "Radio",
-            "value": "No"
-          },
-          {
-            "name": "USB",
-            "value": "Lightning, USB 2.0"
-          }
-        ]
-      },
-      {
-        "category": "Features",
-        "specifications": [
-          {
-            "name": "Sensors",
-            "value": "Face ID, accelerometer, gyro, proximity, compass, barometer"
-          },
-          {
-            "name": "",
-            "value": "Ultra Wideband (UWB) support"
-          }
-        ]
-      },
-      {
-        "category": "Battery",
-        "specifications": [
-          {
-            "name": "Type",
-            "value": "Li-Ion 3240 mAh (12.41 Wh)"
-          },
-          {
-            "name": "Charging",
-            "value": "Wired, PD2.0, 50% in 30 min\r\n15W wireless (MagSafe)\r\n15W wireless (Qi2) - requires iOS 17.2 update"
-          }
-        ]
-      },
-      {
-        "category": "Misc",
-        "specifications": [
-          {
-            "name": "Colors",
-            "value": "Starlight, Midnight, Blue, Pink, Red, Green"
-          },
-          {
-            "name": "Models",
-            "value": "A2633, A2482, A2631, A2634, A2635, iphone14,5"
-          },
-          {
-            "name": "SAR",
-            "value": "1.18 W/kg (head)     1.19 W/kg (body)"
-          },
-          {
-            "name": "SAR EU",
-            "value": "0.99 W/kg (head)     0.98 W/kg (body)"
-          },
-          {
-            "name": "Price",
-            "value": "$ 260.00 / € 328.00 / £ 239.73 / ₹ 60,900"
-          }
-        ]
-      },
-      {
-        "category": "Tests",
-        "specifications": [
-          {
-            "name": "Performance",
-            "value": "AnTuTu: 775519 (v9)\r\nGeekBench: 4645 (v5.1)\r\nGFXBench: 59fps (ES 3.1 onscreen)"
-          },
-          {
-            "name": "Display",
-            "value": "802 nits max brightness (measured)"
-          },
-          {
-            "name": "Camera",
-            "value": "Photo / Video"
-          },
-          {
-            "name": "Loudspeaker",
-            "value": "-25.5 LUFS (Very good)"
-          },
-          {
-            "name": "Battery (old)",
-            "value": "Endurance rating 89h"
-          }
-        ]
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13"
       }
-    ],
-    "product_summary": {
-      "screen_size": "6.1\"",
-      "front_camera_mp": "12 MP",
-      "ram_gb": "4 GB",
-      "battery": "Li-Ion 3240 mAh",
-      "operating_system": "iOS 15"
+    },
+    {
+      "id": "7461079908508-392036935143895",
+      "variant_id": "iphone13-verde-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "verde",
+          "name": "Verde"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 6590.0,
+      "price_hist": [
+        10046.3,
+        10250.1,
+        8857.0,
+        7365.7,
+        7158.0,
+        6590.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13"
+      }
+    },
+    {
+      "id": "7461079908508-392036935143895",
+      "variant_id": "iphone13-medianoche-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "medianoche",
+          "name": "Medianoche"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 6590.0,
+      "price_hist": [
+        10805.0,
+        8958.6,
+        9421.8,
+        7810.8,
+        6749.7,
+        6590.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13"
+      }
+    },
+    {
+      "id": "7461079908508-392036935143895",
+      "variant_id": "iphone13-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 6590.0,
+      "price_hist": [
+        10367.3,
+        8857.3,
+        7726.2,
+        8741.9,
+        6760.7,
+        6590.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13"
+      }
+    },
+    {
+      "id": "7461079908508-392036935143895",
+      "variant_id": "iphone13-rojo-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rojo",
+          "name": "Rojo"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 6590.0,
+      "price_hist": [
+        9860.4,
+        8828.1,
+        8826.0,
+        8822.3,
+        7994.8,
+        6590.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13"
+      }
+    },
+    {
+      "id": "7461079908508-392036935143895",
+      "variant_id": "iphone13-blanco-estelar-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco estelar",
+          "name": "Blanco Estelar"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 6590.0,
+      "price_hist": [
+        10270.4,
+        9415.7,
+        8008.4,
+        7496.6,
+        7566.0,
+        6590.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13"
+      }
+    },
+    {
+      "id": "7461079908508-392036935143895",
+      "variant_id": "iphone13-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 6590.0,
+      "price_hist": [
+        9000.5,
+        9390.6,
+        7692.7,
+        7187.9,
+        6681.4,
+        6590.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13"
+      }
+    },
+    {
+      "id": "7461079908508-392036935143895",
+      "variant_id": "iphone13-azul-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "",
+      "price": 7590.0,
+      "price_hist": [
+        10622.9,
+        9722.6,
+        9765.6,
+        9319.7,
+        8290.0,
+        7590.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "392036935143895",
+        "name": "CLEVERCEL",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/392036935143895/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://clevercelmx.myshopify.com/products/iphone-13"
+      }
+    },
+    {
+      "id": "B09LNW3CY2-526202704834412",
+      "variant_id": "iphone13-medianoche-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "medianoche",
+          "name": "Medianoche"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 6580.0,
+      "price_hist": [
+        10508.8,
+        9374.4,
+        9135.1,
+        7210.3,
+        7654.7,
+        6580.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LNW3CY2?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LNP1ZHT-526202704834412",
+      "variant_id": "iphone13-rosa-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 7059.39,
+      "price_hist": [
+        9474.8,
+        9215.4,
+        10142.4,
+        7902.3,
+        7133.5,
+        7059.39
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LNP1ZHT?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LNFRHGN-526202704834412",
+      "variant_id": "iphone13-azul-256gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "256_gb",
+          "name": "256 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 7701.36,
+      "price_hist": [
+        11938.8,
+        11307.9,
+        10481.1,
+        8185.7,
+        7951.0,
+        7701.36
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LNFRHGN?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LNT1F3H-526202704834412",
+      "variant_id": "iphone13-rojo-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rojo",
+          "name": "Rojo"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 6575.52,
+      "price_hist": [
+        11078.1,
+        9789.9,
+        7502.2,
+        8375.8,
+        7593.6,
+        6575.52
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LNT1F3H?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LNX6KQS-526202704834412",
+      "variant_id": "iphone13-azul-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "azul",
+          "name": "Azul"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 6495.0,
+      "price_hist": [
+        9728.2,
+        8588.1,
+        8871.1,
+        8643.9,
+        7228.2,
+        6495.0
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LNX6KQS?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09G9Q79Z9-526202704834412",
+      "variant_id": "iphone13-rosa-512gb",
+      "variant_attributes": {
+        "color": {
+          "id": "rosa",
+          "name": "Rosa"
+        },
+        "storage": {
+          "id": "512_gb",
+          "name": "512 GB"
+        }
+      },
+      "condition": {
+        "id": "usado",
+        "name": "Usado"
+      },
+      "tag": "Con Cashback",
+      "price": 17529.9,
+      "price_hist": [
+        28341.6,
+        24202.7,
+        23352.2,
+        21407.0,
+        18871.2,
+        17529.9
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09G9Q79Z9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BGQKY8S9-526202704834412",
+      "variant_id": "iphone13-medianoche-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "medianoche",
+          "name": "Medianoche"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 8060.28,
+      "price_hist": [
+        13325.4,
+        10540.8,
+        9617.4,
+        9674.9,
+        9425.5,
+        8060.28
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BGQKY8S9?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B0BGQLFB55-526202704834412",
+      "variant_id": "iphone13-blanco-estelar-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "blanco estelar",
+          "name": "Blanco Estelar"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 8168.68,
+      "price_hist": [
+        11083.8,
+        12790.7,
+        10206.8,
+        10769.6,
+        8411.8,
+        8168.68
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B0BGQLFB55?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
+    },
+    {
+      "id": "B09LNC7VHR-526202704834412",
+      "variant_id": "iphone13-medianoche-128gb",
+      "variant_attributes": {
+        "color": {
+          "id": "medianoche",
+          "name": "Medianoche"
+        },
+        "storage": {
+          "id": "128_gb",
+          "name": "128 GB"
+        }
+      },
+      "condition": {
+        "id": "reacondicionado",
+        "name": "Reacondicionado"
+      },
+      "tag": "Con Cashback",
+      "price": 6897.09,
+      "price_hist": [
+        10041.9,
+        10723.9,
+        9999.6,
+        9138.5,
+        7048.6,
+        6897.09
+      ],
+      "taxInfo": "IVA incl.",
+      "shipping": {
+        "returnIcon": true,
+        "truckIcon": true,
+        "date": "03.06. - 04.06.",
+        "cost": "Envío gratuito"
+      },
+      "merchant": {
+        "id": "526202704834412",
+        "name": "Amazon.mx",
+        "logo": "https://cdn.kueskipay.com/storage/merchant/526202704834412/logo.png",
+        "rating": 4.7
+      },
+      "actionButton": {
+        "text": "Ver oferta",
+        "url": "https://www.amazon.com.mx/dp/B09LNC7VHR?tag=kpaytienda-20&linkCode=ogi&th=1&psc=1"
+      }
     }
-  }
+  ]
 }
