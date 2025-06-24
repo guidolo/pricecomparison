@@ -73,12 +73,16 @@
         "name": "Condición",
         "values": [
           {
-            "id": "new",
+            "id": "nuevo",
             "name": "Nuevo"
           },
           {
             "id": "reacondicionado",
             "name": "Reacondicionado"
+          },
+          {
+            "id": "usado",
+            "name": "Usado"
           }
         ]
       }
