@@ -189,20 +189,36 @@ function createOfferElement(offer) {
         // Agregar información de color y almacenamiento si existe
         if (offer.variant_attributes) {
             let variantInfo = '';
+            let colorName = '';
+            let storageName = '';
             
-            // Agregar color si existe
+            // Obtener color si existe
             if (offer.variant_attributes.color && offer.variant_attributes.color.name) {
-                variantInfo += `<div class="variant-color">${offer.variant_attributes.color.name}</div>`;
+                colorName = offer.variant_attributes.color.name;
             }
             
-            // Agregar almacenamiento si existe
+            // Obtener almacenamiento si existe
             if (offer.variant_attributes.storage && offer.variant_attributes.storage.name) {
-                variantInfo += `<div class="variant-storage">${offer.variant_attributes.storage.name}</div>`;
+                storageName = offer.variant_attributes.storage.name;
+            }
+            
+            // Combinar color y almacenamiento en una sola línea
+            if (colorName && storageName) {
+                variantInfo += `<div class="variant-info">${colorName} - ${storageName}</div>`;
+            } else if (colorName) {
+                variantInfo += `<div class="variant-info">${colorName}</div>`;
+            } else if (storageName) {
+                variantInfo += `<div class="variant-info">${storageName}</div>`;
             }
             
             if (variantInfo) {
                 offerHTML += variantInfo;
             }
+        }
+        
+        // Agregar condición de la oferta si existe
+        if (offer.condition && offer.condition.name) {
+            offerHTML += `<div class="offer-condition">${offer.condition.name}</div>`;
         }
         
         offerHTML += `

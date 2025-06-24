@@ -387,6 +387,24 @@ body {
     font-size: 14px;
 }
 
+/* Información de variante (color - almacenamiento) */
+.variant-info {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Condición de la oferta */
+.offer-condition {
+    color: #007bff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 .offer-seller {
     display: flex;
     align-items: center;
