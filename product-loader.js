@@ -349,9 +349,19 @@ function updateProductOptions(pickers) {
                 colorOption.setAttribute('data-value', colorValue.name);
                 colorOption.setAttribute('data-id', colorValue.id);
                 
-                colorOption.innerHTML = `
-                    <div class="option-value">${colorValue.name}</div>
-                `;
+                // Verificar si existe thumbnail para este color
+                if (colorValue.thumbnail) {
+                    colorOption.innerHTML = `
+                        <div class="option-value">
+                            <img src="${colorValue.thumbnail}" alt="${colorValue.name}" class="color-thumbnail">
+                        </div>
+                    `;
+                } else {
+                    // Fallback al texto si no hay thumbnail
+                    colorOption.innerHTML = `
+                        <div class="option-value">${colorValue.name}</div>
+                    `;
+                }
                 
                 colorRow.appendChild(colorOption);
                 

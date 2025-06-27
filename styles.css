@@ -233,6 +233,36 @@ body {
     font-size: 14px;
 }
 
+/* Estilos para miniaturas de color */
+.color-thumbnail {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.2s ease;
+}
+
+.option.active .color-thumbnail {
+    border-color: #4a90e2;
+}
+
+.option:hover .color-thumbnail {
+    border-color: #4a90e2;
+}
+
+/* Ajustar el tamaño de las opciones cuando tienen miniaturas */
+.option[data-type="color"] {
+    min-width: 60px;
+    padding: 8px;
+}
+
+.option[data-type="color"] .option-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Precio */
 .price-container {
     display: flex;
