@@ -3,7 +3,13 @@ async function loadProductDetails() {
     try {
         // Obtener el ID del producto de la URL
         const urlParams = new URLSearchParams(window.location.search);
-        const productId = urlParams.get('product') || 'iphone_14_pro_max';
+        let productId = urlParams.get('product') || 'iphone_14_pro_max';
+        
+        // Limpiar la extensión .json si viene por error
+        if (productId.endsWith('.json')) {
+            productId = productId.slice(0, -5);
+        }
+        
         // Construir el path del archivo JSON según el producto
         const apiUrl = `api/products/${productId}.json`;
         // Cargar el archivo JSON con los detalles del producto
@@ -209,7 +215,12 @@ async function renderPriceChart() {
         
         // Obtener el ID del producto de la URL
         const urlParams = new URLSearchParams(window.location.search);
-        const productId = urlParams.get('product') || 'iphone_14_pro_max';
+        let productId = urlParams.get('product') || 'iphone_14_pro_max';
+        
+        // Limpiar la extensión .json si viene por error
+        if (productId.endsWith('.json')) {
+            productId = productId.slice(0, -5);
+        }
         
         // Obtener los filtros actuales - intentar primero desde las variables globales
         // y luego desde la URL como fallback

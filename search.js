@@ -223,6 +223,10 @@ function displayError(message) {
  * @param {string} productId - ID del producto
  */
 function viewProductDetails(productId) {
+    // Eliminar la extensión .json si viene por error
+    if (productId.endsWith('.json')) {
+        productId = productId.slice(0, -5);
+    }
     // Redirigir a la página de detalles con el ID del producto
     window.location.href = `index.html?product=${productId}`;
 }

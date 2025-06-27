@@ -11,9 +11,14 @@
  */
 async function fetchOffers(productIdParam, color, storage, condition) {
     try {
-        // Obtener el ID del producto de la URL si no se proporciona
+        // Obtener el ID del producto de la URL o usar el parámetro proporcionado
         const urlParams = new URLSearchParams(window.location.search);
-        const productId = productIdParam || urlParams.get('product') || 'iphone_14_pro_max';
+        let productId = productIdParam || urlParams.get('product') || 'iphone_14_pro_max';
+        
+        // Limpiar la extensión .json si viene por error
+        if (productId.endsWith('.json')) {
+            productId = productId.slice(0, -5);
+        }
         
         // Construir el nombre del archivo de ofertas basado en el ID del producto
         // Ahora usamos una convención de nomenclatura consistente con underscores

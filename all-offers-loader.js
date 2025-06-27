@@ -71,6 +71,11 @@ function setupBackButton(productId) {
  */
 async function fetchAllOffers(productId) {
     try {
+        // Limpiar la extensión .json si viene por error
+        if (productId.endsWith('.json')) {
+            productId = productId.slice(0, -5);
+        }
+        
         // Construir el nombre del archivo de ofertas basado en el ID del producto
         // Ahora usamos una convención de nomenclatura consistente con underscores
         const fileName = `${productId}.json`;
