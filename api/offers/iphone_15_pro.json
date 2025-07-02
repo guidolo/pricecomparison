@@ -7,7 +7,7 @@
       "variant_id": "iphone15pro-titanio-negro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -52,7 +52,7 @@
       "variant_id": "iphone15pro-titanio-azul-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
+          "id": "titanio_azul",
           "name": "Titanio Azul"
         },
         "storage": {
@@ -97,7 +97,7 @@
       "variant_id": "iphone15pro-titanio-blanco-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "titanio_blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -142,7 +142,7 @@
       "variant_id": "iphone15pro-titanio-natural-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -187,7 +187,7 @@
       "variant_id": "iphone15pro-titanio-negro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -232,7 +232,7 @@
       "variant_id": "iphone15pro-titanio-azul-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
+          "id": "titanio_azul",
           "name": "Titanio Azul"
         },
         "storage": {
@@ -277,7 +277,7 @@
       "variant_id": "iphone15pro-titanio-azul-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
+          "id": "titanio_azul",
           "name": "Titanio Azul"
         },
         "storage": {
@@ -322,7 +322,7 @@
       "variant_id": "iphone15pro-titanio-natural-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -367,7 +367,7 @@
       "variant_id": "iphone15pro-titanio-natural-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -412,7 +412,7 @@
       "variant_id": "iphone15pro-titanio-azul-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
+          "id": "titanio_azul",
           "name": "Titanio Azul"
         },
         "storage": {
@@ -457,7 +457,7 @@
       "variant_id": "iphone15pro-titanio-azul-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
+          "id": "titanio_azul",
           "name": "Titanio Azul"
         },
         "storage": {
@@ -502,7 +502,7 @@
       "variant_id": "iphone15pro-titanio-blanco-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "titanio_blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -547,7 +547,7 @@
       "variant_id": "iphone15pro-titanio-negro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -592,7 +592,7 @@
       "variant_id": "iphone15pro-titanio-negro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -637,7 +637,7 @@
       "variant_id": "iphone15pro-titanio-negro-1tb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -682,7 +682,7 @@
       "variant_id": "iphone15pro-titanio-azul-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio azul",
+          "id": "titanio_azul",
           "name": "Titanio Azul"
         },
         "storage": {
@@ -727,7 +727,7 @@
       "variant_id": "iphone15pro-titanio-blanco-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "titanio_blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -772,7 +772,7 @@
       "variant_id": "iphone15pro-titanio-negro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -817,7 +817,7 @@
       "variant_id": "iphone15pro-titanio-natural-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -862,7 +862,7 @@
       "variant_id": "iphone15pro-titanio-natural-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -907,7 +907,7 @@
       "variant_id": "iphone15pro-titanio-negro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -952,7 +952,7 @@
       "variant_id": "iphone15pro-titanio-blanco-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "titanio_blanco",
           "name": "Titanio Blanco"
         },
         "storage": {

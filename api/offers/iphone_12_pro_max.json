@@ -4,11 +4,11 @@
   "offers": [
     {
       "id": "7148647481500-392036935143895",
-      "variant_id": "iphone12promax-azul-sierra-128gb",
+      "variant_id": "iphone12promax-azul_pacífico-sierra-128gb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
-          "name": "Azul Sierra"
+          "id": "azul_pacífico",
+          "name": "Azul Pacífico"
         },
         "storage": {
           "id": "128_gb",
@@ -94,11 +94,11 @@
     },
     {
       "id": "7148647481500-392036935143895",
-      "variant_id": "iphone12promax-azul-sierra-256gb",
+      "variant_id": "iphone12promax-azul_pacífico-sierra-256gb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
-          "name": "Azul Sierra"
+          "id": "azul_pacífico",
+          "name": "Azul Pacífico"
         },
         "storage": {
           "id": "256_gb",
@@ -139,11 +139,11 @@
     },
     {
       "id": "7148647481500-392036935143895",
-      "variant_id": "iphone12promax-color-plata-256gb",
+      "variant_id": "iphone12promax-plata-256gb",
       "variant_attributes": {
         "color": {
-          "id": "color plata",
-          "name": "Color Plata"
+          "id": "plata",
+          "name": "Plata"
         },
         "storage": {
           "id": "256_gb",
@@ -229,11 +229,11 @@
     },
     {
       "id": "7148647481500-392036935143895",
-      "variant_id": "iphone12promax-azul-sierra-128gb",
+      "variant_id": "iphone12promax-azul_pacífico-sierra-128gb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
-          "name": "Azul Sierra"
+          "id": "azul_pacífico",
+          "name": "Azul Pacífico"
         },
         "storage": {
           "id": "128_gb",
@@ -364,11 +364,11 @@
     },
     {
       "id": "7148647481500-392036935143895",
-      "variant_id": "iphone12promax-azul-sierra-256gb",
+      "variant_id": "iphone12promax-azul_pacífico-sierra-256gb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
-          "name": "Azul Sierra"
+          "id": "azul_pacífico",
+          "name": "Azul Pacífico"
         },
         "storage": {
           "id": "256_gb",
@@ -409,11 +409,11 @@
     },
     {
       "id": "7148647481500-392036935143895",
-      "variant_id": "iphone12promax-color-plata-256gb",
+      "variant_id": "iphone12promax-plata-256gb",
       "variant_attributes": {
         "color": {
-          "id": "color plata",
-          "name": "Color Plata"
+          "id": "plata",
+          "name": "Plata"
         },
         "storage": {
           "id": "256_gb",
@@ -499,11 +499,11 @@
     },
     {
       "id": "7148647481500-392036935143895",
-      "variant_id": "iphone12promax-azul-sierra-512gb",
+      "variant_id": "iphone12promax-azul_pacífico-sierra-512gb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
-          "name": "Azul Sierra"
+          "id": "azul_pacífico",
+          "name": "Azul Pacífico"
         },
         "storage": {
           "id": "512_gb",
@@ -724,11 +724,11 @@
     },
     {
       "id": "B08PMP778K-526202704834412",
-      "variant_id": "iphone12promax-azul-sierra-128gb",
+      "variant_id": "iphone12promax-azul_pacífico-sierra-128gb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
-          "name": "Azul Sierra"
+          "id": "azul_pacífico",
+          "name": "Azul Pacífico"
         },
         "storage": {
           "id": "128_gb",

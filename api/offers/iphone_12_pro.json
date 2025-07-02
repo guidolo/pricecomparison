@@ -322,7 +322,7 @@
       "variant_id": "iphone12pro-azul-pacifico-256gb",
       "variant_attributes": {
         "color": {
-          "id": "azul pacifico",
+          "id": "azul_pacífico",
           "name": "Azul Pacifico"
         },
         "storage": {
@@ -682,7 +682,7 @@
       "variant_id": "iphone12pro-azul-pacifico-128gb",
       "variant_attributes": {
         "color": {
-          "id": "azul pacifico",
+          "id": "azul_pacífico",
           "name": "Azul Pacifico"
         },
         "storage": {
@@ -727,7 +727,7 @@
       "variant_id": "iphone12pro-azul-pacifico-512gb",
       "variant_attributes": {
         "color": {
-          "id": "azul pacifico",
+          "id": "azul_pacífico",
           "name": "Azul Pacifico"
         },
         "storage": {

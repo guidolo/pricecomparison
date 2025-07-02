@@ -862,7 +862,7 @@
       "variant_id": "iphone12-product-red-256gb",
       "variant_attributes": {
         "color": {
-          "id": "product red",
+          "id": "(product)red",
           "name": "Product Red"
         },
         "storage": {

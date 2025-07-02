@@ -322,7 +322,7 @@
       "variant_id": "iphone16-verde-azulado-256gb",
       "variant_attributes": {
         "color": {
-          "id": "verde azulado",
+          "id": "verde_azulado",
           "name": "Verde Azulado"
         },
         "storage": {
@@ -502,7 +502,7 @@
       "variant_id": "iphone16-verde-azulado-128gb",
       "variant_attributes": {
         "color": {
-          "id": "verde azulado",
+          "id": "verde_azulado",
           "name": "Verde Azulado"
         },
         "storage": {
@@ -547,7 +547,7 @@
       "variant_id": "iphone16-verde-azulado-512gb",
       "variant_attributes": {
         "color": {
-          "id": "verde azulado",
+          "id": "verde_azulado",
           "name": "Verde Azulado"
         },
         "storage": {
@@ -1087,7 +1087,7 @@
       "variant_id": "iphone16-verde-azulado-128gb",
       "variant_attributes": {
         "color": {
-          "id": "verde azulado",
+          "id": "verde_azulado",
           "name": "Verde Azulado"
         },
         "storage": {

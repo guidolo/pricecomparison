@@ -7,7 +7,7 @@
       "variant_id": "iphone14pro-negro-espacial-128gb",
       "variant_attributes": {
         "color": {
-          "id": "negro espacial",
+          "id": "negro_espacial",
           "name": "Negro Espacial"
         },
         "storage": {
@@ -52,7 +52,7 @@
       "variant_id": "iphone14pro-negro-espacial-128gb",
       "variant_attributes": {
         "color": {
-          "id": "negro espacial",
+          "id": "negro_espacial",
           "name": "Negro Espacial"
         },
         "storage": {
@@ -97,7 +97,7 @@
       "variant_id": "iphone14pro-morado-oscuro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "morado oscuro",
+          "id": "morado_oscuro",
           "name": "Morado Oscuro"
         },
         "storage": {
@@ -232,7 +232,7 @@
       "variant_id": "iphone14pro-color-plata-512gb",
       "variant_attributes": {
         "color": {
-          "id": "color plata",
+          "id": "plata",
           "name": "Color Plata"
         },
         "storage": {
@@ -277,7 +277,7 @@
       "variant_id": "iphone14pro-negro-espacial-256gb",
       "variant_attributes": {
         "color": {
-          "id": "negro espacial",
+          "id": "negro_espacial",
           "name": "Negro Espacial"
         },
         "storage": {
@@ -412,7 +412,7 @@
       "variant_id": "iphone14pro-morado-oscuro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "morado oscuro",
+          "id": "morado_oscuro",
           "name": "Morado Oscuro"
         },
         "storage": {
@@ -457,7 +457,7 @@
       "variant_id": "iphone14pro-morado-oscuro-512gb",
       "variant_attributes": {
         "color": {
-          "id": "morado oscuro",
+          "id": "morado_oscuro",
           "name": "Morado Oscuro"
         },
         "storage": {
@@ -547,7 +547,7 @@
       "variant_id": "iphone14pro-negro-espacial-128gb",
       "variant_attributes": {
         "color": {
-          "id": "negro espacial",
+          "id": "negro_espacial",
           "name": "Negro Espacial"
         },
         "storage": {
@@ -592,7 +592,7 @@
       "variant_id": "iphone14pro-morado-oscuro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "morado oscuro",
+          "id": "morado_oscuro",
           "name": "Morado Oscuro"
         },
         "storage": {
@@ -637,7 +637,7 @@
       "variant_id": "iphone14pro-negro-espacial-1tb",
       "variant_attributes": {
         "color": {
-          "id": "negro espacial",
+          "id": "negro_espacial",
           "name": "Negro Espacial"
         },
         "storage": {

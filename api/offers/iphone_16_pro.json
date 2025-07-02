@@ -7,7 +7,7 @@
       "variant_id": "iphone16pro-titanio-del-desierto-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
+          "id": "desert_titanium",
           "name": "Titanio Del Desierto"
         },
         "storage": {
@@ -52,7 +52,7 @@
       "variant_id": "iphone16pro-titanio-negro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -97,7 +97,7 @@
       "variant_id": "iphone16pro-titanio-blanco-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -142,7 +142,7 @@
       "variant_id": "iphone16pro-titanio-natural-1tb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -187,7 +187,7 @@
       "variant_id": "iphone16pro-titanio-del-desierto-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
+          "id": "titanio_del_desierto",
           "name": "Titanio Del Desierto"
         },
         "storage": {
@@ -232,7 +232,7 @@
       "variant_id": "iphone16pro-titanio-del-desierto-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
+          "id": "titanio_del_desierto",
           "name": "Titanio Del Desierto"
         },
         "storage": {
@@ -277,7 +277,7 @@
       "variant_id": "iphone16pro-titanio-natural-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -322,7 +322,7 @@
       "variant_id": "iphone16pro-titanio-natural-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -367,7 +367,7 @@
       "variant_id": "iphone16pro-titanio-blanco-1tb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -412,7 +412,7 @@
       "variant_id": "iphone16pro-titanio-blanco-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -457,7 +457,7 @@
       "variant_id": "iphone16pro-titanio-del-desierto-1tb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
+          "id": "titanio_del_desierto",
           "name": "Titanio Del Desierto"
         },
         "storage": {
@@ -502,7 +502,7 @@
       "variant_id": "iphone16pro-titanio-negro-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -547,7 +547,7 @@
       "variant_id": "iphone16pro-titanio-negro-1tb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -592,7 +592,7 @@
       "variant_id": "iphone16pro-titanio-blanco-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -637,7 +637,7 @@
       "variant_id": "iphone16pro-titanio-natural-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -682,7 +682,7 @@
       "variant_id": "iphone16pro-titanio-negro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -727,7 +727,7 @@
       "variant_id": "iphone16pro-titanio-del-desierto-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
+          "id": "desert_titanium",
           "name": "Titanio Del Desierto"
         },
         "storage": {
@@ -772,7 +772,7 @@
       "variant_id": "iphone16pro-titanio-del-desierto-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
+          "id": "titanio_del_desierto",
           "name": "Titanio Del Desierto"
         },
         "storage": {
@@ -817,7 +817,7 @@
       "variant_id": "iphone16pro-titanio-natural-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -862,7 +862,7 @@
       "variant_id": "iphone16pro-titanio-negro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -907,7 +907,7 @@
       "variant_id": "iphone16pro-titanio-negro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -952,7 +952,7 @@
       "variant_id": "iphone16pro-titanio-del-desierto-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
+          "id": "desert_titanium",
           "name": "Titanio Del Desierto"
         },
         "storage": {
@@ -997,7 +997,7 @@
       "variant_id": "iphone16pro-titanio-del-desierto-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio del desierto",
+          "id": "titanio_del_desierto",
           "name": "Titanio Del Desierto"
         },
         "storage": {
@@ -1042,7 +1042,7 @@
       "variant_id": "iphone16pro-titanio-blanco-1tb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -1087,7 +1087,7 @@
       "variant_id": "iphone16pro-titanio-natural-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio natural",
+          "id": "titanio_natural",
           "name": "Titanio Natural"
         },
         "storage": {
@@ -1132,7 +1132,7 @@
       "variant_id": "iphone16pro-titanio-negro-128gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {
@@ -1177,7 +1177,7 @@
       "variant_id": "iphone16pro-titanio-blanco-512gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio blanco",
+          "id": "blanco",
           "name": "Titanio Blanco"
         },
         "storage": {
@@ -1222,7 +1222,7 @@
       "variant_id": "iphone16pro-titanio-negro-256gb",
       "variant_attributes": {
         "color": {
-          "id": "titanio negro",
+          "id": "titanio_negro",
           "name": "Titanio Negro"
         },
         "storage": {

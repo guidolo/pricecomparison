@@ -412,7 +412,7 @@
       "variant_id": "iphone12mini-product-red-128gb",
       "variant_attributes": {
         "color": {
-          "id": "product red",
+          "id": "(product)red",
           "name": "Product Red"
         },
         "storage": {
@@ -592,7 +592,7 @@
       "variant_id": "iphone12mini-purpura-128gb",
       "variant_attributes": {
         "color": {
-          "id": "purpura",
+          "id": "morado",
           "name": "Purpura"
         },
         "storage": {

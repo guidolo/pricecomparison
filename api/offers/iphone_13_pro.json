@@ -7,7 +7,7 @@
       "variant_id": "iphone13pro-verde-alpino-128gb",
       "variant_attributes": {
         "color": {
-          "id": "verde alpino",
+          "id": "verde_alpino",
           "name": "Verde Alpino"
         },
         "storage": {
@@ -52,7 +52,7 @@
       "variant_id": "iphone13pro-azul-alpino-256gb",
       "variant_attributes": {
         "color": {
-          "id": "azul alpino",
+          "id": "azul_alpino",
           "name": "Azul Alpino"
         },
         "storage": {
@@ -97,7 +97,7 @@
       "variant_id": "iphone13pro-color-grafito-256gb",
       "variant_attributes": {
         "color": {
-          "id": "color grafito",
+          "id": "grafito",
           "name": "Color Grafito"
         },
         "storage": {
@@ -187,7 +187,7 @@
       "variant_id": "iphone13pro-azul-alpino-512gb",
       "variant_attributes": {
         "color": {
-          "id": "azul alpino",
+          "id": "azul_alpino",
           "name": "Azul Alpino"
         },
         "storage": {
@@ -232,7 +232,7 @@
       "variant_id": "iphone13pro-azul-alpino-128gb",
       "variant_attributes": {
         "color": {
-          "id": "azul alpino",
+          "id": "azul_alpino",
           "name": "Azul Alpino"
         },
         "storage": {
@@ -277,7 +277,7 @@
       "variant_id": "iphone13pro-verde-alpino-256gb",
       "variant_attributes": {
         "color": {
-          "id": "verde alpino",
+          "id": "verde_alpino",
           "name": "Verde Alpino"
         },
         "storage": {
@@ -367,7 +367,7 @@
       "variant_id": "iphone13pro-azul-sierra-1tb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
+          "id": "azul_sierra",
           "name": "Azul Sierra"
         },
         "storage": {
@@ -547,7 +547,7 @@
       "variant_id": "iphone13pro-color-grafito-512gb",
       "variant_attributes": {
         "color": {
-          "id": "color grafito",
+          "id": "grafito",
           "name": "Color Grafito"
         },
         "storage": {

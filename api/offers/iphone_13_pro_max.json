@@ -94,10 +94,10 @@
     },
     {
       "id": "B09LPDM924-526202704834412",
-      "variant_id": "iphone13promax-azul-alpino-128gb",
+      "variant_id": "iphone13promax-azul_alpino-128gb",
       "variant_attributes": {
         "color": {
-          "id": "azul alpino",
+          "id": "azul_alpino",
           "name": "Azul Alpino"
         },
         "storage": {
@@ -184,10 +184,10 @@
     },
     {
       "id": "B09G9BPPHR-526202704834412",
-      "variant_id": "iphone13promax-azul-sierra-512gb",
+      "variant_id": "iphone13promax-azul_sierra-512gb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
+          "id": "azul_sierra",
           "name": "Azul Sierra"
         },
         "storage": {
@@ -274,10 +274,10 @@
     },
     {
       "id": "B09V3JKYX9-526202704834412",
-      "variant_id": "iphone13promax-verde-alpino-512gb",
+      "variant_id": "iphone13promax-verde_alpino-512gb",
       "variant_attributes": {
         "color": {
-          "id": "verde alpino",
+          "id": "verde_alpino",
           "name": "Verde Alpino"
         },
         "storage": {
@@ -322,7 +322,7 @@
       "variant_id": "iphone13promax-color-plata-1tb",
       "variant_attributes": {
         "color": {
-          "id": "color plata",
+          "id": "color_plata",
           "name": "Color Plata"
         },
         "storage": {
@@ -364,10 +364,10 @@
     },
     {
       "id": "B0BGYHCHXH-526202704834412",
-      "variant_id": "iphone13promax-verde-alpino-128gb",
+      "variant_id": "iphone13promax-verde_alpino-128gb",
       "variant_attributes": {
         "color": {
-          "id": "verde alpino",
+          "id": "verde_alpino",
           "name": "Verde Alpino"
         },
         "storage": {
@@ -409,10 +409,10 @@
     },
     {
       "id": "B09G9BMPM8-526202704834412",
-      "variant_id": "iphone13promax-azul-sierra-1tb",
+      "variant_id": "iphone13promax-azul_sierra-1tb",
       "variant_attributes": {
         "color": {
-          "id": "azul sierra",
+          "id": "azul_sierra",
           "name": "Azul Sierra"
         },
         "storage": {
@@ -454,10 +454,10 @@
     },
     {
       "id": "B09LP9TM5L-526202704834412",
-      "variant_id": "iphone13promax-azul-alpino-256gb",
+      "variant_id": "iphone13promax-azul_alpino-256gb",
       "variant_attributes": {
         "color": {
-          "id": "azul alpino",
+          "id": "azul_alpino",
           "name": "Azul Alpino"
         },
         "storage": {

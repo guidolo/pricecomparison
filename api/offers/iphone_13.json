@@ -7,7 +7,7 @@
       "variant_id": "iphone13-azul-medianoche-128gb",
       "variant_attributes": {
         "color": {
-          "id": "azul medianoche",
+          "id": "azul_medianoche",
           "name": "Azul Medianoche"
         },
         "storage": {
@@ -52,7 +52,7 @@
       "variant_id": "iphone13-blanco-estelar-128gb",
       "variant_attributes": {
         "color": {
-          "id": "blanco estelar",
+          "id": "blanco_estelar",
           "name": "Blanco Estelar"
         },
         "storage": {
@@ -277,7 +277,7 @@
       "variant_id": "iphone13-rojo-128gb",
       "variant_attributes": {
         "color": {
-          "id": "rojo",
+          "id": "(product)red",
           "name": "Rojo"
         },
         "storage": {
@@ -322,7 +322,7 @@
       "variant_id": "iphone13-blanco-estelar-128gb",
       "variant_attributes": {
         "color": {
-          "id": "blanco estelar",
+          "id": "blanco_estelar",
           "name": "Blanco Estelar"
         },
         "storage": {
@@ -592,7 +592,7 @@
       "variant_id": "iphone13-rojo-128gb",
       "variant_attributes": {
         "color": {
-          "id": "rojo",
+          "id": "(product)red",
           "name": "Rojo"
         },
         "storage": {
@@ -772,7 +772,7 @@
       "variant_id": "iphone13-blanco-estelar-128gb",
       "variant_attributes": {
         "color": {
-          "id": "blanco estelar",
+          "id": "blanco_estelar",
           "name": "Blanco Estelar"
         },
         "storage": {
