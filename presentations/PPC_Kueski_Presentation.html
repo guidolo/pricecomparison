@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Price Comparison (PPC) — Kueski Marketplace</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ── Brand tokens ──────────────────────────────────────────────── */
+:root {
+  --blue:        #0075FF;
+  --blue-dark:   #0014BE;
+  --blue-light:  #98C7FF;
+  --blue-mid:    #3391FF;
+  --green:       #3AED62;
+  --green-mid:   #5DC0DE;
+  --navy:        #0B1F3A;
+  --black:       #0E1214;
+  --white:       #FFFFFF;
+  --gray-light:  #F4F7F9;
+  --gray-mid:    #D7DFE3;
+  --gray-text:   #455A64;
+  --grad-cover:  linear-gradient(135deg, #98C7FF 0%, #0075FF 55%, #0014BE 100%);
+  --grad-section:linear-gradient(135deg, #0578FE 0%, #5DC0DE 50%, #3AED62 100%);
+  --grad-navy:   linear-gradient(135deg, #0B1F3A 0%, #0D2B4E 55%, #1A3A5C 100%);
+  --font: 'Inter', -apple-system, sans-serif;
+  --radius: 12px;
+  --shadow: 0 4px 24px rgba(0,21,190,.10);
+}
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+html, body { width:100%; height:100%; overflow:hidden; font-family:var(--font); background:#060d1a; }
+
+/* ── Presentation shell ────────────────────────────────────────── */
+.deck { width:100vw; height:100vh; position:relative; }
+
+.slide {
+  position:absolute; inset:0;
+  opacity:0; pointer-events:none;
+  transition: opacity .45s ease;
+  overflow:hidden;
+}
+.slide.active { opacity:1; pointer-events:all; }
+
+/* ── Navigation ────────────────────────────────────────────────── */
+.nav {
+  position:fixed; bottom:32px; left:50%; transform:translateX(-50%);
+  z-index:1000; display:flex; align-items:center; gap:16px;
+  background:rgba(0,0,0,.45); backdrop-filter:blur(12px);
+  border-radius:100px; padding:10px 20px;
+  border:1px solid rgba(255,255,255,.12);
+}
+.nav button {
+  background:none; border:none; cursor:pointer;
+  color:#fff; font-size:18px; width:36px; height:36px;
+  border-radius:50%; display:flex; align-items:center; justify-content:center;
+  transition:background .2s;
+}
+.nav button:hover { background:rgba(255,255,255,.15); }
+.nav .counter { font-size:13px; font-weight:600; color:rgba(255,255,255,.65); min-width:52px; text-align:center; letter-spacing:.5px; }
+
+/* Dot indicators */
+.dots { display:flex; gap:6px; align-items:center; }
+.dot { width:6px; height:6px; border-radius:50%; background:rgba(255,255,255,.28); cursor:pointer; transition:all .25s; }
+.dot.active { background:#fff; width:20px; border-radius:4px; }
+
+/* ── Shared components ─────────────────────────────────────────── */
+.logo-pill {
+  position:absolute; top:28px; left:36px; z-index:20;
+  background:#fff; border-radius:8px; padding:5px 14px;
+  display:flex; align-items:center; gap:8px; text-decoration:none;
+}
+.logo-pill svg { height:26px; width:auto; }
+.logo-br {
+  position:absolute; bottom:22px; right:32px; z-index:20;
+  background:#fff; border-radius:6px; padding:4px 10px; opacity:.55;
+}
+.logo-br svg { height:18px; width:auto; }
+
+.slide-num {
+  position:absolute; bottom:24px; left:36px; z-index:10;
+  font-size:11px; font-weight:600; letter-spacing:1.5px; text-transform:uppercase;
+}
+.slide-num-light { color:rgba(255,255,255,.30); }
+.slide-num-dark  { color:rgba(14,18,20,.22); }
+
+.tag-pill {
+  display:inline-flex; align-items:center;
+  background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.30);
+  color:#fff; font-size:11px; font-weight:700; text-transform:uppercase;
+  letter-spacing:1.5px; padding:5px 16px; border-radius:100px; margin-bottom:24px;
+}
+.tag-green {
+  background:#3AED62; border-color:#3AED62; color:#0014BE;
+}
+
+.section-eyebrow {
+  font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:2px;
+  color:var(--blue); margin-bottom:8px;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 1 — COVER
+───────────────────────────────────────────────────────────────── */
+.s1 {
+  background: var(--grad-cover);
+  display:flex; flex-direction:column; justify-content:center;
+  padding:72px 96px;
+}
+.s1::before {
+  content:''; position:absolute; top:-140px; right:-120px;
+  width:560px; height:560px; border-radius:50%;
+  background:rgba(255,255,255,.065);
+}
+.s1::after {
+  content:''; position:absolute; bottom:-90px; right:220px;
+  width:340px; height:340px; border-radius:50%;
+  background:rgba(58,237,98,.08);
+}
+.s1-inner { position:relative; z-index:1; max-width:720px; }
+.s1 h1 {
+  font-size:clamp(40px,5.5vw,72px); font-weight:800; color:#fff;
+  line-height:1.05; letter-spacing:-1.5px; margin-bottom:10px;
+}
+.s1 .ppc-label {
+  font-size:clamp(16px,2vw,22px); font-weight:500;
+  color:rgba(255,255,255,.7); margin-bottom:32px; letter-spacing:.5px;
+}
+.s1 .sub {
+  font-size:clamp(14px,1.6vw,18px); font-weight:400;
+  color:rgba(255,255,255,.72); line-height:1.6; max-width:560px;
+}
+.s1 .date {
+  position:absolute; bottom:30px; left:96px;
+  font-size:11px; font-weight:600; color:rgba(255,255,255,.38);
+  text-transform:uppercase; letter-spacing:1.5px;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 2 — STATS (navy)
+───────────────────────────────────────────────────────────────── */
+.s2 { background:var(--grad-navy); display:flex; flex-direction:column; justify-content:center; padding:56px 80px; }
+.s2::before { content:''; position:absolute; top:-120px; left:-80px; width:440px; height:440px; border-radius:50%; background:rgba(255,255,255,.03); }
+.s2 .slide-title { font-size:clamp(18px,2.2vw,26px); font-weight:700; color:#fff; margin-bottom:48px; position:relative; z-index:1; }
+.s2 .stats-grid { display:grid; grid-template-columns:1fr 1fr; gap:28px; position:relative; z-index:1; max-width:960px; }
+.stat-card {
+  background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.10);
+  border-radius:var(--radius); padding:36px 40px;
+  backdrop-filter:blur(8px);
+}
+.stat-card .val {
+  font-size:clamp(64px,8vw,96px); font-weight:800; color:var(--green);
+  line-height:1; letter-spacing:-3px; display:block; margin-bottom:14px;
+}
+.stat-card .label {
+  font-size:15px; font-weight:700; color:#fff; margin-bottom:10px;
+}
+.stat-card .desc { font-size:13px; color:rgba(170,204,238,.8); line-height:1.6; }
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 3 — HYPOTHESIS (white, centered)
+───────────────────────────────────────────────────────────────── */
+.s3 {
+  background:var(--white);
+  display:flex; flex-direction:column; justify-content:center; align-items:center;
+  padding:80px 120px;
+  text-align:center;
+}
+.s3 .left-bar {
+  position:absolute; left:0; top:0; bottom:0; width:5px;
+  background:var(--blue);
+}
+.s3 .slide-title-d { font-size:clamp(18px,2.2vw,26px); font-weight:800; color:var(--black); margin-bottom:4px; }
+.s3 .slide-sub-d   { font-size:14px; font-weight:500; color:var(--blue); margin-bottom:28px; }
+.s3 .divider { width:56px; height:3px; background:var(--blue); border-radius:2px; margin-bottom:36px; }
+
+.s3 .hypothesis-quote {
+  font-size:clamp(22px,2.8vw,38px);
+  font-weight:700;
+  color:var(--black);
+  line-height:1.55;
+  max-width:900px;
+}
+.s3 .hypothesis-quote strong {
+  color:var(--blue);
+  font-weight:800;
+}
+
+.flow-steps { display:flex; align-items:center; gap:6px; }
+.flow-step {
+  flex:1; background:var(--gray-light); border:1px solid var(--gray-mid);
+  border-radius:8px; padding:10px 14px; text-align:center;
+  font-size:11.5px; font-weight:500; color:var(--black); line-height:1.4;
+}
+.flow-step.active-step {
+  background:var(--blue); border-color:var(--blue); color:#fff; font-weight:700;
+}
+.flow-arrow { font-size:18px; color:var(--blue); flex-shrink:0; font-weight:800; }
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 4 — IMPACT (navy)
+───────────────────────────────────────────────────────────────── */
+.s4 { background:var(--grad-navy); display:flex; flex-direction:column; justify-content:center; padding:56px 80px; }
+.s4 .slide-title { font-size:clamp(18px,2.2vw,26px); font-weight:700; color:#fff; margin-bottom:48px; position:relative; z-index:1; }
+.s4 .impact-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; position:relative; z-index:1; max-width:1080px; }
+.impact-card {
+  background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.10);
+  border-radius:var(--radius); padding:32px 30px;
+  position:relative; overflow:hidden;
+}
+.impact-card::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:3px;
+  background:var(--green);
+}
+.impact-card.orange::before { background:#F97316; }
+.impact-card .metric {
+  font-size:clamp(56px,7vw,80px); font-weight:800; color:var(--green);
+  line-height:1; letter-spacing:-2px; margin-bottom:14px;
+}
+.impact-card.orange .metric {
+  font-size:clamp(36px,4vw,54px); color:#F97316;
+  letter-spacing:-1px; line-height:1.15;
+}
+.impact-card .unit { font-size:24px; font-weight:700; }
+.impact-card .metric-label { font-size:14px; font-weight:600; color:#fff; margin-bottom:8px; }
+.impact-card .metric-desc { font-size:12px; color:rgba(170,204,238,.8); line-height:1.6; }
+.s4 .note { font-size:10px; color:rgba(100,136,170,.8); font-style:italic; margin-top:28px; position:relative; z-index:1; }
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 5 — ABANDONMENT FLOW
+───────────────────────────────────────────────────────────────── */
+.s5 {
+  background: var(--grad-navy);
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: flex-start;
+  padding: 60px 72px;
+}
+.s5 .s5-title {
+  font-size: clamp(20px, 2.5vw, 32px);
+  font-weight: 800; color: #fff;
+  max-width: 680px; line-height: 1.28;
+  margin-bottom: 56px;
+}
+.s5-flow {
+  display: flex; align-items: stretch;
+  gap: 0; width: 100%;
+}
+.s5-box {
+  flex: 1;
+  background: rgba(0,117,255,.10);
+  border: 1.5px solid var(--blue);
+  border-radius: 14px;
+  padding: 26px 22px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,117,255,.15), inset 0 1px 0 rgba(255,255,255,.06);
+  display: flex; flex-direction: column; justify-content: flex-start;
+}
+.s5-box::before {
+  content: '';
+  position: absolute; top: -1px; left: -1px; right: -1px; bottom: -1px;
+  border-radius: 14px;
+  background: linear-gradient(150deg, rgba(0,117,255,.12) 0%, transparent 45%);
+  pointer-events: none;
+}
+.s5-box-title {
+  font-size: 14px; font-weight: 800; color: #fff;
+  margin-bottom: 10px; line-height: 1.25; position: relative; z-index: 1;
+}
+.s5-box-desc {
+  font-size: 12px; color: rgba(255,255,255,.68);
+  line-height: 1.6; position: relative; z-index: 1;
+}
+.s5-arrow {
+  flex-shrink: 0; width: 40px;
+  display: flex; align-items: center; justify-content: center;
+  position: relative;
+}
+.s5-arrow::before {
+  content: '';
+  position: absolute; top: 50%; left: 4px; right: 14px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--blue), var(--blue-mid));
+  transform: translateY(-50%);
+}
+.s5-arrow::after {
+  content: '▶';
+  color: var(--blue-mid); font-size: 13px;
+  position: absolute; right: 2px; top: 50%;
+  transform: translateY(-50%);
+}
+.s5-abandonment {
+  flex-shrink: 0; margin-left: 4px;
+  background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+  clip-path: polygon(0 0, 82% 0, 100% 50%, 82% 100%, 0 100%);
+  padding: 22px 44px 22px 26px;
+  display: flex; align-items: center; justify-content: center;
+  min-width: 164px;
+  box-shadow: 0 0 28px rgba(0,21,190,.40);
+}
+.s5-abandonment span {
+  font-size: 17px; font-weight: 800; color: #fff;
+  text-align: center; line-height: 1.2;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 6 — FEATURE 01: VISUAL IMMERSION
+───────────────────────────────────────────────────────────────── */
+.s6 { background:var(--white); display:grid; grid-template-columns:1fr 1fr; }
+.feat-left {
+  padding:44px 48px; display:flex; flex-direction:column; justify-content:center;
+  border-right:1px solid var(--gray-mid);
+}
+.feat-badge {
+  display:inline-flex; align-items:center; justify-content:center;
+  width:44px; height:44px; border-radius:50%; background:var(--blue);
+  font-size:14px; font-weight:800; color:#fff; margin-bottom:14px;
+}
+.feat-title { font-size:clamp(18px,2.2vw,26px); font-weight:800; color:var(--black); margin-bottom:20px; line-height:1.15; }
+.feat-desc { font-size:13px; color:var(--gray-text); line-height:1.7; margin-bottom:24px; }
+.feat-list { display:flex; flex-direction:column; gap:10px; }
+.feat-item {
+  display:flex; align-items:center; gap:12px;
+  background:var(--gray-light); border:1px solid var(--gray-mid);
+  border-radius:8px; padding:10px 14px;
+  font-size:12px; color:var(--black); font-weight:500;
+}
+.feat-item-dot {
+  flex-shrink:0; width:8px; height:8px; border-radius:50%; background:var(--blue);
+}
+
+.feat-right {
+  display:flex; align-items:center; justify-content:center;
+  background:var(--gray-light); padding:28px; gap:16px; position:relative;
+}
+.feat-right .phone-frame {
+  background:#fff; border:2px solid var(--gray-mid); border-radius:20px;
+  overflow:hidden; box-shadow:0 8px 32px rgba(0,21,190,.12);
+  display:flex; align-items:center; justify-content:center;
+}
+.feat-right .phone-img { max-height:100%; max-width:100%; display:block; object-fit:contain; }
+.feat-caption {
+  position:absolute; bottom:12px; left:50%; transform:translateX(-50%);
+  font-size:10px; color:var(--gray-text); font-style:italic; white-space:nowrap;
+  background:rgba(255,255,255,.85); padding:3px 10px; border-radius:100px;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 7 — FEATURE 02: DYNAMIC VARIANTS
+───────────────────────────────────────────────────────────────── */
+.s7 { background:var(--white); display:grid; grid-template-columns:1fr 1fr; }
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 8 — FEATURE 03: OFFER COMPARISON
+───────────────────────────────────────────────────────────────── */
+.s8 { background:var(--white); display:grid; grid-template-columns:5fr 6fr; }
+.s8 .img-panel {
+  background:var(--gray-light); display:flex; align-items:center; justify-content:center;
+  padding:24px; border-left:1px solid var(--gray-mid);
+}
+.s8 .img-panel img {
+  max-width:100%; max-height:100%; object-fit:contain;
+  border-radius:var(--radius); box-shadow:var(--shadow);
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 9 — FEATURE 05: TECHNICAL VALIDATION
+───────────────────────────────────────────────────────────────── */
+.s9 { background:var(--white); display:grid; grid-template-columns:1fr 1fr; }
+.checklist { display:flex; flex-direction:column; gap:10px; }
+.check-item {
+  display:flex; align-items:center; gap:12px;
+  border-radius:8px; padding:10px 14px;
+  font-size:12.5px; font-weight:500;
+}
+.check-item.ok  { background:#F0FFF8; border:1px solid #B8F0D0; color:#006B33; }
+.check-item.pending { background:#FFF5F0; border:1px solid #FFD0C0; color:#AA4400; }
+.check-icon { font-size:16px; flex-shrink:0; }
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 10 — CLOSING
+───────────────────────────────────────────────────────────────── */
+.s10 {
+  background:var(--grad-section);
+  display:flex; flex-direction:column; justify-content:center; align-items:flex-start;
+  padding:72px 96px; position:relative; overflow:hidden;
+}
+.s10::before { content:''; position:absolute; top:-160px; right:-160px; width:560px; height:560px; border-radius:50%; background:rgba(255,255,255,.07); }
+.s10::after  { content:''; position:absolute; bottom:-100px; left:-80px; width:380px; height:380px; border-radius:50%; background:rgba(0,20,190,.10); }
+.s10 h2 { font-size:clamp(28px,4vw,52px); font-weight:800; color:#fff; line-height:1.1; letter-spacing:-1px; margin-bottom:48px; position:relative; z-index:1; }
+.closing-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; position:relative; z-index:1; width:100%; max-width:960px; }
+.closing-card {
+  background:#0014BE; border:1px solid rgba(58,237,98,.3); border-radius:var(--radius);
+  padding:24px 28px; position:relative; overflow:hidden;
+}
+.closing-card::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; background:var(--green); }
+.closing-val { font-size:clamp(36px,4.5vw,56px); font-weight:800; color:#fff; line-height:1; margin-bottom:10px; letter-spacing:-1px; }
+.closing-desc { font-size:12px; color:rgba(170,200,255,.85); line-height:1.55; }
+.s10 .tagline {
+  position:absolute; bottom:28px; left:96px; z-index:1;
+  font-size:11px; font-style:italic; color:rgba(255,255,255,.45); letter-spacing:.5px;
+}
+
+/* Kueski Logo SVG inline */
+.kueski-logo-svg { display:block; }
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 10 — RISK MITIGATION
+───────────────────────────────────────────────────────────────── */
+.s10 { background:var(--grad-navy); display:flex; flex-direction:column; padding:76px 80px 36px; overflow:hidden; height:100%; }
+.s10::before { content:''; position:absolute; top:-120px; left:-80px; width:440px; height:440px; border-radius:50%; background:rgba(255,255,255,.03); }
+.s10 .risk-title { font-size:clamp(18px,2.2vw,28px); font-weight:800; color:#fff; margin-bottom:24px; flex-shrink:0; position:relative; z-index:1; }
+.risk-grid { display:flex; flex-direction:column; gap:14px; flex:1; min-height:0; position:relative; z-index:1; }
+.risk-row { display:grid; grid-template-columns:1fr 52px 1fr; align-items:stretch; gap:0; flex:1; min-height:0; }
+.risk-box {
+  background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.18);
+  border-radius:14px; padding:18px 24px;
+  display:flex; flex-direction:column; justify-content:center;
+  overflow:hidden;
+}
+.risk-box.mitigation {
+  background:rgba(0,117,255,.12);
+  border:1.5px solid var(--blue);
+  box-shadow:0 0 24px rgba(0,117,255,.18);
+}
+.risk-box-title { font-size:15px; font-weight:700; color:#fff; margin-bottom:8px; line-height:1.25; }
+.risk-box-desc  { font-size:13px; color:rgba(190,215,240,.82); line-height:1.6; }
+.risk-arrow-col {
+  display:flex; align-items:center; justify-content:center;
+  position:relative;
+}
+.risk-arrow-col::before {
+  content:''; position:absolute; top:50%; left:6px; right:20px;
+  height:2px; background:linear-gradient(90deg, var(--blue), var(--blue-mid));
+  transform:translateY(-50%);
+}
+.risk-arrow-col::after {
+  content:'▶'; color:var(--blue-mid); font-size:14px;
+  position:absolute; right:4px; top:50%; transform:translateY(-50%);
+}
+
+
+/* ─────────────────────────────────────────────────────────────────
+   SLIDE 11 — PATH TO POC
+───────────────────────────────────────────────────────────────── */
+.s11 { background:var(--grad-navy); display:flex; flex-direction:column; padding:72px 72px 36px; height:100%; overflow:hidden; }
+.s11::before { content:''; position:absolute; top:-120px; right:-80px; width:440px; height:440px; border-radius:50%; background:rgba(255,255,255,.03); }
+.s11 .poc-title { font-size:clamp(18px,2.2vw,26px); font-weight:800; color:#fff; margin-bottom:32px; flex-shrink:0; position:relative; z-index:1; }
+.poc-table { display:flex; flex-direction:column; flex:1; min-height:0; position:relative; z-index:1; border:1px solid rgba(255,255,255,.12); border-radius:14px; overflow:hidden; }
+.poc-row { display:grid; grid-template-columns:220px 1fr 1fr 1fr; flex:1; min-height:0; }
+.poc-row + .poc-row { border-top:1px solid rgba(0,117,255,.35); }
+.poc-cell { padding:28px 24px; display:flex; flex-direction:column; justify-content:center; }
+.poc-cell + .poc-cell { border-left:1px solid rgba(255,255,255,.08); }
+.poc-option-name { font-size:15px; font-weight:800; color:#fff; line-height:1.3; background:rgba(0,117,255,.08); }
+.poc-desc { font-size:13px; color:rgba(190,215,240,.85); line-height:1.65; }
+.poc-pros { font-size:13px; color:rgba(190,215,240,.85); line-height:1.65; }
+.poc-cons { font-size:13px; color:rgba(190,215,240,.85); line-height:1.65; }
+.poc-icon-pro { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:50%; background:var(--green); flex-shrink:0; margin-bottom:10px; }
+.poc-icon-pro::after { content:'✓'; font-size:12px; font-weight:800; color:#0014BE; }
+.poc-icon-con { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:50%; background:rgba(0,117,255,.25); border:1.5px solid var(--blue); flex-shrink:0; margin-bottom:10px; }
+.poc-icon-con::after { content:'!'; font-size:12px; font-weight:800; color:var(--blue-light); }
+.poc-label { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1.2px; margin-bottom:8px; }
+.poc-label-pro { color:var(--green); }
+.poc-label-con { color:var(--blue-light); }
+
+</style>
+</head>
+<body>
+
+<div class="deck">
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 1 — COVER
+════════════════════════════════════════════════ -->
+<div class="slide s1 active" data-slide="1">
+
+  <!-- Logo -->
+  <div class="logo-pill logo-tl" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <div class="s1-inner">
+    <div class="tag-pill tag-green">Kueski Marketplace</div>
+    <h1>Product Price<br>Comparison</h1>
+    <p class="ppc-label">PPC — Centralizing the purchase decision</p>
+    <p class="sub">Maximizing conversion in Kueski Marketplace by bringing the best offers directly to the user, without leaving the app.</p>
+  </div>
+
+  <span class="date">May 2026 &nbsp;·&nbsp; Kueski Pay</span>
+
+  <div class="slide-num slide-num-light">01 / 11</div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 2 — ABANDONMENT FLOW
+════════════════════════════════════════════════ -->
+<div class="slide s5" data-slide="2">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <p class="s5-title">Fragmented data creates high pre-transaction abandonment.</p>
+
+  <div class="s5-flow">
+
+    <div class="s5-box">
+      <p class="s5-box-title">Run Multiple Searches</p>
+      <p class="s5-box-desc">Users cannot find all options in one query.</p>
+    </div>
+
+    <div class="s5-arrow"></div>
+
+    <div class="s5-box">
+      <p class="s5-box-title">Scroll Disjointed Listings</p>
+      <p class="s5-box-desc">Navigating through unstandardized catalog entries.</p>
+    </div>
+
+    <div class="s5-arrow"></div>
+
+    <div class="s5-box">
+      <p class="s5-box-title">Cross-Reference Specs</p>
+      <p class="s5-box-desc">Manually verifying technical details to ensure parity.</p>
+    </div>
+
+    <div class="s5-arrow"></div>
+
+    <div class="s5-box">
+      <p class="s5-box-title">Cognitive Overload</p>
+      <p class="s5-box-desc">Comparing prices across scattered listings creates high mental load with no clear winner.</p>
+    </div>
+
+    <div class="s5-arrow"></div>
+
+    <div class="s5-abandonment">
+      <span>Abandonment</span>
+    </div>
+
+  </div>
+
+  <div class="slide-num slide-num-light">02 / 11</div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 3 — STATS
+════════════════════════════════════════════════ -->
+<div class="slide s2" data-slide="3">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <p class="slide-title" style="position:relative;z-index:1;">The Cost of Pre-Transaction User Drop-off</p>
+
+  <div class="stats-grid" style="position:relative;z-index:1;">
+    <div class="stat-card">
+      <span class="val">65%</span>
+      <p class="label">Search Abandonment Rate</p>
+      <p class="desc">Of users who search for smartphones inside Kueski do not complete a purchase.</p>
+    </div>
+    <div class="stat-card">
+      <span class="val">80%</span>
+      <p class="label">Affiliate Revenue Loss</p>
+      <p class="desc">Of users go directly to the merchant's site without using the Marketplace search, bypassing affiliate tracking entirely.</p>
+    </div>
+  </div>
+
+  <div class="slide-num slide-num-light">03 / 11</div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 4 — HYPOTHESIS
+════════════════════════════════════════════════ -->
+<div class="slide s3" data-slide="4">
+  <div class="left-bar"></div>
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <p class="slide-title-d">Our Hypothesis</p>
+  <p class="slide-sub-d">The Marketplace as the Definitive Destination</p>
+  <div class="divider"></div>
+
+  <p class="hypothesis-quote">
+    By showing users they can get <strong>better prices within Kueski</strong> from their usual merchant, the Marketplace will become a fundamental step in their purchase decisions — and a key driver of active borrower growth.
+  </p>
+
+  <div class="slide-num slide-num-dark">04 / 11</div>
+</div>
+
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 6 — FEATURE 01: VISUAL IMMERSION + GIF
+════════════════════════════════════════════════ -->
+<div class="slide s6" data-slide="5">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <div class="feat-left" style="padding-top:72px;">
+    <div class="feat-badge">01</div>
+    <h2 class="feat-title">Visual Product<br>Immersion</h2>
+    <p class="feat-desc">The user browses seamlessly through the product's visual variants. Each color and model links to a high-quality image — no need to search for visual references on external sites.</p>
+    <div class="feat-list">
+      <div class="feat-item"><div class="feat-item-dot"></div>Multi-image gallery per variant</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Inline color &amp; model selector</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Expanded view without leaving Kueski</div>
+    </div>
+  </div>
+
+  <!-- Right: product image + animated GIF side by side -->
+  <div class="feat-right" style="display:grid; grid-template-columns:1fr 1fr; gap:20px; padding:28px; background:var(--gray-light); border-left:1px solid var(--gray-mid);">
+    <!-- Product photo -->
+    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;">
+      <div style="background:#fff; border:1.5px solid var(--gray-mid); border-radius:16px; overflow:hidden; box-shadow:0 8px 28px rgba(0,21,190,.10); padding:12px; display:flex; align-items:center; justify-content:center; height:calc(100vh - 160px); max-height:420px;">
+        <img src="img1.png" alt="iPhone 14 Pro Max" style="max-height:100%; max-width:100%; object-fit:contain; display:block;">
+      </div>
+      <span style="font-size:10px; color:var(--gray-text); font-style:italic;">Product Gallery</span>
+    </div>
+    <!-- Animated GIF -->
+    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;">
+      <div style="background:#fff; border:1.5px solid var(--gray-mid); border-radius:16px; overflow:hidden; box-shadow:0 8px 28px rgba(0,21,190,.10); display:flex; align-items:center; justify-content:center; height:calc(100vh - 160px); max-height:420px;">
+        <img src="output.gif" alt="Live app demo" style="max-height:100%; max-width:100%; object-fit:contain; display:block;">
+      </div>
+      <span style="font-size:10px; color:var(--gray-text); font-style:italic;">Live App Demo — animated</span>
+    </div>
+  </div>
+
+  <div class="slide-num slide-num-dark">05 / 11</div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 7 — FEATURE 02: DYNAMIC VARIANTS
+════════════════════════════════════════════════ -->
+<div class="slide s7" data-slide="6">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <!-- Left -->
+  <div class="feat-left" style="padding-top:72px;">
+    <div class="feat-badge">02</div>
+    <h2 class="feat-title">Dynamic Variant<br>Configuration</h2>
+    <p class="feat-desc">The user interacts with any color, storage, or condition configuration. Upon selecting, the base price updates instantly. The "target price" drives which offers are shown.</p>
+    <div class="feat-list">
+      <div class="feat-item"><div class="feat-item-dot"></div>Variant selection updates price in real time</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Base price + Kueski Pay price always visible</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Seamless Auto Checkout integration on select</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Compatible with merchant catalogs (Amazon included)</div>
+    </div>
+  </div>
+
+  <!-- Right: screenshot img2 -->
+  <div style="background:var(--gray-light); border-left:1px solid var(--gray-mid); display:flex; align-items:center; justify-content:center; padding:32px;">
+    <div style="background:#fff; border:1.5px solid var(--gray-mid); border-radius:20px; overflow:hidden; box-shadow:0 12px 40px rgba(0,21,190,.12); max-height:calc(100vh - 120px); display:flex; align-items:center; justify-content:center;">
+      <img src="img2.png" alt="Variant selector" style="max-height:calc(100vh - 140px); max-width:100%; object-fit:contain; display:block;">
+    </div>
+  </div>
+
+  <div class="slide-num slide-num-dark">06 / 11</div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 8 — FEATURE 03: OFFER COMPARISON
+════════════════════════════════════════════════ -->
+<div class="slide s8" data-slide="7">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <!-- Left text -->
+  <div class="feat-left" style="padding-top:72px;">
+    <div class="feat-badge">03</div>
+    <h2 class="feat-title">Strategic Core:<br>Offer Comparison</h2>
+    <p class="feat-desc">A unified offer listing — a single module designed for decision-making. One view that consolidates the critical variables of every purchase decision.</p>
+    <div class="feat-list">
+      <div class="feat-item"><div class="feat-item-dot"></div>Prices automatically updated intra-day</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Cashback highlights for eligible offers</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>New, refurbished &amp; used conditions in one list</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Direct "View offer" CTA to merchant checkout</div>
+    </div>
+    <div style="margin-top:20px; background:#EEF4FF; border:1.5px solid var(--blue); border-radius:10px; padding:14px 16px; font-size:12px; color:var(--navy);">
+      <strong>7 offers shown</strong> — sorted by best price for the selected variant (iPhone 14 Pro Max · Dark Purple · 128 GB)
+    </div>
+  </div>
+
+  <!-- Right: screenshot img3 -->
+  <div class="img-panel">
+    <img src="img3.png" alt="Offer comparison list">
+  </div>
+
+  <div class="slide-num slide-num-dark">07 / 11</div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 9 — FEATURE 05: TECHNICAL VALIDATION
+════════════════════════════════════════════════ -->
+<div class="slide s9" data-slide="8">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <!-- Left -->
+  <div class="feat-left" style="padding-top:72px;">
+    <div class="feat-badge">05</div>
+    <h2 class="feat-title">Standardized<br>Technical Validation</h2>
+    <p class="feat-desc" style="margin-bottom:20px;">Each PPC integrates structured, reliable data. The system validates technical specs before displaying them — no missing data, no inconsistent prices, no incorrect stock.</p>
+
+    <p style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:var(--blue); margin-bottom:12px;">Active Validations</p>
+    <div class="checklist">
+      <div class="check-item ok"><span class="check-icon">✅</span> High-resolution images verified</div>
+      <div class="check-item ok"><span class="check-icon">✅</span> Prices updated within the last 4 hours</div>
+      <div class="check-item ok"><span class="check-icon">✅</span> Stock confirmed with merchant</div>
+      <div class="check-item ok"><span class="check-icon">✅</span> Technical specifications complete</div>
+      <div class="check-item pending"><span class="check-icon">⏳</span> Product video (integration pending)</div>
+    </div>
+  </div>
+
+  <!-- Right: screenshot img5 -->
+  <div style="background:var(--gray-light); border-left:1px solid var(--gray-mid); display:flex; align-items:center; justify-content:center; padding:32px;">
+    <div style="background:#fff; border:1.5px solid var(--gray-mid); border-radius:20px; overflow:hidden; box-shadow:0 12px 40px rgba(0,21,190,.12); max-height:calc(100vh - 120px); display:flex; align-items:center; justify-content:center;">
+      <img src="img5.png" alt="Technical spec sheet" style="max-height:calc(100vh - 140px); max-width:100%; object-fit:contain; display:block;">
+    </div>
+  </div>
+
+  <div class="slide-num slide-num-dark">08 / 11</div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 9 — EXPECTED IMPACT (CIERRE)
+════════════════════════════════════════════════ -->
+<div class="slide s4" data-slide="9">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <p class="slide-title">Expected Impact on Conversion &amp; Growth</p>
+
+  <div class="impact-grid">
+    <div class="impact-card">
+      <p class="metric">+8%</p>
+      <p class="metric-label">Marketplace loan increase</p>
+      <p class="metric-desc">Projected increase in Marketplace loans per active borrower in the app.</p>
+    </div>
+    <div class="impact-card">
+      <p class="metric">~$360k <span class="unit">USD</span></p>
+      <p class="metric-label">Incremental GMV / month</p>
+      <p class="metric-desc">Gross Merchandise Value incremental projection per month based on historical Q1–Q2 2026 data.</p>
+    </div>
+    <div class="impact-card">
+      <p class="metric">Reduced<br>CAC</p>
+      <p class="metric-desc" style="margin-top:16px;">Lower acquisition costs driven by higher recurrence; early users perceive immense value in locating the best offers instantly.</p>
+    </div>
+  </div>
+
+  <p class="note">Projections based on historical GMV and conversion rate data — Kueski Marketplace Q1–Q2 2026.</p>
+
+  <div class="slide-num slide-num-light">09 / 11</div>
+</div>
+
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 10 — RISK MITIGATION
+════════════════════════════════════════════════ -->
+<div class="slide s10" data-slide="10">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <p class="risk-title">Mitigating Data &amp; Freshness Risks</p>
+
+  <div class="risk-grid">
+
+    <div class="risk-row">
+      <div class="risk-box">
+        <p class="risk-box-title">Challenge: Heterogeneous Catalogs</p>
+        <p class="risk-box-desc">Combining diverse, low-quality merchant data is costly.</p>
+      </div>
+      <div class="risk-arrow-col"></div>
+      <div class="risk-box mitigation">
+        <p class="risk-box-title">Mitigation: AI-Assisted Mapping</p>
+        <p class="risk-box-desc">Leverage AI to homologate variants, deduplicate listings, and map disparate product attributes to a single, unified common schema.</p>
+      </div>
+    </div>
+
+    <div class="risk-row">
+      <div class="risk-box">
+        <p class="risk-box-title">Challenge: Stale Pricing Data</p>
+        <p class="risk-box-desc">Real-time synchronization across the entire catalog is out of scope.</p>
+      </div>
+      <div class="risk-arrow-col"></div>
+      <div class="risk-box mitigation">
+        <p class="risk-box-title">Mitigation: Intra-Day Refresh</p>
+        <p class="risk-box-desc">Implement prioritized, ad-hoc intra-day syncs specifically for comparator-listed items and high-velocity SKUs to ensure accuracy.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="slide-num slide-num-light">10 / 11</div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     SLIDE 11 — PATH TO POC
+════════════════════════════════════════════════ -->
+<div class="slide s11" data-slide="11">
+
+  <div class="logo-pill" style="position:absolute;top:28px;left:36px;z-index:20;background:#fff;border-radius:8px;padding:6px 14px;">
+    <img src="https://production-shared-web-store.kueski.com/public/images/logoKueskiPay.svg" height="26" alt="Kueski Pay" style="display:block;">
+  </div>
+
+  <p class="poc-title">Path to POC: Balancing UX with Technical Feasibility</p>
+
+  <div class="poc-table">
+
+    <div class="poc-row">
+      <div class="poc-cell poc-option-name">Option A: Native PPC with Price Aggregation Layer</div>
+      <div class="poc-cell poc-desc">Build a native app layer consuming normalized data from multiple merchants.</div>
+      <div class="poc-cell poc-pros">
+        <div class="poc-icon-pro"></div>
+        <p class="poc-label poc-label-pro">Pros</p>
+        <p>Full UX control; Highly scalable.</p>
+      </div>
+      <div class="poc-cell poc-cons">
+        <div class="poc-icon-con"></div>
+        <p class="poc-label poc-label-con">Cons</p>
+        <p>Requires heavy investment in catalog normalization and aggregation architecture.</p>
+      </div>
+    </div>
+
+    <div class="poc-row">
+      <div class="poc-cell poc-option-name">Option B: Catalog Enrichment (Lighter Approach)</div>
+      <div class="poc-cell poc-desc">Enhance the current catalog view with basic attributes and per-merchant pricing.</div>
+      <div class="poc-cell poc-pros">
+        <div class="poc-icon-pro"></div>
+        <p class="poc-label poc-label-pro">Pros</p>
+        <p>Faster time-to-market; Lower development risk.</p>
+      </div>
+      <div class="poc-cell poc-cons">
+        <div class="poc-icon-con"></div>
+        <p class="poc-label poc-label-con">Cons</p>
+        <p>Caps the potential for maximum conversion improvement.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="slide-num slide-num-light">11 / 11</div>
+</div>
+
+</div><!-- /deck -->
+
+
+<!-- ── Navigation bar ──────────────────────────────────────────── -->
+<nav class="nav">
+  <button id="btn-prev" title="Previous (←)">&#8592;</button>
+  <div class="dots" id="dot-row"></div>
+  <span class="counter" id="counter">1 / 11</span>
+  <button id="btn-next" title="Next (→)">&#8594;</button>
+</nav>
+
+
+<script>
+(function () {
+  const slides   = Array.from(document.querySelectorAll('.slide'));
+  const total    = slides.length;
+  const counter  = document.getElementById('counter');
+  const dotRow   = document.getElementById('dot-row');
+  let   current  = 0;
+
+  // Build dots
+  slides.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.addEventListener('click', () => goTo(i));
+    dotRow.appendChild(d);
+  });
+
+  function goTo(idx) {
+    slides[current].classList.remove('active');
+    dotRow.children[current].classList.remove('active');
+    current = (idx + total) % total;
+    slides[current].classList.add('active');
+    dotRow.children[current].classList.add('active');
+    counter.textContent = (current + 1) + ' / ' + total;
+  }
+
+  document.getElementById('btn-prev').addEventListener('click', () => goTo(current - 1));
+  document.getElementById('btn-next').addEventListener('click', () => goTo(current + 1));
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === ' ')  { e.preventDefault(); goTo(current + 1); }
+    if (e.key === 'ArrowLeft')                     { e.preventDefault(); goTo(current - 1); }
+    if (e.key === 'Home')                          { e.preventDefault(); goTo(0); }
+    if (e.key === 'End')                           { e.preventDefault(); goTo(total - 1); }
+  });
+
+  // Touch/swipe support
+  let touchX = null;
+  document.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener('touchend',   e => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 50) goTo(dx < 0 ? current + 1 : current - 1);
+    touchX = null;
+  }, { passive: true });
+})();
+</script>
+
+</body>
+</html>
