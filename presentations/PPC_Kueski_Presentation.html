@@ -409,8 +409,8 @@ html, body { width:100%; height:100%; overflow:hidden; font-family:var(--font); 
 .s10 { background:var(--grad-navy); display:flex; flex-direction:column; padding:76px 80px 36px; overflow:hidden; height:100%; }
 .s10::before { content:''; position:absolute; top:-120px; left:-80px; width:440px; height:440px; border-radius:50%; background:rgba(255,255,255,.03); }
 .s10 .risk-title { font-size:clamp(18px,2.2vw,28px); font-weight:800; color:#fff; margin-bottom:24px; flex-shrink:0; position:relative; z-index:1; }
-.risk-grid { display:flex; flex-direction:column; gap:14px; flex:1; min-height:0; position:relative; z-index:1; }
-.risk-row { display:grid; grid-template-columns:1fr 52px 1fr; align-items:stretch; gap:0; flex:1; min-height:0; }
+.risk-grid { display:flex; flex-direction:column; gap:16px; justify-content:center; flex:1; min-height:0; position:relative; z-index:1; }
+.risk-row { display:grid; grid-template-columns:1fr 52px 1fr; align-items:stretch; gap:0; }
 .risk-box {
   background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.18);
   border-radius:14px; padding:18px 24px;
@@ -445,8 +445,8 @@ html, body { width:100%; height:100%; overflow:hidden; font-family:var(--font); 
 .s11 { background:var(--grad-navy); display:flex; flex-direction:column; padding:72px 72px 36px; height:100%; overflow:hidden; }
 .s11::before { content:''; position:absolute; top:-120px; right:-80px; width:440px; height:440px; border-radius:50%; background:rgba(255,255,255,.03); }
 .s11 .poc-title { font-size:clamp(18px,2.2vw,26px); font-weight:800; color:#fff; margin-bottom:32px; flex-shrink:0; position:relative; z-index:1; }
-.poc-table { display:flex; flex-direction:column; flex:1; min-height:0; position:relative; z-index:1; border:1px solid rgba(255,255,255,.12); border-radius:14px; overflow:hidden; }
-.poc-row { display:grid; grid-template-columns:220px 1fr 1fr 1fr; flex:1; min-height:0; }
+.poc-table { display:flex; flex-direction:column; flex:0 0 auto; margin:auto 0; position:relative; z-index:1; border:1px solid rgba(255,255,255,.12); border-radius:14px; overflow:hidden; }
+.poc-row { display:grid; grid-template-columns:220px 1fr 1fr 1fr; }
 .poc-row + .poc-row { border-top:1px solid rgba(0,117,255,.35); }
 .poc-cell { padding:28px 24px; display:flex; flex-direction:column; justify-content:center; }
 .poc-cell + .poc-cell { border-left:1px solid rgba(255,255,255,.08); }
@@ -647,13 +647,13 @@ html, body { width:100%; height:100%; overflow:hidden; font-family:var(--font); 
   <!-- Left -->
   <div class="feat-left" style="padding-top:72px;">
     <div class="feat-badge">02</div>
-    <h2 class="feat-title">Dynamic Variant<br>Configuration</h2>
+    <h2 class="feat-title">Dynamic Variant<br>Selector</h2>
     <p class="feat-desc">The user interacts with any color, storage, or condition configuration. Upon selecting, the base price updates instantly. The "target price" drives which offers are shown.</p>
     <div class="feat-list">
-      <div class="feat-item"><div class="feat-item-dot"></div>Variant selection updates price in real time</div>
-      <div class="feat-item"><div class="feat-item-dot"></div>Base price + Kueski Pay price always visible</div>
-      <div class="feat-item"><div class="feat-item-dot"></div>Seamless Auto Checkout integration on select</div>
-      <div class="feat-item"><div class="feat-item-dot"></div>Compatible with merchant catalogs (Amazon included)</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Variant selection updates price with high frequency</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Best price always visible</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Posibilidad de integración con Auto Checkout</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Compatible with all merchant catalogs (Amazon included)</div>
     </div>
   </div>
 
@@ -713,17 +713,15 @@ html, body { width:100%; height:100%; overflow:hidden; font-family:var(--font); 
 
   <!-- Left -->
   <div class="feat-left" style="padding-top:72px;">
-    <div class="feat-badge">05</div>
-    <h2 class="feat-title">Standardized<br>Technical Validation</h2>
-    <p class="feat-desc" style="margin-bottom:20px;">Each PPC integrates structured, reliable data. The system validates technical specs before displaying them — no missing data, no inconsistent prices, no incorrect stock.</p>
+    <div class="feat-badge">04</div>
+    <h2 class="feat-title">Standardized<br>Technical Specs</h2>
+    <p class="feat-desc" style="margin-bottom:20px;">The system standardizes technical specs and displays them. Each product has its own specs card that is shared across all sellers.</p>
 
-    <p style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:var(--blue); margin-bottom:12px;">Active Validations</p>
-    <div class="checklist">
-      <div class="check-item ok"><span class="check-icon">✅</span> High-resolution images verified</div>
-      <div class="check-item ok"><span class="check-icon">✅</span> Prices updated within the last 4 hours</div>
-      <div class="check-item ok"><span class="check-icon">✅</span> Stock confirmed with merchant</div>
-      <div class="check-item ok"><span class="check-icon">✅</span> Technical specifications complete</div>
-      <div class="check-item pending"><span class="check-icon">⏳</span> Product video (integration pending)</div>
+    <div class="feat-list">
+      <div class="feat-item"><div class="feat-item-dot"></div>One shared specs card per product, across all sellers</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Standardized attributes: storage, RAM, display, battery, etc.</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Consistent structure for new, refurbished &amp; used conditions</div>
+      <div class="feat-item"><div class="feat-item-dot"></div>Eliminates duplicate or conflicting product data</div>
     </div>
   </div>
 
