@@ -2,18 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iPhone 14 Pro Max - Comparador de Precios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0069f1">
+    <meta name="description" content="Compara precios y ofertas de smartphones con Kueski Pay.">
+    <title>Comparador de precios</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="product-details-styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <div class="app-container">
-        <!-- Barra de estado superior -->
+        <!-- Barra de estado -->
         <div class="status-bar">
             <span class="time">9:58</span>
-            <div class="status-icons">
+            <div class="status-icons" aria-hidden="true">
                 <span class="signal"><i class="fas fa-signal"></i></span>
                 <span class="wifi"><i class="fas fa-wifi"></i></span>
                 <span class="battery"><i class="fas fa-battery-three-quarters"></i></span>
@@ -21,238 +26,136 @@
         </div>
 
         <!-- Contenedor principal del producto -->
-        <div class="product-view">
-            <!-- Botones de navegación superior -->
+        <main class="product-view">
+            <!-- Navegación superior -->
             <div class="top-nav">
                 <div class="left-buttons">
-                    <button class="close-btn"><i class="fas fa-times"></i></button>
+                    <button type="button" class="close-btn" aria-label="Volver al buscador">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
                 </div>
                 <div class="right-buttons">
-                    <button class="share-btn"><i class="fas fa-share-alt"></i></button>
-                    <button class="wishlist-btn" onclick="addToWishlist()"><i class="far fa-heart"></i></button>
-                    <button class="price-alert-btn" onclick="setPriceAlert()"><i class="fas fa-bell"></i></button>
+                    <button type="button" class="share-btn" aria-label="Compartir producto">
+                        <i class="fas fa-share-alt" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="wishlist-btn" aria-label="Guardar en favoritos" aria-pressed="false">
+                        <i class="far fa-heart" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="price-alert-btn" aria-label="Crear alerta de precio" aria-pressed="false">
+                        <i class="far fa-bell" aria-hidden="true"></i>
+                    </button>
                 </div>
             </div>
 
             <!-- Carrusel de imágenes -->
             <div class="product-carousel">
                 <div class="product-image">
-                    <img src="images/iphone14.svg" alt="Apple iPhone 14 Azul" id="product-img">
+                    <img src="images/iphone14.svg" alt="Imagen del producto" id="product-img">
                 </div>
-                <div class="carousel-dots">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
+                <div class="carousel-dots" role="tablist" aria-label="Imágenes del producto"></div>
             </div>
 
             <!-- Información del producto -->
             <div class="product-info">
-                <div class="category">Smartphones</div>
-                <h1 class="product-title">Apple iPhone 14 Pro Max</h1>
+                <p class="category"></p>
+                <h1 class="product-title">Cargando producto…</h1>
                 <div class="rating">
-                    <span class="rating-source">De Amazon </span>
-                    <span class="rating-value">4,0</span>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <span class="reviews-count">(10)</span>
+                    <span class="rating-source">Calificación</span>
+                    <span class="rating-value">—</span>
+                    <div class="stars" aria-hidden="true"></div>
+                    <span class="reviews-count"></span>
                 </div>
 
-                <!-- Opciones de producto -->
-                <div class="product-options">
-                    <div class="option-row">
-                        <!-- Las opciones se cargarán dinámicamente desde product-loader.js -->
-                    </div>
-                </div>
+                <!-- Selectores (color, almacenamiento, condición) -->
+                <div class="product-options"></div>
 
                 <!-- Precio -->
                 <div class="price-container">
-                    <span class="price-label">desde</span>
-                    <span class="price-value">579,80 $</span>
+                    <span class="price-label">Desde</span>
+                    <span class="price-value">—</span>
                 </div>
 
-                <!-- Barra de navegación de pestañas -->
-                <div class="tab-navigation">
-                    <div class="tab active">
-                        <i class="fas fa-tag"></i>
+                <!-- Pestañas -->
+                <div class="tab-navigation" role="tablist" aria-label="Secciones del producto">
+                    <button type="button" class="tab active" role="tab" aria-selected="true" aria-controls="panel-offers">
+                        <i class="fas fa-tag" aria-hidden="true"></i>
                         <span>Ofertas</span>
-                    </div>
-                    <div class="tab">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Gráfico de precios</span>
-                    </div>
-                    <div class="tab">
-                        <i class="fas fa-info-circle"></i>
-                        <span>Información del producto</span>
-                    </div>
+                    </button>
+                    <button type="button" class="tab" role="tab" aria-selected="false" aria-controls="panel-chart">
+                        <i class="fas fa-chart-line" aria-hidden="true"></i>
+                        <span>Precios</span>
+                    </button>
+                    <button type="button" class="tab" role="tab" aria-selected="false" aria-controls="panel-details">
+                        <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        <span>Ficha técnica</span>
+                    </button>
                 </div>
             </div>
 
-            <!-- Sección de ofertas -->
-            <div class="offers-section">
+            <!-- Ofertas -->
+            <section class="offers-section" id="panel-offers" role="tabpanel">
                 <div class="offers-header">
-                    <h2>602 ofertas</h2>
+                    <h2>Ofertas</h2>
                     <a href="#" class="view-all">Ver todo</a>
                 </div>
-                <div class="offers-subtext">
-                    Más sobre estos resultados <i class="fas fa-info-circle"></i>
-                </div>
-                
-                <!-- Lista de ofertas -->
-                <div class="offers-list">
-                    <!-- Oferta 1 -->
-                    <div class="offer-card">
-                        <div class="offer-tag">Mejor precio con envío</div>
-                        <div class="offer-main">
-                            <div class="offer-price-info">
-                                <div class="offer-price">529,90 $</div>
-                                <div class="offer-tax">IVA incl.</div>
-                                <div class="offer-shipping">
-                                    <span class="shipping-icon"><i class="fas fa-sync-alt"></i></span>
-                                    <span class="shipping-icon"><i class="fas fa-truck"></i></span>
-                                    <span class="shipping-date">03.06. - 04.06.</span>
-                                </div>
-                                <div class="offer-shipping-cost">Envío gratuito</div>
-                            </div>
-                            <div class="offer-seller">
-                                <div class="seller-logo">eBay Marketplace</div>
-                                <button class="expand-btn"><i class="fas fa-chevron-down"></i></button>
-                            </div>
-                        </div>
-                        <div class="offer-action">
-                            <a href="#" class="view-offer-btn">Ver oferta <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 2 -->
-                    <div class="offer-card">
-                        <div class="offer-tag">Mejor precio con envío</div>
-                        <div class="offer-main">
-                            <div class="offer-price-info">
-                                <div class="offer-price">529,90 $</div>
-                                <div class="offer-tax">IVA incl.</div>
-                                <div class="offer-shipping">
-                                    <span class="shipping-icon"><i class="fas fa-sync-alt"></i></span>
-                                    <span class="shipping-icon"><i class="fas fa-truck"></i></span>
-                                    <span class="shipping-date">03.06. - 04.06.</span>
-                                </div>
-                                <div class="offer-shipping-cost">Envío gratuito</div>
-                            </div>
-                            <div class="offer-seller">
-                                <div class="seller-logo">eBay Marketplace</div>
-                                <button class="expand-btn"><i class="fas fa-chevron-down"></i></button>
-                            </div>
-                        </div>
-                        <div class="offer-action">
-                            <a href="#" class="view-offer-btn">Ver oferta <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 3 -->
-                    <div class="offer-card">
-                        <div class="offer-main">
-                            <div class="offer-price-info">
-                                <div class="offer-price">569,00 $</div>
-                                <div class="offer-tax">IVA incl.</div>
-                                <div class="offer-shipping">
-                                    <span class="shipping-icon"><i class="fas fa-sync-alt"></i></span>
-                                    <span class="shipping-icon"><i class="fas fa-truck"></i></span>
-                                    <span class="shipping-date">03.06. - 04.06.</span>
-                                </div>
-                                <div class="offer-shipping-cost">Envío gratuito</div>
-                            </div>
-                            <div class="offer-seller">
-                                <div class="seller-logo">
-                                    <img src="https://via.placeholder.com/80x30?text=AfB" alt="AfB">
-                                </div>
-                                <div class="seller-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                                <button class="expand-btn"><i class="fas fa-chevron-down"></i></button>
-                            </div>
-                        </div>
-                        <div class="offer-action">
-                            <a href="#" class="view-offer-btn">Ver oferta <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    
-                    <!-- Oferta 4 (Reacondicionado) -->
-                    <div class="offer-card refurbished">
-                        <div class="offer-main">
-                            <div class="offer-price-info">
-                                <div class="refurbished-label">Reacondicionado y usado</div>
-                                <div class="refurbished-price">
-                                    <span>desde</span> <span class="price-highlight">318,00 $</span>
-                                </div>
-                                <div class="refurbished-new-price">Novedad 529,90 $</div>
-                            </div>
-                            <div class="offer-seller">
-                                <button class="refurbished-btn"><i class="fas fa-check-circle"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Sección de gráfico de precios -->
-            <div class="price-chart-section" style="display: none;">
-                <div class="price-chart-header">
-                    <h2>Gráfico de precios</h2>
-                </div>
-                <canvas id="priceChartCanvas" height="260"></canvas>
-            </div>
-            
-            <!-- Sección de información del producto -->
-            <div class="product-details-section" style="display: none;">
-                <div class="product-details-header">
-                    <h2>Información del producto</h2>
-                </div>
-                <div class="product-details-content">
-                    <!-- El contenido se cargará dinámicamente desde product-details.js -->
-                </div>
-            </div>
-        </div>
+                <p class="offers-subtext">
+                    <i class="fas fa-info-circle" aria-hidden="true"></i>
+                    Ordenadas de menor a mayor precio
+                </p>
+                <div class="offers-list"></div>
+            </section>
 
-        <!-- Barra de navegación inferior -->
-        <div class="bottom-nav">
-            <div class="nav-item active">
-                <i class="fas fa-home"></i>
+            <!-- Gráfico de precios -->
+            <section class="price-chart-section" id="panel-chart" role="tabpanel" hidden>
+                <div class="price-chart-header">
+                    <h2>Historial de precios</h2>
+                    <p class="price-chart-subtext">Últimos 6 meses de la oferta seleccionada</p>
+                </div>
+                <div class="price-chart-card">
+                    <canvas id="priceChartCanvas" height="240" role="img"
+                            aria-label="Gráfico del historial de precios"></canvas>
+                </div>
+                <div class="price-chart-legend" id="price-chart-legend"></div>
+            </section>
+
+            <!-- Ficha técnica -->
+            <section class="product-details-section" id="panel-details" role="tabpanel" hidden>
+                <div class="product-details-header">
+                    <h2>Ficha técnica</h2>
+                </div>
+                <div class="product-details-content"></div>
+            </section>
+        </main>
+
+        <!-- Navegación inferior -->
+        <nav class="bottom-nav" aria-label="Navegación principal">
+            <button type="button" class="nav-item active">
+                <i class="fas fa-home" aria-hidden="true"></i>
                 <span>Inicio</span>
-            </div>
-            <div class="nav-item">
-                <i class="far fa-heart"></i>
+            </button>
+            <button type="button" class="nav-item">
+                <i class="far fa-heart" aria-hidden="true"></i>
                 <span>Favoritos</span>
-            </div>
-            <div class="nav-item">
-                <i class="fas fa-th-list"></i>
+            </button>
+            <button type="button" class="nav-item">
+                <i class="fas fa-th-list" aria-hidden="true"></i>
                 <span>Productos</span>
-            </div>
-            <div class="nav-item">
-                <i class="far fa-bell"></i>
-                <span>Alertas precio</span>
-            </div>
-            <div class="nav-item">
-                <i class="far fa-user"></i>
+            </button>
+            <button type="button" class="nav-item">
+                <i class="far fa-bell" aria-hidden="true"></i>
+                <span>Alertas</span>
+            </button>
+            <button type="button" class="nav-item">
+                <i class="far fa-user" aria-hidden="true"></i>
                 <span>KueskiPay</span>
-            </div>
-        </div>
+            </button>
+        </nav>
+
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
     </div>
 
     <!-- Scripts -->
+    <script src="utils.js"></script>
     <script src="product-loader.js"></script>
     <script src="offers-loader.js"></script>
     <script src="product-details.js"></script>
