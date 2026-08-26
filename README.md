@@ -1,96 +1,71 @@
-# iPhone 14 Shopping Mock
+# Comparador de precios — demo
 
-Este proyecto es un mock de una página de comparación de precios para el iPhone 14, creado con HTML, CSS y JavaScript.
+Demo en HTML, CSS y JavaScript sin build ni frameworks, que simula la experiencia
+móvil de un comparador de precios integrado con Kueski Pay.
 
-## Características
+## Pantallas
 
-- Interfaz de usuario que simula una aplicación móvil de comparación de precios
-- Visualización de producto con imagen, precio y especificaciones
-- Opciones interactivas para seleccionar color, almacenamiento y variante
-- Navegación por pestañas para ver ofertas, gráficos de precios e información del producto
-- Barra de navegación inferior para acceder a diferentes secciones de la aplicación
+| Archivo | Descripción |
+|---|---|
+| `search.html` | Buscador del catálogo con filtros por texto y generación |
+| `index.html` | Ficha de producto: selectores, ofertas, historial de precios y ficha técnica |
+| `all-offers.html` | Listado completo de ofertas de un producto |
 
-## Cómo ejecutar localmente
+La navegación arranca en `search.html`; cada producto abre `index.html?product=<id>`.
 
-Para ver este mock, simplemente abre el archivo `index.html` en tu navegador web o utiliza un servidor local.
+## Estructura
+
+```
+utils.js                  Formato MXN, escape de HTML, tarjeta de oferta, toasts y skeletons
+styles.css                Tokens del Kueski Design System (KDS light) + componentes compartidos
+search.js / search-styles.css
+product-loader.js         Ficha del producto, selectores e imágenes
+offers-loader.js          Carga, filtrado y orden de ofertas
+product-details.js        Pestañas, ficha técnica y gráfico de precios (canvas)
+all-offers-loader.js      Página de todas las ofertas
+server.js                 Servidor Express para desarrollo y despliegue
+api/                      Datos estáticos: catálogo, productos y ofertas
+```
+
+Los precios se muestran siempre con `Intl.NumberFormat('es-MX')` en pesos mexicanos.
+
+## Ejecutar localmente
 
 ```bash
-# Instalar dependencias
 npm install
-
-# Ejecutar el servidor local
-npm start
-
-# O alternativamente:
-# Ejemplo con Python (desde la carpeta del proyecto)
-python -m http.server
-
-# Ejemplo con Node.js (requiere http-server)
-npx http-server
+npm start          # http://localhost:3000
 ```
+
+También sirve cualquier servidor estático (`python -m http.server`, `npx http-server`),
+porque la API son archivos JSON dentro de `api/`.
+
+## API local
+
+| Ruta | Devuelve |
+|---|---|
+| `GET /api/product-catalog.json` | Catálogo de productos |
+| `GET /api/products/:id` | Ficha, selectores e imágenes |
+| `GET /api/offers/:id` | Ofertas con historial de precios |
+
+Las rutas responden `404` en JSON si el recurso no existe.
+
+## Regenerar el catálogo
+
+```bash
+python generate-catalog.py
+```
+
+Recorre `api/products/` y `api/offers/` y reconstruye `api/product-catalog.json`
+con el precio mínimo y la cantidad de ofertas de cada producto.
 
 ## Desplegar en Heroku
 
-### Prerrequisitos
-- Tener una cuenta en [Heroku](https://heroku.com)
-- Tener instalado [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-- Tener Git configurado
-
-### Pasos para desplegar
-
-1. **Iniciar sesión en Heroku CLI:**
 ```bash
 heroku login
-```
-
-2. **Crear una nueva aplicación en Heroku:**
-```bash
-heroku create tu-nombre-app
-```
-
-3. **Agregar el repositorio remoto de Heroku:**
-```bash
-heroku git:remote -a tu-nombre-app
-```
-
-4. **Hacer commit de los cambios:**
-```bash
-git add .
-git commit -m "Preparar para despliegue en Heroku"
-```
-
-5. **Desplegar la aplicación:**
-```bash
+heroku create <nombre-app>
+heroku git:remote -a <nombre-app>
 git push heroku main
-```
-
-6. **Abrir la aplicación:**
-```bash
 heroku open
 ```
 
-### Comandos útiles de Heroku
-
-```bash
-# Ver logs de la aplicación
-heroku logs --tail
-
-# Abrir la aplicación en el navegador
-heroku open
-
-# Ver información de la aplicación
-heroku info
-
-# Escalar la aplicación (si es necesario)
-heroku ps:scale web=1
-```
-
-## Estructura del proyecto
-
-- `index.html`: Estructura HTML del mock
-- `styles.css`: Estilos CSS para la interfaz de usuario
-- `script.js`: Funcionalidad interactiva con JavaScript
-- `images/`: Carpeta que contiene las imágenes del producto
-- `server.js`: Servidor Express para producción
-- `package.json`: Configuración de dependencias y scripts
-- `Procfile`: Configuración para Heroku
+`Procfile` y el script `start` de `package.json` ya están configurados.
