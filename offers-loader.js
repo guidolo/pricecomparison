@@ -5,6 +5,9 @@
 /** Ofertas de la última carga, ya filtradas y ordenadas. */
 let visibleOffers = [];
 
+/** Todas las ofertas del producto, sin filtrar. */
+let allOffers = [];
+
 /**
  * Aplica los filtros activos a un listado de ofertas.
  * @param {Array} offers
@@ -44,12 +47,14 @@ async function fetchOffers(productIdParam, color, storage, condition) {
 
     try {
         const data = await fetchJson(`api/offers/${productId}.json`);
+        allOffers = data.offers || [];
 
-        const filtered = filterOffers(data.offers, { color, storage, condition })
+        const filtered = filterOffers(allOffers, { color, storage, condition })
             .sort((a, b) => a.price - b.price);
         visibleOffers = filtered;
 
         updateOffersCount(filtered.length);
+        updateOptionAvailability({ color, storage, condition });
         setupViewAllLink(productId);
 
         if (filtered.length === 0) {
@@ -75,6 +80,43 @@ async function fetchOffers(productIdParam, color, storage, condition) {
             tone: 'error'
         });
     }
+}
+
+/**
+ * Atenúa las opciones que no tienen ninguna oferta con los filtros activos.
+ * La disponibilidad de cada dimensión se calcula ignorando su propio filtro,
+ * para que el usuario siempre pueda cambiar de opción dentro de la misma fila.
+ * @param {{color: string|null, storage: string|null, condition: string|null}} filters
+ */
+function updateOptionAvailability(filters) {
+    const DIMENSIONS = [
+        { type: 'color', key: 'color', idOf: offer => (offer.variant_attributes || {}).color },
+        { type: 'storage', key: 'storage', idOf: offer => (offer.variant_attributes || {}).storage },
+        { type: 'condition', key: 'condition', idOf: offer => offer.condition }
+    ];
+
+    DIMENSIONS.forEach(({ type, key, idOf }) => {
+        const options = document.querySelectorAll(`.option[data-type="${type}"]`);
+        if (options.length === 0) return;
+
+        // Ofertas que cumplen los filtros de las otras dimensiones.
+        const others = { ...filters, [key]: null };
+        const candidates = filterOffers(allOffers, others);
+        const availableIds = new Set(
+            candidates.map(offer => (idOf(offer) || {}).id).filter(Boolean)
+        );
+
+        options.forEach(option => {
+            const isActive = option.classList.contains('active');
+            const isAvailable = availableIds.has(option.dataset.id);
+
+            option.classList.toggle('is-unavailable', !isAvailable && !isActive);
+            option.disabled = !isAvailable && !isActive;
+            option.title = !isAvailable && !isActive
+                ? `${option.dataset.value} — sin ofertas con esta combinación`
+                : option.dataset.value;
+        });
+    });
 }
 
 /**

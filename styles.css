@@ -432,6 +432,20 @@ a {
     box-shadow: 0 0 0 1px var(--brand);
 }
 
+.option.is-unavailable {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background-color: var(--bg-2);
+}
+
+.option.is-unavailable:hover {
+    border-color: var(--neutral-border);
+}
+
+.option.is-unavailable .color-thumbnail {
+    filter: grayscale(1);
+}
+
 .option-value {
     font-weight: 600;
     font-size: 13px;
