@@ -1,106 +1,126 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Actualizar la hora en la barra de estado
-    updateTime();
-    setInterval(updateTime, 60000);
-    
-    // Inicializar el cargador de productos con el producto de la URL
+/**
+ * Interacciones de la ficha de producto: reloj, carrusel, acciones y navegación.
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+    startStatusBarClock();
     initProductLoader();
-    
-    // Manejar clics en las pestañas
-    const tabs = document.querySelectorAll('.tab');
-    tabs.forEach(tab => {
-        tab.addEventListener('click', function() {
-            // Desactivar todas las pestañas
-            tabs.forEach(t => t.classList.remove('active'));
-            
-            // Activar la pestaña seleccionada
-            this.classList.add('active');
-        });
-    });
-    
-    // Manejar clics en los elementos de navegación inferior
-    const navItems = document.querySelectorAll('.nav-item');
-    navItems.forEach(item => {
-        item.addEventListener('click', function() {
-            // Desactivar todos los elementos de navegación
-            navItems.forEach(i => i.classList.remove('active'));
-            
-            // Activar el elemento seleccionado
-            this.classList.add('active');
-        });
-    });
-    
-    // Manejar clics en los puntos del carrusel
-    document.querySelector('.carousel-dots').addEventListener('click', function(event) {
-        if (event.target.classList.contains('dot')) {
-            // Desactivar todos los puntos
-            document.querySelectorAll('.dot').forEach(d => d.classList.remove('active'));
-            
-            // Activar el punto seleccionado
-            event.target.classList.add('active');
-            
-            // Cambiar la imagen si hay una URL en el punto
-            const imageUrl = event.target.getAttribute('data-image-url');
-            if (imageUrl) {
-                const productImg = document.getElementById('product-img');
-                productImg.style.opacity = '0.8';
-                productImg.src = imageUrl;
-                setTimeout(() => {
-                    productImg.style.opacity = '1';
-                }, 300);
-            }
-        }
-    });
-    
-    // Manejar clic en el botón de cerrar
-    const closeBtn = document.querySelector('.close-btn');
-    closeBtn.addEventListener('click', function() {
-        window.location.href = 'search.html';
-    });
-    
-    // Manejar clic en el botón de compartir
-    const shareBtn = document.querySelector('.share-btn');
-    shareBtn.addEventListener('click', function() {
-        alert('Compartiendo producto: Apple iPhone 14');
-    });
+    setupCarousel();
+    setupTopActions();
+    setupBottomNav();
 });
 
 /**
- * Actualiza la hora en la barra de estado
+ * Cambia la imagen principal al tocar los puntos del carrusel.
  */
-function updateTime() {
-    const now = new Date();
-    const hours = now.getHours().toString().padStart(2, '0');
-    const minutes = now.getMinutes().toString().padStart(2, '0');
-    document.querySelector('.time').textContent = `${hours}:${minutes}`;
+function setupCarousel() {
+    const dotsContainer = document.querySelector('.carousel-dots');
+    const productImg = document.getElementById('product-img');
+    if (!dotsContainer || !productImg) return;
+
+    dotsContainer.addEventListener('click', event => {
+        const dot = event.target.closest('.dot');
+        if (!dot) return;
+
+        dotsContainer.querySelectorAll('.dot').forEach(item => item.classList.remove('active'));
+        dot.classList.add('active');
+
+        const imageUrl = dot.dataset.imageUrl;
+        if (!imageUrl) return;
+
+        productImg.style.opacity = '0';
+        const swap = () => {
+            productImg.removeEventListener('load', swap);
+            productImg.style.opacity = '1';
+        };
+        productImg.addEventListener('load', swap);
+        productImg.src = imageUrl;
+        // Fallback por si la imagen ya estaba en caché y no dispara load.
+        setTimeout(() => { productImg.style.opacity = '1'; }, 400);
+    });
 }
 
 /**
- * Agrega el producto a la wishlist
+ * Acciones de la barra superior: cerrar, compartir, favoritos y alertas.
  */
-function addToWishlist() {
+function setupTopActions() {
+    const closeBtn = document.querySelector('.close-btn');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+            window.location.href = 'search.html';
+        });
+    }
+
+    const shareBtn = document.querySelector('.share-btn');
+    if (shareBtn) {
+        shareBtn.addEventListener('click', async () => {
+            const title = document.querySelector('.product-title').textContent;
+            const shareData = { title, text: `Mira las ofertas de ${title}`, url: window.location.href };
+
+            if (navigator.share) {
+                try {
+                    await navigator.share(shareData);
+                    return;
+                } catch (error) {
+                    if (error.name === 'AbortError') return;
+                }
+            }
+
+            if (navigator.clipboard) {
+                try {
+                    await navigator.clipboard.writeText(window.location.href);
+                    showToast('Enlace copiado al portapapeles');
+                    return;
+                } catch (error) {
+                    /* Continúa al mensaje genérico. */
+                }
+            }
+
+            showToast(`Comparte ${title} con este enlace`);
+        });
+    }
+
     const wishlistBtn = document.querySelector('.wishlist-btn');
-    const heartIcon = wishlistBtn.querySelector('i');
-    
-    // Cambiar el ícono de corazón vacío a lleno
-    heartIcon.classList.remove('far');
-    heartIcon.classList.add('fas');
-    
-    // Mostrar mensaje de confirmación
-    alert('Producto agregado a tu wishlist');
+    if (wishlistBtn) {
+        wishlistBtn.addEventListener('click', () => {
+            const isActive = wishlistBtn.classList.toggle('is-active');
+            wishlistBtn.setAttribute('aria-pressed', String(isActive));
+
+            const icon = wishlistBtn.querySelector('i');
+            icon.classList.toggle('fas', isActive);
+            icon.classList.toggle('far', !isActive);
+
+            showToast(isActive ? 'Guardado en favoritos' : 'Quitado de favoritos');
+        });
+    }
+
+    const priceAlertBtn = document.querySelector('.price-alert-btn');
+    if (priceAlertBtn) {
+        priceAlertBtn.addEventListener('click', () => {
+            const isActive = priceAlertBtn.classList.toggle('is-active');
+            priceAlertBtn.setAttribute('aria-pressed', String(isActive));
+
+            const icon = priceAlertBtn.querySelector('i');
+            icon.classList.toggle('fas', isActive);
+            icon.classList.toggle('far', !isActive);
+
+            showToast(isActive
+                ? 'Te avisaremos si baja de precio'
+                : 'Alerta de precio desactivada');
+        });
+    }
 }
 
 /**
- * Configura una alerta de precio para el producto
+ * Marca la sección activa de la barra inferior.
  */
-function setPriceAlert() {
-    const priceAlertBtn = document.querySelector('.price-alert-btn');
-    const bellIcon = priceAlertBtn.querySelector('i');
-    
-    // Cambiar el ícono de campana vacía a llena
-    bellIcon.classList.remove('far');
-    bellIcon.classList.add('fas');
-    
-    // Mostrar mensaje de confirmación
-    alert('Te avisaremos si el producto baja de precio');
+function setupBottomNav() {
+    const navItems = document.querySelectorAll('.bottom-nav .nav-item');
+    navItems.forEach(item => {
+        item.addEventListener('click', () => {
+            navItems.forEach(other => other.classList.remove('active'));
+            item.classList.add('active');
+        });
+    });
 }
+

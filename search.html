@@ -2,49 +2,56 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Productos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0069f1">
+    <meta name="description" content="Busca un modelo y compara todas sus ofertas disponibles.">
+    <title>Buscador de productos</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="search-styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <div class="app-container">
-        <!-- Barra de estado superior -->
+        <!-- Barra de estado -->
         <div class="status-bar">
             <span class="time">9:58</span>
-            <div class="status-icons">
+            <div class="status-icons" aria-hidden="true">
                 <span class="signal"><i class="fas fa-signal"></i></span>
                 <span class="wifi"><i class="fas fa-wifi"></i></span>
                 <span class="battery"><i class="fas fa-battery-three-quarters"></i></span>
             </div>
         </div>
 
-        <!-- Contenedor principal de búsqueda -->
-        <div class="search-container">
-            <h1 class="search-title">Buscador de Productos</h1>
-            
-            <!-- Barra de búsqueda -->
-            <div class="search-bar">
-                <i class="fas fa-search search-icon"></i>
-                <input type="text" id="search-input" placeholder="Buscar productos...">
-            </div>
-            
-            <!-- Filtros de categoría -->
-            <div class="category-filters">
-                <button class="category-btn active" data-category="all">Todos</button>
-                <button class="category-btn" data-category="smartphones">Smartphones</button>
-                <button class="category-btn" data-category="tablets">Tablets</button>
-                <button class="category-btn" data-category="laptops">Laptops</button>
-            </div>
-            
-            <!-- Resultados de búsqueda -->
-            <div class="search-results">
-                <!-- Los productos se cargarán dinámicamente aquí -->
-            </div>
-        </div>
+        <main class="search-container">
+            <header class="search-header">
+                <p class="search-eyebrow"><i class="fas fa-bolt" aria-hidden="true"></i> Kueski Pay</p>
+                <h1 class="search-title">Compara antes de comprar</h1>
+
+                <div class="search-bar">
+                    <i class="fas fa-search search-icon" aria-hidden="true"></i>
+                    <label for="search-input" class="visually-hidden">Buscar productos</label>
+                    <input type="search" id="search-input" placeholder="Buscar por modelo…"
+                           autocomplete="off" enterkeyhint="search">
+                    <button type="button" class="search-clear" id="search-clear" aria-label="Limpiar búsqueda">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <div class="category-filters" id="category-filters" role="group" aria-label="Filtrar por generación"></div>
+            </header>
+
+            <p class="search-meta" id="search-meta"></p>
+
+            <div class="search-results" aria-live="polite"></div>
+        </main>
+
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
     </div>
 
+    <script src="utils.js"></script>
     <script src="search.js"></script>
 </body>
 </html>
