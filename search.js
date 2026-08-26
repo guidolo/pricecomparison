@@ -1,232 +1,232 @@
 /**
- * Módulo para la búsqueda de productos
+ * Buscador de productos.
+ * Carga el catálogo, filtra por texto y por generación, y navega al detalle.
  */
 
-// Variables globales
-let allProducts = [];
-let filteredProducts = [];
+const state = {
+    products: [],
+    query: '',
+    generation: 'all'
+};
 
-/**
- * Inicializa la página de búsqueda
- */
+const DOM = {};
+
 document.addEventListener('DOMContentLoaded', () => {
-    // Cargar el catálogo de productos
-    fetchProductCatalog();
-    
-    // Configurar eventos de búsqueda
+    DOM.input = document.getElementById('search-input');
+    DOM.clear = document.getElementById('search-clear');
+    DOM.filters = document.getElementById('category-filters');
+    DOM.results = document.querySelector('.search-results');
+    DOM.meta = document.getElementById('search-meta');
+
+    startStatusBarClock();
     setupSearchEvents();
-    
-    // Configurar eventos de filtro por categoría
-    setupCategoryFilterEvents();
+    fetchProductCatalog();
 });
 
-/**
- * Configura los eventos de búsqueda
- */
+/* ------------------------------------------------------------------ *
+ * Eventos
+ * ------------------------------------------------------------------ */
+
 function setupSearchEvents() {
-    const searchInput = document.getElementById('search-input');
-    
-    // Evento de búsqueda al escribir
-    searchInput.addEventListener('input', () => {
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        filterProducts(searchTerm);
+    DOM.input.addEventListener('input', () => {
+        state.query = DOM.input.value.toLowerCase().trim();
+        DOM.clear.classList.toggle('is-visible', state.query.length > 0);
+        applyFilters();
     });
-}
 
-/**
- * Configura los eventos de filtro por categoría
- */
-function setupCategoryFilterEvents() {
-    const categoryButtons = document.querySelectorAll('.category-btn');
-    
-    categoryButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            // Desactivar todos los botones
-            categoryButtons.forEach(btn => btn.classList.remove('active'));
-            
-            // Activar el botón seleccionado
-            button.classList.add('active');
-            
-            // Filtrar productos por categoría
-            const category = button.getAttribute('data-category');
-            filterProductsByCategory(category);
+    DOM.clear.addEventListener('click', () => {
+        DOM.input.value = '';
+        state.query = '';
+        DOM.clear.classList.remove('is-visible');
+        DOM.input.focus();
+        applyFilters();
+    });
+
+    DOM.filters.addEventListener('click', event => {
+        const button = event.target.closest('.category-btn');
+        if (!button) return;
+
+        DOM.filters.querySelectorAll('.category-btn').forEach(btn => {
+            btn.classList.remove('active');
+            btn.setAttribute('aria-pressed', 'false');
         });
+        button.classList.add('active');
+        button.setAttribute('aria-pressed', 'true');
+
+        state.generation = button.dataset.generation;
+        applyFilters();
     });
 }
 
-/**
- * Obtiene el catálogo de productos desde la API
- */
+/* ------------------------------------------------------------------ *
+ * Catálogo
+ * ------------------------------------------------------------------ */
+
 async function fetchProductCatalog() {
+    renderResultsSkeleton();
+
     try {
-        // URL de la API de catálogo de productos
-        const apiUrl = 'api/product-catalog.json';
-        
-        // Hacer la petición a la API
-        const response = await fetch(apiUrl);
-        
-        if (!response.ok) {
-            throw new Error(`Error HTTP: ${response.status}`);
-        }
-        
-        const data = await response.json();
-        
-        // Guardar los productos
-        allProducts = data.products;
-        filteredProducts = [...allProducts];
-        
-        // Mostrar todos los productos inicialmente
-        displayProducts(filteredProducts);
-        
+        const data = await fetchJson('api/product-catalog.json');
+        state.products = (data.products || []).map(product => ({
+            ...product,
+            generation: detectGeneration(product.name)
+        }));
+
+        renderGenerationFilters();
+        applyFilters();
     } catch (error) {
         console.error('Error al obtener el catálogo de productos:', error);
-        displayError('No se pudo cargar el catálogo de productos. Por favor, intenta de nuevo más tarde.');
+        DOM.meta.textContent = '';
+        renderStateMessage(DOM.results, {
+            icon: 'fa-triangle-exclamation',
+            title: 'No pudimos cargar el catálogo',
+            message: 'Revisa tu conexión e intenta de nuevo.',
+            tone: 'error'
+        });
     }
 }
 
 /**
- * Filtra los productos por término de búsqueda
- * @param {string} searchTerm - Término de búsqueda
+ * Deduce la generación a partir del nombre ("iPhone 14 Pro" -> "14").
+ * El catálogo no trae categoría, así que la derivamos del modelo.
+ * @param {string} name
+ * @returns {string}
  */
-function filterProducts(searchTerm) {
-    if (!searchTerm) {
-        // Si no hay término de búsqueda, mostrar todos los productos (respetando el filtro de categoría)
-        const activeCategory = document.querySelector('.category-btn.active').getAttribute('data-category');
-        filterProductsByCategory(activeCategory);
+function detectGeneration(name) {
+    const match = /(\d{1,2})/.exec(name || '');
+    return match ? match[1] : 'otros';
+}
+
+/**
+ * Construye los chips de filtro con las generaciones presentes en el catálogo.
+ */
+function renderGenerationFilters() {
+    const generations = [...new Set(state.products.map(p => p.generation))]
+        .filter(gen => gen !== 'otros')
+        .sort((a, b) => Number(b) - Number(a));
+
+    if (generations.length < 2) {
+        DOM.filters.innerHTML = '';
         return;
     }
-    
-    // Filtrar productos por término de búsqueda
-    const activeCategory = document.querySelector('.category-btn.active').getAttribute('data-category');
-    
-    if (activeCategory === 'all') {
-        // Filtrar en todos los productos
-        filteredProducts = allProducts.filter(product => 
-            product.name.toLowerCase().includes(searchTerm) || 
-            product.description.toLowerCase().includes(searchTerm)
-        );
-    } else {
-        // Filtrar en la categoría seleccionada
-        filteredProducts = allProducts.filter(product => 
-            product.category.toLowerCase() === activeCategory &&
-            (product.name.toLowerCase().includes(searchTerm) || 
-             product.description.toLowerCase().includes(searchTerm))
-        );
-    }
-    
-    // Mostrar los productos filtrados
-    displayProducts(filteredProducts);
+
+    const chips = [{ id: 'all', label: 'Todos' }]
+        .concat(generations.map(gen => ({ id: gen, label: `iPhone ${gen}` })));
+
+    DOM.filters.innerHTML = chips.map((chip, index) => `
+        <button type="button" class="category-btn${index === 0 ? ' active' : ''}"
+                data-generation="${escapeHtml(chip.id)}"
+                aria-pressed="${index === 0 ? 'true' : 'false'}">${escapeHtml(chip.label)}</button>
+    `).join('');
 }
 
-/**
- * Filtra los productos por categoría
- * @param {string} category - Categoría seleccionada
- */
-function filterProductsByCategory(category) {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
-    
-    if (category === 'all') {
-        // Mostrar todos los productos (respetando el término de búsqueda)
-        if (searchTerm) {
-            filteredProducts = allProducts.filter(product => 
-                product.name.toLowerCase().includes(searchTerm) || 
-                product.description.toLowerCase().includes(searchTerm)
-            );
-        } else {
-            filteredProducts = [...allProducts];
-        }
-    } else {
-        // Filtrar por categoría (respetando el término de búsqueda)
-        if (searchTerm) {
-            filteredProducts = allProducts.filter(product => 
-                product.category.toLowerCase() === category &&
-                (product.name.toLowerCase().includes(searchTerm) || 
-                 product.description.toLowerCase().includes(searchTerm))
-            );
-        } else {
-            filteredProducts = allProducts.filter(product => 
-                product.category.toLowerCase() === category
-            );
-        }
-    }
-    
-    // Mostrar los productos filtrados
-    displayProducts(filteredProducts);
-}
+/* ------------------------------------------------------------------ *
+ * Filtrado y render
+ * ------------------------------------------------------------------ */
 
-/**
- * Muestra los productos en la interfaz
- * @param {Array} products - Array de productos a mostrar
- */
-function displayProducts(products) {
-    const resultsContainer = document.querySelector('.search-results');
-    
-    // Limpiar resultados anteriores
-    resultsContainer.innerHTML = '';
-    
-    if (products.length === 0) {
-        // Mostrar mensaje si no hay resultados
-        resultsContainer.innerHTML = '<div class="no-results">No se encontraron productos</div>';
-        return;
-    }
-    
-    // Crear tarjetas de producto
-    products.forEach(product => {
-        const productCard = document.createElement('div');
-        productCard.className = 'product-card';
-        productCard.setAttribute('data-product-id', product.id);
-        
-        // Verificar si el producto tiene ofertas disponibles
-        const hasOffers = product.offer_count > 0;
-        
-        productCard.innerHTML = `
-            <div class="product-image">
-                <img src="${product.image}" alt="${product.name}">
-            </div>
-            <div class="product-info">
-                <div class="product-details">
-                    <h3 class="product-name">${product.name}</h3>
-                    <p class="product-category">${product.category}</p>
-                    <p class="product-price">Desde ${product.price_from.toFixed(2).replace('.', ',')} $</p>
-                    <p class="product-offers">${product.offer_count} oferta${product.offer_count !== 1 ? 's' : ''} disponible${product.offer_count !== 1 ? 's' : ''}</p>
-                </div>
-                <div class="product-action">
-                    <button class="view-product-btn" ${!hasOffers ? 'disabled' : ''}>
-                        ${hasOffers ? 'Ver detalles' : 'Sin ofertas'}
-                    </button>
-                </div>
-            </div>
-        `;
-        
-        // Agregar evento para ver detalles del producto solo si tiene ofertas
-        if (hasOffers) {
-            productCard.querySelector('.view-product-btn').addEventListener('click', () => {
-                viewProductDetails(product.id);
-            });
-        }
-        
-        resultsContainer.appendChild(productCard);
+function applyFilters() {
+    const { query, generation } = state;
+
+    const filtered = state.products.filter(product => {
+        const matchesGeneration = generation === 'all' || product.generation === generation;
+        if (!matchesGeneration) return false;
+        if (!query) return true;
+
+        const haystack = `${product.name || ''} ${product.description || ''}`.toLowerCase();
+        return haystack.includes(query);
     });
+
+    // Los productos con ofertas primero, luego por precio ascendente.
+    filtered.sort((a, b) => {
+        const aHas = (a.offer_count || 0) > 0;
+        const bHas = (b.offer_count || 0) > 0;
+        if (aHas !== bHas) return aHas ? -1 : 1;
+        return (a.price_from || 0) - (b.price_from || 0);
+    });
+
+    displayProducts(filtered);
+}
+
+function displayProducts(products) {
+    DOM.results.innerHTML = '';
+
+    if (products.length === 0) {
+        DOM.meta.textContent = '';
+        renderStateMessage(DOM.results, {
+            icon: 'fa-magnifying-glass',
+            title: 'Sin resultados',
+            message: 'Prueba con otro modelo o quita los filtros.'
+        });
+        return;
+    }
+
+    DOM.meta.textContent = `${products.length} ${products.length === 1 ? 'producto' : 'productos'}`;
+
+    const fragment = document.createDocumentFragment();
+    products.forEach(product => fragment.appendChild(createProductCard(product)));
+    DOM.results.appendChild(fragment);
 }
 
 /**
- * Muestra un mensaje de error en la interfaz
- * @param {string} message - Mensaje de error
+ * Crea la tarjeta de un producto del catálogo.
+ * @param {Object} product
+ * @returns {HTMLElement}
  */
-function displayError(message) {
-    const resultsContainer = document.querySelector('.search-results');
-    resultsContainer.innerHTML = `<div class="error-message">${message}</div>`;
+function createProductCard(product) {
+    const offerCount = product.offer_count || 0;
+    const hasOffers = offerCount > 0;
+
+    const card = document.createElement(hasOffers ? 'button' : 'div');
+    card.className = `product-card${hasOffers ? '' : ' product-card--disabled'}`;
+    card.dataset.productId = product.id;
+    if (hasOffers) {
+        card.type = 'button';
+        card.setAttribute('aria-label', `Ver ofertas de ${product.name}`);
+    }
+
+    const priceHtml = hasOffers && product.price_from
+        ? `<p class="product-price"><span>Desde</span> ${escapeHtml(formatPrice(product.price_from))}</p>`
+        : '';
+
+    const offersHtml = hasOffers
+        ? `<p class="product-offers"><strong>${offerCount}</strong> ${offerCount === 1 ? 'oferta disponible' : 'ofertas disponibles'}</p>`
+        : '<p class="product-offers">Sin ofertas por ahora</p>';
+
+    card.innerHTML = `
+        <div class="product-image">
+            <img src="${escapeHtml(product.image || 'images/iphone14.svg')}" alt="${escapeHtml(product.name)}" loading="lazy">
+        </div>
+        <div class="product-info">
+            <h3 class="product-name">${escapeHtml(product.name)}</h3>
+            ${priceHtml}
+            ${offersHtml}
+        </div>
+        ${hasOffers ? '<div class="product-action"><i class="fas fa-chevron-right" aria-hidden="true"></i></div>' : ''}
+    `;
+
+    if (hasOffers) {
+        card.addEventListener('click', () => viewProductDetails(product.id));
+    }
+
+    return card;
+}
+
+function renderResultsSkeleton(count = 5) {
+    DOM.results.innerHTML = Array.from({ length: count }, () => `
+        <div class="product-card product-card--skeleton" aria-hidden="true">
+            <div class="skeleton skeleton--thumb"></div>
+            <div class="skeleton-lines">
+                <div class="skeleton skeleton--line"></div>
+                <div class="skeleton skeleton--line skeleton--short"></div>
+            </div>
+        </div>
+    `).join('');
 }
 
 /**
- * Redirige a la página de detalles del producto
- * @param {string} productId - ID del producto
+ * Navega a la ficha del producto.
+ * @param {string} productId
  */
 function viewProductDetails(productId) {
-    // Eliminar la extensión .json si viene por error
-    if (productId.endsWith('.json')) {
-        productId = productId.slice(0, -5);
-    }
-    // Redirigir a la página de detalles con el ID del producto
-    window.location.href = `index.html?product=${productId}`;
+    window.location.href = `index.html?product=${encodeURIComponent(normalizeProductId(productId))}`;
 }

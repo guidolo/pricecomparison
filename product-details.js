@@ -1,463 +1,433 @@
-// Función para cargar los detalles del producto
+/**
+ * Ficha técnica del producto, navegación por pestañas y gráfico de precios.
+ */
+
+document.addEventListener('DOMContentLoaded', () => {
+    loadProductDetails();
+    setupTabNavigation();
+    setupSpecsAccordion();
+    setupChartResizeHandling();
+});
+
+/* ------------------------------------------------------------------ *
+ * Ficha técnica
+ * ------------------------------------------------------------------ */
+
 async function loadProductDetails() {
+    const container = document.querySelector('.product-details-content');
+    if (!container) return;
+
     try {
-        // Obtener el ID del producto de la URL
         const urlParams = new URLSearchParams(window.location.search);
-        let productId = urlParams.get('product') || 'iphone_14_pro_max';
-        
-        // Limpiar la extensión .json si viene por error
-        if (productId.endsWith('.json')) {
-            productId = productId.slice(0, -5);
+        const productId = normalizeProductId(urlParams.get('product')) || 'iphone_14_pro_max';
+        const data = await fetchJson(`api/products/${productId}.json`);
+        const product = data && data.product;
+
+        if (!product) throw new Error('Producto sin datos');
+
+        container.innerHTML = '';
+        if (product.product_summary) renderProductSummary(product.product_summary, container);
+        if (Array.isArray(product.product_details) && product.product_details.length > 0) {
+            renderProductSpecs(product.product_details, container);
         }
-        
-        // Construir el path del archivo JSON según el producto
-        const apiUrl = `api/products/${productId}.json`;
-        // Cargar el archivo JSON con los detalles del producto
-        const response = await fetch(apiUrl);
-        const data = await response.json();
-        
-        // Verificar si tenemos datos de detalles del producto
-        if (data && data.product) {
-            // Mostrar el resumen del producto si existe
-            if (data.product.product_summary) {
-                displayProductSummary(data.product.product_summary);
-            }
-            
-            // Mostrar los detalles completos del producto si existen
-            if (data.product.product_details) {
-                displayProductDetails(data.product.product_details);
-            } else {
-                console.error('No se encontraron detalles del producto en el JSON');
-            }
+
+        if (!container.children.length) {
+            renderStateMessage(container, {
+                icon: 'fa-circle-info',
+                title: 'Sin ficha técnica',
+                message: 'Este producto todavía no tiene especificaciones cargadas.'
+            });
         }
     } catch (error) {
         console.error('Error al cargar los detalles del producto:', error);
+        renderStateMessage(container, {
+            icon: 'fa-triangle-exclamation',
+            title: 'No pudimos cargar la ficha técnica',
+            message: error.message,
+            tone: 'error'
+        });
     }
 }
 
-// Función para mostrar el resumen del producto
-function displayProductSummary(productSummary) {
-    const productDetailsContent = document.querySelector('.product-details-content');
-    
-    // Crear el contenedor del resumen
-    const summaryElement = document.createElement('div');
-    summaryElement.className = 'product-summary-section';
-    
-    // Crear el título del resumen
-    const summaryTitle = document.createElement('h3');
-    summaryTitle.className = 'product-summary-title';
-    summaryTitle.textContent = 'Resumen del Producto';
-    summaryElement.appendChild(summaryTitle);
-    
-    // Crear la grilla de especificaciones del resumen
-    const summaryGrid = document.createElement('div');
-    summaryGrid.className = 'product-summary-grid';
-    
-    // Mapear las claves del resumen a nombres más legibles
-    const summaryLabels = {
-        'screen_size': 'Tamaño de Pantalla',
-        'front_camera_mp': 'Cámara Frontal',
-        'ram_gb': 'Memoria RAM',
-        'battery': 'Batería',
-        'operating_system': 'Sistema Operativo'
+/**
+ * Pinta el bloque de especificaciones destacadas.
+ * @param {Object} summary
+ * @param {HTMLElement} container
+ */
+function renderProductSummary(summary, container) {
+    const LABELS = {
+        screen_size: 'Pantalla',
+        front_camera_mp: 'Cámara frontal',
+        ram_gb: 'Memoria RAM',
+        battery: 'Batería',
+        operating_system: 'Sistema operativo'
     };
-    
-    // Crear elementos para cada especificación del resumen
-    Object.entries(productSummary).forEach(([key, value]) => {
-        if (value !== 'N/A') {
-            const summaryItem = document.createElement('div');
-            summaryItem.className = 'product-summary-item';
-            
-            const summaryName = document.createElement('div');
-            summaryName.className = 'product-summary-name';
-            summaryName.textContent = summaryLabels[key] || key;
-            
-            const summaryValue = document.createElement('div');
-            summaryValue.className = 'product-summary-value';
-            summaryValue.textContent = value;
-            
-            summaryItem.appendChild(summaryName);
-            summaryItem.appendChild(summaryValue);
-            summaryGrid.appendChild(summaryItem);
-        }
-    });
-    
-    summaryElement.appendChild(summaryGrid);
-    
-    // Insertar el resumen al principio del contenido
-    productDetailsContent.insertBefore(summaryElement, productDetailsContent.firstChild);
+
+    const items = Object.entries(summary)
+        .filter(([, value]) => value && value !== 'N/A')
+        .map(([key, value]) => `
+            <div class="product-summary-item">
+                <span class="product-summary-name">${escapeHtml(LABELS[key] || key)}</span>
+                <span class="product-summary-value">${escapeHtml(value)}</span>
+            </div>
+        `);
+
+    if (items.length === 0) return;
+
+    const section = document.createElement('section');
+    section.className = 'product-summary-section';
+    section.innerHTML = `
+        <h3 class="product-summary-title">Lo esencial</h3>
+        <div class="product-summary-grid">${items.join('')}</div>
+    `;
+    container.appendChild(section);
 }
 
-// Función para mostrar los detalles del producto en la interfaz
-function displayProductDetails(productDetails) {
-    const productDetailsContent = document.querySelector('.product-details-content');
-    
-    // Guardar el resumen del producto si existe
-    const existingSummary = productDetailsContent.querySelector('.product-summary-section');
-    
-    // Limpiar el contenido existente
-    productDetailsContent.innerHTML = '';
-    
-    // Restaurar el resumen del producto si existía
-    if (existingSummary) {
-        productDetailsContent.appendChild(existingSummary);
-    }
-    
-    // Iterar por cada categoría de detalles
-    productDetails.forEach(category => {
-        // Crear el contenedor de la categoría
-        const categoryElement = document.createElement('div');
-        categoryElement.className = 'product-detail-category';
-        
-        // Crear el título de la categoría
-        const categoryTitle = document.createElement('h3');
-        categoryTitle.className = 'product-detail-category-title';
-        categoryTitle.textContent = category.category;
-        categoryElement.appendChild(categoryTitle);
-        
-        // Iterar por cada especificación en la categoría
-        category.specifications.forEach(spec => {
-            // Solo mostrar especificaciones que tienen un nombre
+/**
+ * Pinta las categorías de especificaciones como acordeón.
+ * @param {Array} categories
+ * @param {HTMLElement} container
+ */
+function renderProductSpecs(categories, container) {
+    categories.forEach((category, index) => {
+        const specs = (category.specifications || []).filter(spec => spec.name || spec.value);
+        if (specs.length === 0) return;
+
+        // Los valores sin nombre continúan la especificación anterior.
+        const entries = [];
+        specs.forEach(spec => {
             if (spec.name) {
-                const specElement = document.createElement('div');
-                specElement.className = 'product-detail-item';
-                
-                const specName = document.createElement('div');
-                specName.className = 'product-detail-name';
-                specName.textContent = spec.name;
-                
-                const specValue = document.createElement('div');
-                specValue.className = 'product-detail-value';
-                specValue.textContent = spec.value;
-                
-                specElement.appendChild(specName);
-                specElement.appendChild(specValue);
-                categoryElement.appendChild(specElement);
-            } else if (spec.value) {
-                // Para valores sin nombre, los agregamos como continuación del anterior
-                const lastSpecElement = categoryElement.querySelector('.product-detail-item:last-child');
-                if (lastSpecElement) {
-                    const lastSpecValue = lastSpecElement.querySelector('.product-detail-value');
-                    lastSpecValue.innerHTML += '<br>' + spec.value;
-                }
+                entries.push({ name: spec.name, values: spec.value ? [spec.value] : [] });
+            } else if (spec.value && entries.length > 0) {
+                entries[entries.length - 1].values.push(spec.value);
             }
         });
-        
-        // Agregar la categoría al contenedor principal
-        productDetailsContent.appendChild(categoryElement);
-    });
-}
 
-// Función para manejar la navegación entre pestañas
-function setupTabNavigation() {
-    const tabs = document.querySelectorAll('.tab-navigation .tab');
-    const offersSection = document.querySelector('.offers-section');
-    const productDetailsSection = document.querySelector('.product-details-section');
-    const priceChartSection = document.querySelector('.price-chart-section');
+        const rows = entries.map(entry => `
+            <div class="product-detail-item">
+                <span class="product-detail-name">${escapeHtml(entry.name)}</span>
+                <span class="product-detail-value">${entry.values.map(escapeHtml).join('<br>')}</span>
+            </div>
+        `);
 
-    tabs.forEach((tab, index) => {
-        tab.addEventListener('click', async () => {
-            // Remover la clase activa de todas las pestañas
-            tabs.forEach(t => t.classList.remove('active'));
-            // Agregar la clase activa a la pestaña seleccionada
-            tab.classList.add('active');
+        if (rows.length === 0) return;
 
-            // Mostrar la sección correspondiente
-            if (index === 0) { // Pestaña de Ofertas
-                offersSection.style.display = 'block';
-                productDetailsSection.style.display = 'none';
-                priceChartSection.style.display = 'none';
-            } else if (index === 1) { // Pestaña de Gráfico de precios
-                offersSection.style.display = 'none';
-                productDetailsSection.style.display = 'none';
-                priceChartSection.style.display = 'block';
-                // Cargar y renderizar el gráfico
-                await renderPriceChart();
-            } else if (index === 2) { // Pestaña de Información del producto
-                offersSection.style.display = 'none';
-                productDetailsSection.style.display = 'block';
-                priceChartSection.style.display = 'none';
-            }
-        });
+        const block = document.createElement('section');
+        block.className = `product-detail-category${index === 0 ? ' is-open' : ''}`;
+        block.innerHTML = `
+            <button type="button" class="product-detail-category-title" aria-expanded="${index === 0}">
+                ${escapeHtml(category.category)}
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="product-detail-list">${rows.join('')}</div>
+        `;
+        container.appendChild(block);
     });
 }
 
 /**
- * Actualiza el gráfico de precios si está visible
- * Esta función se llama cuando cambian los filtros
+ * Abre y cierra las categorías de la ficha técnica.
+ */
+function setupSpecsAccordion() {
+    const container = document.querySelector('.product-details-content');
+    if (!container) return;
+
+    container.addEventListener('click', event => {
+        const trigger = event.target.closest('.product-detail-category-title');
+        if (!trigger) return;
+
+        const category = trigger.closest('.product-detail-category');
+        const isOpen = category.classList.toggle('is-open');
+        trigger.setAttribute('aria-expanded', String(isOpen));
+    });
+}
+
+/* ------------------------------------------------------------------ *
+ * Pestañas
+ * ------------------------------------------------------------------ */
+
+function setupTabNavigation() {
+    const tabs = [...document.querySelectorAll('.tab-navigation .tab')];
+    const panels = [
+        document.querySelector('.offers-section'),
+        document.querySelector('.price-chart-section'),
+        document.querySelector('.product-details-section')
+    ];
+
+    if (tabs.length === 0) return;
+
+    tabs.forEach((tab, index) => {
+        tab.addEventListener('click', async () => {
+            tabs.forEach((item, itemIndex) => {
+                const isActive = itemIndex === index;
+                item.classList.toggle('active', isActive);
+                item.setAttribute('aria-selected', String(isActive));
+            });
+
+            panels.forEach((panel, panelIndex) => {
+                if (panel) panel.hidden = panelIndex !== index;
+            });
+
+            if (index === 1) await renderPriceChart();
+        });
+    });
+}
+
+/* ------------------------------------------------------------------ *
+ * Gráfico de precios
+ * ------------------------------------------------------------------ */
+
+/**
+ * Vuelve a dibujar el gráfico si la pestaña está visible (al cambiar filtros).
  */
 async function updatePriceChartIfVisible() {
-    console.log('updatePriceChartIfVisible called');
-    
-    const priceChartSection = document.querySelector('.price-chart-section');
-    const priceChartTab = document.querySelector('.tab-navigation .tab:nth-child(2)');
-    
-    console.log('priceChartSection:', priceChartSection);
-    console.log('priceChartTab:', priceChartTab);
-    console.log('priceChartTab active:', priceChartTab?.classList.contains('active'));
-    console.log('priceChartSection display:', priceChartSection?.style.display);
-    
-    // Solo actualizar si la pestaña del gráfico está activa y visible
-    if (priceChartTab && priceChartTab.classList.contains('active') && 
-        priceChartSection && priceChartSection.style.display !== 'none') {
-        console.log('Updating price chart...');
-        await renderPriceChart();
-        console.log('Price chart updated successfully');
-    } else {
-        console.log('Price chart not visible, skipping update');
-    }
+    const section = document.querySelector('.price-chart-section');
+    if (section && !section.hidden) await renderPriceChart();
 }
 
-// Renderiza el gráfico de precios usando canvas puro
+/**
+ * Redibuja el gráfico al cambiar el tamaño de la ventana.
+ */
+function setupChartResizeHandling() {
+    let timer = null;
+    window.addEventListener('resize', () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => updatePriceChartIfVisible(), 150);
+    });
+}
+
+/**
+ * Devuelve las etiquetas de los últimos N meses terminando en el mes actual.
+ * @param {number} count
+ * @returns {string[]}
+ */
+function buildMonthLabels(count) {
+    const labels = [];
+    const now = new Date();
+    for (let i = count - 1; i >= 0; i--) {
+        const date = new Date(now.getFullYear(), now.getMonth() - i, 1);
+        const label = date.toLocaleDateString('es-MX', { month: 'short' }).replace('.', '');
+        labels.push(label.charAt(0).toUpperCase() + label.slice(1));
+    }
+    return labels;
+}
+
+/**
+ * Prepara el canvas para pantallas de alta densidad.
+ * @param {HTMLCanvasElement} canvas
+ * @returns {{ctx: CanvasRenderingContext2D, width: number, height: number}}
+ */
+function setupCanvas(canvas) {
+    const ratio = window.devicePixelRatio || 1;
+    const width = canvas.clientWidth || canvas.parentElement.clientWidth || 320;
+    const height = Number(canvas.getAttribute('height')) || 240;
+
+    canvas.width = Math.round(width * ratio);
+    canvas.height = Math.round(height * ratio);
+    canvas.style.height = `${height}px`;
+
+    const ctx = canvas.getContext('2d');
+    ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+    ctx.clearRect(0, 0, width, height);
+
+    return { ctx, width, height };
+}
+
+/**
+ * Mensaje centrado dentro del canvas.
+ * @param {string} message
+ */
+function drawChartMessage(message) {
+    const canvas = document.getElementById('priceChartCanvas');
+    if (!canvas) return;
+
+    const { ctx, width, height } = setupCanvas(canvas);
+    ctx.fillStyle = '#66727d';
+    ctx.font = '13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+
+    const words = message.split(' ');
+    const lines = [];
+    let line = '';
+    words.forEach(word => {
+        const candidate = line ? `${line} ${word}` : word;
+        if (ctx.measureText(candidate).width > width - 40 && line) {
+            lines.push(line);
+            line = word;
+        } else {
+            line = candidate;
+        }
+    });
+    lines.push(line);
+
+    lines.forEach((text, index) => {
+        ctx.fillText(text, width / 2, height / 2 + (index - (lines.length - 1) / 2) * 18);
+    });
+
+    const legend = document.getElementById('price-chart-legend');
+    if (legend) legend.innerHTML = '';
+}
+
+/**
+ * Dibuja el historial de precios de la oferta más barata según los filtros activos.
+ */
 async function renderPriceChart() {
+    const canvas = document.getElementById('priceChartCanvas');
+    if (!canvas) return;
+
     try {
-        console.log('renderPriceChart called');
-        
-        // Obtener el ID del producto de la URL
         const urlParams = new URLSearchParams(window.location.search);
-        let productId = urlParams.get('product') || 'iphone_14_pro_max';
-        
-        // Limpiar la extensión .json si viene por error
-        if (productId.endsWith('.json')) {
-            productId = productId.slice(0, -5);
-        }
-        
-        // Obtener los filtros actuales - intentar primero desde las variables globales
-        // y luego desde la URL como fallback
-        let color = null;
-        let storage = null;
-        let condition = null;
-        
-        // Intentar obtener desde variables globales (si están disponibles)
-        if (typeof currentColorId !== 'undefined' && currentColorId) {
-            color = currentColorId;
-        } else {
-            color = urlParams.get('color');
-        }
-        
-        if (typeof currentStorageId !== 'undefined' && currentStorageId) {
-            storage = currentStorageId;
-        } else {
-            storage = urlParams.get('storage');
-        }
-        
-        if (typeof currentConditionId !== 'undefined' && currentConditionId) {
-            condition = currentConditionId;
-        } else {
-            condition = urlParams.get('condition');
-        }
-        
-        console.log('Current filters - color:', color, 'storage:', storage, 'condition:', condition);
-        console.log('Global variables - currentColorId:', typeof currentColorId !== 'undefined' ? currentColorId : 'undefined', 
-                   'currentStorageId:', typeof currentStorageId !== 'undefined' ? currentStorageId : 'undefined',
-                   'currentConditionId:', typeof currentConditionId !== 'undefined' ? currentConditionId : 'undefined');
-        
-        // Construir el nombre del archivo de ofertas
-        const offersFileName = `${productId}.json`;
-        const offersApiUrl = `api/offers/${offersFileName}`;
-        
-        console.log('Fetching offers from:', offersApiUrl);
-        
-        // Obtener las ofertas
-        const response = await fetch(offersApiUrl);
-        if (!response.ok) {
-            throw new Error(`Error HTTP: ${response.status}`);
-        }
-        
-        const offersData = await response.json();
-        console.log('Total offers loaded:', offersData.offers.length);
-        
-        // Aplicar los mismos filtros que se usan en offers-loader.js
-        let filteredOffers = offersData.offers;
-        
-        // Filtrar por color si se proporciona y no es null
-        if (color && color !== 'null') {
-            console.log(`Filtrando por color ID: ${color}`);
-            filteredOffers = filteredOffers.filter(offer => {
-                if (offer.variant_attributes && offer.variant_attributes.color) {
-                    return offer.variant_attributes.color.id === color;
-                }
-                return false;
-            });
-            console.log('Ofertas después del filtro de color:', filteredOffers.length);
-        }
-        
-        // Filtrar por almacenamiento si se proporciona y no es null
-        if (storage && storage !== 'null') {
-            console.log(`Filtrando por almacenamiento ID: ${storage}`);
-            filteredOffers = filteredOffers.filter(offer => {
-                if (offer.variant_attributes && offer.variant_attributes.storage) {
-                    return offer.variant_attributes.storage.id === storage;
-                }
-                return false;
-            });
-            console.log('Ofertas después del filtro de almacenamiento:', filteredOffers.length);
-        }
-        
-        // Filtrar por condición si se proporciona y no es null
-        if (condition && condition !== 'null') {
-            console.log(`Filtrando por condición ID: ${condition}`);
-            filteredOffers = filteredOffers.filter(offer => {
-                if (offer.condition && offer.condition.id) {
-                    return offer.condition.id === condition;
-                }
-                return false;
-            });
-            console.log('Ofertas después del filtro de condición:', filteredOffers.length);
-        }
-        
-        // Obtener la primera oferta filtrada que tenga price_hist
-        let firstOfferWithPriceHist = null;
-        for (const offer of filteredOffers) {
-            if (offer.price_hist && offer.price_hist.length > 0) {
-                firstOfferWithPriceHist = offer;
-                break;
-            }
-        }
-        
-        console.log('Primera oferta con price_hist encontrada:', firstOfferWithPriceHist ? 'Sí' : 'No');
-        
-        // Si no hay ofertas filtradas con price_hist, no mostrar nada
-        if (!firstOfferWithPriceHist) {
-            console.log('No hay ofertas filtradas con price_hist - mostrando mensaje');
-            const canvas = document.getElementById('priceChartCanvas');
-            const ctx = canvas.getContext('2d');
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
-            const width = canvas.width = canvas.offsetWidth;
-            const height = canvas.height = canvas.offsetHeight;
-            
-            ctx.fillStyle = '#f8fafd';
-            ctx.fillRect(0, 0, width, height);
-            
-            ctx.fillStyle = '#888';
-            ctx.font = '18px sans-serif';
-            ctx.fillText('Sin datos de histórico de precios para los filtros seleccionados', 20, height / 2);
+        const productId = normalizeProductId(urlParams.get('product')) || 'iphone_14_pro_max';
+
+        const filters = {
+            color: typeof currentColorId !== 'undefined' ? currentColorId : null,
+            storage: typeof currentStorageId !== 'undefined' ? currentStorageId : null,
+            condition: typeof currentConditionId !== 'undefined' ? currentConditionId : null
+        };
+
+        const data = await fetchJson(`api/offers/${productId}.json`);
+        const offers = filterOffers(data.offers, filters).sort((a, b) => a.price - b.price);
+        const offer = offers.find(item => Array.isArray(item.price_hist) && item.price_hist.length > 1);
+
+        if (!offer) {
+            drawChartMessage('Sin historial de precios para los filtros seleccionados');
             return;
         }
-        
-        // Usar el price_hist de la primera oferta (filtrada o no)
-        const priceHistory = firstOfferWithPriceHist.price_hist;
-        console.log('Price history data:', priceHistory);
-        console.log('Oferta seleccionada:', firstOfferWithPriceHist.variant_attributes);
-        
-        // Generar fechas para los últimos 6 meses (el último registro es junio 2025)
-        const months = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun'];
-        const currentYear = 2025;
-        
-        // Crear array de fechas en formato YYYY-MM
-        const dates = [];
-        for (let i = 5; i >= 0; i--) {
-            const month = (6 - i) % 12;
-            const year = currentYear - (month === 0 ? 1 : 0);
-            const monthStr = (month === 0 ? 12 : month).toString().padStart(2, '0');
-            dates.push(`${year}-${monthStr}`);
-        }
-        
-        const canvas = document.getElementById('priceChartCanvas');
-        const ctx = canvas.getContext('2d');
-        
-        // Limpiar canvas
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        
-        // Configuración visual
-        const width = canvas.width = canvas.offsetWidth;
-        const height = canvas.height = canvas.offsetHeight;
-        
-        ctx.fillStyle = '#f8fafd';
-        ctx.fillRect(0, 0, width, height);
-        
-        // Margen y escalas
-        const margin = 40;
-        const chartW = width - margin * 2;
-        const chartH = height - margin * 2;
-        
-        // Extraer precios
-        const prices = priceHistory;
-        const minPrice = Math.min(...prices);
-        const maxPrice = Math.max(...prices);
-        
-        // Dibujar líneas de fondo
-        ctx.strokeStyle = '#e0e6ef';
-        ctx.lineWidth = 1;
-        
-        for (let i = 0; i <= 4; i++) {
-            const y = margin + (chartH * i) / 4;
-            ctx.beginPath();
-            ctx.moveTo(margin, y);
-            ctx.lineTo(width - margin, y);
-            ctx.stroke();
-            
-            // Etiquetas de precio (eje Y)
-            ctx.fillStyle = '#bbb';
-            ctx.font = '13px sans-serif';
-            const priceLabel = (maxPrice - ((maxPrice - minPrice) * i) / 4).toFixed(0);
-            ctx.fillText(priceLabel + ' $', 5, y + 4);
-        }
-        
-        // Dibujar línea de precios
-        ctx.strokeStyle = '#ff9800';
-        ctx.lineWidth = 3;
-        ctx.beginPath();
-        
-        priceHistory.forEach((price, i) => {
-            const x = margin + (chartW * i) / (priceHistory.length - 1);
-            const y = margin + chartH * (1 - (price - minPrice) / (maxPrice - minPrice || 1));
-            
-            if (i === 0) ctx.moveTo(x, y);
-            else ctx.lineTo(x, y);
-        });
-        ctx.stroke();
-        
-        // Dibujar puntos y etiquetas
-        priceHistory.forEach((price, i) => {
-            const x = margin + (chartW * i) / (priceHistory.length - 1);
-            const y = margin + chartH * (1 - (price - minPrice) / (maxPrice - minPrice || 1));
-            
-            // Punto
-            ctx.beginPath();
-            ctx.arc(x, y, 5, 0, 2 * Math.PI);
-            ctx.fillStyle = '#fff';
-            ctx.fill();
-            ctx.strokeStyle = '#ff9800';
-            ctx.lineWidth = 2;
-            ctx.stroke();
-            
-            // Etiqueta de precio solo para min y max
-            if (price === minPrice || price === maxPrice) {
-                ctx.fillStyle = '#ff9800';
-                ctx.font = 'bold 13px sans-serif';
-                ctx.fillText(price.toFixed(0) + ' $', x - 25, y - 12);
-            }
-            
-            // Etiqueta de fecha (mes)
-            ctx.fillStyle = '#888';
-            ctx.font = '12px sans-serif';
-            ctx.fillText(months[i], x - 18, height - 10);
-        });
-        
+
+        drawPriceChart(canvas, offer.price_hist);
+        renderChartLegend(offer);
     } catch (error) {
         console.error('Error al renderizar el gráfico de precios:', error);
-        
-        // Mostrar mensaje de error en el canvas
-        const canvas = document.getElementById('priceChartCanvas');
-        const ctx = canvas.getContext('2d');
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        
-        const width = canvas.width = canvas.offsetWidth;
-        const height = canvas.height = canvas.offsetHeight;
-        
-        ctx.fillStyle = '#f8fafd';
-        ctx.fillRect(0, 0, width, height);
-        
-        ctx.fillStyle = '#888';
-        ctx.font = '18px sans-serif';
-        ctx.fillText('Error al cargar el gráfico de precios', 20, height / 2);
+        drawChartMessage('No pudimos cargar el historial de precios');
     }
 }
 
-// Cargar los detalles del producto cuando se cargue la página
-document.addEventListener('DOMContentLoaded', () => {
-    loadProductDetails();
-    setupTabNavigation();
-});
+/**
+ * Dibuja la serie de precios en el canvas.
+ * @param {HTMLCanvasElement} canvas
+ * @param {number[]} priceHistory
+ */
+function drawPriceChart(canvas, priceHistory) {
+    const { ctx, width, height } = setupCanvas(canvas);
+    const labels = buildMonthLabels(priceHistory.length);
+
+    const marginLeft = 58;
+    const marginRight = 16;
+    const marginTop = 24;
+    const marginBottom = 28;
+    const chartW = width - marginLeft - marginRight;
+    const chartH = height - marginTop - marginBottom;
+
+    const minPrice = Math.min(...priceHistory);
+    const maxPrice = Math.max(...priceHistory);
+    const range = maxPrice - minPrice || maxPrice || 1;
+    const padded = range * 0.15;
+    const scaleMin = minPrice - padded;
+    const scaleMax = maxPrice + padded;
+
+    const pointX = index => marginLeft + (chartW * index) / (priceHistory.length - 1);
+    const pointY = price => marginTop + chartH * (1 - (price - scaleMin) / (scaleMax - scaleMin));
+
+    const font = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+
+    // Cuadrícula y eje Y
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'middle';
+    ctx.font = `11px ${font}`;
+    for (let i = 0; i <= 3; i++) {
+        const y = marginTop + (chartH * i) / 3;
+        ctx.beginPath();
+        ctx.strokeStyle = '#e3eaf0';
+        ctx.lineWidth = 1;
+        ctx.moveTo(marginLeft, y);
+        ctx.lineTo(width - marginRight, y);
+        ctx.stroke();
+
+        const value = scaleMax - ((scaleMax - scaleMin) * i) / 3;
+        ctx.fillStyle = '#98a4ae';
+        ctx.fillText(formatPriceCompact(value), marginLeft - 8, y);
+    }
+
+    // Área bajo la curva
+    const gradient = ctx.createLinearGradient(0, marginTop, 0, marginTop + chartH);
+    gradient.addColorStop(0, 'rgba(0, 105, 241, 0.18)');
+    gradient.addColorStop(1, 'rgba(0, 105, 241, 0)');
+
+    ctx.beginPath();
+    ctx.moveTo(pointX(0), marginTop + chartH);
+    priceHistory.forEach((price, index) => ctx.lineTo(pointX(index), pointY(price)));
+    ctx.lineTo(pointX(priceHistory.length - 1), marginTop + chartH);
+    ctx.closePath();
+    ctx.fillStyle = gradient;
+    ctx.fill();
+
+    // Línea
+    ctx.beginPath();
+    priceHistory.forEach((price, index) => {
+        const x = pointX(index);
+        const y = pointY(price);
+        if (index === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+    });
+    ctx.strokeStyle = '#0069f1';
+    ctx.lineWidth = 2.5;
+    ctx.lineJoin = 'round';
+    ctx.lineCap = 'round';
+    ctx.stroke();
+
+    // Puntos y etiquetas
+    ctx.textAlign = 'center';
+    priceHistory.forEach((price, index) => {
+        const x = pointX(index);
+        const y = pointY(price);
+        const isExtreme = price === minPrice || price === maxPrice;
+
+        ctx.beginPath();
+        ctx.arc(x, y, isExtreme ? 5 : 3.5, 0, 2 * Math.PI);
+        ctx.fillStyle = '#ffffff';
+        ctx.fill();
+        ctx.strokeStyle = price === minPrice ? '#008246' : '#0069f1';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        if (isExtreme) {
+            ctx.fillStyle = price === minPrice ? '#008246' : '#384550';
+            ctx.font = `600 11px ${font}`;
+            ctx.textBaseline = 'bottom';
+            ctx.fillText(formatPriceCompact(price), x, y - 9);
+        }
+
+        ctx.fillStyle = '#98a4ae';
+        ctx.font = `11px ${font}`;
+        ctx.textBaseline = 'top';
+        ctx.fillText(labels[index] || '', x, marginTop + chartH + 8);
+    });
+}
+
+/**
+ * Resumen numérico debajo del gráfico.
+ * @param {Object} offer
+ */
+function renderChartLegend(offer) {
+    const legend = document.getElementById('price-chart-legend');
+    if (!legend) return;
+
+    const history = offer.price_hist;
+    const current = history[history.length - 1];
+    const first = history[0];
+    const minPrice = Math.min(...history);
+    const change = first ? ((current - first) / first) * 100 : 0;
+    const isDown = change <= 0;
+
+    const merchantName = offer.merchant && offer.merchant.name ? offer.merchant.name : 'la tienda';
+
+    legend.innerHTML = `
+        <div>Precio actual <strong>${escapeHtml(formatPrice(current))}</strong></div>
+        <div>Mínimo del periodo <strong>${escapeHtml(formatPrice(minPrice))}</strong></div>
+        <div>Variación <strong style="color: ${isDown ? 'var(--success)' : 'var(--danger)'}">
+            ${isDown ? '▼' : '▲'} ${escapeHtml(Math.abs(change).toFixed(1).replace('.', ','))}%
+        </strong></div>
+        <div style="flex-basis:100%">Serie de ${escapeHtml(merchantName)}</div>
+    `;
+}
