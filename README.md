@@ -3,6 +3,10 @@
 Demo en HTML, CSS y JavaScript sin build ni frameworks, que simula la experiencia
 móvil de un comparador de precios integrado con Kueski Pay.
 
+<p align="center">
+  <img src="docs/demo.gif" alt="Buscar un iPhone 16 Pro y filtrar sus ofertas por capacidad y color" width="380">
+</p>
+
 ## Pantallas
 
 | Archivo | Descripción |
